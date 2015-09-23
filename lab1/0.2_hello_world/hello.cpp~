@@ -1,0 +1,23 @@
+#include <iostream>
+#include "hello.h"
+
+void hello (const char * name, int count) {
+    if (count < 1) {
+	std::cerr << "Error, incorrect count\n";
+	}
+    // When there is no argument print "world".
+    if (count < 2) {
+		std::cout << "Hello, World!\n";
+    } else {
+        std::cout << "Hello, " << name << "\n";
+    }
+}
+
+std::pair<const char *, int> parse_args (int argc, char * argv[]) {
+  int i = 1;
+  char* name;
+  for (;i<argc;++i) {
+    name += argv[i];
+  }
+  return std::make_pair (argv, argc);
+}
