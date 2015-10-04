@@ -4,7 +4,6 @@
 
 void hello (const char * ch, int count) {
 	std::cout << "Hello, ";
-<<<<<<< HEAD
 	if (count != 0){
 		for(int i=1;i<=count-1;++i)
   			std::cout << ch << " ";
@@ -39,7 +38,6 @@ int count = 1;
      	std::cerr << "Too many arguments!\n";
 	return std::make_pair (argv[1], -1);
     }
-=======
 	for(int i=1;i<=count;++i)
   std::cout << ch << " ";
 	std::cout << "\n";
@@ -60,6 +58,4 @@ std::pair<const char *, int> parse_args (int argc, char * argv[]) {
    } else {
      	std::cerr << "Too many arguments!\n";
    }
-  
->>>>>>> 119fe20e2a37153d72a20a0770ab4cf62c8be054
 }
