@@ -1,0 +1,11 @@
+#include <iostream>
+#include "hello_world.h"
+
+int hello (int argv, car* argc[]);
+
+int main()
+{
+    Hello_world a;
+    a.hello();
+    return 0;
+}

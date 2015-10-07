@@ -23,7 +23,7 @@ public:
      return *this;
    }
 };
-
+ 
 void no_ref(A a) {}
 void with_ref(const A & a) {}
 

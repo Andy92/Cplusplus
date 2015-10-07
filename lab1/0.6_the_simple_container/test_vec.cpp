@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdexcept>
-#include "vector.h"     // inkludera din headerfil här
+#include "vector.h"     // inkludera din headerfil
 
 
 int main()
