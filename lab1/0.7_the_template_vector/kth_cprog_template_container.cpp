@@ -2,6 +2,11 @@
 #include <cstdlib>
 #include <stdexcept>
 
+<<<<<<< HEAD
+=======
+// Author: Andy Yousef & Erik Lansner
+
+>>>>>>> fcb26d6ea01b4bae596ef7e9a76d599795cde5f0
 template<class T> class Vector {
 public:
   std::size_t length;
