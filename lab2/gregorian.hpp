@@ -22,14 +22,12 @@ namespace lab2 {
 		unsigned int days_per_week();
 		unsigned int days_this_month(); //??
 		virtual std::string week_day_name() = 0;
-		std::string month_name();
-		void add_year();
-		void add_month();
+		virtual std::string month_name();
+		virtual void add_year() = 0;
+		virtual void add_month() = 0;
 		int mod_julian_day ();
 		Date& operator++();
 		Date& operator--();
 		Date& operator+=(int n);
-		Date& operator-=(int n);
-		virtual Date& operator=(const Date &src) = 0; 
 	};
-} 
+}

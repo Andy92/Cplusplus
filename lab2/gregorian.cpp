@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include "date.hpp"
+#include "date.cpp"
+#include "gregorian.hpp"
 
 using namespace lab2;
 
@@ -81,89 +83,16 @@ std::string Date::month_name() {
 	std::cout << Months[m-1] << std::endl;
 }
 Date& Date::operator++() {
-	if((d-days_months[m-1]) == 0) {
-		d = 1;
-		if(m == 12) {
-			m = 1;
-			y++;
-		}
-		else {
-		m++;
-		}
-	}
-	else {
-		d++;
-	}
+	++d;
 	return *this;
 }
 Date& Date::operator--() {
-	if(d == 1) {
-		//d = days_months[m-1];
-		if(m == 1) {
-			m = 12;
-			d = days_months[m-1];
-			y--;
-		} else {
-			m--;
-			d = days_months[m-1];
-		}
-	} else {
-		d--;
-	}
+	--d;
 	return *this;
 }
 Date& Date::operator+=(int n) {
-	while(n>days_months[m-1]) {
-		if(m==12){
-			n -= days_months[m-1];
-			m = 1;
-			y++;
-		} else {
-			n -= days_months[m-1];
-			m++;
-		}
-	}
-	if(d+n > days_months[m-1]) {
-		if(m==12) {
-			d = d+n - days_months[m-1];
-			m = 1;
-			y++;
-		} else {
-			d = d+n - days_months[m-1];
-			m++;
-		}
-	} else {
-		d += n;
-	}
+	d += n;
 	return *this;
 }
-Date& Date::operator-=(int n) {
-	while ((m==1 && n>days_months[11]) || (n>days_months[m-2])){
-		if(m==1){
-			n -= days_months[11];		//hårdkod
-			m = 12;
-			y--;
-		} else {
-			n -= days_months[m-2];
-			m--;
-		}
-	}
-	if((m==1) && (d+n > days_months[11])) {
-		d = d+n - days_months[11];
-		m=12;
-		y--;
-	} else if(d+n > days_months[m-2]) {
-		d = d+n - days_months[m-2];
-		m--;
-	} else {
-		d -= n;
-	}
-	return *this;
-}
-std::ostream& operator<<(std::ostream &out, const Date &obj) {
-	out << obj.y <<  "-" << obj.m <<  "-" <<obj.d;
-	return out;
-}
-
 int main () {
 }
