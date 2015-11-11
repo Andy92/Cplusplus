@@ -3,31 +3,28 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+#include "date.hpp"
+
 
 namespace lab2 {
-	class Date {
-	public:
-		static std::vector<std::string> v; // declaration
-		static std::vector<int> v1; // declaration
-		static std::vector<std::string> v2; // declaration
-		static std::vector<std::string> v3; // declaration
+    class Gregorian : Date {
+       public:
+        char week_day_name();
+        static std::vector<std::string> v2; // declaration
+        static std::vector<unsigned int> v3; // declaration
+        unsigned int week_day();
+        Gregorian operator++(int a);
+		Gregorian operator--(int a);
+        //Gregorian& operator=(const Gregorian &src);
+      
 
-		int y;
-		int m;
-		int d;
-		int Year();
-		unsigned int Month();
-		unsigned int Day();
-		virtual unsigned int week_day() = 0;
-		unsigned int days_per_week();
-		unsigned int days_this_month(); //??
-		virtual std::string week_day_name() = 0;
-		virtual std::string month_name();
-		virtual void add_year() = 0;
-		virtual void add_month() = 0;
-		int mod_julian_day ();
-		Date& operator++();
-		Date& operator--();
-		Date& operator+=(int n);
-	};
+        bool isLeap(int y);
+        int Year() const;
+        unsigned int Month() const;
+        unsigned int Day() const;
+    	private:
+    		int convertToJDN(int J) const;
+    		int mod(int a, int b) const;
+    		int div(int a, int b) const;
+    };
 }

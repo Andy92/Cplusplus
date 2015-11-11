@@ -40,18 +40,6 @@ const int days_months[] = {
         };
 std::vector<int> Date::v1(days_months, days_months+12); // definition
 
-const char *weekday[] = {
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-        };
-
-std::vector<std::string> Date::v2(weekday, weekday+7); // definition
-
 
 void Date::add_year(int y) {
     int cur = Year();
@@ -150,17 +138,20 @@ bool Date::operator!=(const Date& src) {
     return false;
 }
 
-/*
-std::ostream& operator<<(std::ostream &out, const Date &obj) {
-    out << obj.y <<  "-" << obj.m <<  "-" <<obj.d;
-    return out;
-}
-*/
+
 int Date::mod_julian_day() {
 
     return this->julian_day_number - 2400000.5;
 
 }
+
+
+std::ostream& operator<<(std::ostream& out, const Date& obj) {
+    out << obj.Year() <<  "-" << obj.Month() <<  "-" << obj.Day();
+    return out;
+}
+
+
 /*
 // Convert to julian or gregorian from JDN
 private int Date::convert(const Date *date) {
@@ -200,3 +191,4 @@ private int Date::convert(const Date *date) {
 */
 int main () {
 }
+

@@ -9,17 +9,15 @@ namespace lab2 {
     public:
         static std::vector<std::string> v; // declaration
         static std::vector<int> v1; // declaration
-        static std::vector<std::string> v2; // declaration
-        static std::vector<std::string> v3; // declaration
         virtual bool isLeap(int y) = 0;
         int julian_day_number;
-        virtual int Year() = 0;
-        virtual unsigned int Month() = 0;
-        virtual unsigned int Day() = 0;
+        virtual int Year() const = 0;
+        virtual unsigned int Month() const = 0;
+        virtual unsigned int Day() const = 0;
         virtual unsigned int week_day() = 0;
         unsigned int days_per_week();
         unsigned int days_this_month();
-        virtual std::string week_day_name() = 0;
+        virtual char week_day_name() = 0;
         std::string month_name();
         void add_year(int y);
         void add_month(int m);
@@ -37,10 +35,11 @@ namespace lab2 {
         bool operator>=(const Date& src);
         bool operator!=(const Date& src);
         
-        /*
-            private:
-    	int convert(const Date *date);
         
-        */
+        friend std::ostream& operator<<(std::ostream&, const Date&);
+
+        
+        
     };
+           
 }

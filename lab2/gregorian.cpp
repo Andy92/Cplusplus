@@ -1,98 +1,101 @@
-#include <iostream>
-#include <cstdlib>
-#include <stdexcept>
-#include <string>
-#include <vector>
-#include "date.hpp"
-#include "date.cpp"
+
 #include "gregorian.hpp"
 
 using namespace lab2;
 
+const char *week_day_name[] = {
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        };
+std::vector<std::string> v2(week_day_name, week_day_name+7); // definition
+        
+unsigned int week_day[] {
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+        };
+       
+std::vector<unsigned int> v3(week_day, week_day+7); // definition
 
-const char *Months[] = {
-			"Januari",
-			"Febuary",
-			"Mars",
-			"April",
-			"May",
-			"June",
-			"July",
-			"August",
-			"September",
-			"October",
-			"November",
-			"December"
-		};
-std::vector<std::string> Date::v(Months, Months+12); // definition
+Gregorian Gregorian::operator++(int a) {
+    Gregorian tmp = *this;
+    ++*this;
+    return tmp;
+}
+Gregorian Gregorian::operator--(int a) {
+    Gregorian tmp = *this;
+    --*this;
+    return tmp;
+}
+bool Gregorian::isLeap(int year) {
+	int req1 = year % 100;
+	int req2 = year % 400;
+	if ((req1 + req2) == 0) {
+		return true;
+	}
+	return false;
+}
 
-const int days_months[] = {
-			31,
-			28,
-			31,
-			30,
-			31,
-			30,
-			31,
-			31,
-			30,
-			31,
-			30,
-			31
-		};
-std::vector<int> Date::v1(days_months, days_months+12); // definition
 
-const char *weekday[] = {
-			"Monday",
-			"Tuesday",
-			"Wednesday",
-			"Thursday",
-			"Friday",
-			"Saturday",
-			"Sunday"
-		};
+int Gregorian::Year() const {
+	int Y,M,D = convertToJDN(this->julian_day_number);
+	return Y;
+}
+unsigned int Gregorian::Month() const{
+	int Y,M,D = convertToJDN(this->julian_day_number);
+	return M;
 
-std::vector<std::string> Date::v2(weekday, weekday+7); // definition
+}
+unsigned int Gregorian::Day() const {
+	int Y,M,D = convertToJDN(this->julian_day_number);
+	return D;
 
-const char *weekday2[] = {
-			"Sunday",
-			"Monday",
-			"Tuesday",
-			"Wednesday",
-			"Thursday",
-			"Friday",
-			"Saturday"
-		};
+}
 
-std::vector<std::string> Date::v3(weekday2, weekday2+7); // definition
+// Convert to gregorian from JDN
+    int Gregorian::convertToJDN(int J) const {
+    // Parameters for Greg:
+    int y1 = 4716;
+    int j = 1401;
+    int m1 = 2;
+    int n = 12;
+    int r = 4;
+    int p = 1461;
+    int v = 3;
+    int u = 5;
+    int s = 153;
+    int w = 2;
+    int B = 274277;
+    int C = -38;
+    // End of parameters
+    int f = J + j + (((4 * J + B) / 146097) * 3) / 4 + C;
+    // beräkna resten
+    int e = r * f + v;
+    int g = mod(e,p) / r;
+    int h = u * g + w;
+    int D = (mod(h,s)) / u + 1;
+    int M = mod(h / s + m1,n) + 1;
+    int Y = div(e,p) - y1 + (n + m1 - M) / n;
+    return Y,M,D;
+}			
 
-int Date::Year () {
-	return y;
+// modulus
+int Gregorian::mod(int a, int b) const {
+    int r = a % b;
+    return r;
 }
-unsigned int Date::Month () {
-	return m;
-}
-unsigned int Date::Day () {
-	return d;
-}
-unsigned int Date::days_per_week () {
-	return 7;
-}
-std::string Date::month_name() {
-	//return Date::Months[Month-1];
-	std::cout << Months[m-1] << std::endl;
-}
-Date& Date::operator++() {
-	++d;
-	return *this;
-}
-Date& Date::operator--() {
-	--d;
-	return *this;
-}
-Date& Date::operator+=(int n) {
-	d += n;
-	return *this;
-}
-int main () {
+
+// Integer division
+int Gregorian::div(int a, int b) const {
+    int r = a / b;
+    return r;
 }
