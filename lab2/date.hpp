@@ -17,7 +17,7 @@ namespace lab2 {
         virtual unsigned int week_day() = 0;
         unsigned int days_per_week();
         unsigned int days_this_month();
-        virtual char week_day_name() = 0;
+        virtual std::string week_day_name() = 0;
         std::string month_name();
         void add_year(int y);
         void add_month(int m);

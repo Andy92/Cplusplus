@@ -150,45 +150,6 @@ std::ostream& operator<<(std::ostream& out, const Date& obj) {
     out << obj.Year() <<  "-" << obj.Month() <<  "-" << obj.Day();
     return out;
 }
-
-
-/*
-// Convert to julian or gregorian from JDN
-private int Date::convert(const Date *date) {
-        // Parameters for Greg:
-        int y1 = 4716;
-        int j = 1401;
-        int m1 = 2;
-        int n = 12;
-        int r = 4;
-        int p = 1461;
-        int v = 3;
-        int u = 5;
-        int s = 153;
-        int w = 2;
-        int B = 274277;
-        int C = -38;
-        // End of parameters
-
-        int f = 0;
-        if (date == Julian) {
-            // beräkna f för Julian
-            f = J +j;
-        } else {
-            // beräkna f för greg
-            f = J + j + (((4 * J + B) / 146097) * 3) / 4 + C;
-        }
-        
-    
-        // beräkna resten för båda.
-        int e = r * f + v;
-        int g = mod(e,p) / r;
-        int h = u * g + w;
-        int D = (mod(h,s)) / u + 1;
-        int M = mod(h / s + m1,n) + 1;
-        int Y = (e div p) - y1 + (n + m1 - M) / n;
-}
-*/
 int main () {
 }
 
