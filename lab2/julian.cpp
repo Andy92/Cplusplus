@@ -17,26 +17,26 @@ using namespace lab2;
             int y = Y + 4800 - a;
             int d = D;
             this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - 32083;
-            std::cout << this->julian_day_number;
+            //std::cout << this->julian_day_number;
         }
-        Julian::Julian(Julian const& src) {
+        Julian::Julian(Date const& src) {
             this->julian_day_number = src.julian_day_number;
         }
-        std::string Julian::week_day_name() {
+        std::string Julian::week_day_name() const{
 			return v4[(this->julian_day_number % 7) - 1];
 		}
 		unsigned int Julian::week_day() {
 			return (this->julian_day_number % 7) + 1;
 		}
-		unsigned int Julian::Day() const {
+		unsigned int Julian::day() const {
             int d = convertToJDN(this->julian_day_number, 0);
             return d;
 		}
-		int Julian::Year() const {
+		int Julian::year() const {
             int y = convertToJDN(this->julian_day_number, 2);
             return y;
 		}
-        unsigned int Julian::Month() const {
+        unsigned int Julian::month() const {
             int m = convertToJDN(this->julian_day_number, 1);
             return m;
         }
@@ -55,6 +55,10 @@ using namespace lab2;
         this->julian_day_number--; // pre-increment
         return tmp;   // return old value
     }
+    Date& Julian::operator=(const Date &src) {
+    this->julian_day_number = src.julian_day_number;
+    return *this;
+}
 
 
 // Convert to gregorian from JDN
@@ -103,10 +107,6 @@ double Julian::div(double a, double b) const {
 }
 
 std::ostream &operator<<(std::ostream& out, const Julian& obj) {
-    out << obj.Year() <<  "-" << obj.Month() <<  "-" << obj.Day();
+    out << obj.year() <<  "-" << obj.month() <<  "-" << obj.day();
     return out;
-}
-int main() {
-    Julian *j = new Julian(1994, 10, 12);
-    std::cout << *j;
 }

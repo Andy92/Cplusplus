@@ -3,6 +3,9 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+#include <ctime>
+#ifndef DATE_HPP
+#define DATE_HPP
 
 namespace lab2 {
     class Date {
@@ -11,22 +14,22 @@ namespace lab2 {
         static std::vector<int> v1; // declaration
         virtual bool isLeap(int y) = 0;
         int julian_day_number;
-        virtual int Year() const = 0;
-        virtual unsigned int Month() const = 0;
-        virtual unsigned int Day() const = 0;
+        virtual int year() const = 0;
+        virtual unsigned int month() const = 0;
+        virtual unsigned int day() const = 0;
         virtual unsigned int week_day() = 0;
-        unsigned int days_per_week();
-        unsigned int days_this_month();
-        virtual std::string week_day_name() = 0;
-        std::string month_name();
+        unsigned int days_per_week() const;
+        unsigned int days_this_month() const;
+        virtual std::string week_day_name() const = 0;
+        std::string month_name() const;
         void add_year(int y);
         void add_month(int m);
-        int mod_julian_day();
+        int mod_julian_day() const;
         Date& operator++();
         Date& operator--();
         Date& operator+=(int n);
         Date& operator-=(int n);
-        Date& operator=(const Date &src);
+        virtual Date& operator=(const Date &src) = 0;
         int  operator-(const Date &src);
         bool operator<(const Date& src);
         bool operator>(const Date& src);
@@ -43,3 +46,4 @@ namespace lab2 {
     };
            
 }
+#endif
