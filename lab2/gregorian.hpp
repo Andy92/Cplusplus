@@ -15,7 +15,7 @@ namespace lab2 {
         Gregorian operator++(int);
 		Gregorian operator--(int);
         //Gregorian& operator=(const Gregorian &src);
-        Gregorian();
+        //Gregorian();
         Date& operator=(const Date &src);
         Gregorian(Gregorian const& src);
         Gregorian(int Y, int M, int D);

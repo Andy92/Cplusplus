@@ -19,6 +19,11 @@ using namespace lab2;
             this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - 32083;
             //std::cout << this->julian_day_number;
         }
+        Julian::Julian() {
+                time_t now = time(0);
+                std::cout << now << std::endl;
+                this->julian_day_number = 2440588 + (now / 86400);
+        }
         Julian::Julian(Date const& src) {
             this->julian_day_number = src.julian_day_number;
         }
@@ -44,6 +49,14 @@ using namespace lab2;
         	if(y % 4 == 0)
         		return true;
         	return false;
+        }
+        Julian& Julian::operator++(){
+            (this->julian_day_number++);
+            return *this;
+        }
+        Julian& Julian::operator--(){
+            (this->julian_day_number--);
+            return *this;
         }
         Julian Julian::operator++(int) {
         Julian tmp(*this); // copy

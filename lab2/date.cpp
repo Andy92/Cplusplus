@@ -40,6 +40,12 @@ const int days_months[] = {
         };
 std::vector<int> Date::v1(days_months, days_months+12); // definition
 
+Date::Date() {
+    time_t now = time(0);
+    std::cout << now << std::endl;
+    this->julian_day_number = 2440588 + (now / 86400);
+}
+
 void Date::add_year(int y) {
     int cur = year();
     int ny = cur + y;
@@ -55,18 +61,18 @@ void Date::add_month(int m) {
     while(m > 0) {
         if(isLeap(year())) {
             if(isLeap(year()) && month() == 2 && day() < 29)
-                julian_day_number += 29;
+                this->julian_day_number += 29;
             else if((day() == days_months[month()-1]) || day() > 29 && month() == 1) {
-                julian_day_number += days_months[month()] + (days_months[month()] - days_months[month()-1]);
+                this->julian_day_number += days_months[month()] + (days_months[month()] - days_months[month()-1]);
             }
             else
-                julian_day_number += days_months[month()-1];
+                this->julian_day_number += days_months[month()-1];
         }
         else if((day() == days_months[month()-1]) || day() > 28 && month() == 1) {
-            julian_day_number += days_months[month()] + (days_months[month()] - days_months[month()-1]);
+            this->julian_day_number += days_months[month()] + (days_months[month()] - days_months[month()-1]);
         }
         else
-            julian_day_number += days_months[month()-1];
+            this->julian_day_number += days_months[month()-1];
         m--;
     }
 }
@@ -78,12 +84,12 @@ std::string Date::month_name() const{
     //return Date::Months[month-1];
    return Months[month()-1];
 }
-Date& Date::operator++() {
-    this->julian_day_number++;
+Date& Date::operator++(){
+    (this->julian_day_number++);
     return *this;
 }
-Date& Date::operator--() {
-    this->julian_day_number--;
+Date& Date::operator--(){
+    (this->julian_day_number--);
     return *this;
 }
 Date& Date::operator+=(int n) {
@@ -95,7 +101,7 @@ Date& Date::operator-=(int n) {
     return *this;
 }
 
-int Date::operator-(const Date &src) {
+int Date::operator-(const Date &src) const {
     return this->julian_day_number - src.julian_day_number;
 }
 //relationalops

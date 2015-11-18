@@ -10,6 +10,7 @@
 namespace lab2 {
 	class Julian : public Date {
 		public:
+                explicit Julian();
 		std::string week_day_name() const;
 		unsigned int week_day();
 		unsigned int day() const;
@@ -18,6 +19,8 @@ namespace lab2 {
         	bool isLeap(int y);
         	Julian operator++(int);
         	Julian operator--(int);
+                Julian& operator++();
+                Julian& operator--();
                 Date& operator=(const Date &src);
         	int convertToJDN(int J, int check) const;
         	double mod(int a, int b) const;

@@ -20,12 +20,13 @@ std::string Gregorian::week_day_name() const{
 unsigned int Gregorian::week_day() {
     return (this->julian_day_number % 7 + 1);
 }
-
+/*
 Gregorian::Gregorian() {
     time_t now = time(0);
     std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
 }
+*/
 
 Gregorian::Gregorian(int Y, int M, int D) {
     int a = (14-M)/12;

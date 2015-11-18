@@ -14,6 +14,7 @@ namespace lab2 {
         static std::vector<int> v1; // declaration
         virtual bool isLeap(int y) = 0;
         int julian_day_number;
+        explicit Date();
         virtual int year() const = 0;
         virtual unsigned int month() const = 0;
         virtual unsigned int day() const = 0;
@@ -30,7 +31,7 @@ namespace lab2 {
         Date& operator+=(int n);
         Date& operator-=(int n);
         virtual Date& operator=(const Date &src) = 0;
-        int  operator-(const Date &src);
+        int  operator-(const Date &src) const;
         bool operator<(const Date& src);
         bool operator>(const Date& src);
         bool operator==(const Date& src);
