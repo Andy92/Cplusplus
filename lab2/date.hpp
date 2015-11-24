@@ -14,11 +14,11 @@ namespace lab2 {
         static std::vector<int> v1; // declaration
         virtual bool isLeap(int y) = 0;
         int julian_day_number;
-        explicit Date();
+        //Date();
         virtual int year() const = 0;
         virtual unsigned int month() const = 0;
         virtual unsigned int day() const = 0;
-        virtual unsigned int week_day() = 0;
+        virtual unsigned int week_day() const = 0;
         unsigned int days_per_week() const;
         unsigned int days_this_month() const;
         virtual std::string week_day_name() const = 0;
@@ -26,25 +26,17 @@ namespace lab2 {
         void add_year(int y);
         void add_month(int m);
         int mod_julian_day() const;
-        Date& operator++();
-        Date& operator--();
         Date& operator+=(int n);
         Date& operator-=(int n);
-        virtual Date& operator=(const Date &src) = 0;
+       // virtual Date& operator=(const Date &src) = 0;
         int  operator-(const Date &src) const;
-        bool operator<(const Date& src);
-        bool operator>(const Date& src);
-        bool operator==(const Date& src);
-        bool operator<=(const Date& src);
-        bool operator>=(const Date& src);
-        bool operator!=(const Date& src);
-        
-        
-        friend std::ostream& operator<<(std::ostream&, const Date&);
-
-        
-        
+        bool operator<(const Date& src) const;
+        bool operator>(const Date& src) const;
+        bool operator==(const Date& src) const;
+        bool operator<=(const Date& src) const;
+        bool operator>=(const Date& src) const;
+        bool operator!=(const Date& src) const;
     };
-           
+    
 }
 #endif

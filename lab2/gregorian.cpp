@@ -1,5 +1,6 @@
 #include "gregorian.hpp"
 
+
 using namespace lab2;
 
 const char *week_day_name[] = {
@@ -17,16 +18,17 @@ std::string Gregorian::week_day_name() const{
     return v2[(this->julian_day_number % 7)];
 }
 
-unsigned int Gregorian::week_day() {
-    return (this->julian_day_number % 7 + 1);
+unsigned int Gregorian::week_day() const {
+    int i = this->julian_day_number;
+    return (i % 7) + 1;
 }
-/*
+
 Gregorian::Gregorian() {
     time_t now = time(0);
     std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
 }
-*/
+
 
 Gregorian::Gregorian(int Y, int M, int D) {
     int a = (14-M)/12;
@@ -49,32 +51,40 @@ Gregorian Gregorian::operator--(int) {
     this->julian_day_number--;
     return tmp;
 }
+Gregorian& Gregorian::operator++(){
+    (this->julian_day_number++);
+    return *this;
+}
+Gregorian& Gregorian::operator--(){
+    (this->julian_day_number--);
+    return *this;
+}
 
-    Date& Gregorian::operator=(const Date &src) {
+    Gregorian& Gregorian::operator=(const Gregorian &src) {
     this->julian_day_number = src.julian_day_number;
     return *this;
 }
 
 bool Gregorian::isLeap(int year) {
-	int req1 = year % 100;
-	int req2 = year % 400;
-	if ((req1 + req2) == 0) {
-		return true;
-	}
-	return false;
+    int req1 = year % 100;
+    int req2 = year % 400;
+    if ((req1 + req2) == 0) {
+        return true;
+    }
+    return false;
 }
 
 int Gregorian::year() const {
-	int y = convertToJDN(this->julian_day_number, 2);
+    int y = convertToJDN(this->julian_day_number, 2);
     return y;
 }
 unsigned int Gregorian::month() const{
-	int m = convertToJDN(this->julian_day_number, 1);
+    int m = convertToJDN(this->julian_day_number, 1);
     return m;
 
 }
 unsigned int Gregorian::day() const {
-	int d = convertToJDN(this->julian_day_number, 0);
+    int d = convertToJDN(this->julian_day_number, 0);
     return d;
 
 }
@@ -110,7 +120,7 @@ unsigned int Gregorian::day() const {
     if(check == 2)
         return Y;
     return 0;
-}			
+}           
 
 // modulus
 int Gregorian::mod(int a, int b) const {
@@ -124,7 +134,7 @@ int Gregorian::div(int a, int b) const {
     return r;
 }
 
-std::ostream &operator<<(std::ostream& out, const Gregorian& obj) {
+std::ostream& operator<<(std::ostream& out, Gregorian const& obj) {
     out << obj.year() <<  "-" << obj.month() <<  "-" << obj.day();
     return out;
 }

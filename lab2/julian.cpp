@@ -1,7 +1,7 @@
 #include "julian.hpp"
 
 using namespace lab2;
-	const char *weekday[] = {
+    const char *weekday[] = {
             "Monday",
             "Tuesday",
             "Wednesday",
@@ -11,7 +11,7 @@ using namespace lab2;
             "Sunday"
         };
         std::vector<std::string> v4(weekday, weekday+7); // definition
-		Julian::Julian(int Y, int M, int D) {
+        Julian::Julian(int Y, int M, int D) {
             int a = (14-M)/12;
             int m = M + 12*a -3;
             int y = Y + 4800 - a;
@@ -24,39 +24,33 @@ using namespace lab2;
                 std::cout << now << std::endl;
                 this->julian_day_number = 2440588 + (now / 86400);
         }
+
         Julian::Julian(Date const& src) {
             this->julian_day_number = src.julian_day_number;
         }
         std::string Julian::week_day_name() const{
-			return v4[(this->julian_day_number % 7) - 1];
-		}
-		unsigned int Julian::week_day() {
-			return (this->julian_day_number % 7) + 1;
-		}
-		unsigned int Julian::day() const {
+            return v4[(this->julian_day_number % 7) - 1];
+        }
+        unsigned int Julian::week_day() const {
+            int i = this->julian_day_number;
+            return (i % 7) + 1;
+        }
+        unsigned int Julian::day() const {
             int d = convertToJDN(this->julian_day_number, 0);
             return d;
-		}
-		int Julian::year() const {
+        }
+        int Julian::year() const {
             int y = convertToJDN(this->julian_day_number, 2);
             return y;
-		}
+        }
         unsigned int Julian::month() const {
             int m = convertToJDN(this->julian_day_number, 1);
             return m;
         }
         bool Julian::isLeap(int y) {
-        	if(y % 4 == 0)
-        		return true;
-        	return false;
-        }
-        Julian& Julian::operator++(){
-            (this->julian_day_number++);
-            return *this;
-        }
-        Julian& Julian::operator--(){
-            (this->julian_day_number--);
-            return *this;
+            if(y % 4 == 0)
+                return true;
+            return false;
         }
         Julian Julian::operator++(int) {
         Julian tmp(*this); // copy
@@ -68,7 +62,15 @@ using namespace lab2;
         this->julian_day_number--; // pre-increment
         return tmp;   // return old value
     }
-    Date& Julian::operator=(const Date &src) {
+    Julian& Julian::operator++(){
+    (this->julian_day_number++);
+    return *this;
+    }
+    Julian& Julian::operator--(){
+    (this->julian_day_number--);
+    return *this;
+    }
+    Julian& Julian::operator=(const Julian &src) {
     this->julian_day_number = src.julian_day_number;
     return *this;
 }
@@ -118,8 +120,7 @@ double Julian::div(double a, double b) const {
     double r = a / b;
     return r;
 }
-
-std::ostream &operator<<(std::ostream& out, const Julian& obj) {
+std::ostream& operator<<(std::ostream& out, Julian const& obj) {
     out << obj.year() <<  "-" << obj.month() <<  "-" << obj.day();
     return out;
 }

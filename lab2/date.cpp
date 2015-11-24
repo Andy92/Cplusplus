@@ -4,7 +4,8 @@
 #include <string>
 #include <vector>
 #include "date.hpp"
-
+#ifndef DATE_CPP
+#define DATE_CPP
 using namespace lab2;
 
 
@@ -40,12 +41,6 @@ const int days_months[] = {
         };
 std::vector<int> Date::v1(days_months, days_months+12); // definition
 
-Date::Date() {
-    time_t now = time(0);
-    std::cout << now << std::endl;
-    this->julian_day_number = 2440588 + (now / 86400);
-}
-
 void Date::add_year(int y) {
     int cur = year();
     int ny = cur + y;
@@ -76,21 +71,15 @@ void Date::add_month(int m) {
         m--;
     }
 }
-
+unsigned int Date::days_this_month() const {
+    return days_months[month() - 1];
+}
 unsigned int Date::days_per_week () const{
     return 7;
 }
 std::string Date::month_name() const{
     //return Date::Months[month-1];
    return Months[month()-1];
-}
-Date& Date::operator++(){
-    (this->julian_day_number++);
-    return *this;
-}
-Date& Date::operator--(){
-    (this->julian_day_number--);
-    return *this;
 }
 Date& Date::operator+=(int n) {
     this->julian_day_number += n;
@@ -107,40 +96,40 @@ int Date::operator-(const Date &src) const {
 //relationalops
 
 
-bool Date::operator<(const Date& src) {
+bool Date::operator<(const Date& src) const {
     if(this->julian_day_number < src.julian_day_number)
         return true;
     return false;
 }
-bool Date::operator>(const Date& src) {
+bool Date::operator>(const Date& src) const {
     if(this->julian_day_number > src.julian_day_number)
         return true;
     return false;
 }
-bool Date::operator==(const Date& src) {
+bool Date::operator==(const Date& src) const {
     if(this->julian_day_number == src.julian_day_number)
         return true;
     return false;
 }
-bool Date::operator<=(const Date& src) {
+bool Date::operator<=(const Date& src) const {
     if(this->julian_day_number <= src.julian_day_number)
         return true;
     return false;
 }
-bool Date::operator>=(const Date& src) {
+bool Date::operator>=(const Date& src) const {
     if(this->julian_day_number >= src.julian_day_number)
         return true;
     return false;
 }
-bool Date::operator!=(const Date& src) {
+bool Date::operator!=(const Date& src) const {
     if(this->julian_day_number != src.julian_day_number)
         return true;
     return false;
 }
-
 
 int Date::mod_julian_day() const{
 
     return this->julian_day_number - 2400000.5;
 
 }
+#endif
