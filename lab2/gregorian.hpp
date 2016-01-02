@@ -13,6 +13,7 @@ namespace lab2 {
             int convertToJDN(int J, int check) const;
             int mod(int a, int b) const;
             int div(int a, int b) const;
+            bool isLeap(int y);
        public:
         std::string week_day_name() const;
         unsigned int week_day() const;
@@ -23,13 +24,13 @@ namespace lab2 {
         Gregorian& operator=(const Gregorian &src);
         Gregorian(Gregorian const& src);
         Gregorian(int Y, int M, int D);
-        bool isLeap(int y);
+        
         virtual Gregorian& operator++();
         virtual Gregorian& operator--();
         int year() const;
         unsigned int month() const;
         unsigned int day() const;
-        friend std::ostream& operator<<(std::ostream&, Gregorian const&);
+        friend std::ostream& operator<<(std::ostream&, Date const&);
     };
 }
 #endif

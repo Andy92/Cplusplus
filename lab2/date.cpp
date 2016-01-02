@@ -4,8 +4,6 @@
 #include <string>
 #include <vector>
 #include "date.hpp"
-#ifndef DATE_CPP
-#define DATE_CPP
 using namespace lab2;
 
 
@@ -126,10 +124,11 @@ bool Date::operator!=(const Date& src) const {
         return true;
     return false;
 }
-
+std::ostream& operator<<(std::ostream& out, Date const& obj) {
+    out << obj.year() << "-" << obj.month() << "-" << obj.day();
+    return out;
+}
 int Date::mod_julian_day() const{
 
     return this->julian_day_number - 2400000.5;
-
 }
-#endif

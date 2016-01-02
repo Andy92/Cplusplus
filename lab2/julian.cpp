@@ -1,4 +1,5 @@
 #include "julian.hpp"
+#include "kattistime.h"
 
 using namespace lab2;
     const char *weekday[] = {
@@ -20,8 +21,11 @@ using namespace lab2;
             //std::cout << this->julian_day_number;
         }
         Julian::Julian() {
-                time_t now = time(0);
-                std::cout << now << std::endl;
+                //time_t now = time(0);
+                //std::cout << now << std::endl;
+            time_t now;
+            k_time(&now);
+            //time_t now = time(0);
                 this->julian_day_number = 2440588 + (now / 86400);
         }
 
@@ -120,7 +124,4 @@ double Julian::div(double a, double b) const {
     double r = a / b;
     return r;
 }
-std::ostream& operator<<(std::ostream& out, Julian const& obj) {
-    out << obj.year() <<  "-" << obj.month() <<  "-" << obj.day();
-    return out;
-}
+

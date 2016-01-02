@@ -37,6 +37,6 @@ namespace lab2 {
         bool operator>=(const Date& src) const;
         bool operator!=(const Date& src) const;
     };
-    
+         
 }
 #endif

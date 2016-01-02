@@ -9,14 +9,16 @@
 
 namespace lab2 {
         class Julian : public Date {
-                public:
+        private:
+                bool isLeap(int y);
+        public:
                 explicit Julian();
                 std::string week_day_name() const;
                 unsigned int week_day() const;
                 unsigned int day() const;
                 int year() const;
                 unsigned int month() const;
-                bool isLeap(int y);
+                
                 Julian operator++(int a);
                 Julian operator--(int a);
                 virtual Julian& operator++();
@@ -27,8 +29,8 @@ namespace lab2 {
                 double div(double a, double b) const;
                 Julian(int Y, int M, int D);
                 Julian(Date const& src);
-                friend std::ostream& operator<<(std::ostream&, Julian const&);
-                };
+                friend std::ostream& operator<<(std::ostream&, Date const&);
 
+                };
 }
 #endif

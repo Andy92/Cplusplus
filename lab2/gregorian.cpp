@@ -1,5 +1,5 @@
 #include "gregorian.hpp"
-
+#include "kattistime.h"
 
 using namespace lab2;
 
@@ -24,8 +24,10 @@ unsigned int Gregorian::week_day() const {
 }
 
 Gregorian::Gregorian() {
-    time_t now = time(0);
-    std::cout << now << std::endl;
+    time_t now;
+    time(&now);
+    //time_t now = time(0);
+    //std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
 }
 
@@ -134,7 +136,3 @@ int Gregorian::div(int a, int b) const {
     return r;
 }
 
-std::ostream& operator<<(std::ostream& out, Gregorian const& obj) {
-    out << obj.year() <<  "-" << obj.month() <<  "-" << obj.day();
-    return out;
-}
