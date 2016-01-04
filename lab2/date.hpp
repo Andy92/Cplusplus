@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <ctime>
+#include "kattistime.h"
 #ifndef DATE_HPP
 #define DATE_HPP
 
@@ -13,7 +14,7 @@ namespace lab2 {
         static std::vector<std::string> v; // declaration
         static std::vector<int> v1; // declaration
         virtual bool isLeap(int y) = 0;
-        int julian_day_number;
+        double julian_day_number;
         //Date();
         virtual int year() const = 0;
         virtual unsigned int month() const = 0;
@@ -36,6 +37,7 @@ namespace lab2 {
         bool operator<=(const Date& src) const;
         bool operator>=(const Date& src) const;
         bool operator!=(const Date& src) const;
+        friend std::ostream& operator<<(std::ostream&, Date const&);
     };
          
 }

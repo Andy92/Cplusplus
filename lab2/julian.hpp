@@ -25,11 +25,10 @@ namespace lab2 {
                 virtual Julian& operator--();
                 Julian& operator=(const Julian &src);
                 int convertToJDN(int J, int check) const;
-                double mod(int a, int b) const;
-                double div(double a, double b) const;
+                int mod(int a, int b) const;
+                int div(int a, int b) const;
                 Julian(int Y, int M, int D);
                 Julian(Date const& src);
-                friend std::ostream& operator<<(std::ostream&, Date const&);
 
                 };
 }

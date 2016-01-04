@@ -1,5 +1,5 @@
 #include "julian.hpp"
-#include "kattistime.h"
+
 
 using namespace lab2;
     const char *weekday[] = {
@@ -14,18 +14,21 @@ using namespace lab2;
         std::vector<std::string> v4(weekday, weekday+7); // definition
         Julian::Julian(int Y, int M, int D) {
             int a = (14-M)/12;
+            //std::cout << "a: " << a << std::endl;
             int m = M + 12*a -3;
             int y = Y + 4800 - a;
+            //std::cout << "y: " << y << std::endl;
+            //std::cout << "m: " << m << std::endl;
             int d = D;
             this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - 32083;
-            //std::cout << this->julian_day_number;
+            //std::cout << "julus: " << this->julian_day_number << std::endl;
+            
         }
         Julian::Julian() {
-                //time_t now = time(0);
                 //std::cout << now << std::endl;
-            time_t now;
-            k_time(&now);
-            //time_t now = time(0);
+            //time_t now;
+            //k_time(&now);
+                time_t now = time(0);
                 this->julian_day_number = 2440588 + (now / 86400);
         }
 
@@ -33,11 +36,12 @@ using namespace lab2;
             this->julian_day_number = src.julian_day_number;
         }
         std::string Julian::week_day_name() const{
-            return v4[(this->julian_day_number % 7) - 1];
+            int i = this->julian_day_number;
+            return v4[(i % 7)];           // no (+1) for the list starts with index 0
         }
         unsigned int Julian::week_day() const {
             int i = this->julian_day_number;
-            return (i % 7) + 1;
+            return (i % 7) + 1;             // +1 for correcting the result
         }
         unsigned int Julian::day() const {
             int d = convertToJDN(this->julian_day_number, 0);
@@ -79,7 +83,7 @@ using namespace lab2;
     return *this;
 }
 
-
+// 1858 - 2558
 // Convert to gregorian from JDN
     int Julian::convertToJDN(int J, int check) const {
     // Parameters for Greg:
@@ -89,6 +93,7 @@ using namespace lab2;
     int n = 12;
     int r = 4;
     int p = 1461;
+    //
     int v = 3;
     int u = 5;
     int s = 153;
@@ -96,14 +101,14 @@ using namespace lab2;
     int B = 274277;
     int C = -38;
     // End of parameters
-    int f = J + j;
+    double f = J + j;
     // beräkna resten
     double e = r * f + v;
-    double g = mod(e,p) / r;
+    double g = div(mod(e,p),r);
     double h = u * g + w;
-    int D = (mod(h,s)) / u + 1;
-    int M = mod(h / s + m1,n) + 1;
-    int Y = div(e,p) - y1 + (n + m1 - M) / n;
+    int D = div(mod(h,s),u) + 1;
+    int M = mod(((div(h,s)) + m1),n) + 1;
+    int Y = div(e,p) - y1 + div((n + m1 - M),n);
     if(check == 0)
         return D;
     if(check == 1)
@@ -114,14 +119,14 @@ using namespace lab2;
 }           
 
 // modulus
-double Julian::mod(int a, int b) const {
-    double r = a % b;
+int Julian::mod(int a, int b) const {
+    int r = a % b;
     return r;
 }
 
 // Integer division
-double Julian::div(double a, double b) const {
-    double r = a / b;
+int Julian::div(int a, int b) const {
+    int r = a / b;
     return r;
 }
 

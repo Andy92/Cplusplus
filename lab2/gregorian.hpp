@@ -30,7 +30,7 @@ namespace lab2 {
         int year() const;
         unsigned int month() const;
         unsigned int day() const;
-        friend std::ostream& operator<<(std::ostream&, Date const&);
+        
     };
 }
 #endif

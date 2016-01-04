@@ -1,5 +1,4 @@
 #include "gregorian.hpp"
-#include "kattistime.h"
 
 using namespace lab2;
 
@@ -15,7 +14,7 @@ const char *week_day_name[] = {
 std::vector<std::string> v2(week_day_name, week_day_name+7); // definition
 
 std::string Gregorian::week_day_name() const{
-    return v2[(this->julian_day_number % 7)];
+    return v2[((int)this->julian_day_number % 7)];
 }
 
 unsigned int Gregorian::week_day() const {
@@ -24,9 +23,9 @@ unsigned int Gregorian::week_day() const {
 }
 
 Gregorian::Gregorian() {
-    time_t now;
-    time(&now);
-    //time_t now = time(0);
+    //time_t now;
+    //time(&now);
+    time_t now = time(0);
     //std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
 }
@@ -68,9 +67,13 @@ Gregorian& Gregorian::operator--(){
 }
 
 bool Gregorian::isLeap(int year) {
+    int req0 = year % 4;
     int req1 = year % 100;
     int req2 = year % 400;
-    if ((req1 + req2) == 0) {
+    if ((req1 == 0) && !(req2 == 0)) {
+        return false;
+    }
+    if (req0 == 0) {
         return true;
     }
     return false;
