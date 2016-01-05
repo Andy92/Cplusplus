@@ -13,7 +13,7 @@ namespace lab2 {
     public:
         static std::vector<std::string> v; // declaration
         static std::vector<int> v1; // declaration
-        virtual bool isLeap(int y) = 0;
+        virtual bool isLeap(int y) const = 0;
         double julian_day_number;
         //Date();
         virtual int year() const = 0;

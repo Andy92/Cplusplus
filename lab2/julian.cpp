@@ -55,7 +55,7 @@ using namespace lab2;
             int m = convertToJDN(this->julian_day_number, 1);
             return m;
         }
-        bool Julian::isLeap(int y) {
+        bool Julian::isLeap(int y) const {
             if(y % 4 == 0)
                 return true;
             return false;

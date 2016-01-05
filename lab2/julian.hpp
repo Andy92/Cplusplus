@@ -10,7 +10,7 @@
 namespace lab2 {
         class Julian : public Date {
         private:
-                bool isLeap(int y);
+                bool isLeap(int y) const;
         public:
                 explicit Julian();
                 std::string week_day_name() const;

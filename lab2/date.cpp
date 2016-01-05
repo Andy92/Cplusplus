@@ -112,6 +112,9 @@ void Date::add_month(int m) {
     }
 }
 unsigned int Date::days_this_month() const {
+    if ((isLeap(year())) && (month() == 2)) {
+        return days_months[month() - 1]+1; 
+    }
     return days_months[month() - 1];
 }
 unsigned int Date::days_per_week () const{

@@ -68,7 +68,7 @@ Gregorian& Gregorian::operator--(){
     return *this;
 }
 
-bool Gregorian::isLeap(int year) {
+bool Gregorian::isLeap(int year) const {
     int req0 = year % 4;
     int req1 = year % 100;
     int req2 = year % 400;

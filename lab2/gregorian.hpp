@@ -13,7 +13,7 @@ namespace lab2 {
             int convertToJDN(int J, int check) const;
             int mod(int a, int b) const;
             int div(int a, int b) const;
-            bool isLeap(int y);
+            bool isLeap(int y) const;
        public:
         std::string week_day_name() const;
         unsigned int week_day() const;
