@@ -38,6 +38,8 @@ Gregorian::Gregorian(int Y, int M, int D) {
     int d = D;
     this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - y/100 + y/400 - 32045;
 }
+
+
 Gregorian::Gregorian(Gregorian const& src) {
     this->julian_day_number = src.julian_day_number;
 }

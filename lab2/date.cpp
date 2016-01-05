@@ -8,9 +8,9 @@ namespace lab2 {
 
 
 const char *Months[] = {
-            "Januari",
-            "Febuary",
-            "Mars",
+            "January",
+            "February",
+            "March",
             "April",
             "May",
             "June",
@@ -39,95 +39,76 @@ const int days_months[] = {
         };
 std::vector<int> Date::v1(days_months, days_months+12); // definition
 
+
 void Date::add_year(int y) {
-    if(y>0){ 
+    int a = (month() > 2) ? 1:0;
+    int b = (month() <= 2) ? 1:0;
+    if(y>0){
         int cur = year();
         int ny = cur + y;
-        if(isLeap(cur) && (month() > 2))
-            this->julian_day_number--;
-        for(int i = cur; i <= ny; i++) {
+        for(int i = cur+a; i < ny+a; ++i) {
             if(isLeap(i))
                 this->julian_day_number++;
         }
         this->julian_day_number += y*365;
     } else {
-
         int cur = year();
-        int ny = cur + y;
-        if(isLeap(ny) && (month() > 2))
-            this->julian_day_number++;
-        for(int i = ny; i < cur; i++) {
-            if(isLeap(i))
+        int ny = cur + y; // 2032
+        for(int i = cur-b; i > ny-b; i--) {
+            if(isLeap(i)) {
                 this->julian_day_number--;
+            }
         }
         this->julian_day_number += y*365;
         }
-
 }
 void Date::add_month(int m) {
-    while(m > 0) {
-        if(isLeap(year())) {            // if leap year
-            //std::cout << "leap year" << std::endl;
-            if(isLeap(year()) && month() == 2 && day() <= 29)    // if it's feb and day is under 29
-                this->julian_day_number += 29;
-            else if(day() > 29 && month() == 1) {
-                int tmp = day();
-                this->julian_day_number += days_months[month()]+1 - (days_months[month()]+1 - day());
-                if (m>1) {
-                    this->julian_day_number += tmp;
-                    m--;
-                }
-            }
-            else
-                this->julian_day_number += days_months[month()-1];
-        }
-        else if(day() > 28 && month() == 1) {
-            int tmp = day();
-            this->julian_day_number += days_months[month()] - (days_months[month()] - day());
-            if (m>1) {
-                this->julian_day_number += tmp;
-                m--;
-            }
-        }   
-        else
-            this->julian_day_number += days_months[month()-1];
-        m--;
+    
+    int tmpday = day();
+    int dag = tmpday;
+    if (dag > 28) {
+        this->julian_day_number -= tmpday - 28;
+        dag = 28;
     }
-    while(m < 0) {
-        int lastmon = 0;
-        if(month()>1){
-            lastmon = month()-2;
-        } else if (month()==1){
-            lastmon = 11;
+    if(m>0) {
+        while(m > 0) {
+            if(isLeap(year()) && month() == 2){    // if it's feb and day is under 29
+                this->julian_day_number += 29;
+            } else {
+                    this->julian_day_number += days_months[month()-1];
+            }
+            m--;
+        }
+        int b = ((month() == 2) && isLeap(year())) ? 1:0;
+        if((days_months[month()-1] + b) > tmpday) {
+            this->julian_day_number += tmpday - dag;
         } else {
-            lastmon = 10;
+            this->julian_day_number += days_months[month()-1]+b - 28;
         }
-
-        if(isLeap(year())) {
-            if(isLeap(year()) && month() == 3 && day() <= 29)
+    }
+    if(m<0) {
+        while(m < 0) {
+            int lastmon = 0;
+            if(month()>1){
+                lastmon = month()-2;
+            } else if (month()==1){
+                lastmon = 11;
+            } else {
+                lastmon = 10;
+            }
+            if(isLeap(year()) && month() == 3)    // if it's feb and day is under 29
                 this->julian_day_number -= 29;
-            else if(day() > 29 && month() == 2) {
-                int tmp = day();
-                this->julian_day_number -= days_months[month()-1]+1 - (days_months[month()-1]+1 - day());
-                if (m<(-1)) {
-                    this->julian_day_number -= tmp;
-                    m++;
-                }
+            else {
+                    this->julian_day_number -= days_months[lastmon];
             }
-            else
-                this->julian_day_number -= days_months[lastmon];
+            m++;
         }
-        else if(day() > 28 && month() == 2) {
-            int tmp = day();
-            this->julian_day_number -= days_months[month()-1] - (days_months[month()-1] - day());
-            if (m<(-1)) {
-                this->julian_day_number -= tmp;
-                m++;
-            }
+        int b = ((month() == 2) && isLeap(year())) ? 1:0;
+        if((days_months[month()-1] + b) > tmpday) {
+            this->julian_day_number += tmpday - dag;
+        } else {
+            this->julian_day_number += days_months[month()-1]+b - 28;
         }
-        else
-            this->julian_day_number -= days_months[lastmon];
-        m++;
     }
 }
 unsigned int Date::days_this_month() const {
