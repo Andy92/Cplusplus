@@ -23,9 +23,10 @@ unsigned int Gregorian::week_day() const {
 }
 
 Gregorian::Gregorian() {
-    //time_t now;
-    //time(&now);
-    time_t now = time(0);
+     time_t now;
+    //  time_t now = time(0);
+    k_time(&now);
+    
     //std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
 }
@@ -42,25 +43,6 @@ Gregorian::Gregorian(int Y, int M, int D) {
 
 Gregorian::Gregorian(Gregorian const& src) {
     this->julian_day_number = src.julian_day_number;
-}
-
-Gregorian Gregorian::operator++(int) {
-    Gregorian tmp = *this;
-    this->julian_day_number++;
-    return tmp;
-}
-Gregorian Gregorian::operator--(int) {
-    Gregorian tmp = *this;
-    this->julian_day_number--;
-    return tmp;
-}
-Gregorian& Gregorian::operator++(){
-    (this->julian_day_number++);
-    return *this;
-}
-Gregorian& Gregorian::operator--(){
-    (this->julian_day_number--);
-    return *this;
 }
 
     Gregorian& Gregorian::operator=(const Gregorian &src) {
@@ -94,6 +76,30 @@ unsigned int Gregorian::day() const {
     int d = convertToJDN(this->julian_day_number, 0);
     return d;
 
+}
+
+Gregorian Gregorian::operator++(int) {
+    Gregorian * g = new Gregorian(*this);
+    this->julian_day_number--;
+    return *g;
+}
+
+Gregorian Gregorian::operator--(int) {
+    Gregorian * g = new Gregorian(*this);
+    this->julian_day_number--;
+    return *g;
+}
+
+Gregorian::~Gregorian() {
+}
+
+Gregorian& Gregorian::operator++(){
+    (this->julian_day_number++);
+    return *this;
+}
+Gregorian& Gregorian::operator--(){
+    (this->julian_day_number--);
+    return *this;
 }
 
 // Convert to gregorian from JDN
@@ -140,4 +146,3 @@ int Gregorian::div(int a, int b) const {
     int r = a / b;
     return r;
 }
-

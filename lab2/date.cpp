@@ -38,7 +38,8 @@ const int days_months[] = {
             31
         };
 std::vector<int> Date::v1(days_months, days_months+12); // definition
-
+Date::~Date() {
+}
 
 void Date::add_year(int y) {
     int a = (month() > 2) ? 1:0;
@@ -124,12 +125,21 @@ std::string Date::month_name() const{
     //return Date::Months[month-1];
    return Months[month()-1];
 }
-Date& Date::operator+=(int n) {
+Date& Date::operator++(){
+    (this->julian_day_number++);
+    return *this;
+}
+Date& Date::operator--(){
+    (this->julian_day_number--);
+    return *this;
+}
+Date & Date::operator+=(const int n) {
     this->julian_day_number += n;
     return *this;
 }
-Date& Date::operator-=(int n) {
-   this->julian_day_number -= n;
+
+Date & Date::operator-=(const int n) {
+    this->julian_day_number -= n;
     return *this;
 }
 

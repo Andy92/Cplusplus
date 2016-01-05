@@ -15,18 +15,18 @@ namespace lab2 {
             int div(int a, int b) const;
             bool isLeap(int y) const;
        public:
+        virtual Gregorian& operator++();
+        virtual Gregorian& operator--();
+        Gregorian operator++(int);
+        Gregorian operator--(int);
         std::string week_day_name() const;
         unsigned int week_day() const;
-        Gregorian operator++(int a);
-        Gregorian operator--(int a);
         //Gregorian& operator=(const Gregorian &src);
         explicit Gregorian();
+        virtual ~Gregorian();
         Gregorian& operator=(const Gregorian &src);
         Gregorian(Gregorian const& src);
         Gregorian(int Y, int M, int D);
-        
-        virtual Gregorian& operator++();
-        virtual Gregorian& operator--();
         int year() const;
         unsigned int month() const;
         unsigned int day() const;

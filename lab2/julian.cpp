@@ -26,12 +26,13 @@ using namespace lab2;
         }
         Julian::Julian() {
                 //std::cout << now << std::endl;
-            //time_t now;
-            //k_time(&now);
-                time_t now = time(0);
-                this->julian_day_number = 2440588 + (now / 86400);
+            time_t now;
+          //  time_t now = time(0);
+            k_time(&now);
+            this->julian_day_number = 2440588 + (now / 86400);
         }
-
+        Julian::~Julian() {
+        }
         Julian::Julian(Date const& src) {
             this->julian_day_number = src.julian_day_number;
         }
@@ -60,26 +61,29 @@ using namespace lab2;
                 return true;
             return false;
         }
-        Julian Julian::operator++(int) {
-        Julian tmp(*this); // copy
-        this->julian_day_number++; // pre-increment
-        return tmp;   // return old value
-    }
-     Julian Julian::operator--(int) {
-        Julian tmp(*this); // copy
-        this->julian_day_number--; // pre-increment
-        return tmp;   // return old value
-    }
-    Julian& Julian::operator++(){
+Julian& Julian::operator=(const Julian &src) {
+    this->julian_day_number = src.julian_day_number;
+    return *this;
+}
+
+Julian Julian::operator++(int) {
+    Julian * g = new Julian(*this);
+    this->julian_day_number++;
+    return *g;
+}
+
+Julian Julian::operator--(int) {
+    Julian * g = new Julian(*this);
+    this->julian_day_number++;
+    return *g;
+}
+
+Julian& Julian::operator++(){
     (this->julian_day_number++);
     return *this;
-    }
-    Julian& Julian::operator--(){
+}
+Julian& Julian::operator--(){
     (this->julian_day_number--);
-    return *this;
-    }
-    Julian& Julian::operator=(const Julian &src) {
-    this->julian_day_number = src.julian_day_number;
     return *this;
 }
 
@@ -129,4 +133,3 @@ int Julian::div(int a, int b) const {
     int r = a / b;
     return r;
 }
-
