@@ -33,7 +33,7 @@ using namespace lab2;
         }
         Julian::~Julian() {
         }
-        Julian::Julian(Date const& src) {
+        Julian::Julian(Julian const& src) {
             this->julian_day_number = src.julian_day_number;
         }
         std::string Julian::week_day_name() const{
