@@ -25,7 +25,7 @@ namespace lab2 {
         explicit Gregorian();
         virtual ~Gregorian();
         Gregorian& operator=(const Gregorian &src);
-        Gregorian(Gregorian const& src);
+        Gregorian(Date const& src);
         Gregorian(int Y, int M, int D);
         int year() const;
         unsigned int month() const;

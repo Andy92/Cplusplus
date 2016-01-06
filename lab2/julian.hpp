@@ -26,7 +26,7 @@ namespace lab2 {
                 int mod(int a, int b) const;
                 int div(int a, int b) const;
                 Julian(int Y, int M, int D);
-                Julian(Julian const& src);
+                Julian(Date const& src);
                 Julian operator--(int);
                 Julian operator++(int);
                 };

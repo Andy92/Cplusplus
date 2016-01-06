@@ -41,7 +41,7 @@ Gregorian::Gregorian(int Y, int M, int D) {
 }
 
 
-Gregorian::Gregorian(Gregorian const& src) {
+Gregorian::Gregorian(Date const& src) {
     this->julian_day_number = src.julian_day_number;
 }
 
