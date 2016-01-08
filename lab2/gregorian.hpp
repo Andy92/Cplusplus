@@ -14,6 +14,7 @@ namespace lab2 {
             int mod(int a, int b) const;
             int div(int a, int b) const;
             bool isLeap(int y) const;
+            void validDate(int y, int m, int d) const;
        public:
         virtual Gregorian& operator++();
         virtual Gregorian& operator--();
