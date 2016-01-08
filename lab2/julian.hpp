@@ -11,6 +11,7 @@ namespace lab2 {
         class Julian : public Date {
         private:
                 bool isLeap(int y) const;
+                void validDate(int Y, int M, int D) const;
         public:
                 virtual Julian& operator++();
                 virtual Julian& operator--();
