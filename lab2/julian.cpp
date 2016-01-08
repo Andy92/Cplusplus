@@ -13,6 +13,7 @@ using namespace lab2;
         };
         std::vector<std::string> v4(weekday, weekday+7); // definition
         Julian::Julian(int Y, int M, int D) {
+            validDate(Y, M, D);
             int a = (14-M)/12;
             //std::cout << "a: " << a << std::endl;
             int m = M + 12*a -3;
@@ -21,6 +22,7 @@ using namespace lab2;
             //std::cout << "m: " << m << std::endl;
             int d = D;
             this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - 32083;
+            
             //std::cout << "julus: " << this->julian_day_number << std::endl;
             
         }
@@ -30,11 +32,13 @@ using namespace lab2;
           //  time_t now = time(0);
             k_time(&now);
             this->julian_day_number = 2440588 + (now / 86400);
+            validDate(year(), month(), day());
         }
         Julian::~Julian() {
         }
         Julian::Julian(Date const& src) {
             this->julian_day_number = src.julian_day_number;
+            validDate(year(), month(), day());
         }
         std::string Julian::week_day_name() const{
             int i = this->julian_day_number;
@@ -64,6 +68,15 @@ using namespace lab2;
     Julian& Julian::operator=(const Julian &src) {
     this->julian_day_number = src.julian_day_number;
     return *this;
+}
+
+void Julian::validDate(int Y, int M, int D) const {
+    if(!isLeap(Y) && M == 2 && D == 29)
+        throw std::invalid_argument("invalid date");
+    if(Y > 2558 || Y < 1858)
+        throw std::invalid_argument("invalid date");
+    if((M <= 0 || M > 12) || (D <= 0 ||D > 31))
+        throw std::invalid_argument("invalid date");
 }
 
 Julian Julian::operator++(int) {
