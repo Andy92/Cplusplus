@@ -12,6 +12,9 @@ namespace lab2 {
         private:
                 bool isLeap(int y) const;
                 void validDate(int Y, int M, int D) const;
+                int convertToJDN(int J, int check) const;
+                int mod(int a, int b) const;
+                int div(int a, int b) const;
         public:
                 virtual Julian& operator++();
                 virtual Julian& operator--();
@@ -23,9 +26,6 @@ namespace lab2 {
                 int year() const;
                 unsigned int month() const;
                 Julian& operator=(const Julian &src);
-                int convertToJDN(int J, int check) const;
-                int mod(int a, int b) const;
-                int div(int a, int b) const;
                 Julian(int Y, int M, int D);
                 Julian(Date const& src);
                 Julian operator--(int);
