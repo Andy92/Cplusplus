@@ -22,7 +22,6 @@ namespace lab2 {
         Gregorian operator--(int);
         std::string week_day_name() const;
         unsigned int week_day() const;
-        //Gregorian& operator=(const Gregorian &src);
         explicit Gregorian();
         virtual ~Gregorian();
         Gregorian& operator=(const Gregorian &src);
