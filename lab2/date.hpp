@@ -10,12 +10,12 @@
 
 namespace lab2 {
     class Date {
-    public:
+    private:
         static std::vector<std::string> v; // declaration
         static std::vector<int> v1; // declaration
         virtual bool isLeap(int y) const = 0;
-        double julian_day_number;
-        //Date();
+       
+    public:
         virtual Date& operator++();
         virtual Date& operator--();
         virtual ~Date();
@@ -32,9 +32,6 @@ namespace lab2 {
         int mod_julian_day() const;
         Date& operator+=(int n);
         Date& operator-=(int n);
-      //  Date & operator++();
-      //  Date & operator--();
-       // virtual Date& operator=(const Date &src) = 0;
         int  operator-(const Date &src) const;
         bool operator<(const Date& src) const;
         bool operator>(const Date& src) const;
@@ -43,6 +40,7 @@ namespace lab2 {
         bool operator>=(const Date& src) const;
         bool operator!=(const Date& src) const;
         friend std::ostream& operator<<(std::ostream&, Date const&);
+        double julian_day_number;
     };
          
 }
