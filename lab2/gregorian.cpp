@@ -23,7 +23,7 @@ unsigned int Gregorian::week_day() const {
 }
 
 Gregorian::Gregorian() {
-     //time_t now;
+    // time_t now;
       time_t now = time(0);
     //k_time(&now);
     
@@ -131,7 +131,7 @@ Gregorian& Gregorian::operator--(){
     int C = -38;
     // End of parameters
     int f = J + j + (((4 * J + B) / 146097) * 3) / 4 + C;
-    // berÃ¤kna resten
+    // beräkna resten
     int e = r * f + v;
     int g = mod(e,p) / r;
     int h = u * g + w;

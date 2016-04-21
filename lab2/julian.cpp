@@ -28,8 +28,8 @@ using namespace lab2;
         }
         Julian::Julian() {
                 //std::cout << now << std::endl;
-            //time_t now;
-           time_t now = time(0);
+           // time_t now;
+            time_t now = time(0);
             //k_time(&now);
             this->julian_day_number = 2440588 + (now / 86400);
             validDate(year(), month(), day());
@@ -119,7 +119,7 @@ Julian& Julian::operator--(){
     int C = -38;
     // End of parameters
     double f = J + j;
-    // berÃ¤kna resten
+    // beräkna resten
     double e = r * f + v;
     double g = div(mod(e,p),r);
     double h = u * g + w;
