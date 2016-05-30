@@ -55,7 +55,7 @@ bool Calendar<Datetype>::remove_event(std::string input, int d) {
 template<typename Datetype>
 bool Calendar<Datetype>::add_event(std::string input, int d, int m, int y) {
 	Datetype *date = new Datetype(y,m,d);
-	int index = -1;
+	//int index = -1;
 	// check if date is in vector
 
 	for(int i=0;i<eventDate.size();++i) {
@@ -66,7 +66,7 @@ bool Calendar<Datetype>::add_event(std::string input, int d, int m, int y) {
 				return false;
 			}
 		}
-		index = i;
+		//index = i;
 	}
 	event.push_back(input);
 	eventDate.push_back(*date);

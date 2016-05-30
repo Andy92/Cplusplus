@@ -180,7 +180,7 @@ bool Date::operator!=(const Date& src) const {
     return false;
 }
 std::ostream& operator<<(std::ostream& out, Date const& obj) {
-    out << obj.year() << "-" << obj.month() << "-" << obj.day();
+    out << obj.year() << obj.month() << obj.day();
     return out;
 }
 int Date::mod_julian_day() const{
