@@ -4,6 +4,9 @@
 #include <string>
 #include <vector>
 #include "date.hpp"
+#include <iomanip>
+#include <stdio.h>
+#include <string.h>
 namespace lab2 {
 
 
@@ -180,7 +183,27 @@ bool Date::operator!=(const Date& src) const {
     return false;
 }
 std::ostream& operator<<(std::ostream& out, Date const& obj) {
-    out << obj.year() << obj.month() << obj.day();
+ //   char d[2];
+  //  char m[2];
+
+    std::string d = "";
+    std::string m = "";
+    if (obj.month() < 10) {
+        //m = "0" + std::to_string(obj.month());
+        m += "0";
+        m += std::to_string(obj.month());
+    } else {
+        m += std::to_string(obj.month());
+    }
+    if (obj.day() < 10) {
+        //d = "0" + std::to_string(obj.day());
+        d += "0";
+        d += std::to_string(obj.day());
+    } else {
+        d += std::to_string(obj.day());
+    }
+    
+    out << obj.year() << m << d;
     return out;
 }
 int Date::mod_julian_day() const{

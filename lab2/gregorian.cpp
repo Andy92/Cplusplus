@@ -23,9 +23,9 @@ unsigned int Gregorian::week_day() const {
 }
 
 Gregorian::Gregorian() {
-    // time_t now;
-      time_t now = time(0);
-    //k_time(&now);
+     time_t now;
+      //time_t now = time(0);
+    k_time(&now);
     
     //std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
