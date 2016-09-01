@@ -7,6 +7,7 @@
 #include <iomanip>
 #include <stdio.h>
 #include <string.h>
+using namespace std;
 namespace lab2 {
 
 

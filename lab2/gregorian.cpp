@@ -30,31 +30,39 @@ Gregorian::Gregorian() {
     //std::cout << now << std::endl;
     this->julian_day_number = 2440588 + (now / 86400);
     validDate(year(), month(), day());
+
+    
 }
 
 
 Gregorian::Gregorian(int Y, int M, int D) {
-    validDate(Y, M, D);
-    int a = (14-M)/12;
-    int m = M + 12*a -3;
-    int y = Y + 4800 - a;
-    int d = D;
-    this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - y/100 + y/400 - 32045;
+
+        validDate(Y, M, D);
+        int a = (14-M)/12;
+        int m = M + 12*a -3;
+        int y = Y + 4800 - a;
+        int d = D;
+        this->julian_day_number = d + (153*m + 2)/5 + 365*y + y/4 - y/100 + y/400 - 32045;
+
 }
 
 void Gregorian::validDate(int Y, int M, int D) const {
-    if(!isLeap(Y) && M == 2 && D == 29)
+    if(!isLeap(Y) && (M == 2) && (D > 28))
         throw std::invalid_argument("invalid date");
     if(Y > 2558 || Y < 1858)
         throw std::invalid_argument("invalid date");
     if((M <= 0 || M > 12) || (D <= 0 ||D > 31))
+        throw std::invalid_argument("invalid date");
+    if((M==2) && (D > 29))
         throw std::invalid_argument("invalid date");
 }
 
 
 Gregorian::Gregorian(Date const& src) {
     this->julian_day_number = src.julian_day_number;
-    validDate(year(), month(), day());
+
+        validDate(year(), month(), day());
+
 }
 
     Gregorian& Gregorian::operator=(const Gregorian &src) {

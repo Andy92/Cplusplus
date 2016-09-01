@@ -71,11 +71,13 @@ using namespace lab2;
 }
 
 void Julian::validDate(int Y, int M, int D) const {
-    if(!isLeap(Y) && M == 2 && D == 29)
+    if(!isLeap(Y) && (M == 2) && (D > 28))
         throw std::invalid_argument("invalid date");
     if(Y > 2558 || Y < 1858)
         throw std::invalid_argument("invalid date");
     if((M <= 0 || M > 12) || (D <= 0 ||D > 31))
+        throw std::invalid_argument("invalid date");
+    if((M==2) && (D > 29))
         throw std::invalid_argument("invalid date");
 }
 

@@ -33,7 +33,7 @@ print $B
 print $C
 */
 
-
+/*
 
 int main(){
 	set_k_time(0);
@@ -51,6 +51,8 @@ int main(){
 	a.set_date(1995, 2, 29);
 	std::cout << a;
 }
+
+*/
 
 /*
 1: default-construct $C gregorian

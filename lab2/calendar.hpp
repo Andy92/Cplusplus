@@ -87,7 +87,7 @@ Calendar<Datetype>::Calendar(Calendar&& src) {
 		try {
 			calendarDate = Datetype(y, m, d);
 		}
-		catch(...) {
+		catch(std::invalid_argument e) {
 			return false;
 		}
 		return true;
@@ -98,18 +98,19 @@ Calendar<Datetype>::Calendar(Calendar&& src) {
 		try{
 			Datetype date = Datetype(y,m,d);
 
-		int size = eventDate.size();
-		for(int i=0;i<size;++i) {
-			if(date == eventDate[i] && input == event[i]) {
-				event.erase(event.begin()+i);
-				eventDate.erase(eventDate.begin()+i);
-				std::cout << event[i] << " " << eventDate[i] << std::endl;
-				return true;
+			int size = eventDate.size();
+			for(int i=0;i<size;++i) {
+				if(date == eventDate[i] && input == event[i]) {
+					//std::cout << event[i] << " " << eventDate[i] << std::endl;
+					event.erase(event.begin()+i);
+					eventDate.erase(eventDate.begin()+i);
+					
+					return true;
+				}
 			}
-		}
 
 		}
-		catch(...){
+		catch(std::invalid_argument e){
 			return false;
 		}
 		//std::cout << "Event does not exist" << std::endl;
@@ -141,6 +142,7 @@ Calendar<Datetype>::Calendar(Calendar&& src) {
 	template<typename Datetype>
 	bool Calendar<Datetype>::add_event(std::string input, int d, int m, int y) {
 		try{
+			
 			Datetype date = Datetype(y,m,d);
 		
 		
@@ -159,7 +161,7 @@ Calendar<Datetype>::Calendar(Calendar&& src) {
 		event.push_back(input);
 		eventDate.push_back(date);
 		}
-		catch(...){
+		catch(std::invalid_argument e){
 			return false;
 		}
 		return true;
