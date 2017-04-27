@@ -1,0 +1,5705 @@
+set_k_time 322222292
+default-construct $B gregorian 
+default-construct $C gregorian 
+default-construct $D gregorian 
+default-construct $E gregorian 
+default-construct $G gregorian 
+default-construct $F gregorian 
+default-construct $I gregorian 
+default-construct $H gregorian 
+default-construct $K gregorian 
+default-construct $J gregorian 
+default-construct $L gregorian 
+default-construct $M gregorian 
+default-construct $N gregorian 
+default-construct $O gregorian 
+default-construct $Q gregorian 
+default-construct $P gregorian 
+default-construct $S gregorian 
+default-construct $R gregorian 
+default-construct $U gregorian 
+default-construct $T gregorian 
+set_date $C 1900 3 28
+set_date $B 1900 3 28
+add_event $C HunZNaT 26 11
+add_event $B HunZNaT 26 11
+set_date $Q 1900 4 22
+set_date $P 1900 4 22
+add_event $Q GKtqWkr
+add_event $P GKtqWkr
+set_date $L 1900 12 11
+set_date $M 1900 12 11
+add_event $L eXHRShZ
+add_event $M eXHRShZ
+set_date $L 2039 7 14
+set_date $M 2039 7 14
+add_event $M uLilFHJ 23 8 1900
+add_event $L uLilFHJ 23 8 1900
+set_date $M 1900 1 13
+set_date $L 1900 1 13
+add_event $L VPMLiOX 17
+add_event $M VPMLiOX 17
+set_date $L 1900 7 12
+set_date $M 1900 7 12
+add_event $M EPZzlAe
+add_event $L EPZzlAe
+set_date $J 1899 1 1
+set_date $K 1899 1 1
+set_date $M 1900 2 29
+set_date $L 1900 2 29
+print $H
+print $I
+set_date $D 1900 11 26
+set_date $E 1900 11 26
+remove_event $D HunZNaT
+remove_event $E HunZNaT
+set_date $F 1900 11 15
+set_date $G 1900 11 15
+remove_event $G HunZNaT 26
+remove_event $F HunZNaT 26
+set_date $S 1899 1 1
+set_date $R 1899 1 1
+set_date $G 1900 2 29
+set_date $F 1900 2 29
+print $N
+print $O
+set_date $E 1899 1 1
+set_date $D 1899 1 1
+set_date $R 1900 2 29
+set_date $S 1900 2 29
+print $O
+print $N
+set_date $P 1900 7 12
+set_date $Q 1900 7 12
+add_event $P tapePmK 22
+add_event $Q tapePmK 22
+set_date $O 1900 5 3
+set_date $N 1900 5 3
+add_event $O wsWxfHq 2
+add_event $N wsWxfHq 2
+print $D
+print $E
+set_date $N 1900 7 22
+set_date $O 1900 7 22
+remove_event $N tapePmK
+remove_event $O tapePmK
+set_date $S 1989 12 10
+set_date $R 1989 12 10
+remove_event $R uLilFHJ 23 8 1900
+remove_event $S uLilFHJ 23 8 1900
+set_date $F 1900 10 2
+set_date $G 1900 10 2
+add_event $F DtyAwKT 8 2
+add_event $G DtyAwKT 8 2
+set_date $C 1900 9 10
+set_date $B 1900 9 10
+add_event $B xUijDts 25
+add_event $C xUijDts 25
+destruct $B
+destruct $C
+set_date $O 1900 1 16
+set_date $N 1900 1 16
+remove_event $N tapePmK 22 7
+remove_event $O tapePmK 22 7
+set_date $J 1900 4 20
+set_date $K 1900 4 20
+remove_event $K eXHRShZ 11 12
+remove_event $J eXHRShZ 11 12
+set_date $H 2009 9 10
+set_date $I 2009 9 10
+remove_event $H foo 29 2 1900
+remove_event $I foo 29 2 1900
+set_date $F 1900 9 25
+set_date $G 1900 9 25
+remove_event $F xUijDts
+remove_event $G xUijDts
+default-construct $V gregorian 
+default-construct $W gregorian 
+set_date $P 1900 9 24
+set_date $Q 1900 9 24
+remove_event $P DtyAwKT 8 2
+remove_event $Q DtyAwKT 8 2
+set_date $G 1900 11 23
+set_date $F 1900 11 23
+remove_event $G HunZNaT 26
+remove_event $F HunZNaT 26
+set_date $M 2030 6 19
+set_date $L 2030 6 19
+remove_event $M wsWxfHq 2 5 1900
+remove_event $L wsWxfHq 2 5 1900
+set_date $T 1900 5 12
+set_date $U 1900 5 12
+remove_event $T wsWxfHq 2
+remove_event $U wsWxfHq 2
+set_date $M 1900 11 12
+set_date $L 1900 11 12
+remove_event $M HunZNaT 26
+remove_event $L HunZNaT 26
+set_date $T 1984 12 1
+set_date $U 1984 12 1
+remove_event $U xUijDts 25 9 1900
+remove_event $T xUijDts 25 9 1900
+destruct $E
+destruct $D
+copy-construct $X julian $F
+copy-construct $Y gregorian $G
+destruct $F
+destruct $G
+set_date $W 2020 6 24
+set_date $V 2020 6 24
+add_event $V VGtvoRr 26 11 1900
+add_event $W VGtvoRr 26 11 1900
+set_date $X 1900 1 27
+set_date $Y 1900 1 27
+add_event $Y EGDnCzl 6
+add_event $X EGDnCzl 6
+set_date $V 1900 6 21
+set_date $W 1900 6 21
+add_event $V VzvTHAS 12
+add_event $W VzvTHAS 12
+set_date $K 1900 12 19
+set_date $J 1900 12 19
+add_event $K zirKduy 7 5
+add_event $J zirKduy 7 5
+set_date $R 1900 12 14
+set_date $S 1900 12 14
+remove_event $R EGDnCzl 6 1
+remove_event $S EGDnCzl 6 1
+set_date $Q 1900 8 23
+set_date $P 1900 8 23
+remove_event $P uLilFHJ
+remove_event $Q uLilFHJ
+set_date $U 1900 6 15
+set_date $T 1900 6 15
+add_event $T saoArEt 1
+add_event $U saoArEt 1
+set_date $J 1900 6 1
+set_date $K 1900 6 1
+add_event $K buJzPXp 16 8
+add_event $J buJzPXp 16 8
+set_date $X 1900 2 19
+set_date $Y 1900 2 19
+add_event $Y nRSkeHX
+add_event $X nRSkeHX
+set_date $W 1900 11 3
+set_date $V 1900 11 3
+add_event $W FvXIYVN
+add_event $V FvXIYVN
+set_date $W 1900 4 26
+set_date $V 1900 4 26
+add_event $W GwNbKfT 24 1
+add_event $V GwNbKfT 24 1
+set_date $I 1900 7 27
+set_date $H 1900 7 27
+add_event $H XpUQDbu
+add_event $I XpUQDbu
+set_date $V 1900 7 8
+set_date $W 1900 7 8
+add_event $W MEhJKnu
+add_event $V MEhJKnu
+set_date $X 1900 4 12
+set_date $Y 1900 4 12
+add_event $Y tfhvFEm 23 10
+add_event $X tfhvFEm 23 10
+set_date $M 1900 1 24
+set_date $L 1900 1 24
+add_event $L bxdwoBJ 28 1
+add_event $M bxdwoBJ 28 1
+set_date $Y 1900 2 16
+set_date $X 1900 2 16
+add_event $Y bAdwiFV
+add_event $X bAdwiFV
+default-construct $Z gregorian 
+default-construct $AA gregorian 
+default-construct $AB gregorian 
+default-construct $AC gregorian 
+set_date $J 1900 10 28
+set_date $K 1900 10 28
+remove_event $J tfhvFEm 23
+remove_event $K tfhvFEm 23
+set_date $U 1900 1 5
+set_date $T 1900 1 5
+remove_event $T EGDnCzl 6
+remove_event $U EGDnCzl 6
+set_date $Q 1899 1 1
+set_date $P 1899 1 1
+set_date $U 1900 2 29
+set_date $T 1900 2 29
+print $AB
+print $AC
+destruct $H
+destruct $I
+set_date $Q 1900 11 10
+set_date $P 1900 11 10
+add_event $Q zFUTMIq 18 9
+add_event $P zFUTMIq 18 9
+set_date $U 1900 12 15
+set_date $T 1900 12 15
+add_event $T zUpGCtT 20
+add_event $U zUpGCtT 20
+set_date $P 1900 5 1
+set_date $Q 1900 5 1
+add_event $P bTcVnzy
+add_event $Q bTcVnzy
+set_date $L 1900 3 23
+set_date $M 1900 3 23
+add_event $L tDqTGmK 3
+add_event $M tDqTGmK 3
+set_date $Q 1899 1 1
+set_date $P 1899 1 1
+set_date $S 1900 2 29
+set_date $R 1900 2 29
+print $P
+print $Q
+destruct $J
+destruct $K
+default-construct $AE gregorian 
+default-construct $AD gregorian 
+default-construct $AF gregorian 
+default-construct $AG gregorian 
+print $AB
+print $AC
+set_date $N 1900 8 3
+set_date $O 1900 8 3
+add_event $N CuZDmGf 2 8
+add_event $O CuZDmGf 2 8
+set_date $S 1900 7 3
+set_date $R 1900 7 3
+add_event $S FPvMmfH
+add_event $R FPvMmfH
+set_date $R 1900 8 17
+set_date $S 1900 8 17
+add_event $R mCFzGoH 3
+add_event $S mCFzGoH 3
+set_date $AB 1900 1 16
+set_date $AC 1900 1 16
+add_event $AC cnhBSNT 21
+add_event $AB cnhBSNT 21
+set_date $AB 1900 11 6
+set_date $AC 1900 11 6
+add_event $AB mWQBtbP 7 5
+add_event $AC mWQBtbP 7 5
+set_date $W 1900 5 25
+set_date $V 1900 5 25
+add_event $V alRFYNZ 4 3
+add_event $W alRFYNZ 4 3
+set_date $Y 1994 12 25
+set_date $X 1994 12 25
+remove_event $X bAdwiFV 16 2 1900
+remove_event $Y bAdwiFV 16 2 1900
+set_date $R 1900 11 12
+set_date $S 1900 11 12
+remove_event $S HunZNaT 26
+remove_event $R HunZNaT 26
+set_date $M 1900 12 20
+set_date $L 1900 12 20
+remove_event $L foo 29 2
+remove_event $M foo 29 2
+set_date $AB 2015 5 5
+set_date $AC 2015 5 5
+remove_event $AC cnhBSNT 21 1 1900
+remove_event $AB cnhBSNT 21 1 1900
+copy-construct $AH julian $L
+copy-construct $AI gregorian $M
+set_date $X 1900 6 15
+set_date $Y 1900 6 15
+add_event $Y FhWmujR 10
+add_event $X FhWmujR 10
+set_date $R 1900 8 17
+set_date $S 1900 8 17
+add_event $S KkoqHxE 17 11
+add_event $R KkoqHxE 17 11
+set_date $AG 1900 8 2
+set_date $AF 1900 8 2
+remove_event $AG mCFzGoH 3
+remove_event $AF mCFzGoH 3
+set_date $AF 1900 10 22
+set_date $AG 1900 10 22
+remove_event $AF tDqTGmK 3 3
+remove_event $AG tDqTGmK 3 3
+set_date $AB 1900 10 15
+set_date $AC 1900 10 15
+add_event $AC eGlxsjT 13 4
+add_event $AB eGlxsjT 13 4
+set_date $O 2017 2 9
+set_date $N 2017 2 9
+add_event $N hUvXIJe 8 4 1900
+add_event $O hUvXIJe 8 4 1900
+set_date $AB 1900 7 22
+set_date $AC 1900 7 22
+remove_event $AB tDqTGmK 3 3
+remove_event $AC tDqTGmK 3 3
+set_date $W 2026 1 9
+set_date $V 2026 1 9
+remove_event $V DtyAwKT 8 2 1900
+remove_event $W DtyAwKT 8 2 1900
+set_date $AC 1900 6 28
+set_date $AB 1900 6 28
+add_event $AB XvWicVg 6 9
+add_event $AC XvWicVg 6 9
+set_date $Y 1900 12 24
+set_date $X 1900 12 24
+add_event $Y MueOPkT
+add_event $X MueOPkT
+set_date $AB 1978 8 25
+set_date $AC 1978 8 25
+add_event $AB nLfPQXA 22 1 1900
+add_event $AC nLfPQXA 22 1 1900
+set_date $Z 1900 4 21
+set_date $AA 1900 4 21
+add_event $Z pZsWFOa 20 10
+add_event $AA pZsWFOa 20 10
+set_date $Q 1900 2 7
+set_date $P 1900 2 7
+remove_event $P nRSkeHX 19
+remove_event $Q nRSkeHX 19
+set_date $V 1900 4 23
+set_date $W 1900 4 23
+remove_event $V VzvTHAS 12 6
+remove_event $W VzvTHAS 12 6
+set_date $X 2022 5 3
+set_date $Y 2022 5 3
+add_event $X VFSiYWp 8 2 1900
+add_event $Y VFSiYWp 8 2 1900
+set_date $AG 1900 4 17
+set_date $AF 1900 4 17
+add_event $AF oDMhXxv
+add_event $AG oDMhXxv
+set_date $N 1900 4 7
+set_date $O 1900 4 7
+add_event $O ajnMthJ 24 10
+add_event $N ajnMthJ 24 10
+set_date $M 1900 3 22
+set_date $L 1900 3 22
+add_event $M aJmWREl 24
+add_event $L aJmWREl 24
+set_date $AE 1899 1 1
+set_date $AD 1899 1 1
+set_date $AH 1900 2 29
+set_date $AI 1900 2 29
+print $O
+print $N
+set_date $AB 1900 7 17
+set_date $AC 1900 7 17
+add_event $AC CPHscQF
+add_event $AB CPHscQF
+set_date $V 1900 12 18
+set_date $W 1900 12 18
+add_event $V rNvRdCc
+add_event $W rNvRdCc
+set_date $T 1900 7 26
+set_date $U 1900 7 26
+add_event $T TjgIVvZ 24 7
+add_event $U TjgIVvZ 24 7
+set_date $W 1900 3 9
+set_date $V 1900 3 9
+add_event $W DgwEvXY 16
+add_event $V DgwEvXY 16
+destruct $L
+destruct $M
+set_date $Z 1899 1 1
+set_date $AA 1899 1 1
+set_date $V 1900 2 29
+set_date $W 1900 2 29
+print $AI
+print $AH
+set_date $R 2038 1 8
+set_date $S 2038 1 8
+remove_event $S tapePmK 22 7 1900
+remove_event $R tapePmK 22 7 1900
+set_date $Y 1900 1 19
+set_date $X 1900 1 19
+remove_event $X VPMLiOX 17
+remove_event $Y VPMLiOX 17
+set_date $O 1900 12 26
+set_date $N 1900 12 26
+add_event $O IYhVDnb 21
+add_event $N IYhVDnb 21
+set_date $Y 1900 11 4
+set_date $X 1900 11 4
+add_event $Y ixtMLPO
+add_event $X ixtMLPO
+set_date $X 1900 7 24
+set_date $Y 1900 7 24
+add_event $Y CoSlDgG
+add_event $X CoSlDgG
+set_date $N 1900 9 27
+set_date $O 1900 9 27
+add_event $N xdSZlHn 10
+add_event $O xdSZlHn 10
+destruct $N
+destruct $O
+set_date $Y 1900 1 6
+set_date $X 1900 1 6
+remove_event $Y EGDnCzl
+remove_event $X EGDnCzl
+set_date $AD 1900 12 8
+set_date $AE 1900 12 8
+remove_event $AE bxdwoBJ 28 1
+remove_event $AD bxdwoBJ 28 1
+default-construct $AK gregorian 
+default-construct $AJ gregorian 
+set_date $X 1979 6 23
+set_date $Y 1979 6 23
+add_event $Y mJAQDIt 22 4 1900
+add_event $X mJAQDIt 22 4 1900
+set_date $U 1900 11 10
+set_date $T 1900 11 10
+add_event $T GdDkZeC 21
+add_event $U GdDkZeC 21
+set_date $AD 1900 2 9
+set_date $AE 1900 2 9
+add_event $AD YoVXbTt
+add_event $AE YoVXbTt
+set_date $AB 1900 10 14
+set_date $AC 1900 10 14
+add_event $AB MLxfhZV 12 12
+add_event $AC MLxfhZV 12 12
+set_date $T 1900 10 13
+set_date $U 1900 10 13
+add_event $T vmKkiQz
+add_event $U vmKkiQz
+set_date $AH 1900 10 25
+set_date $AI 1900 10 25
+add_event $AH CMgmArU 27 9
+add_event $AI CMgmArU 27 9
+copy-construct $AL julian $T
+copy-construct $AM gregorian $U
+set_date $AC 1900 10 26
+set_date $AB 1900 10 26
+add_event $AB YJsMIaA
+add_event $AC YJsMIaA
+set_date $Q 1900 1 27
+set_date $P 1900 1 27
+add_event $P NPtvRua 9 2
+add_event $Q NPtvRua 9 2
+default-construct $AO gregorian 
+default-construct $AN gregorian 
+set_date $AD 1900 7 8
+set_date $AE 1900 7 8
+add_event $AD irGYsgC 20
+add_event $AE irGYsgC 20
+set_date $X 1900 10 3
+set_date $Y 1900 10 3
+add_event $Y nkSpozL 23 9
+add_event $X nkSpozL 23 9
+set_date $AH 1899 1 1
+set_date $AI 1899 1 1
+set_date $AG 1900 2 29
+set_date $AF 1900 2 29
+print $W
+print $V
+set_date $AH 2011 10 16
+set_date $AI 2011 10 16
+add_event $AH YAxvGBm 4 3 1900
+add_event $AI YAxvGBm 4 3 1900
+set_date $T 1900 6 20
+set_date $U 1900 6 20
+add_event $T agZnwVy 2 7
+add_event $U agZnwVy 2 7
+set_date $T 1900 7 24
+set_date $U 1900 7 24
+remove_event $U irGYsgC 20 7
+remove_event $T irGYsgC 20 7
+set_date $Y 2018 1 21
+set_date $X 2018 1 21
+remove_event $Y GKtqWkr 22 4 1900
+remove_event $X GKtqWkr 22 4 1900
+set_date $S 1900 1 24
+set_date $R 1900 1 24
+remove_event $R GwNbKfT
+remove_event $S GwNbKfT
+set_date $AD 1900 7 18
+set_date $AE 1900 7 18
+remove_event $AE XpUQDbu 27
+remove_event $AD XpUQDbu 27
+set_date $Q 1900 10 22
+set_date $P 1900 10 22
+add_event $Q wPcWVRN 17
+add_event $P wPcWVRN 17
+set_date $AJ 1900 3 28
+set_date $AK 1900 3 28
+add_event $AJ hrbRszi 26 2
+add_event $AK hrbRszi 26 2
+set_date $T 1900 11 4
+set_date $U 1900 11 4
+remove_event $T ixtMLPO
+remove_event $U ixtMLPO
+set_date $AG 1900 4 13
+set_date $AF 1900 4 13
+remove_event $AF xUijDts 25 9
+remove_event $AG xUijDts 25 9
+set_date $AM 1899 1 1
+set_date $AL 1899 1 1
+set_date $AJ 1900 2 29
+set_date $AK 1900 2 29
+print $AK
+print $AJ
+set_date $AD 1900 3 26
+set_date $AE 1900 3 26
+add_event $AE FZVNEoG 5
+add_event $AD FZVNEoG 5
+set_date $AN 2010 2 20
+set_date $AO 2010 2 20
+add_event $AO eyPGElg 5 1 1900
+add_event $AN eyPGElg 5 1 1900
+set_date $AO 1900 6 22
+set_date $AN 1900 6 22
+add_event $AN XwMzlbq 24
+add_event $AO XwMzlbq 24
+set_date $AH 2020 7 19
+set_date $AI 2020 7 19
+add_event $AI ncJHkuj 4 8 1900
+add_event $AH ncJHkuj 4 8 1900
+set_date $R 2022 12 5
+set_date $S 2022 12 5
+add_event $S CPMBEIn 15 9 1900
+add_event $R CPMBEIn 15 9 1900
+set_date $AJ 1996 6 19
+set_date $AK 1996 6 19
+add_event $AJ oKOEWLB 2 5 1900
+add_event $AK oKOEWLB 2 5 1900
+set_date $S 1900 8 18
+set_date $R 1900 8 18
+remove_event $S VzvTHAS 12 6
+remove_event $R VzvTHAS 12 6
+set_date $U 1900 5 18
+set_date $T 1900 5 18
+remove_event $U wsWxfHq 2
+remove_event $T wsWxfHq 2
+set_date $U 1900 2 13
+set_date $T 1900 2 13
+add_event $T OIaChMV 22 2
+add_event $U OIaChMV 22 2
+set_date $AE 1900 11 9
+set_date $AD 1900 11 9
+add_event $AE wGekvNU
+add_event $AD wGekvNU
+print $AL
+print $AM
+set_date $R 2028 1 2
+set_date $S 2028 1 2
+add_event $R IYjqWGa 28 9 1900
+add_event $S IYjqWGa 28 9 1900
+set_date $V 1900 11 2
+set_date $W 1900 11 2
+add_event $V MpGToDN 13
+add_event $W MpGToDN 13
+set_date $S 1900 12 24
+set_date $R 1900 12 24
+add_event $S reIoBjE 11 5
+add_event $R reIoBjE 11 5
+set_date $T 2030 6 6
+set_date $U 2030 6 6
+add_event $U wdWLNiK 6 7 1900
+add_event $T wdWLNiK 6 7 1900
+default-construct $AP gregorian 
+default-construct $AQ gregorian 
+set_date $AP 1900 7 12
+set_date $AQ 1900 7 12
+remove_event $AQ EPZzlAe
+remove_event $AP EPZzlAe
+set_date $U 1997 10 25
+set_date $T 1997 10 25
+remove_event $T zirKduy 7 5 1900
+remove_event $U zirKduy 7 5 1900
+set_date $AG 1899 1 1
+set_date $AF 1899 1 1
+set_date $AD 1900 2 29
+set_date $AE 1900 2 29
+print $Q
+print $P
+set_date $Z 1992 4 21
+set_date $AA 1992 4 21
+remove_event $AA MueOPkT 24 12 1900
+remove_event $Z MueOPkT 24 12 1900
+set_date $AQ 2035 8 9
+set_date $AP 2035 8 9
+remove_event $AQ alRFYNZ 4 3 1900
+remove_event $AP alRFYNZ 4 3 1900
+set_date $U 1899 1 1
+set_date $T 1899 1 1
+set_date $AB 1900 2 29
+set_date $AC 1900 2 29
+print $AH
+print $AI
+set_date $AI 2027 2 1
+set_date $AH 2027 2 1
+add_event $AI euRjgTd 23 4 1900
+add_event $AH euRjgTd 23 4 1900
+set_date $S 1992 8 13
+set_date $R 1992 8 13
+add_event $S rPmHJwa 15 8 1900
+add_event $R rPmHJwa 15 8 1900
+default-construct $AS gregorian 
+default-construct $AR gregorian 
+set_date $AB 1998 8 1
+set_date $AC 1998 8 1
+add_event $AC ahBIdJA 21 1 1900
+add_event $AB ahBIdJA 21 1 1900
+set_date $AF 1900 10 20
+set_date $AG 1900 10 20
+add_event $AF uBYeSxd 16
+add_event $AG uBYeSxd 16
+set_date $S 1900 10 11
+set_date $R 1900 10 11
+add_event $S NLIGxmj 7
+add_event $R NLIGxmj 7
+set_date $T 1900 2 13
+set_date $U 1900 2 13
+add_event $U fgQKCVu
+add_event $T fgQKCVu
+copy-construct $AT julian $R
+copy-construct $AU gregorian $S
+set_date $AT 1980 9 25
+set_date $AU 1980 9 25
+add_event $AT foWEMpr 6 6 1900
+add_event $AU foWEMpr 6 6 1900
+set_date $AF 2031 5 23
+set_date $AG 2031 5 23
+add_event $AF IRZTCQV 15 10 1900
+add_event $AG IRZTCQV 15 10 1900
+print $AF
+print $AG
+destruct $P
+destruct $Q
+set_date $AQ 1900 10 7
+set_date $AP 1900 10 7
+add_event $AP utyUiMw 21
+add_event $AQ utyUiMw 21
+set_date $AM 1900 11 8
+set_date $AL 1900 11 8
+add_event $AM EtFfMPA 9
+add_event $AL EtFfMPA 9
+destruct $R
+destruct $S
+set_date $AP 1993 2 20
+set_date $AQ 1993 2 20
+add_event $AP UkTMqeE 23 11 1900
+add_event $AQ UkTMqeE 23 11 1900
+set_date $AT 2024 12 13
+set_date $AU 2024 12 13
+add_event $AT ognUuaY 25 12 1900
+add_event $AU ognUuaY 25 12 1900
+print $AN
+print $AO
+set_date $AL 1900 9 6
+set_date $AM 1900 9 6
+add_event $AM ktzIQRs 12 11
+add_event $AL ktzIQRs 12 11
+set_date $AN 1900 6 3
+set_date $AO 1900 6 3
+add_event $AN CxuaYhm
+add_event $AO CxuaYhm
+set_date $AJ 1900 2 1
+set_date $AK 1900 2 1
+remove_event $AK oKOEWLB 2 5
+remove_event $AJ oKOEWLB 2 5
+set_date $AO 1900 1 5
+set_date $AN 1900 1 5
+remove_event $AO eyPGElg
+remove_event $AN eyPGElg
+set_date $AN 1900 3 25
+set_date $AO 1900 3 25
+add_event $AN cqjeCyA 25
+add_event $AO cqjeCyA 25
+set_date $Z 1900 9 12
+set_date $AA 1900 9 12
+add_event $Z QxHVUqO 22 5
+add_event $AA QxHVUqO 22 5
+print $Z
+print $AA
+set_date $AT 1899 1 1
+set_date $AU 1899 1 1
+set_date $AP 1900 2 29
+set_date $AQ 1900 2 29
+print $AI
+print $AH
+set_date $AM 1900 4 21
+set_date $AL 1900 4 21
+remove_event $AL tDqTGmK 3 3
+remove_event $AM tDqTGmK 3 3
+set_date $AG 1900 5 2
+set_date $AF 1900 5 2
+remove_event $AF wsWxfHq
+remove_event $AG wsWxfHq
+set_date $AK 1900 11 5
+set_date $AJ 1900 11 5
+add_event $AJ KHzicqS 7 5
+add_event $AK KHzicqS 7 5
+set_date $AO 1900 2 26
+set_date $AN 1900 2 26
+add_event $AO IAFVeMt 8 11
+add_event $AN IAFVeMt 8 11
+set_date $AE 2034 9 18
+set_date $AD 2034 9 18
+add_event $AD ijDGSIR 6 1 1900
+add_event $AE ijDGSIR 6 1 1900
+set_date $AH 1991 11 16
+set_date $AI 1991 11 16
+add_event $AH hRajmOi 15 2 1900
+add_event $AI hRajmOi 15 2 1900
+set_date $AE 1900 11 16
+set_date $AD 1900 11 16
+remove_event $AE GwNbKfT 24 1
+remove_event $AD GwNbKfT 24 1
+set_date $AJ 1900 3 22
+set_date $AK 1900 3 22
+remove_event $AK DgwEvXY 16
+remove_event $AJ DgwEvXY 16
+set_date $AD 1900 12 17
+set_date $AE 1900 12 17
+add_event $AD cCQKsWH 17 10
+add_event $AE cCQKsWH 17 10
+set_date $W 1900 7 26
+set_date $V 1900 7 26
+add_event $V KhBMOVG 20
+add_event $W KhBMOVG 20
+set_date $AB 1899 1 1
+set_date $AC 1899 1 1
+set_date $AD 1900 2 29
+set_date $AE 1900 2 29
+print $AO
+print $AN
+set_date $W 1899 1 1
+set_date $V 1899 1 1
+set_date $AR 1900 2 29
+set_date $AS 1900 2 29
+print $AH
+print $AI
+set_date $V 1900 10 21
+set_date $W 1900 10 21
+add_event $V VgHliFt 18 4
+add_event $W VgHliFt 18 4
+set_date $AD 1900 11 20
+set_date $AE 1900 11 20
+add_event $AD brxlEie
+add_event $AE brxlEie
+set_date $AI 1994 10 3
+set_date $AH 1994 10 3
+remove_event $AI ajnMthJ 24 10 1900
+remove_event $AH ajnMthJ 24 10 1900
+set_date $W 1900 5 2
+set_date $V 1900 5 2
+remove_event $W oKOEWLB
+remove_event $V oKOEWLB
+destruct $U
+destruct $T
+set_date $AT 1900 2 25
+set_date $AU 1900 2 25
+add_event $AU gpmaAvX 27 12
+add_event $AT gpmaAvX 27 12
+set_date $AS 1900 7 18
+set_date $AR 1900 7 18
+add_event $AR YxWgEti 4
+add_event $AS YxWgEti 4
+set_date $V 2024 12 15
+set_date $W 2024 12 15
+add_event $W ZKwsSfY 26 10 1900
+add_event $V ZKwsSfY 26 10 1900
+set_date $AP 2011 8 22
+set_date $AQ 2011 8 22
+add_event $AP nNfLVIY 13 7 1900
+add_event $AQ nNfLVIY 13 7 1900
+copy-construct $AV julian $AP
+copy-construct $AW gregorian $AQ
+set_date $AL 1900 8 15
+set_date $AM 1900 8 15
+add_event $AM FBDtsyK 22 10
+add_event $AL FBDtsyK 22 10
+set_date $AT 1900 6 1
+set_date $AU 1900 6 1
+add_event $AT aNJOAhF 3 2
+add_event $AU aNJOAhF 3 2
+set_date $Y 2008 1 18
+set_date $X 2008 1 18
+add_event $Y xNJOcoS 28 5 1900
+add_event $X xNJOcoS 28 5 1900
+set_date $AT 1900 4 28
+set_date $AU 1900 4 28
+add_event $AT KuZQOno 10
+add_event $AU KuZQOno 10
+print $AG
+print $AF
+set_date $AP 1900 11 24
+set_date $AQ 1900 11 24
+remove_event $AQ CoSlDgG 24 7
+remove_event $AP CoSlDgG 24 7
+set_date $AN 1900 7 27
+set_date $AO 1900 7 27
+remove_event $AO XpUQDbu
+remove_event $AN XpUQDbu
+set_date $AH 1900 11 1
+set_date $AI 1900 11 1
+remove_event $AI aNJOAhF 3 2
+remove_event $AH aNJOAhF 3 2
+set_date $AT 1900 11 20
+set_date $AU 1900 11 20
+remove_event $AU FvXIYVN 3
+remove_event $AT FvXIYVN 3
+print $AT
+print $AU
+set_date $AN 1900 8 7
+set_date $AO 1900 8 7
+add_event $AO QnvpPFl 26
+add_event $AN QnvpPFl 26
+set_date $AW 2007 4 9
+set_date $AV 2007 4 9
+add_event $AW CWFrnzU 1 3 1900
+add_event $AV CWFrnzU 1 3 1900
+set_date $AV 1900 3 4
+set_date $AW 1900 3 4
+remove_event $AV tDqTGmK 3
+remove_event $AW tDqTGmK 3
+set_date $Z 1900 10 1
+set_date $AA 1900 10 1
+remove_event $Z wPcWVRN 17 10
+remove_event $AA wPcWVRN 17 10
+default-construct $AX gregorian 
+default-construct $AY gregorian 
+set_date $AS 1974 6 12
+set_date $AR 1974 6 12
+remove_event $AR nkSpozL 23 9 1900
+remove_event $AS nkSpozL 23 9 1900
+set_date $AI 1900 5 10
+set_date $AH 1900 5 10
+remove_event $AI QxHVUqO 22
+remove_event $AH QxHVUqO 22
+set_date $AG 1900 7 9
+set_date $AF 1900 7 9
+add_event $AG KfMtGOJ 6
+add_event $AF KfMtGOJ 6
+set_date $Y 1900 5 28
+set_date $X 1900 5 28
+add_event $Y FRSxqhe 11 12
+add_event $X FRSxqhe 11 12
+default-construct $AZ gregorian 
+default-construct $BA gregorian 
+set_date $AY 1990 10 9
+set_date $AX 1990 10 9
+remove_event $AX CWFrnzU 1 3 1900
+remove_event $AY CWFrnzU 1 3 1900
+set_date $AV 1900 11 4
+set_date $AW 1900 11 4
+remove_event $AV ixtMLPO
+remove_event $AW ixtMLPO
+set_date $AK 2024 1 25
+set_date $AJ 2024 1 25
+remove_event $AJ OIaChMV 22 2 1900
+remove_event $AK OIaChMV 22 2 1900
+set_date $AG 1900 6 22
+set_date $AF 1900 6 22
+remove_event $AG XwMzlbq 24
+remove_event $AF XwMzlbq 24
+destruct $V
+destruct $W
+print $AO
+print $AN
+set_date $AZ 1986 3 28
+set_date $BA 1986 3 28
+add_event $BA UZYSzRI 16 10 1900
+add_event $AZ UZYSzRI 16 10 1900
+set_date $AG 1900 12 4
+set_date $AF 1900 12 4
+add_event $AF oQMGVzF 19 2
+add_event $AG oQMGVzF 19 2
+set_date $AZ 1900 12 10
+set_date $BA 1900 12 10
+add_event $BA kcNfFbe 13 10
+add_event $AZ kcNfFbe 13 10
+set_date $AR 1900 8 21
+set_date $AS 1900 8 21
+add_event $AS XBqawDj 15 12
+add_event $AR XBqawDj 15 12
+set_date $AT 2022 9 6
+set_date $AU 2022 9 6
+add_event $AT cEiNexh 28 3 1900
+add_event $AU cEiNexh 28 3 1900
+set_date $AZ 1900 7 13
+set_date $BA 1900 7 13
+add_event $BA gJtXrxC 8 1
+add_event $AZ gJtXrxC 8 1
+set_date $AR 1900 4 23
+set_date $AS 1900 4 23
+add_event $AS yDmiPfe 24
+add_event $AR yDmiPfe 24
+set_date $AB 1974 9 6
+set_date $AC 1974 9 6
+add_event $AB KtCPrFz 20 11 1900
+add_event $AC KtCPrFz 20 11 1900
+set_date $AC 1899 1 1
+set_date $AB 1899 1 1
+set_date $AN 1900 2 29
+set_date $AO 1900 2 29
+print $AN
+print $AO
+set_date $AO 1900 12 3
+set_date $AN 1900 12 3
+remove_event $AO rNvRdCc 18 12
+remove_event $AN rNvRdCc 18 12
+set_date $AL 1900 3 10
+set_date $AM 1900 3 10
+remove_event $AL ognUuaY 25 12
+remove_event $AM ognUuaY 25 12
+default-construct $BC gregorian 
+default-construct $BB gregorian 
+set_date $AL 1900 9 6
+set_date $AM 1900 9 6
+add_event $AM pQPsXgy 18
+add_event $AL pQPsXgy 18
+set_date $BA 1900 6 5
+set_date $AZ 1900 6 5
+add_event $AZ snubTER 5
+add_event $BA snubTER 5
+set_date $AW 1900 7 12
+set_date $AV 1900 7 12
+add_event $AV GYHmgEa 23 10
+add_event $AW GYHmgEa 23 10
+set_date $AN 1900 2 6
+set_date $AO 1900 2 6
+add_event $AO FvkqMYG
+add_event $AN FvkqMYG
+set_date $AB 1900 7 26
+set_date $AC 1900 7 26
+add_event $AB umSjLTt 23
+add_event $AC umSjLTt 23
+set_date $AZ 1900 8 12
+set_date $BA 1900 8 12
+add_event $BA DyuNtkQ 24
+add_event $AZ DyuNtkQ 24
+set_date $AI 1900 7 13
+set_date $AH 1900 7 13
+add_event $AI haJWckV
+add_event $AH haJWckV
+set_date $AS 1900 3 14
+set_date $AR 1900 3 14
+add_event $AS eFnoQYI 10 4
+add_event $AR eFnoQYI 10 4
+set_date $AL 2011 5 23
+set_date $AM 2011 5 23
+add_event $AM NtboKBm 28 10 1900
+add_event $AL NtboKBm 28 10 1900
+set_date $Z 1900 12 16
+set_date $AA 1900 12 16
+add_event $AA zJSIZOf 5 11
+add_event $Z zJSIZOf 5 11
+set_date $AQ 1899 1 1
+set_date $AP 1899 1 1
+set_date $AP 1900 2 29
+set_date $AQ 1900 2 29
+print $AH
+print $AI
+set_date $AE 1900 7 8
+set_date $AD 1900 7 8
+add_event $AD boMwPAr 22 7
+add_event $AE boMwPAr 22 7
+set_date $AK 1900 2 3
+set_date $AJ 1900 2 3
+add_event $AJ SAapngw 28
+add_event $AK SAapngw 28
+set_date $AA 1900 9 21
+set_date $Z 1900 9 21
+add_event $AA LtcEnpG 20
+add_event $Z LtcEnpG 20
+set_date $AG 1900 2 24
+set_date $AF 1900 2 24
+add_event $AG xlAahPO
+add_event $AF xlAahPO
+set_date $AA 1900 2 9
+set_date $Z 1900 2 9
+remove_event $Z YoVXbTt
+remove_event $AA YoVXbTt
+set_date $AZ 1900 5 23
+set_date $BA 1900 5 23
+remove_event $AZ ajnMthJ 24 10
+remove_event $BA ajnMthJ 24 10
+set_date $AR 2031 11 26
+set_date $AS 2031 11 26
+add_event $AS yzTIUsw 9 4 1900
+add_event $AR yzTIUsw 9 4 1900
+set_date $Z 2008 2 16
+set_date $AA 2008 2 16
+add_event $Z UJupZVI 18 4 1900
+add_event $AA UJupZVI 18 4 1900
+copy-construct $BD julian $AZ
+copy-construct $BE gregorian $BA
+set_date $AD 1899 1 1
+set_date $AE 1899 1 1
+set_date $AX 1900 2 29
+set_date $AY 1900 2 29
+print $AX
+print $AY
+set_date $AU 1900 3 7
+set_date $AT 1900 3 7
+add_event $AT LBqvlmn
+add_event $AU LBqvlmn
+set_date $AU 1900 10 1
+set_date $AT 1900 10 1
+add_event $AU VRnKlLx 21 9
+add_event $AT VRnKlLx 21 9
+destruct $Y
+destruct $X
+set_date $AB 1900 6 22
+set_date $AC 1900 6 22
+add_event $AB gOWYsDi 2 8
+add_event $AC gOWYsDi 2 8
+set_date $AR 1900 6 23
+set_date $AS 1900 6 23
+add_event $AS eRaDlrK 7 1
+add_event $AR eRaDlrK 7 1
+set_date $AL 1899 1 1
+set_date $AM 1899 1 1
+set_date $AM 1900 2 29
+set_date $AL 1900 2 29
+print $BA
+print $AZ
+set_date $AY 1899 1 1
+set_date $AX 1899 1 1
+set_date $AK 1900 2 29
+set_date $AJ 1900 2 29
+print $AR
+print $AS
+set_date $AR 2008 3 1
+set_date $AS 2008 3 1
+add_event $AR msolvUc 14 9 1900
+add_event $AS msolvUc 14 9 1900
+set_date $BE 1900 5 13
+set_date $BD 1900 5 13
+add_event $BE sDnxCOM
+add_event $BD sDnxCOM
+set_date $AP 1900 12 20
+set_date $AQ 1900 12 20
+add_event $AQ mMtGxkS 15
+add_event $AP mMtGxkS 15
+set_date $AL 1900 10 21
+set_date $AM 1900 10 21
+add_event $AL zAIyelN 24 6
+add_event $AM zAIyelN 24 6
+set_date $AB 2014 2 17
+set_date $AC 2014 2 17
+add_event $AB SjGiXeh 16 12 1900
+add_event $AC SjGiXeh 16 12 1900
+set_date $AL 1900 5 25
+set_date $AM 1900 5 25
+add_event $AM YzBqFcI 2 2
+add_event $AL YzBqFcI 2 2
+set_date $AF 1899 1 1
+set_date $AG 1899 1 1
+set_date $AT 1900 2 29
+set_date $AU 1900 2 29
+print $AV
+print $AW
+copy-construct $BF julian $AJ
+copy-construct $BG gregorian $AK
+set_date $AM 1900 4 18
+set_date $AL 1900 4 18
+add_event $AL tavkEGJ 9 6
+add_event $AM tavkEGJ 9 6
+set_date $AS 1900 7 15
+set_date $AR 1900 7 15
+add_event $AS XqIPBdj 20
+add_event $AR XqIPBdj 20
+set_date $AS 1978 9 21
+set_date $AR 1978 9 21
+add_event $AR IUxpSPY 14 8 1900
+add_event $AS IUxpSPY 14 8 1900
+set_date $AN 2006 4 16
+set_date $AO 2006 4 16
+add_event $AO GJxTQjR 11 2 1900
+add_event $AN GJxTQjR 11 2 1900
+set_date $AM 1900 1 7
+set_date $AL 1900 1 7
+remove_event $AL sDnxCOM 13 5
+remove_event $AM sDnxCOM 13 5
+set_date $BF 1900 5 2
+set_date $BG 1900 5 2
+remove_event $BG oKOEWLB
+remove_event $BF oKOEWLB
+set_date $AO 1900 7 17
+set_date $AN 1900 7 17
+remove_event $AO CPHscQF
+remove_event $AN CPHscQF
+set_date $AJ 2004 12 11
+set_date $AK 2004 12 11
+remove_event $AJ buJzPXp 16 8 1900
+remove_event $AK buJzPXp 16 8 1900
+destruct $AA
+destruct $Z
+copy-construct $BH julian $AP
+copy-construct $BI gregorian $AQ
+copy-construct $BK gregorian $BI
+copy-construct $BJ julian $BH
+set_date $AK 1900 5 13
+set_date $AJ 1900 5 13
+remove_event $AK eGlxsjT 13 4
+remove_event $AJ eGlxsjT 13 4
+set_date $AF 1900 5 2
+set_date $AG 1900 5 2
+remove_event $AF wsWxfHq
+remove_event $AG wsWxfHq
+set_date $AX 2020 8 2
+set_date $AY 2020 8 2
+add_event $AX jMyVxTi 23 4 1900
+add_event $AY jMyVxTi 23 4 1900
+set_date $AT 1900 5 3
+set_date $AU 1900 5 3
+add_event $AT SHvueBL 24 8
+add_event $AU SHvueBL 24 8
+set_date $AP 1899 1 1
+set_date $AQ 1899 1 1
+set_date $AX 1900 2 29
+set_date $AY 1900 2 29
+print $AV
+print $AW
+default-construct $BL gregorian 
+default-construct $BM gregorian 
+set_date $AE 1900 10 10
+set_date $AD 1900 10 10
+add_event $AE pSEwDMc 14
+add_event $AD pSEwDMc 14
+set_date $BJ 2025 8 17
+set_date $BK 2025 8 17
+add_event $BJ EpWcdhz 14 5 1900
+add_event $BK EpWcdhz 14 5 1900
+set_date $BJ 1900 2 12
+set_date $BK 1900 2 12
+add_event $BK CFNwtns
+add_event $BJ CFNwtns
+set_date $AV 2032 6 4
+set_date $AW 2032 6 4
+add_event $AV yhIFSbK 18 6 1900
+add_event $AW yhIFSbK 18 6 1900
+default-construct $BO gregorian 
+default-construct $BN gregorian 
+destruct $AC
+destruct $AB
+set_date $AM 1900 7 19
+set_date $AL 1900 7 19
+add_event $AM uZqIRiH 12
+add_event $AL uZqIRiH 12
+set_date $AQ 1900 5 14
+set_date $AP 1900 5 14
+add_event $AQ ZFOURkc 25 11
+add_event $AP ZFOURkc 25 11
+set_date $AD 1899 1 1
+set_date $AE 1899 1 1
+set_date $BO 1900 2 29
+set_date $BN 1900 2 29
+print $AR
+print $AS
+set_date $BO 1900 3 20
+set_date $BN 1900 3 20
+remove_event $BN pSEwDMc 14 10
+remove_event $BO pSEwDMc 14 10
+set_date $AT 1900 10 14
+set_date $AU 1900 10 14
+remove_event $AT pSEwDMc
+remove_event $AU pSEwDMc
+set_date $AH 1900 8 21
+set_date $AI 1900 8 21
+add_event $AI FgrJkyd 13 9
+add_event $AH FgrJkyd 13 9
+set_date $BJ 2038 1 25
+set_date $BK 2038 1 25
+add_event $BK RMcuIAz 23 3 1900
+add_event $BJ RMcuIAz 23 3 1900
+set_date $AS 1900 2 19
+set_date $AR 1900 2 19
+remove_event $AS nRSkeHX
+remove_event $AR nRSkeHX
+set_date $AE 1900 8 28
+set_date $AD 1900 8 28
+remove_event $AE nNfLVIY 13 7
+remove_event $AD nNfLVIY 13 7
+set_date $BE 1900 8 7
+set_date $BD 1900 8 7
+add_event $BE vpZLFtN 1
+add_event $BD vpZLFtN 1
+set_date $AL 1900 1 15
+set_date $AM 1900 1 15
+add_event $AL ArEnGuH 7 1
+add_event $AM ArEnGuH 7 1
+print $BB
+print $BC
+set_date $BH 1900 11 28
+set_date $BI 1900 11 28
+add_event $BH yxUgEKu 4 12
+add_event $BI yxUgEKu 4 12
+set_date $AV 1900 5 24
+set_date $AW 1900 5 24
+add_event $AW ADNdofm
+add_event $AV ADNdofm
+destruct $AD
+destruct $AE
+set_date $AL 1899 1 1
+set_date $AM 1899 1 1
+set_date $AN 1900 2 29
+set_date $AO 1900 2 29
+print $BK
+print $BJ
+set_date $AP 1899 1 1
+set_date $AQ 1899 1 1
+set_date $BK 1900 2 29
+set_date $BJ 1900 2 29
+print $BG
+print $BF
+copy-construct $BP julian $BF
+copy-construct $BQ gregorian $BG
+set_date $BL 1992 5 20
+set_date $BM 1992 5 20
+add_event $BM iYcPuzF 25 11 1900
+add_event $BL iYcPuzF 25 11 1900
+set_date $BL 1900 2 23
+set_date $BM 1900 2 23
+add_event $BM yYmFXQA
+add_event $BL yYmFXQA
+set_date $AZ 1899 1 1
+set_date $BA 1899 1 1
+set_date $BM 1900 2 29
+set_date $BL 1900 2 29
+print $BG
+print $BF
+set_date $AR 2038 5 1
+set_date $AS 2038 5 1
+add_event $AR ZGAlLWu 22 9 1900
+add_event $AS ZGAlLWu 22 9 1900
+set_date $AP 1985 8 7
+set_date $AQ 1985 8 7
+add_event $AQ mBNEjPD 20 9 1900
+add_event $AP mBNEjPD 20 9 1900
+set_date $BE 1900 8 25
+set_date $BD 1900 8 25
+add_event $BD hrBvcog
+add_event $BE hrBvcog
+set_date $AS 1900 2 1
+set_date $AR 1900 2 1
+add_event $AS HhGwJRx 5
+add_event $AR HhGwJRx 5
+set_date $AN 1900 1 21
+set_date $AO 1900 1 21
+remove_event $AN ahBIdJA
+remove_event $AO ahBIdJA
+set_date $AW 1900 12 16
+set_date $AV 1900 12 16
+remove_event $AV SjGiXeh
+remove_event $AW SjGiXeh
+set_date $BQ 1900 2 28
+set_date $BP 1900 2 28
+remove_event $BQ SAapngw
+remove_event $BP SAapngw
+set_date $AT 1900 2 12
+set_date $AU 1900 2 12
+remove_event $AU CFNwtns
+remove_event $AT CFNwtns
+set_date $BC 1900 4 10
+set_date $BB 1900 4 10
+remove_event $BC bTcVnzy 1 5
+remove_event $BB bTcVnzy 1 5
+set_date $BF 1900 2 22
+set_date $BG 1900 2 22
+remove_event $BF FRSxqhe 11 12
+remove_event $BG FRSxqhe 11 12
+set_date $BL 1899 1 1
+set_date $BM 1899 1 1
+set_date $BQ 1900 2 29
+set_date $BP 1900 2 29
+print $AT
+print $AU
+set_date $AK 1900 4 5
+set_date $AJ 1900 4 5
+add_event $AJ JzAoxga
+add_event $AK JzAoxga
+set_date $BH 1996 1 2
+set_date $BI 1996 1 2
+add_event $BH cSCwsGD 23 4 1900
+add_event $BI cSCwsGD 23 4 1900
+set_date $AN 1899 1 1
+set_date $AO 1899 1 1
+set_date $AR 1900 2 29
+set_date $AS 1900 2 29
+print $BC
+print $BB
+set_date $BI 2000 6 8
+set_date $BH 2000 6 8
+remove_event $BI VFSiYWp 8 2 1900
+remove_event $BH VFSiYWp 8 2 1900
+set_date $AH 1975 4 16
+set_date $AI 1975 4 16
+remove_event $AI cSCwsGD 23 4 1900
+remove_event $AH cSCwsGD 23 4 1900
+set_date $AI 2003 11 24
+set_date $AH 2003 11 24
+add_event $AI AxEtXsz 5 10 1900
+add_event $AH AxEtXsz 5 10 1900
+set_date $AX 1900 9 26
+set_date $AY 1900 9 26
+add_event $AY MmteSTl 15
+add_event $AX MmteSTl 15
+set_date $BM 2019 1 15
+set_date $BL 2019 1 15
+add_event $BM UwKtdDs 26 5 1900
+add_event $BL UwKtdDs 26 5 1900
+set_date $BH 2023 10 7
+set_date $BI 2023 10 7
+add_event $BI bLnIwKl 21 4 1900
+add_event $BH bLnIwKl 21 4 1900
+set_date $AT 1900 2 11
+set_date $AU 1900 2 11
+add_event $AT YCaVZrv 4
+add_event $AU YCaVZrv 4
+set_date $BI 1900 9 9
+set_date $BH 1900 9 9
+add_event $BI FbeCMaV 10 10
+add_event $BH FbeCMaV 10 10
+set_date $AK 1900 12 24
+set_date $AJ 1900 12 24
+remove_event $AK MueOPkT
+remove_event $AJ MueOPkT
+set_date $AQ 1900 11 10
+set_date $AP 1900 11 10
+remove_event $AQ EtFfMPA 9
+remove_event $AP EtFfMPA 9
+set_date $AZ 1900 9 3
+set_date $BA 1900 9 3
+add_event $AZ QTYNndy
+add_event $BA QTYNndy
+set_date $AX 1900 7 14
+set_date $AY 1900 7 14
+add_event $AX qYyGngV
+add_event $AY qYyGngV
+set_date $AJ 1992 4 17
+set_date $AK 1992 4 17
+add_event $AK chLWSyl 12 8 1900
+add_event $AJ chLWSyl 12 8 1900
+set_date $AR 1900 10 12
+set_date $AS 1900 10 12
+add_event $AS ipamKLz 25 7
+add_event $AR ipamKLz 25 7
+set_date $AU 1900 4 9
+set_date $AT 1900 4 9
+add_event $AU dKHkbnA
+add_event $AT dKHkbnA
+set_date $BB 1900 7 13
+set_date $BC 1900 7 13
+add_event $BB OenwBiu 6 8
+add_event $BC OenwBiu 6 8
+set_date $AN 1900 6 21
+set_date $AO 1900 6 21
+add_event $AO Kuclkex 6 6
+add_event $AN Kuclkex 6 6
+set_date $BB 1900 4 4
+set_date $BC 1900 4 4
+add_event $BC XlYPGih
+add_event $BB XlYPGih
+copy-construct $BR julian $AT
+copy-construct $BS gregorian $AU
+destruct $AG
+destruct $AF
+set_date $AL 1900 12 14
+set_date $AM 1900 12 14
+add_event $AM dZnWjfg
+add_event $AL dZnWjfg
+set_date $AK 1900 5 25
+set_date $AJ 1900 5 25
+add_event $AK DuCcmZh 17 7
+add_event $AJ DuCcmZh 17 7
+set_date $AZ 1900 11 26
+set_date $BA 1900 11 26
+add_event $BA LuFMroS
+add_event $AZ LuFMroS
+set_date $AO 1900 4 11
+set_date $AN 1900 4 11
+add_event $AN fEgKxMi
+add_event $AO fEgKxMi
+set_date $BJ 1900 2 17
+set_date $BK 1900 2 17
+add_event $BK wKFMGuz
+add_event $BJ wKFMGuz
+set_date $BS 2018 1 25
+set_date $BR 2018 1 25
+add_event $BR oplzyMC 16 4 1900
+add_event $BS oplzyMC 16 4 1900
+print $BK
+print $BJ
+set_date $AL 2018 9 4
+set_date $AM 2018 9 4
+remove_event $AM KHzicqS 7 5 1900
+remove_event $AL KHzicqS 7 5 1900
+set_date $BG 1900 10 5
+set_date $BF 1900 10 5
+remove_event $BG AxEtXsz
+remove_event $BF AxEtXsz
+set_date $BS 1900 8 26
+set_date $BR 1900 8 26
+remove_event $BR UJupZVI 18 4
+remove_event $BS UJupZVI 18 4
+set_date $BD 1900 3 21
+set_date $BE 1900 3 21
+remove_event $BD cqjeCyA 25
+remove_event $BE cqjeCyA 25
+set_date $AI 1899 1 1
+set_date $AH 1899 1 1
+set_date $AM 1900 2 29
+set_date $AL 1900 2 29
+print $AY
+print $AX
+set_date $BA 1900 8 1
+set_date $AZ 1900 8 1
+add_event $BA EptHWPV 7 4
+add_event $AZ EptHWPV 7 4
+set_date $AS 1900 3 12
+set_date $AR 1900 3 12
+add_event $AR kpRmOtM 19 7
+add_event $AS kpRmOtM 19 7
+set_date $AJ 1900 9 1
+set_date $AK 1900 9 1
+add_event $AJ DilduYS 27
+add_event $AK DilduYS 27
+set_date $BK 1900 9 10
+set_date $BJ 1900 9 10
+add_event $BK wyCghKr 17
+add_event $BJ wyCghKr 17
+default-construct $BT gregorian 
+default-construct $BU gregorian 
+set_date $AV 1900 9 20
+set_date $AW 1900 9 20
+remove_event $AW FgrJkyd 13
+remove_event $AV FgrJkyd 13
+set_date $BF 1900 7 17
+set_date $BG 1900 7 17
+remove_event $BG CPHscQF
+remove_event $BF CPHscQF
+set_date $BK 2020 7 19
+set_date $BJ 2020 7 19
+add_event $BJ wnYNOHc 28 6 1900
+add_event $BK wnYNOHc 28 6 1900
+set_date $BI 1900 6 19
+set_date $BH 1900 6 19
+add_event $BH jDMTeAq 27
+add_event $BI jDMTeAq 27
+set_date $AK 1996 11 24
+set_date $AJ 1996 11 24
+add_event $AK qcrChDG 22 7 1900
+add_event $AJ qcrChDG 22 7 1900
+set_date $BH 1900 8 23
+set_date $BI 1900 8 23
+add_event $BH QiVqOpM 28
+add_event $BI QiVqOpM 28
+set_date $BK 2004 4 7
+set_date $BJ 2004 4 7
+add_event $BK czHOBEf 27 1 1900
+add_event $BJ czHOBEf 27 1 1900
+set_date $BR 1900 1 20
+set_date $BS 1900 1 20
+add_event $BS WPOfTmJ 3 1
+add_event $BR WPOfTmJ 3 1
+set_date $AV 1899 1 1
+set_date $AW 1899 1 1
+set_date $BG 1900 2 29
+set_date $BF 1900 2 29
+print $BE
+print $BD
+set_date $AN 2032 7 1
+set_date $AO 2032 7 1
+add_event $AN yNAoaFV 13 3 1900
+add_event $AO yNAoaFV 13 3 1900
+set_date $AX 1900 4 20
+set_date $AY 1900 4 20
+add_event $AX UwCrSzP 27 7
+add_event $AY UwCrSzP 27 7
+set_date $AO 1973 10 13
+set_date $AN 1973 10 13
+remove_event $AN FhWmujR 10 6 1900
+remove_event $AO FhWmujR 10 6 1900
+set_date $AJ 1900 5 27
+set_date $AK 1900 5 27
+remove_event $AK nkSpozL 23 9
+remove_event $AJ nkSpozL 23 9
+set_date $BO 1900 6 27
+set_date $BN 1900 6 27
+add_event $BO dWHjEAc 5
+add_event $BN dWHjEAc 5
+set_date $AQ 1900 6 7
+set_date $AP 1900 6 7
+add_event $AP mQkITrl
+add_event $AQ mQkITrl
+destruct $AI
+destruct $AH
+set_date $BU 1900 5 12
+set_date $BT 1900 5 12
+add_event $BU AzIbknR
+add_event $BT AzIbknR
+set_date $BU 1900 1 6
+set_date $BT 1900 1 6
+add_event $BT ICLiQTX 10
+add_event $BU ICLiQTX 10
+set_date $AP 1899 1 1
+set_date $AQ 1899 1 1
+set_date $BR 1900 2 29
+set_date $BS 1900 2 29
+print $AV
+print $AW
+set_date $BD 1900 4 19
+set_date $BE 1900 4 19
+add_event $BD XQfSnil 26 6
+add_event $BE XQfSnil 26 6
+set_date $AJ 1900 4 7
+set_date $AK 1900 4 7
+add_event $AK kFtUJjA 28
+add_event $AJ kFtUJjA 28
+print $BS
+print $BR
+copy-construct $BV julian $AZ
+copy-construct $BW gregorian $BA
+set_date $AZ 1900 1 17
+set_date $BA 1900 1 17
+add_event $BA bgLWruF
+add_event $AZ bgLWruF
+set_date $AT 2029 4 18
+set_date $AU 2029 4 18
+add_event $AU tGQEUBd 16 12 1900
+add_event $AT tGQEUBd 16 12 1900
+set_date $AJ 1900 3 15
+set_date $AK 1900 3 15
+add_event $AJ FoGpBUA 12 3
+add_event $AK FoGpBUA 12 3
+set_date $BT 1900 1 19
+set_date $BU 1900 1 19
+add_event $BT QWHwaXn 10
+add_event $BU QWHwaXn 10
+set_date $BU 1988 3 25
+set_date $BT 1988 3 25
+add_event $BU fBZiFjP 26 4 1900
+add_event $BT fBZiFjP 26 4 1900
+set_date $BO 1900 8 4
+set_date $BN 1900 8 4
+add_event $BN enSutQq 10 7
+add_event $BO enSutQq 10 7
+set_date $BL 1899 1 1
+set_date $BM 1899 1 1
+set_date $BB 1900 2 29
+set_date $BC 1900 2 29
+print $AM
+print $AL
+set_date $AL 1900 8 12
+set_date $AM 1900 8 12
+add_event $AL CNzfyqn 5 12
+add_event $AM CNzfyqn 5 12
+set_date $AP 1986 2 20
+set_date $AQ 1986 2 20
+add_event $AQ yMmCRfX 9 10 1900
+add_event $AP yMmCRfX 9 10 1900
+set_date $AY 1900 4 4
+set_date $AX 1900 4 4
+add_event $AX uMECctN 26
+add_event $AY uMECctN 26
+set_date $AJ 1900 8 28
+set_date $AK 1900 8 28
+add_event $AJ QmltYUM
+add_event $AK QmltYUM
+set_date $BN 1900 4 13
+set_date $BO 1900 4 13
+remove_event $BO eGlxsjT
+remove_event $BN eGlxsjT
+set_date $AN 1900 11 23
+set_date $AO 1900 11 23
+remove_event $AO UkTMqeE
+remove_event $AN UkTMqeE
+set_date $AQ 1900 10 18
+set_date $AP 1900 10 18
+add_event $AQ JjyAEHS
+add_event $AP JjyAEHS
+set_date $AK 1900 12 20
+set_date $AJ 1900 12 20
+add_event $AJ QXDJrIP 6 2
+add_event $AK QXDJrIP 6 2
+set_date $AV 1995 9 3
+set_date $AW 1995 9 3
+add_event $AV mzpHXMO 17 2 1900
+add_event $AW mzpHXMO 17 2 1900
+set_date $AS 1980 10 10
+set_date $AR 1980 10 10
+add_event $AR fRNbwGh 7 2 1900
+add_event $AS fRNbwGh 7 2 1900
+set_date $BC 1900 11 3
+set_date $BB 1900 11 3
+remove_event $BC nNfLVIY 13 7
+remove_event $BB nNfLVIY 13 7
+set_date $AR 1900 7 20
+set_date $AS 1900 7 20
+remove_event $AR irGYsgC
+remove_event $AS irGYsgC
+copy-construct $BY gregorian $BI
+copy-construct $BX julian $BH
+set_date $BN 2002 8 6
+set_date $BO 2002 8 6
+remove_event $BN vmKkiQz 13 10 1900
+remove_event $BO vmKkiQz 13 10 1900
+set_date $AR 1900 11 16
+set_date $AS 1900 11 16
+remove_event $AR GdDkZeC 21
+remove_event $AS GdDkZeC 21
+destruct $AJ
+destruct $AK
+set_date $BB 1994 2 19
+set_date $BC 1994 2 19
+remove_event $BB fBZiFjP 26 4 1900
+remove_event $BC fBZiFjP 26 4 1900
+set_date $BP 2023 4 7
+set_date $BQ 2023 4 7
+remove_event $BP ipamKLz 25 7 1900
+remove_event $BQ ipamKLz 25 7 1900
+print $BB
+print $BC
+copy-construct $BZ julian $BX
+copy-construct $CA gregorian $BY
+set_date $BS 1900 7 19
+set_date $BR 1900 7 19
+add_event $BR HJjdgCq 26
+add_event $BS HJjdgCq 26
+set_date $BI 1995 8 5
+set_date $BH 1995 8 5
+add_event $BI IBCOlGb 20 4 1900
+add_event $BH IBCOlGb 20 4 1900
+set_date $AX 1899 1 1
+set_date $AY 1899 1 1
+set_date $AQ 1900 2 29
+set_date $AP 1900 2 29
+print $BR
+print $BS
+set_date $AO 2034 6 27
+set_date $AN 2034 6 27
+add_event $AO vqbnelz 23 9 1900
+add_event $AN vqbnelz 23 9 1900
+set_date $BF 2004 7 24
+set_date $BG 2004 7 24
+add_event $BG aqwYfUF 12 2 1900
+add_event $BF aqwYfUF 12 2 1900
+destruct $AL
+destruct $AM
+set_date $AY 1900 7 19
+set_date $AX 1900 7 19
+remove_event $AX kpRmOtM
+remove_event $AY kpRmOtM
+set_date $BE 1900 5 4
+set_date $BD 1900 5 4
+remove_event $BE dWHjEAc 5 6
+remove_event $BD dWHjEAc 5 6
+set_date $AW 1900 10 7
+set_date $AV 1900 10 7
+add_event $AV cBrECIA 16
+add_event $AW cBrECIA 16
+set_date $BN 1900 12 12
+set_date $BO 1900 12 12
+add_event $BO SrjaQoN 1 8
+add_event $BN SrjaQoN 1 8
+copy-construct $CB julian $BJ
+copy-construct $CC gregorian $BK
+print $BB
+print $BC
+set_date $AP 1900 7 13
+set_date $AQ 1900 7 13
+add_event $AQ EQNvsXK 27
+add_event $AP EQNvsXK 27
+set_date $BB 2024 8 2
+set_date $BC 2024 8 2
+add_event $BB pKmCfcv 20 5 1900
+add_event $BC pKmCfcv 20 5 1900
+set_date $BI 1899 1 1
+set_date $BH 1899 1 1
+set_date $BZ 1900 2 29
+set_date $CA 1900 2 29
+print $BW
+print $BV
+set_date $CA 1994 4 24
+set_date $BZ 1994 4 24
+add_event $BZ aZGIoHf 10 9 1900
+add_event $CA aZGIoHf 10 9 1900
+set_date $BA 1900 9 17
+set_date $AZ 1900 9 17
+add_event $AZ sDvcoTX
+add_event $BA sDvcoTX
+default-construct $CD gregorian 
+default-construct $CE gregorian 
+print $AS
+print $AR
+print $BE
+print $BD
+set_date $BV 1900 6 26
+set_date $BW 1900 6 26
+add_event $BW gDFGHYM
+add_event $BV gDFGHYM
+set_date $BB 1900 9 7
+set_date $BC 1900 9 7
+add_event $BC gxShKQu
+add_event $BB gxShKQu
+set_date $BC 1900 12 1
+set_date $BB 1900 12 1
+remove_event $BC zUpGCtT 20
+remove_event $BB zUpGCtT 20
+set_date $AU 1900 7 24
+set_date $AT 1900 7 24
+remove_event $AT TjgIVvZ
+remove_event $AU TjgIVvZ
+set_date $BI 1900 1 22
+set_date $BH 1900 1 22
+add_event $BH jCDFJaT 14
+add_event $BI jCDFJaT 14
+set_date $BX 1900 2 24
+set_date $BY 1900 2 24
+add_event $BX thBbJin 2 12
+add_event $BY thBbJin 2 12
+set_date $BP 2024 11 1
+set_date $BQ 2024 11 1
+remove_event $BP aNJOAhF 3 2 1900
+remove_event $BQ aNJOAhF 3 2 1900
+set_date $AS 1900 2 10
+set_date $AR 1900 2 10
+remove_event $AR EQNvsXK 27 7
+remove_event $AS EQNvsXK 27 7
+set_date $BH 2027 7 9
+set_date $BI 2027 7 9
+add_event $BI WOJADZu 7 4 1900
+add_event $BH WOJADZu 7 4 1900
+set_date $BP 1900 8 2
+set_date $BQ 1900 8 2
+add_event $BP xRruplj
+add_event $BQ xRruplj
+set_date $AQ 1900 5 5
+set_date $AP 1900 5 5
+remove_event $AQ bgLWruF 17 1
+remove_event $AP bgLWruF 17 1
+set_date $BV 1900 11 9
+set_date $BW 1900 11 9
+remove_event $BW wGekvNU
+remove_event $BV wGekvNU
+set_date $AQ 1900 6 22
+set_date $AP 1900 6 22
+add_event $AQ djXJhPO 14
+add_event $AP djXJhPO 14
+set_date $BY 1900 12 24
+set_date $BX 1900 12 24
+add_event $BY csdxTUV
+add_event $BX csdxTUV
+set_date $AY 1900 10 8
+set_date $AX 1900 10 8
+add_event $AY qJKFscN 28
+add_event $AX qJKFscN 28
+set_date $AY 1992 3 16
+set_date $AX 1992 3 16
+add_event $AY kPsOZUG 23 9 1900
+add_event $AX kPsOZUG 23 9 1900
+set_date $BI 1900 8 11
+set_date $BH 1900 8 11
+add_event $BH XhVcFdj
+add_event $BI XhVcFdj
+set_date $CD 2032 10 14
+set_date $CE 2032 10 14
+add_event $CE MlUIxKS 4 9 1900
+add_event $CD MlUIxKS 4 9 1900
+set_date $AU 2017 11 20
+set_date $AT 2017 11 20
+add_event $AT eTbQhOq 9 4 1900
+add_event $AU eTbQhOq 9 4 1900
+set_date $BS 1900 1 4
+set_date $BR 1900 1 4
+add_event $BS IeKYHVb 4 5
+add_event $BR IeKYHVb 4 5
+set_date $CC 1900 4 9
+set_date $CB 1900 4 9
+remove_event $CB yzTIUsw
+remove_event $CC yzTIUsw
+set_date $BA 1900 9 17
+set_date $AZ 1900 9 17
+remove_event $AZ CPMBEIn 15
+remove_event $BA CPMBEIn 15
+set_date $BW 2016 6 16
+set_date $BV 2016 6 16
+add_event $BV kWRgbnO 11 1 1900
+add_event $BW kWRgbnO 11 1 1900
+set_date $AR 1900 6 19
+set_date $AS 1900 6 19
+add_event $AS HbpyRNB 16 12
+add_event $AR HbpyRNB 16 12
+set_date $BD 1900 4 11
+set_date $BE 1900 4 11
+remove_event $BE fEgKxMi
+remove_event $BD fEgKxMi
+set_date $BJ 1900 9 28
+set_date $BK 1900 9 28
+remove_event $BK IYjqWGa
+remove_event $BJ IYjqWGa
+set_date $AT 1900 9 11
+set_date $AU 1900 9 11
+add_event $AU AJhwken 17 7
+add_event $AT AJhwken 17 7
+set_date $BH 2036 10 22
+set_date $BI 2036 10 22
+add_event $BH tQUCDwE 4 8 1900
+add_event $BI tQUCDwE 4 8 1900
+set_date $BS 1993 7 8
+set_date $BR 1993 7 8
+add_event $BR qjtTLNh 19 10 1900
+add_event $BS qjtTLNh 19 10 1900
+set_date $BM 1900 9 19
+set_date $BL 1900 9 19
+add_event $BL rXDJonq 14
+add_event $BM rXDJonq 14
+set_date $AN 1900 5 16
+set_date $AO 1900 5 16
+add_event $AO HzlcKos 20 10
+add_event $AN HzlcKos 20 10
+set_date $BP 1900 12 17
+set_date $BQ 1900 12 17
+add_event $BQ jcFTODJ 19 9
+add_event $BP jcFTODJ 19 9
+default-construct $CF gregorian 
+default-construct $CG gregorian 
+default-construct $CH gregorian 
+default-construct $CI gregorian 
+default-construct $CK gregorian 
+default-construct $CJ gregorian 
+set_date $BX 1899 1 1
+set_date $BY 1899 1 1
+set_date $BJ 1900 2 29
+set_date $BK 1900 2 29
+print $BM
+print $BL
+set_date $AZ 1900 3 24
+set_date $BA 1900 3 24
+add_event $BA vQFneMz 26
+add_event $AZ vQFneMz 26
+set_date $CH 1900 5 13
+set_date $CI 1900 5 13
+add_event $CH wXyhLbp
+add_event $CI wXyhLbp
+set_date $BQ 1900 8 2
+set_date $BP 1900 8 2
+remove_event $BQ CuZDmGf
+remove_event $BP CuZDmGf
+set_date $AP 2003 6 27
+set_date $AQ 2003 6 27
+remove_event $AQ YJsMIaA 26 10 1900
+remove_event $AP YJsMIaA 26 10 1900
+default-construct $CL gregorian 
+default-construct $CM gregorian 
+set_date $BE 1900 5 17
+set_date $BD 1900 5 17
+add_event $BD vylQpCb
+add_event $BE vylQpCb
+set_date $AQ 1900 9 4
+set_date $AP 1900 9 4
+add_event $AP NDKLtuM 10
+add_event $AQ NDKLtuM 10
+set_date $BX 1900 2 1
+set_date $BY 1900 2 1
+add_event $BY AYxrHNT 25
+add_event $BX AYxrHNT 25
+set_date $BR 1900 4 22
+set_date $BS 1900 4 22
+add_event $BS CXOFgGP 3 9
+add_event $BR CXOFgGP 3 9
+print $AP
+print $AQ
+set_date $AQ 1899 1 1
+set_date $AP 1899 1 1
+set_date $BZ 1900 2 29
+set_date $CA 1900 2 29
+print $AO
+print $AN
+set_date $BP 1976 5 7
+set_date $BQ 1976 5 7
+remove_event $BP EtFfMPA 9 11 1900
+remove_event $BQ EtFfMPA 9 11 1900
+set_date $AS 1900 5 23
+set_date $AR 1900 5 23
+remove_event $AS reIoBjE 11
+remove_event $AR reIoBjE 11
+set_date $AX 1900 8 1
+set_date $AY 1900 8 1
+remove_event $AX DyuNtkQ 24
+remove_event $AY DyuNtkQ 24
+set_date $CI 1900 8 24
+set_date $CH 1900 8 24
+remove_event $CI xRruplj 2
+remove_event $CH xRruplj 2
+copy-construct $CN julian $BP
+copy-construct $CO gregorian $BQ
+set_date $BL 1899 1 1
+set_date $BM 1899 1 1
+set_date $BT 1900 2 29
+set_date $BU 1900 2 29
+print $CL
+print $CM
+default-construct $CP gregorian 
+default-construct $CQ gregorian 
+set_date $BO 1900 12 24
+set_date $BN 1900 12 24
+remove_event $BO rNvRdCc 18
+remove_event $BN rNvRdCc 18
+set_date $CC 1900 4 16
+set_date $CB 1900 4 16
+remove_event $CB JzAoxga 5
+remove_event $CC JzAoxga 5
+set_date $CL 2001 6 13
+set_date $CM 2001 6 13
+add_event $CM yebKiPs 2 12 1900
+add_event $CL yebKiPs 2 12 1900
+set_date $CP 1900 2 28
+set_date $CQ 1900 2 28
+add_event $CQ WQlmhzJ 9 5
+add_event $CP WQlmhzJ 9 5
+set_date $BR 1900 11 21
+set_date $BS 1900 11 21
+remove_event $BS FvXIYVN 3
+remove_event $BR FvXIYVN 3
+set_date $AX 1900 2 14
+set_date $AY 1900 2 14
+remove_event $AX YCaVZrv 4
+remove_event $AY YCaVZrv 4
+destruct $AN
+destruct $AO
+set_date $CF 1900 1 19
+set_date $CG 1900 1 19
+add_event $CG mtYESsd 15
+add_event $CF mtYESsd 15
+set_date $BA 1996 8 7
+set_date $AZ 1996 8 7
+add_event $AZ hsEtOoP 9 3 1900
+add_event $BA hsEtOoP 9 3 1900
+set_date $BW 1900 9 13
+set_date $BV 1900 9 13
+add_event $BW wSGhVqm 28 10
+add_event $BV wSGhVqm 28 10
+set_date $BB 1900 10 10
+set_date $BC 1900 10 10
+add_event $BB nJhfdrB 5
+add_event $BC nJhfdrB 5
+set_date $BM 1900 2 18
+set_date $BL 1900 2 18
+remove_event $BM brxlEie 20 11
+remove_event $BL brxlEie 20 11
+set_date $AU 1900 11 4
+set_date $AT 1900 11 4
+remove_event $AT XhVcFdj 11 8
+remove_event $AU XhVcFdj 11 8
+set_date $CC 1900 5 26
+set_date $CB 1900 5 26
+add_event $CC OaqRTLi
+add_event $CB OaqRTLi
+set_date $AR 1900 2 11
+set_date $AS 1900 2 11
+add_event $AS oHcNxVX
+add_event $AR oHcNxVX
+set_date $AT 1900 4 3
+set_date $AU 1900 4 3
+remove_event $AU eTbQhOq 9
+remove_event $AT eTbQhOq 9
+set_date $CI 1900 2 23
+set_date $CH 1900 2 23
+remove_event $CI yYmFXQA
+remove_event $CH yYmFXQA
+set_date $AR 1900 6 10
+set_date $AS 1900 6 10
+remove_event $AS FhWmujR
+remove_event $AR FhWmujR
+set_date $BE 1900 9 14
+set_date $BD 1900 9 14
+remove_event $BE vqbnelz 23
+remove_event $BD vqbnelz 23
+print $CN
+print $CO
+set_date $BB 1900 9 3
+set_date $BC 1900 9 3
+remove_event $BB jcFTODJ 19
+remove_event $BC jcFTODJ 19
+set_date $BZ 1900 7 17
+set_date $CA 1900 7 17
+remove_event $CA DuCcmZh
+remove_event $BZ DuCcmZh
+set_date $BS 1900 1 1
+set_date $BR 1900 1 1
+add_event $BR kDumQle 26
+add_event $BS kDumQle 26
+set_date $AQ 1900 10 17
+set_date $AP 1900 10 17
+add_event $AP xtsSqai
+add_event $AQ xtsSqai
+set_date $AY 1900 5 23
+set_date $AX 1900 5 23
+remove_event $AY boMwPAr 22 7
+remove_event $AX boMwPAr 22 7
+set_date $BU 1900 5 1
+set_date $BT 1900 5 1
+remove_event $BU mWQBtbP 7
+remove_event $BT mWQBtbP 7
+print $CJ
+print $CK
+set_date $BG 1900 12 2
+set_date $BF 1900 12 2
+add_event $BF IfsoQkm
+add_event $BG IfsoQkm
+set_date $AV 1900 6 18
+set_date $AW 1900 6 18
+add_event $AV PNcpTfd 9 1
+add_event $AW PNcpTfd 9 1
+set_date $BQ 1900 11 3
+set_date $BP 1900 11 3
+remove_event $BQ FvXIYVN 3
+remove_event $BP FvXIYVN 3
+set_date $BW 1900 1 26
+set_date $BV 1900 1 26
+remove_event $BW zJSIZOf 5 11
+remove_event $BV zJSIZOf 5 11
+set_date $BK 1899 1 1
+set_date $BJ 1899 1 1
+set_date $AR 1900 2 29
+set_date $AS 1900 2 29
+print $AW
+print $AV
+set_date $CF 1900 11 7
+set_date $CG 1900 11 7
+add_event $CG CiUaMHf 23 10
+add_event $CF CiUaMHf 23 10
+set_date $BA 1900 8 28
+set_date $AZ 1900 8 28
+add_event $AZ wfIuLkq 4 6
+add_event $BA wfIuLkq 4 6
+set_date $CM 1900 8 2
+set_date $CL 1900 8 2
+remove_event $CL CuZDmGf
+remove_event $CM CuZDmGf
+set_date $BZ 1900 1 2
+set_date $CA 1900 1 2
+remove_event $CA ahBIdJA 21
+remove_event $BZ ahBIdJA 21
+print $BX
+print $BY
+set_date $AV 1900 12 5
+set_date $AW 1900 12 5
+remove_event $AV IYhVDnb 21
+remove_event $AW IYhVDnb 21
+set_date $CD 1900 6 3
+set_date $CE 1900 6 3
+remove_event $CD mQkITrl 7 6
+remove_event $CE mQkITrl 7 6
+print $BW
+print $BV
+set_date $BM 2017 9 24
+set_date $BL 2017 9 24
+add_event $BM piWKjPG 12 3 1900
+add_event $BL piWKjPG 12 3 1900
+set_date $BI 1900 6 24
+set_date $BH 1900 6 24
+add_event $BH hLRcFeK 22 1
+add_event $BI hLRcFeK 22 1
+set_date $CL 1900 4 12
+set_date $CM 1900 4 12
+add_event $CL amqESTf 9
+add_event $CM amqESTf 9
+set_date $BK 1900 3 4
+set_date $BJ 1900 3 4
+add_event $BJ DOypWeE 22 12
+add_event $BK DOypWeE 22 12
+set_date $BR 1900 12 26
+set_date $BS 1900 12 26
+add_event $BS EFaSMhV 21 12
+add_event $BR EFaSMhV 21 12
+set_date $CE 2034 10 27
+set_date $CD 2034 10 27
+add_event $CE IFPyhJz 23 8 1900
+add_event $CD IFPyhJz 23 8 1900
+set_date $AP 2002 7 1
+set_date $AQ 2002 7 1
+add_event $AP zABNOmC 9 8 1900
+add_event $AQ zABNOmC 9 8 1900
+set_date $BV 1900 9 17
+set_date $BW 1900 9 17
+add_event $BW UROCabW 1
+add_event $BV UROCabW 1
+set_date $BD 1899 1 1
+set_date $BE 1899 1 1
+set_date $CI 1900 2 29
+set_date $CH 1900 2 29
+print $BC
+print $BB
+set_date $CB 1992 6 14
+set_date $CC 1992 6 14
+add_event $CB miygukx 10 11 1900
+add_event $CC miygukx 10 11 1900
+set_date $BL 1900 9 9
+set_date $BM 1900 9 9
+add_event $BL dqQNsBH 26 8
+add_event $BM dqQNsBH 26 8
+set_date $AV 2003 1 16
+set_date $AW 2003 1 16
+remove_event $AV XpUQDbu 27 7 1900
+remove_event $AW XpUQDbu 27 7 1900
+set_date $BD 1900 4 15
+set_date $BE 1900 4 15
+remove_event $BE kFtUJjA 28 4
+remove_event $BD kFtUJjA 28 4
+set_date $BP 1900 11 2
+set_date $BQ 1900 11 2
+add_event $BQ YJESIwV 6 2
+add_event $BP YJESIwV 6 2
+set_date $BJ 1900 12 3
+set_date $BK 1900 12 3
+add_event $BJ oTsjZgx 8
+add_event $BK oTsjZgx 8
+print $AU
+print $AT
+set_date $CM 1900 2 3
+set_date $CL 1900 2 3
+add_event $CM wMECQrv 13
+add_event $CL wMECQrv 13
+set_date $BC 1900 6 28
+set_date $BB 1900 6 28
+add_event $BC jDQzLfx 8 2
+add_event $BB jDQzLfx 8 2
+set_date $BJ 2031 11 23
+set_date $BK 2031 11 23
+add_event $BJ TIZgLDi 22 4 1900
+add_event $BK TIZgLDi 22 4 1900
+set_date $BJ 1900 5 5
+set_date $BK 1900 5 5
+add_event $BK qhzKnrO
+add_event $BJ qhzKnrO
+set_date $BD 1900 5 4
+set_date $BE 1900 5 4
+remove_event $BD IeKYHVb
+remove_event $BE IeKYHVb
+set_date $CG 1900 7 12
+set_date $CF 1900 7 12
+remove_event $CF EPZzlAe
+remove_event $CG EPZzlAe
+print $BT
+print $BU
+set_date $CF 1900 8 22
+set_date $CG 1900 8 22
+remove_event $CG oKOEWLB 2 5
+remove_event $CF oKOEWLB 2 5
+set_date $AS 2008 5 13
+set_date $AR 2008 5 13
+remove_event $AR DgwEvXY 16 3 1900
+remove_event $AS DgwEvXY 16 3 1900
+set_date $BS 1900 5 24
+set_date $BR 1900 5 24
+add_event $BR LjYFXwA 24
+add_event $BS LjYFXwA 24
+set_date $BI 1900 6 25
+set_date $BH 1900 6 25
+add_event $BH Buspwek 17
+add_event $BI Buspwek 17
+print $CN
+print $CO
+set_date $BG 2008 8 15
+set_date $BF 2008 8 15
+remove_event $BF KHzicqS 7 5 1900
+remove_event $BG KHzicqS 7 5 1900
+set_date $AZ 1900 11 15
+set_date $BA 1900 11 15
+remove_event $AZ ktzIQRs 12
+remove_event $BA ktzIQRs 12
+set_date $CN 1900 7 19
+set_date $CO 1900 7 19
+add_event $CO zyvoHVA 22 1
+add_event $CN zyvoHVA 22 1
+set_date $BN 1900 1 3
+set_date $BO 1900 1 3
+add_event $BO DibaroB 12
+add_event $BN DibaroB 12
+print $CH
+print $CI
+set_date $BQ 1899 1 1
+set_date $BP 1899 1 1
+set_date $CJ 1900 2 29
+set_date $CK 1900 2 29
+print $BG
+print $BF
+set_date $CF 1900 5 21
+set_date $CG 1900 5 21
+remove_event $CF uLilFHJ 23 8
+remove_event $CG uLilFHJ 23 8
+set_date $CH 1900 7 17
+set_date $CI 1900 7 17
+remove_event $CI DuCcmZh
+remove_event $CH DuCcmZh
+set_date $BG 1900 7 21
+set_date $BF 1900 7 21
+add_event $BG xgayqjE
+add_event $BF xgayqjE
+set_date $BU 2027 3 23
+set_date $BT 2027 3 23
+add_event $BU cUixwfk 8 5 1900
+add_event $BT cUixwfk 8 5 1900
+set_date $BS 1900 3 3
+set_date $BR 1900 3 3
+remove_event $BS EFaSMhV 21 12
+remove_event $BR EFaSMhV 21 12
+set_date $AR 1900 12 4
+set_date $AS 1900 12 4
+remove_event $AR IfsoQkm 2
+remove_event $AS IfsoQkm 2
+set_date $AR 1900 7 10
+set_date $AS 1900 7 10
+add_event $AR WwunBPE 7 1
+add_event $AS WwunBPE 7 1
+set_date $BG 1978 12 2
+set_date $BF 1978 12 2
+add_event $BF nBCuYNm 15 10 1900
+add_event $BG nBCuYNm 15 10 1900
+destruct $AQ
+destruct $AP
+set_date $CK 2033 3 4
+set_date $CJ 2033 3 4
+remove_event $CK QTYNndy 3 9 1900
+remove_event $CJ QTYNndy 3 9 1900
+set_date $BA 1900 10 23
+set_date $AZ 1900 10 23
+remove_event $BA nBCuYNm 15
+remove_event $AZ nBCuYNm 15
+copy-construct $CS gregorian $BG
+copy-construct $CR julian $BF
+set_date $BS 1996 8 5
+set_date $BR 1996 8 5
+add_event $BS HzftOTB 19 9 1900
+add_event $BR HzftOTB 19 9 1900
+set_date $CI 1900 8 8
+set_date $CH 1900 8 8
+add_event $CI FfeaZvg 28
+add_event $CH FfeaZvg 28
+set_date $BW 1900 10 8
+set_date $BV 1900 10 8
+add_event $BV oAFJSPu 27 4
+add_event $BW oAFJSPu 27 4
+set_date $BG 2037 3 1
+set_date $BF 2037 3 1
+add_event $BF STZVhpK 15 6 1900
+add_event $BG STZVhpK 15 6 1900
+set_date $CP 1900 2 14
+set_date $CQ 1900 2 14
+add_event $CQ WarxpgY 21 6
+add_event $CP WarxpgY 21 6
+set_date $BJ 1900 6 2
+set_date $BK 1900 6 2
+add_event $BJ QaOrXYR
+add_event $BK QaOrXYR
+set_date $BJ 2034 9 24
+set_date $BK 2034 9 24
+remove_event $BJ CWFrnzU 1 3 1900
+remove_event $BK CWFrnzU 1 3 1900
+set_date $CN 1900 4 26
+set_date $CO 1900 4 26
+remove_event $CN fBZiFjP
+remove_event $CO fBZiFjP
+destruct $AS
+destruct $AR
+set_date $BN 1900 3 11
+set_date $BO 1900 3 11
+add_event $BO kEpChms 15 1
+add_event $BN kEpChms 15 1
+set_date $BZ 2006 9 10
+set_date $CA 2006 9 10
+add_event $CA awbxIvY 13 7 1900
+add_event $BZ awbxIvY 13 7 1900
+set_date $CC 1900 10 4
+set_date $CB 1900 10 4
+add_event $CC nToLEsl 16
+add_event $CB nToLEsl 16
+set_date $CN 1999 11 10
+set_date $CO 1999 11 10
+add_event $CO cGeaOQH 28 7 1900
+add_event $CN cGeaOQH 28 7 1900
+set_date $BW 1900 4 8
+set_date $BV 1900 4 8
+add_event $BW MuEnksD 8
+add_event $BV MuEnksD 8
+set_date $BA 1900 11 12
+set_date $AZ 1900 11 12
+add_event $BA IuTnFZG 25
+add_event $AZ IuTnFZG 25
+set_date $AW 1900 6 21
+set_date $AV 1900 6 21
+add_event $AV RheiGwf 13
+add_event $AW RheiGwf 13
+set_date $BA 1900 12 13
+set_date $AZ 1900 12 13
+add_event $AZ vEolaOG
+add_event $BA vEolaOG
+set_date $AW 2029 9 12
+set_date $AV 2029 9 12
+add_event $AV kjzfKPd 19 5 1900
+add_event $AW kjzfKPd 19 5 1900
+set_date $CS 1900 6 9
+set_date $CR 1900 6 9
+add_event $CR SFsLicB
+add_event $CS SFsLicB
+default-construct $CT gregorian 
+default-construct $CU gregorian 
+set_date $CE 1900 10 24
+set_date $CD 1900 10 24
+remove_event $CE ajnMthJ
+remove_event $CD ajnMthJ
+set_date $CA 1971 10 17
+set_date $BZ 1971 10 17
+remove_event $BZ brxlEie 20 11 1900
+remove_event $CA brxlEie 20 11 1900
+set_date $BM 1900 11 4
+set_date $BL 1900 11 4
+remove_event $BL ixtMLPO
+remove_event $BM ixtMLPO
+set_date $CU 1900 4 23
+set_date $CT 1900 4 23
+remove_event $CU jMyVxTi
+remove_event $CT jMyVxTi
+set_date $CP 1900 4 18
+set_date $CQ 1900 4 18
+remove_event $CP YxWgEti 4 7
+remove_event $CQ YxWgEti 4 7
+set_date $BG 1900 1 7
+set_date $BF 1900 1 7
+remove_event $BG WwunBPE
+remove_event $BF WwunBPE
+default-construct $CW gregorian 
+default-construct $CV gregorian 
+set_date $CR 1900 7 28
+set_date $CS 1900 7 28
+remove_event $CR gxShKQu 7 9
+remove_event $CS gxShKQu 7 9
+set_date $CV 1900 3 28
+set_date $CW 1900 3 28
+remove_event $CW IRZTCQV 15 10
+remove_event $CV IRZTCQV 15 10
+set_date $BU 1900 1 8
+set_date $BT 1900 1 8
+remove_event $BT QWHwaXn 10
+remove_event $BU QWHwaXn 10
+set_date $AX 1900 2 9
+set_date $AY 1900 2 9
+remove_event $AX FvXIYVN 3 11
+remove_event $AY FvXIYVN 3 11
+copy-construct $CY gregorian $CE
+copy-construct $CX julian $CD
+set_date $CW 1900 11 4
+set_date $CV 1900 11 4
+remove_event $CV ixtMLPO
+remove_event $CW ixtMLPO
+set_date $AU 1900 9 21
+set_date $AT 1900 9 21
+remove_event $AT HunZNaT 26 11
+remove_event $AU HunZNaT 26 11
+print $CO
+print $CN
+set_date $CT 1900 2 17
+set_date $CU 1900 2 17
+remove_event $CT mzpHXMO
+remove_event $CU mzpHXMO
+set_date $CB 1900 10 9
+set_date $CC 1900 10 9
+remove_event $CC nToLEsl 16
+remove_event $CB nToLEsl 16
+copy-construct $CZ julian $CL
+copy-construct $DA gregorian $CM
+set_date $BJ 2010 2 14
+set_date $BK 2010 2 14
+remove_event $BJ YAxvGBm 4 3 1900
+remove_event $BK YAxvGBm 4 3 1900
+set_date $AW 1979 3 12
+set_date $AV 1979 3 12
+remove_event $AW MueOPkT 24 12 1900
+remove_event $AV MueOPkT 24 12 1900
+set_date $AW 1899 1 1
+set_date $AV 1899 1 1
+set_date $CF 1900 2 29
+set_date $CG 1900 2 29
+print $BR
+print $BS
+set_date $BA 1900 4 2
+set_date $AZ 1900 4 2
+add_event $AZ pteJdaG 15
+add_event $BA pteJdaG 15
+set_date $CT 1900 7 10
+set_date $CU 1900 7 10
+add_event $CT KQDRIbL
+add_event $CU KQDRIbL
+set_date $CX 1900 3 9
+set_date $CY 1900 3 9
+add_event $CY SpdXYaP 14 1
+add_event $CX SpdXYaP 14 1
+set_date $BZ 1900 8 3
+set_date $CA 1900 8 3
+add_event $BZ GEPdUJR 14
+add_event $CA GEPdUJR 14
+set_date $CN 1900 9 18
+set_date $CO 1900 9 18
+add_event $CO ctKSCMW 11 4
+add_event $CN ctKSCMW 11 4
+set_date $CU 1900 7 19
+set_date $CT 1900 7 19
+add_event $CU nACgauo 14 4
+add_event $CT nACgauo 14 4
+copy-construct $DB julian $BD
+copy-construct $DC gregorian $BE
+set_date $AY 2020 6 24
+set_date $AX 2020 6 24
+add_event $AY LQOSiKF 20 11 1900
+add_event $AX LQOSiKF 20 11 1900
+set_date $BR 1900 2 20
+set_date $BS 1900 2 20
+add_event $BS ptENBfj 12 9
+add_event $BR ptENBfj 12 9
+set_date $CS 1900 4 21
+set_date $CR 1900 4 21
+add_event $CS iTWmIZS
+add_event $CR iTWmIZS
+set_date $CK 1900 7 4
+set_date $CJ 1900 7 4
+add_event $CK ymrgWwF 6
+add_event $CJ ymrgWwF 6
+copy-construct $DE gregorian $BI
+copy-construct $DD julian $BH
+set_date $BW 1900 9 17
+set_date $BV 1900 9 17
+add_event $BV ezYKZAg 6
+add_event $BW ezYKZAg 6
+set_date $AV 1900 5 7
+set_date $AW 1900 5 7
+add_event $AV uOCJQdj
+add_event $AW uOCJQdj
+set_date $CZ 1900 3 21
+set_date $DA 1900 3 21
+remove_event $DA FZVNEoG 5
+remove_event $CZ FZVNEoG 5
+set_date $AW 1900 1 5
+set_date $AV 1900 1 5
+remove_event $AW zyvoHVA 22
+remove_event $AV zyvoHVA 22
+set_date $CP 1900 10 9
+set_date $CQ 1900 10 9
+remove_event $CQ YJsMIaA 26
+remove_event $CP YJsMIaA 26
+set_date $CS 1900 9 6
+set_date $CR 1900 9 6
+remove_event $CR XvWicVg
+remove_event $CS XvWicVg
+set_date $CW 1900 2 22
+set_date $CV 1900 2 22
+remove_event $CW OIaChMV
+remove_event $CV OIaChMV
+set_date $CU 1900 5 7
+set_date $CT 1900 5 7
+remove_event $CU uOCJQdj
+remove_event $CT uOCJQdj
+set_date $CQ 1900 8 13
+set_date $CP 1900 8 13
+remove_event $CQ IFPyhJz 23 8
+remove_event $CP IFPyhJz 23 8
+set_date $BQ 1900 3 27
+set_date $BP 1900 3 27
+remove_event $BP kPsOZUG 23 9
+remove_event $BQ kPsOZUG 23 9
+set_date $BP 1899 1 1
+set_date $BQ 1899 1 1
+set_date $BF 1900 2 29
+set_date $BG 1900 2 29
+print $DD
+print $DE
+set_date $BB 1900 8 2
+set_date $BC 1900 8 2
+remove_event $BB ncJHkuj 4
+remove_event $BC ncJHkuj 4
+set_date $CB 1900 6 2
+set_date $CC 1900 6 2
+remove_event $CB VzvTHAS 12
+remove_event $CC VzvTHAS 12
+set_date $BO 1991 6 22
+set_date $BN 1991 6 22
+add_event $BN qjwQBrS 19 4 1900
+add_event $BO qjwQBrS 19 4 1900
+set_date $AT 1900 9 13
+set_date $AU 1900 9 13
+add_event $AU WCnsgRu 15
+add_event $AT WCnsgRu 15
+destruct $AT
+destruct $AU
+set_date $DE 1900 11 7
+set_date $DD 1900 11 7
+add_event $DD BIwoCjy 9 6
+add_event $DE BIwoCjy 9 6
+set_date $DD 1900 2 11
+set_date $DE 1900 2 11
+add_event $DE zuswrjh 19
+add_event $DD zuswrjh 19
+set_date $BZ 2033 2 23
+set_date $CA 2033 2 23
+add_event $BZ hOSjUeM 23 8 1900
+add_event $CA hOSjUeM 23 8 1900
+set_date $BP 1900 10 2
+set_date $BQ 1900 10 2
+add_event $BQ UorPZIz 7
+add_event $BP UorPZIz 7
+set_date $BA 1900 12 9
+set_date $AZ 1900 12 9
+add_event $AZ fmFIHoG 15 10
+add_event $BA fmFIHoG 15 10
+set_date $BF 1900 3 1
+set_date $BG 1900 3 1
+add_event $BG bfBiFCW 16 1
+add_event $BF bfBiFCW 16 1
+set_date $BQ 2031 11 12
+set_date $BP 2031 11 12
+add_event $BP ntwWkOC 9 5 1900
+add_event $BQ ntwWkOC 9 5 1900
+set_date $CV 1900 6 9
+set_date $CW 1900 6 9
+add_event $CW wGKLXWq 5
+add_event $CV wGKLXWq 5
+print $CB
+print $CC
+print $CL
+print $CM
+set_date $CI 1900 8 21
+set_date $CH 1900 8 21
+add_event $CH qmjLrRb 13
+add_event $CI qmjLrRb 13
+set_date $CO 1900 10 1
+set_date $CN 1900 10 1
+add_event $CO NxjouHw 8
+add_event $CN NxjouHw 8
+set_date $CI 1899 1 1
+set_date $CH 1899 1 1
+set_date $DB 1900 2 29
+set_date $DC 1900 2 29
+print $CJ
+print $CK
+set_date $BP 1979 11 22
+set_date $BQ 1979 11 22
+remove_event $BP zuswrjh 19 2 1900
+remove_event $BQ zuswrjh 19 2 1900
+set_date $CL 1900 10 23
+set_date $CM 1900 10 23
+remove_event $CM YzBqFcI 2 2
+remove_event $CL YzBqFcI 2 2
+set_date $BS 1899 1 1
+set_date $BR 1899 1 1
+set_date $BH 1900 2 29
+set_date $BI 1900 2 29
+print $DE
+print $DD
+set_date $BB 1899 1 1
+set_date $BC 1899 1 1
+set_date $BI 1900 2 29
+set_date $BH 1900 2 29
+print $DC
+print $DB
+set_date $CS 2020 3 24
+set_date $CR 2020 3 24
+remove_event $CR tDqTGmK 3 3 1900
+remove_event $CS tDqTGmK 3 3 1900
+set_date $CX 1900 10 17
+set_date $CY 1900 10 17
+remove_event $CX CWFrnzU 1 3
+remove_event $CY CWFrnzU 1 3
+print $BN
+print $BO
+print $CH
+print $CI
+copy-construct $DG gregorian $CO
+copy-construct $DF julian $CN
+set_date $BO 1899 1 1
+set_date $BN 1899 1 1
+set_date $BZ 1900 2 29
+set_date $CA 1900 2 29
+print $BU
+print $BT
+set_date $BM 1899 1 1
+set_date $BL 1899 1 1
+set_date $CM 1900 2 29
+set_date $CL 1900 2 29
+print $CR
+print $CS
+set_date $CZ 1900 12 5
+set_date $DA 1900 12 5
+remove_event $CZ CNzfyqn
+remove_event $DA CNzfyqn
+set_date $CE 1900 5 14
+set_date $CD 1900 5 14
+remove_event $CE EpWcdhz
+remove_event $CD EpWcdhz
+destruct $AV
+destruct $AW
+set_date $BN 1900 5 13
+set_date $BO 1900 5 13
+add_event $BN xEGImTQ 26 7
+add_event $BO xEGImTQ 26 7
+set_date $BI 1900 2 18
+set_date $BH 1900 2 18
+add_event $BH YozaULS 28 3
+add_event $BI YozaULS 28 3
+copy-construct $DH julian $DF
+copy-construct $DI gregorian $DG
+set_date $CR 1900 8 1
+set_date $CS 1900 8 1
+add_event $CS PnCjhZQ 26
+add_event $CR PnCjhZQ 26
+set_date $CY 1900 2 10
+set_date $CX 1900 2 10
+add_event $CX YeLpkhu
+add_event $CY YeLpkhu
+set_date $CH 1899 1 1
+set_date $CI 1899 1 1
+set_date $BL 1900 2 29
+set_date $BM 1900 2 29
+print $BN
+print $BO
+print $DH
+print $DI
+set_date $DF 1989 3 13
+set_date $DG 1989 3 13
+add_event $DF ZfwqPVU 22 11 1900
+add_event $DG ZfwqPVU 22 11 1900
+set_date $CQ 2028 12 2
+set_date $CP 2028 12 2
+add_event $CQ xJmyhoO 16 7 1900
+add_event $CP xJmyhoO 16 7 1900
+set_date $BW 1900 2 27
+set_date $BV 1900 2 27
+remove_event $BW YozaULS 28 3
+remove_event $BV YozaULS 28 3
+set_date $CZ 1900 6 14
+set_date $DA 1900 6 14
+remove_event $CZ tGQEUBd 16 12
+remove_event $DA tGQEUBd 16 12
+set_date $BT 1900 10 20
+set_date $BU 1900 10 20
+add_event $BT niwTVMs
+add_event $BU niwTVMs
+set_date $BL 1900 5 8
+set_date $BM 1900 5 8
+add_event $BL EABocMZ 24 1
+add_event $BM EABocMZ 24 1
+set_date $CU 1992 8 17
+set_date $CT 1992 8 17
+add_event $CT EnPUjgZ 18 6 1900
+add_event $CU EnPUjgZ 18 6 1900
+set_date $DF 1900 1 14
+set_date $DG 1900 1 14
+add_event $DF vZOrXJD 15 4
+add_event $DG vZOrXJD 15 4
+set_date $BZ 1900 7 17
+set_date $CA 1900 7 17
+remove_event $BZ uZqIRiH 12
+remove_event $CA uZqIRiH 12
+set_date $BI 1900 4 11
+set_date $BH 1900 4 11
+remove_event $BI UwCrSzP 27 7
+remove_event $BH UwCrSzP 27 7
+set_date $BF 1900 10 2
+set_date $BG 1900 10 2
+add_event $BG eVoUAOM
+add_event $BF eVoUAOM
+set_date $CY 1900 5 20
+set_date $CX 1900 5 20
+add_event $CY ZjHXqmE
+add_event $CX ZjHXqmE
+set_date $BR 1900 3 15
+set_date $BS 1900 3 15
+remove_event $BR cqjeCyA 25
+remove_event $BS cqjeCyA 25
+set_date $CD 1900 3 3
+set_date $CE 1900 3 3
+remove_event $CD tDqTGmK
+remove_event $CE tDqTGmK
+set_date $CI 1900 3 5
+set_date $CH 1900 3 5
+add_event $CH GFMJlBp
+add_event $CI GFMJlBp
+set_date $DD 1900 6 14
+set_date $DE 1900 6 14
+add_event $DD fhURyxz 19
+add_event $DE fhURyxz 19
+set_date $CF 1900 6 5
+set_date $CG 1900 6 5
+add_event $CG qXwIymk
+add_event $CF qXwIymk
+set_date $CU 1900 3 22
+set_date $CT 1900 3 22
+add_event $CT NUytcxa
+add_event $CU NUytcxa
+default-construct $DJ gregorian 
+default-construct $DK gregorian 
+set_date $BG 1976 5 13
+set_date $BF 1976 5 13
+add_event $BG JChSFPX 10 12 1900
+add_event $BF JChSFPX 10 12 1900
+set_date $CQ 1900 1 11
+set_date $CP 1900 1 11
+add_event $CP eLtIrXN 23 10
+add_event $CQ eLtIrXN 23 10
+copy-construct $DM gregorian $BA
+copy-construct $DL julian $AZ
+set_date $CU 1899 1 1
+set_date $CT 1899 1 1
+set_date $DK 1900 2 29
+set_date $DJ 1900 2 29
+print $CU
+print $CT
+set_date $CI 1900 8 1
+set_date $CH 1900 8 1
+add_event $CI owzWFOu 20
+add_event $CH owzWFOu 20
+set_date $CT 1900 8 2
+set_date $CU 1900 8 2
+add_event $CT SMWuhGE
+add_event $CU SMWuhGE
+set_date $BZ 1900 3 27
+set_date $CA 1900 3 27
+add_event $CA DrRXcex
+add_event $BZ DrRXcex
+set_date $BH 1900 9 10
+set_date $BI 1900 9 10
+add_event $BH TlIxBZc 1
+add_event $BI TlIxBZc 1
+set_date $BR 2000 9 7
+set_date $BS 2000 9 7
+add_event $BS hsLYprF 22 4 1900
+add_event $BR hsLYprF 22 4 1900
+set_date $CM 1900 1 19
+set_date $CL 1900 1 19
+add_event $CM DOMLqQY 24
+add_event $CL DOMLqQY 24
+print $DL
+print $DM
+set_date $CC 1900 5 7
+set_date $CB 1900 5 7
+remove_event $CC GFMJlBp 5 3
+remove_event $CB GFMJlBp 5 3
+set_date $DB 2012 9 16
+set_date $DC 2012 9 16
+remove_event $DC YozaULS 28 3 1900
+remove_event $DB YozaULS 28 3 1900
+destruct $AX
+destruct $AY
+set_date $CW 1900 6 23
+set_date $CV 1900 6 23
+add_event $CV DVUGjky
+add_event $CW DVUGjky
+set_date $CH 1900 6 19
+set_date $CI 1900 6 19
+add_event $CH inMuTlD
+add_event $CI inMuTlD
+set_date $BU 1899 1 1
+set_date $BT 1899 1 1
+set_date $BY 1900 2 29
+set_date $BX 1900 2 29
+print $DL
+print $DM
+set_date $CC 1900 6 23
+set_date $CB 1900 6 23
+add_event $CC jQvtXpH 17 5
+add_event $CB jQvtXpH 17 5
+set_date $CC 1900 12 4
+set_date $CB 1900 12 4
+add_event $CC dVhPJvW
+add_event $CB dVhPJvW
+default-construct $DN gregorian 
+default-construct $DO gregorian 
+set_date $BK 1900 6 15
+set_date $BJ 1900 6 15
+remove_event $BK ctKSCMW 11 4
+remove_event $BJ ctKSCMW 11 4
+set_date $BP 1900 2 23
+set_date $BQ 1900 2 23
+remove_event $BP OIaChMV 22
+remove_event $BQ OIaChMV 22
+default-construct $DP gregorian 
+default-construct $DQ gregorian 
+destruct $AZ
+destruct $BA
+set_date $BL 1899 1 1
+set_date $BM 1899 1 1
+set_date $DC 1900 2 29
+set_date $DB 1900 2 29
+print $CE
+print $CD
+destruct $BC
+destruct $BB
+set_date $CH 1899 1 1
+set_date $CI 1899 1 1
+set_date $CV 1900 2 29
+set_date $CW 1900 2 29
+print $DB
+print $DC
+set_date $BY 1900 3 19
+set_date $BX 1900 3 19
+remove_event $BX dVhPJvW 4 12
+remove_event $BY dVhPJvW 4 12
+set_date $DQ 1900 2 22
+set_date $DP 1900 2 22
+remove_event $DQ DtyAwKT 8
+remove_event $DP DtyAwKT 8
+set_date $DE 1899 1 1
+set_date $DD 1899 1 1
+set_date $DC 1900 2 29
+set_date $DB 1900 2 29
+print $BV
+print $BW
+default-construct $DS gregorian 
+default-construct $DR gregorian 
+set_date $CM 1900 4 2
+set_date $CL 1900 4 2
+add_event $CL WzIiMOG
+add_event $CM WzIiMOG
+set_date $CE 1900 1 28
+set_date $CD 1900 1 28
+add_event $CE VmbyQfJ 18
+add_event $CD VmbyQfJ 18
+set_date $DI 2028 10 20
+set_date $DH 2028 10 20
+remove_event $DI hsEtOoP 9 3 1900
+remove_event $DH hsEtOoP 9 3 1900
+set_date $BE 1900 10 6
+set_date $BD 1900 10 6
+remove_event $BD KQDRIbL 10 7
+remove_event $BE KQDRIbL 10 7
+set_date $CR 1900 12 23
+set_date $CS 1900 12 23
+add_event $CS TdsDiNo 17 8
+add_event $CR TdsDiNo 17 8
+set_date $CW 1900 12 4
+set_date $CV 1900 12 4
+add_event $CV gJqUWVp 22 10
+add_event $CW gJqUWVp 22 10
+set_date $CY 1900 1 6
+set_date $CX 1900 1 6
+add_event $CX afiTxMn 18
+add_event $CY afiTxMn 18
+set_date $DK 1900 2 27
+set_date $DJ 1900 2 27
+add_event $DK flcRDMC 25
+add_event $DJ flcRDMC 25
+set_date $BJ 1900 11 8
+set_date $BK 1900 11 8
+remove_event $BK YCaVZrv 4 2
+remove_event $BJ YCaVZrv 4 2
+set_date $CQ 1900 10 24
+set_date $CP 1900 10 24
+remove_event $CP ajnMthJ
+remove_event $CQ ajnMthJ
+set_date $BJ 2005 4 8
+set_date $BK 2005 4 8
+remove_event $BJ hrbRszi 26 2 1900
+remove_event $BK hrbRszi 26 2 1900
+set_date $CV 2011 2 16
+set_date $CW 2011 2 16
+remove_event $CW qYyGngV 14 7 1900
+remove_event $CV qYyGngV 14 7 1900
+set_date $CU 2008 6 12
+set_date $CT 2008 6 12
+add_event $CT eAzFuSU 21 10 1900
+add_event $CU eAzFuSU 21 10 1900
+set_date $CW 2037 4 8
+set_date $CV 2037 4 8
+add_event $CW OnYTlIM 27 7 1900
+add_event $CV OnYTlIM 27 7 1900
+print $DP
+print $DQ
+set_date $DB 1990 3 27
+set_date $DC 1990 3 27
+remove_event $DB mzpHXMO 17 2 1900
+remove_event $DC mzpHXMO 17 2 1900
+set_date $DS 1987 10 25
+set_date $DR 1987 10 25
+remove_event $DR YozaULS 28 3 1900
+remove_event $DS YozaULS 28 3 1900
+print $BF
+print $BG
+set_date $BG 1900 5 28
+set_date $BF 1900 5 28
+add_event $BG awOJfUg 10 12
+add_event $BF awOJfUg 10 12
+set_date $BG 2028 4 18
+set_date $BF 2028 4 18
+add_event $BF VwOKDnv 27 10 1900
+add_event $BG VwOKDnv 27 10 1900
+set_date $DI 1900 10 18
+set_date $DH 1900 10 18
+add_event $DI fYlRVXv 19
+add_event $DH fYlRVXv 19
+set_date $BU 1900 1 10
+set_date $BT 1900 1 10
+add_event $BT mNbUyae 9
+add_event $BU mNbUyae 9
+set_date $BW 1899 1 1
+set_date $BV 1899 1 1
+set_date $DD 1900 2 29
+set_date $DE 1900 2 29
+print $DF
+print $DG
+set_date $BR 1979 7 23
+set_date $BS 1979 7 23
+add_event $BR nOLDcmo 10 3 1900
+add_event $BS nOLDcmo 10 3 1900
+set_date $DC 1900 12 20
+set_date $DB 1900 12 20
+add_event $DC rlOuKQV
+add_event $DB rlOuKQV
+default-construct $DU gregorian 
+default-construct $DT gregorian 
+set_date $DT 1899 1 1
+set_date $DU 1899 1 1
+set_date $DQ 1900 2 29
+set_date $DP 1900 2 29
+print $BS
+print $BR
+destruct $BE
+destruct $BD
+set_date $BR 1900 2 9
+set_date $BS 1900 2 9
+remove_event $BS yzTIUsw 9 4
+remove_event $BR yzTIUsw 9 4
+set_date $DI 1900 3 22
+set_date $DH 1900 3 22
+remove_event $DI UkTMqeE 23 11
+remove_event $DH UkTMqeE 23 11
+set_date $DU 1900 12 28
+set_date $DT 1900 12 28
+remove_event $DT ognUuaY 25
+remove_event $DU ognUuaY 25
+set_date $CH 1900 6 2
+set_date $CI 1900 6 2
+remove_event $CI wnYNOHc 28
+remove_event $CH wnYNOHc 28
+set_date $CG 2038 12 18
+set_date $CF 2038 12 18
+remove_event $CF pSEwDMc 14 10 1900
+remove_event $CG pSEwDMc 14 10 1900
+set_date $DD 1900 7 15
+set_date $DE 1900 7 15
+remove_event $DD MmteSTl 15 9
+remove_event $DE MmteSTl 15 9
+set_date $DL 1900 1 13
+set_date $DM 1900 1 13
+add_event $DL ZPLUTxh
+add_event $DM ZPLUTxh
+set_date $DF 1900 8 2
+set_date $DG 1900 8 2
+add_event $DG NctdmLK 12 6
+add_event $DF NctdmLK 12 6
+set_date $CA 1900 12 3
+set_date $BZ 1900 12 3
+add_event $CA zMbuoCn 3
+add_event $BZ zMbuoCn 3
+set_date $BP 1900 7 13
+set_date $BQ 1900 7 13
+add_event $BQ FHZocOY 12
+add_event $BP FHZocOY 12
+destruct $BG
+destruct $BF
+set_date $BM 1900 2 16
+set_date $BL 1900 2 16
+remove_event $BM DtyAwKT 8
+remove_event $BL DtyAwKT 8
+set_date $CK 1900 8 20
+set_date $CJ 1900 8 20
+remove_event $CJ owzWFOu
+remove_event $CK owzWFOu
+print $CY
+print $CX
+set_date $DJ 1900 11 16
+set_date $DK 1900 11 16
+add_event $DK QGaeHnc 26
+add_event $DJ QGaeHnc 26
+set_date $DC 1900 7 27
+set_date $DB 1900 7 27
+add_event $DC GRtpVhQ 19 10
+add_event $DB GRtpVhQ 19 10
+set_date $DP 1900 12 28
+set_date $DQ 1900 12 28
+add_event $DQ NasXIWU 19 7
+add_event $DP NasXIWU 19 7
+set_date $CB 1900 8 19
+set_date $CC 1900 8 19
+add_event $CC uMqpNYs
+add_event $CB uMqpNYs
+set_date $BV 1900 7 11
+set_date $BW 1900 7 11
+add_event $BW eEKzhIo
+add_event $BV eEKzhIo
+set_date $DK 1900 9 16
+set_date $DJ 1900 9 16
+add_event $DK xbszLXq 19
+add_event $DJ xbszLXq 19
+set_date $DC 1900 3 7
+set_date $DB 1900 3 7
+remove_event $DC cEiNexh 28
+remove_event $DB cEiNexh 28
+set_date $CJ 1978 11 18
+set_date $CK 1978 11 18
+remove_event $CK IFPyhJz 23 8 1900
+remove_event $CJ IFPyhJz 23 8 1900
+set_date $DQ 2036 7 3
+set_date $DP 2036 7 3
+remove_event $DP gOWYsDi 2 8 1900
+remove_event $DQ gOWYsDi 2 8 1900
+set_date $DP 1900 4 23
+set_date $DQ 1900 4 23
+remove_event $DQ cSCwsGD
+remove_event $DP cSCwsGD
+copy-construct $DV julian $CT
+copy-construct $DW gregorian $CU
+set_date $CQ 1900 9 7
+set_date $CP 1900 9 7
+remove_event $CP hUvXIJe 8 4
+remove_event $CQ hUvXIJe 8 4
+set_date $DJ 1900 4 24
+set_date $DK 1900 4 24
+remove_event $DJ XlYPGih 4
+remove_event $DK XlYPGih 4
+default-construct $DX gregorian 
+default-construct $DY gregorian 
+set_date $BZ 1900 6 15
+set_date $CA 1900 6 15
+add_event $BZ DWmKAOZ
+add_event $CA DWmKAOZ
+set_date $DI 1900 6 4
+set_date $DH 1900 6 4
+add_event $DI JVnbaPS 26 9
+add_event $DH JVnbaPS 26 9
+set_date $CP 1900 5 16
+set_date $CQ 1900 5 16
+add_event $CP VzYvFHZ 28 7
+add_event $CQ VzYvFHZ 28 7
+set_date $BW 1900 1 7
+set_date $BV 1900 1 7
+add_event $BW NyxpzlU
+add_event $BV NyxpzlU
+set_date $BK 1900 10 21
+set_date $BJ 1900 10 21
+add_event $BK kqgIwmT
+add_event $BJ kqgIwmT
+set_date $DH 1998 9 5
+set_date $DI 1998 9 5
+add_event $DI oiYpOAu 17 1 1900
+add_event $DH oiYpOAu 17 1 1900
+set_date $DX 1900 5 24
+set_date $DY 1900 5 24
+add_event $DY NjtJwpL 9 2
+add_event $DX NjtJwpL 9 2
+set_date $CT 2007 9 25
+set_date $CU 2007 9 25
+add_event $CU pINdLwc 16 8 1900
+add_event $CT pINdLwc 16 8 1900
+set_date $CU 1900 6 26
+set_date $CT 1900 6 26
+remove_event $CT hLRcFeK 22 1
+remove_event $CU hLRcFeK 22 1
+set_date $BR 1900 6 18
+set_date $BS 1900 6 18
+remove_event $BS EnPUjgZ
+remove_event $BR EnPUjgZ
+set_date $CQ 1900 3 3
+set_date $CP 1900 3 3
+add_event $CQ bepHOtC
+add_event $CP bepHOtC
+set_date $CR 1900 6 27
+set_date $CS 1900 6 27
+add_event $CR LMmxiyN
+add_event $CS LMmxiyN
+print $DL
+print $DM
+set_date $DV 1900 3 9
+set_date $DW 1900 3 9
+add_event $DW MgVSxoj
+add_event $DV MgVSxoj
+set_date $DX 2007 5 3
+set_date $DY 2007 5 3
+add_event $DY MigjOVF 1 4 1900
+add_event $DX MigjOVF 1 4 1900
+print $CO
+print $CN
+default-construct $EA gregorian 
+default-construct $DZ gregorian 
+set_date $DB 1900 4 27
+set_date $DC 1900 4 27
+remove_event $DB QXDJrIP 6 2
+remove_event $DC QXDJrIP 6 2
+set_date $DZ 1900 2 4
+set_date $EA 1900 2 4
+remove_event $EA jDQzLfx 8
+remove_event $DZ jDQzLfx 8
+set_date $DN 1900 2 13
+set_date $DO 1900 2 13
+remove_event $DO fgQKCVu
+remove_event $DN fgQKCVu
+set_date $CT 1971 4 2
+set_date $CU 1971 4 2
+remove_event $CU KfMtGOJ 6 7 1900
+remove_event $CT KfMtGOJ 6 7 1900
+set_date $BY 1900 5 18
+set_date $BX 1900 5 18
+add_event $BX YusWmvp
+add_event $BY YusWmvp
+set_date $BN 1900 7 21
+set_date $BO 1900 7 21
+add_event $BN TyOAQXV
+add_event $BO TyOAQXV
+set_date $BZ 1899 1 1
+set_date $CA 1899 1 1
+set_date $DA 1900 2 29
+set_date $CZ 1900 2 29
+print $DA
+print $CZ
+set_date $DI 1900 11 17
+set_date $DH 1900 11 17
+add_event $DI hYPIJjr 13
+add_event $DH hYPIJjr 13
+set_date $BT 1900 2 21
+set_date $BU 1900 2 21
+add_event $BU BiWJuPj 13
+add_event $BT BiWJuPj 13
+set_date $CA 2007 12 21
+set_date $BZ 2007 12 21
+remove_event $BZ KHzicqS 7 5 1900
+remove_event $CA KHzicqS 7 5 1900
+set_date $BX 1900 7 23
+set_date $BY 1900 7 23
+remove_event $BY CuZDmGf 2 8
+remove_event $BX CuZDmGf 2 8
+set_date $BV 2031 11 10
+set_date $BW 2031 11 10
+remove_event $BW FRSxqhe 11 12 1900
+remove_event $BV FRSxqhe 11 12 1900
+set_date $CJ 1900 1 1
+set_date $CK 1900 1 1
+remove_event $CK kWRgbnO 11 1
+remove_event $CJ kWRgbnO 11 1
+set_date $BL 2021 12 27
+set_date $BM 2021 12 27
+add_event $BL rfNXtoW 27 7 1900
+add_event $BM rfNXtoW 27 7 1900
+set_date $CT 1900 6 12
+set_date $CU 1900 6 12
+add_event $CU RNKXZke 21
+add_event $CT RNKXZke 21
+set_date $CN 1900 6 20
+set_date $CO 1900 6 20
+remove_event $CN STZVhpK 15
+remove_event $CO STZVhpK 15
+set_date $BW 2013 5 11
+set_date $BV 2013 5 11
+remove_event $BW MlUIxKS 4 9 1900
+remove_event $BV MlUIxKS 4 9 1900
+set_date $CS 1900 7 15
+set_date $CR 1900 7 15
+remove_event $CR bepHOtC 3 3
+remove_event $CS bepHOtC 3 3
+set_date $CB 1900 7 22
+set_date $CC 1900 7 22
+remove_event $CC XpUQDbu 27
+remove_event $CB XpUQDbu 27
+set_date $BR 1900 8 14
+set_date $BS 1900 8 14
+remove_event $BR IUxpSPY
+remove_event $BS IUxpSPY
+set_date $DN 1900 8 3
+set_date $DO 1900 8 3
+remove_event $DO mCFzGoH
+remove_event $DN mCFzGoH
+set_date $BN 1900 1 21
+set_date $BO 1900 1 21
+add_event $BO jQVkfrc 22
+add_event $BN jQVkfrc 22
+set_date $DS 1900 5 9
+set_date $DR 1900 5 9
+add_event $DS SByEaxp
+add_event $DR SByEaxp
+set_date $CC 1900 10 28
+set_date $CB 1900 10 28
+add_event $CC HamrLlz 20
+add_event $CB HamrLlz 20
+set_date $DP 1900 2 18
+set_date $DQ 1900 2 18
+add_event $DQ hYVePxB 14
+add_event $DP hYVePxB 14
+set_date $DU 1900 10 24
+set_date $DT 1900 10 24
+remove_event $DU VwOKDnv 27
+remove_event $DT VwOKDnv 27
+set_date $CE 2017 6 4
+set_date $CD 2017 6 4
+remove_event $CD czHOBEf 27 1 1900
+remove_event $CE czHOBEf 27 1 1900
+set_date $DN 1899 1 1
+set_date $DO 1899 1 1
+set_date $CX 1900 2 29
+set_date $CY 1900 2 29
+print $CW
+print $CV
+set_date $CU 1900 5 1
+set_date $CT 1900 5 1
+add_event $CU rmGicRz
+add_event $CT rmGicRz
+set_date $EA 1900 5 6
+set_date $DZ 1900 5 6
+add_event $EA gpQTAVO 21
+add_event $DZ gpQTAVO 21
+set_date $BZ 1900 1 19
+set_date $CA 1900 1 19
+add_event $CA uqithWP 19
+add_event $BZ uqithWP 19
+set_date $DE 1900 7 2
+set_date $DD 1900 7 2
+add_event $DD yMQbBAj 11 3
+add_event $DE yMQbBAj 11 3
+set_date $DM 1900 4 15
+set_date $DL 1900 4 15
+remove_event $DL yDmiPfe 24
+remove_event $DM yDmiPfe 24
+set_date $CY 1900 11 27
+set_date $CX 1900 11 27
+remove_event $CY fRNbwGh 7 2
+remove_event $CX fRNbwGh 7 2
+set_date $BH 1900 4 10
+set_date $BI 1900 4 10
+remove_event $BI kFtUJjA 28
+remove_event $BH kFtUJjA 28
+set_date $DJ 1900 9 5
+set_date $DK 1900 9 5
+remove_event $DK XvWicVg 6
+remove_event $DJ XvWicVg 6
+destruct $BI
+destruct $BH
+set_date $BS 1995 9 9
+set_date $BR 1995 9 9
+add_event $BR wKqpJQP 9 11 1900
+add_event $BS wKqpJQP 9 11 1900
+set_date $CA 1900 7 6
+set_date $BZ 1900 7 6
+add_event $BZ lxRuHvB 3 1
+add_event $CA lxRuHvB 3 1
+set_date $CL 1900 9 5
+set_date $CM 1900 9 5
+remove_event $CL XvWicVg 6
+remove_event $CM XvWicVg 6
+set_date $DD 1900 1 21
+set_date $DE 1900 1 21
+remove_event $DE ymrgWwF 6 7
+remove_event $DD ymrgWwF 6 7
+set_date $BP 1900 6 26
+set_date $BQ 1900 6 26
+add_event $BQ sYStyxq 12
+add_event $BP sYStyxq 12
+set_date $DW 2005 4 23
+set_date $DV 2005 4 23
+add_event $DV oXKMfVR 17 4 1900
+add_event $DW oXKMfVR 17 4 1900
+set_date $CA 1899 1 1
+set_date $BZ 1899 1 1
+set_date $CK 1900 2 29
+set_date $CJ 1900 2 29
+print $CH
+print $CI
+print $CA
+print $BZ
+set_date $CD 1900 6 14
+set_date $CE 1900 6 14
+add_event $CE kvDwMdr
+add_event $CD kvDwMdr
+set_date $DY 1900 12 25
+set_date $DX 1900 12 25
+add_event $DY KOtHajC 17 11
+add_event $DX KOtHajC 17 11
+set_date $CX 1900 4 19
+set_date $CY 1900 4 19
+add_event $CY dKtfvsw
+add_event $CX dKtfvsw
+set_date $DO 1900 6 7
+set_date $DN 1900 6 7
+add_event $DO SUrPbhM 22
+add_event $DN SUrPbhM 22
+set_date $BN 1900 1 9
+set_date $BO 1900 1 9
+add_event $BN CVNskma
+add_event $BO CVNskma
+set_date $BO 1900 3 17
+set_date $BN 1900 3 17
+add_event $BO WOumRAz
+add_event $BN WOumRAz
+set_date $DO 1900 12 28
+set_date $DN 1900 12 28
+add_event $DN fFMcDCy 12
+add_event $DO fFMcDCy 12
+set_date $DS 1900 8 19
+set_date $DR 1900 8 19
+add_event $DR eXsBGOH 26
+add_event $DS eXsBGOH 26
+set_date $BT 1970 12 15
+set_date $BU 1970 12 15
+add_event $BT ZDPKJTG 11 11 1900
+add_event $BU ZDPKJTG 11 11 1900
+set_date $DR 1900 8 28
+set_date $DS 1900 8 28
+add_event $DR xhmqRXZ 1
+add_event $DS xhmqRXZ 1
+set_date $DD 1900 3 1
+set_date $DE 1900 3 1
+add_event $DD lnEQrHm 15
+add_event $DE lnEQrHm 15
+set_date $CN 1900 9 28
+set_date $CO 1900 9 28
+add_event $CO wuNtajE 20
+add_event $CN wuNtajE 20
+set_date $CC 1900 5 11
+set_date $CB 1900 5 11
+remove_event $CC oXKMfVR 17 4
+remove_event $CB oXKMfVR 17 4
+set_date $CG 1900 4 21
+set_date $CF 1900 4 21
+remove_event $CF iTWmIZS
+remove_event $CG iTWmIZS
+set_date $DX 1900 1 21
+set_date $DY 1900 1 21
+add_event $DY AWmYaPS 12
+add_event $DX AWmYaPS 12
+set_date $BL 1900 6 4
+set_date $BM 1900 6 4
+add_event $BM kvWRGbg 19 5
+add_event $BL kvWRGbg 19 5
+set_date $DD 1900 10 7
+set_date $DE 1900 10 7
+remove_event $DD wPcWVRN 17
+remove_event $DE wPcWVRN 17
+set_date $DU 1900 7 2
+set_date $DT 1900 7 2
+remove_event $DT wdWLNiK 6
+remove_event $DU wdWLNiK 6
+set_date $DN 1900 12 12
+set_date $DO 1900 12 12
+add_event $DN HoCavFr 25
+add_event $DO HoCavFr 25
+set_date $BQ 1900 12 25
+set_date $BP 1900 12 25
+add_event $BQ bziGDrg 12 7
+add_event $BP bziGDrg 12 7
+set_date $CI 1900 6 5
+set_date $CH 1900 6 5
+add_event $CH KkgplOD 1 10
+add_event $CI KkgplOD 1 10
+set_date $CF 1900 5 7
+set_date $CG 1900 5 7
+add_event $CF lsTUHGE
+add_event $CG lsTUHGE
+set_date $DR 1899 1 1
+set_date $DS 1899 1 1
+set_date $BV 1900 2 29
+set_date $BW 1900 2 29
+print $CN
+print $CO
+default-construct $EC gregorian 
+default-construct $EB gregorian 
+copy-construct $EE gregorian $CU
+copy-construct $ED julian $CT
+set_date $CQ 1900 2 21
+set_date $CP 1900 2 21
+add_event $CQ MvSTDCj
+add_event $CP MvSTDCj
+set_date $BN 1900 6 13
+set_date $BO 1900 6 13
+add_event $BO fdCxjno 15 6
+add_event $BN fdCxjno 15 6
+set_date $CH 1900 12 3
+set_date $CI 1900 12 3
+add_event $CH gZDqBwL
+add_event $CI gZDqBwL
+set_date $BL 1987 9 10
+set_date $BM 1987 9 10
+add_event $BL JivSnKY 22 10 1900
+add_event $BM JivSnKY 22 10 1900
+set_date $CO 1900 6 6
+set_date $CN 1900 6 6
+remove_event $CN SUrPbhM 22
+remove_event $CO SUrPbhM 22
+set_date $CI 1981 6 15
+set_date $CH 1981 6 15
+remove_event $CH STZVhpK 15 6 1900
+remove_event $CI STZVhpK 15 6 1900
+print $BR
+print $BS
+set_date $CO 2021 11 15
+set_date $CN 2021 11 15
+add_event $CN nAbrspq 16 9 1900
+add_event $CO nAbrspq 16 9 1900
+set_date $BZ 1900 11 23
+set_date $CA 1900 11 23
+add_event $BZ GuEJbYc 6 2
+add_event $CA GuEJbYc 6 2
+set_date $DR 1981 10 23
+set_date $DS 1981 10 23
+remove_event $DS SAapngw 28 2 1900
+remove_event $DR SAapngw 28 2 1900
+set_date $CB 1900 10 23
+set_date $CC 1900 10 23
+remove_event $CC tfhvFEm
+remove_event $CB tfhvFEm
+set_date $BO 1900 10 12
+set_date $BN 1900 10 12
+add_event $BN mGNQHDC 5
+add_event $BO mGNQHDC 5
+set_date $CR 1900 8 18
+set_date $CS 1900 8 18
+add_event $CS NyUhMes 2 12
+add_event $CR NyUhMes 2 12
+default-construct $EF gregorian 
+default-construct $EG gregorian 
+set_date $ED 1899 1 1
+set_date $EE 1899 1 1
+set_date $CQ 1900 2 29
+set_date $CP 1900 2 29
+print $DA
+print $CZ
+set_date $CD 1900 6 14
+set_date $CE 1900 6 14
+add_event $CD VLApHRC
+add_event $CE VLApHRC
+set_date $DE 1972 1 11
+set_date $DD 1972 1 11
+add_event $DE HQauURD 20 12 1900
+add_event $DD HQauURD 20 12 1900
+set_date $DI 1899 1 1
+set_date $DH 1899 1 1
+set_date $CC 1900 2 29
+set_date $CB 1900 2 29
+print $DS
+print $DR
+set_date $ED 1900 6 15
+set_date $EE 1900 6 15
+remove_event $ED Kuclkex 6
+remove_event $EE Kuclkex 6
+set_date $CM 1900 1 15
+set_date $CL 1900 1 15
+remove_event $CL hUvXIJe 8 4
+remove_event $CM hUvXIJe 8 4
+set_date $CK 1900 10 7
+set_date $CJ 1900 10 7
+add_event $CK XamvEcs 12 8
+add_event $CJ XamvEcs 12 8
+set_date $CR 1900 11 16
+set_date $CS 1900 11 16
+add_event $CR neFkGxN 15 1
+add_event $CS neFkGxN 15 1
+set_date $BV 2014 3 2
+set_date $BW 2014 3 2
+add_event $BW YsazQCv 3 9 1900
+add_event $BV YsazQCv 3 9 1900
+set_date $DJ 1900 3 6
+set_date $DK 1900 3 6
+add_event $DJ BDgvaZl
+add_event $DK BDgvaZl
+copy-construct $EI gregorian $BM
+copy-construct $EH julian $BL
+set_date $BN 1900 6 28
+set_date $BO 1900 6 28
+add_event $BN oZnEVWM 10
+add_event $BO oZnEVWM 10
+set_date $CW 1900 2 11
+set_date $CV 1900 2 11
+add_event $CV FbyiOte 2 7
+add_event $CW FbyiOte 2 7
+set_date $CO 1899 1 1
+set_date $CN 1899 1 1
+set_date $ED 1900 2 29
+set_date $EE 1900 2 29
+print $CT
+print $CU
+set_date $CP 1900 11 24
+set_date $CQ 1900 11 24
+add_event $CP bfpWrBd 14
+add_event $CQ bfpWrBd 14
+set_date $BY 1900 10 13
+set_date $BX 1900 10 13
+add_event $BY rPfGoxY
+add_event $BX rPfGoxY
+set_date $ED 1900 7 6
+set_date $EE 1900 7 6
+remove_event $ED KfMtGOJ
+remove_event $EE KfMtGOJ
+set_date $CT 1900 7 20
+set_date $CU 1900 7 20
+remove_event $CU kpRmOtM 19 7
+remove_event $CT kpRmOtM 19 7
+set_date $BX 1900 11 26
+set_date $BY 1900 11 26
+add_event $BX EKIBTxu 12 6
+add_event $BY EKIBTxu 12 6
+set_date $CW 1900 9 23
+set_date $CV 1900 9 23
+add_event $CW nFQDMNS 22
+add_event $CV nFQDMNS 22
+set_date $EH 2016 5 16
+set_date $EI 2016 5 16
+add_event $EI IVmlXiN 11 9 1900
+add_event $EH IVmlXiN 11 9 1900
+set_date $CV 1900 4 7
+set_date $CW 1900 4 7
+add_event $CV GFcisLm 26 7
+add_event $CW GFcisLm 26 7
+set_date $BX 2005 6 28
+set_date $BY 2005 6 28
+remove_event $BX ArEnGuH 7 1 1900
+remove_event $BY ArEnGuH 7 1 1900
+set_date $CU 2037 11 5
+set_date $CT 2037 11 5
+remove_event $CT XhVcFdj 11 8 1900
+remove_event $CU XhVcFdj 11 8 1900
+set_date $CR 1900 11 10
+set_date $CS 1900 11 10
+remove_event $CR miygukx
+remove_event $CS miygukx
+set_date $EG 1900 5 16
+set_date $EF 1900 5 16
+remove_event $EG ijDGSIR 6 1
+remove_event $EF ijDGSIR 6 1
+set_date $CO 1900 10 8
+set_date $CN 1900 10 8
+remove_event $CO YJsMIaA 26
+remove_event $CN YJsMIaA 26
+set_date $CC 1993 5 25
+set_date $CB 1993 5 25
+remove_event $CB tapePmK 22 7 1900
+remove_event $CC tapePmK 22 7 1900
+set_date $CK 1900 4 14
+set_date $CJ 1900 4 14
+remove_event $CK pZsWFOa 20 10
+remove_event $CJ pZsWFOa 20 10
+set_date $CD 1900 12 3
+set_date $CE 1900 12 3
+remove_event $CE zMbuoCn
+remove_event $CD zMbuoCn
+copy-construct $EK gregorian $DC
+copy-construct $EJ julian $DB
+default-construct $EM gregorian 
+default-construct $EL gregorian 
+set_date $DS 1900 8 22
+set_date $DR 1900 8 22
+remove_event $DS GuEJbYc 6 2
+remove_event $DR GuEJbYc 6 2
+set_date $BL 1900 2 19
+set_date $BM 1900 2 19
+remove_event $BM oQMGVzF
+remove_event $BL oQMGVzF
+set_date $EI 1900 11 14
+set_date $EH 1900 11 14
+add_event $EI XaMtcgd
+add_event $EH XaMtcgd
+set_date $EJ 2007 3 13
+set_date $EK 2007 3 13
+add_event $EJ YCkOZqa 8 6 1900
+add_event $EK YCkOZqa 8 6 1900
+set_date $EB 2023 5 4
+set_date $EC 2023 5 4
+add_event $EC BlAPEWY 2 12 1900
+add_event $EB BlAPEWY 2 12 1900
+set_date $EK 1900 8 6
+set_date $EJ 1900 8 6
+add_event $EJ vFcJkMz 1 11
+add_event $EK vFcJkMz 1 11
+set_date $EA 1900 6 11
+set_date $DZ 1900 6 11
+remove_event $EA dWHjEAc 5
+remove_event $DZ dWHjEAc 5
+set_date $CO 1900 11 27
+set_date $CN 1900 11 27
+remove_event $CO snubTER 5 6
+remove_event $CN snubTER 5 6
+set_date $EH 1900 7 2
+set_date $EI 1900 7 2
+add_event $EI tSXVMqQ 25 9
+add_event $EH tSXVMqQ 25 9
+set_date $EH 1900 1 8
+set_date $EI 1900 1 8
+add_event $EI VuGAYwS
+add_event $EH VuGAYwS
+set_date $CY 2000 8 13
+set_date $CX 2000 8 13
+add_event $CY ECcOXsG 8 7 1900
+add_event $CX ECcOXsG 8 7 1900
+set_date $CQ 1900 1 6
+set_date $CP 1900 1 6
+add_event $CQ mhoGXCr 23
+add_event $CP mhoGXCr 23
+set_date $DZ 2002 2 17
+set_date $EA 2002 2 17
+add_event $DZ lbowHCN 16 7 1900
+add_event $EA lbowHCN 16 7 1900
+set_date $DB 2013 3 26
+set_date $DC 2013 3 26
+add_event $DC SKMyFXq 15 10 1900
+add_event $DB SKMyFXq 15 10 1900
+set_date $CV 1900 9 15
+set_date $CW 1900 9 15
+remove_event $CV ZFOURkc 25 11
+remove_event $CW ZFOURkc 25 11
+set_date $DJ 1976 12 19
+set_date $DK 1976 12 19
+remove_event $DK SAapngw 28 2 1900
+remove_event $DJ SAapngw 28 2 1900
+set_date $CI 1900 1 12
+set_date $CH 1900 1 12
+remove_event $CH PNcpTfd 9
+remove_event $CI PNcpTfd 9
+set_date $DX 1900 8 19
+set_date $DY 1900 8 19
+remove_event $DY VuGAYwS 8 1
+remove_event $DX VuGAYwS 8 1
+set_date $BN 1899 1 1
+set_date $BO 1899 1 1
+set_date $BY 1900 2 29
+set_date $BX 1900 2 29
+print $CK
+print $CJ
+set_date $BX 2018 4 7
+set_date $BY 2018 4 7
+add_event $BY LSJIgbh 27 4 1900
+add_event $BX LSJIgbh 27 4 1900
+set_date $DS 1900 7 4
+set_date $DR 1900 7 4
+add_event $DS nUqQcvj 21
+add_event $DR nUqQcvj 21
+set_date $DO 1900 7 27
+set_date $DN 1900 7 27
+add_event $DO zOdVeEi
+add_event $DN zOdVeEi
+set_date $DZ 1900 7 20
+set_date $EA 1900 7 20
+add_event $EA exZLiQs
+add_event $DZ exZLiQs
+set_date $BX 1900 5 28
+set_date $BY 1900 5 28
+add_event $BY PmHeILV
+add_event $BX PmHeILV
+set_date $CL 1900 8 2
+set_date $CM 1900 8 2
+add_event $CM QixHkTM
+add_event $CL QixHkTM
+set_date $DO 1899 1 1
+set_date $DN 1899 1 1
+set_date $DH 1900 2 29
+set_date $DI 1900 2 29
+print $BV
+print $BW
+default-construct $EO gregorian 
+default-construct $EN gregorian 
+set_date $BS 1900 8 4
+set_date $BR 1900 8 4
+add_event $BR IYhBfzd 5
+add_event $BS IYhBfzd 5
+set_date $DQ 1900 3 28
+set_date $DP 1900 3 28
+add_event $DP AmBaoWl 2 2
+add_event $DQ AmBaoWl 2 2
+set_date $EN 1998 7 17
+set_date $EO 1998 7 17
+remove_event $EN oDMhXxv 17 4 1900
+remove_event $EO oDMhXxv 17 4 1900
+set_date $CU 1900 10 7
+set_date $CT 1900 10 7
+remove_event $CT yebKiPs 2 12
+remove_event $CU yebKiPs 2 12
+set_date $EM 1985 3 22
+set_date $EL 1985 3 22
+add_event $EM laeFAkp 22 9 1900
+add_event $EL laeFAkp 22 9 1900
+set_date $BL 1900 4 4
+set_date $BM 1900 4 4
+add_event $BL tGsaUbz 7 5
+add_event $BM tGsaUbz 7 5
+destruct $BJ
+destruct $BK
+copy-construct $EP julian $CD
+copy-construct $EQ gregorian $CE
+copy-construct $ES gregorian $EK
+copy-construct $ER julian $EJ
+set_date $DV 1900 4 28
+set_date $DW 1900 4 28
+add_event $DW ztJgAYZ 17
+add_event $DV ztJgAYZ 17
+set_date $BV 1900 8 22
+set_date $BW 1900 8 22
+add_event $BW IqiHEZa 12 6
+add_event $BV IqiHEZa 12 6
+set_date $ES 1900 6 21
+set_date $ER 1900 6 21
+add_event $ER HnvZsVS 18 12
+add_event $ES HnvZsVS 18 12
+set_date $DZ 2028 12 17
+set_date $EA 2028 12 17
+add_event $DZ YsSVfik 1 1 1900
+add_event $EA YsSVfik 1 1 1900
+set_date $DQ 1900 8 14
+set_date $DP 1900 8 14
+add_event $DQ KOYRgah
+add_event $DP KOYRgah
+set_date $EA 2024 3 8
+set_date $DZ 2024 3 8
+add_event $DZ WdXyQme 9 12 1900
+add_event $EA WdXyQme 9 12 1900
+set_date $EF 1899 1 1
+set_date $EG 1899 1 1
+set_date $CZ 1900 2 29
+set_date $DA 1900 2 29
+print $DG
+print $DF
+set_date $CI 1900 9 28
+set_date $CH 1900 9 28
+add_event $CH QoNryVK 3 5
+add_event $CI QoNryVK 3 5
+set_date $DH 1900 5 20
+set_date $DI 1900 5 20
+add_event $DI IeHLXDo
+add_event $DH IeHLXDo
+set_date $CY 1989 12 13
+set_date $CX 1989 12 13
+add_event $CY cpPzsBo 7 8 1900
+add_event $CX cpPzsBo 7 8 1900
+set_date $CW 1900 7 9
+set_date $CV 1900 7 9
+add_event $CV BgpidFs 26 7
+add_event $CW BgpidFs 26 7
+set_date $BT 1900 11 20
+set_date $BU 1900 11 20
+add_event $BT yvtDbsK 27 3
+add_event $BU yvtDbsK 27 3
+set_date $CP 1900 7 25
+set_date $CQ 1900 7 25
+add_event $CQ KShLwVA 18 7
+add_event $CP KShLwVA 18 7
+print $DO
+print $DN
+set_date $CH 1900 5 26
+set_date $CI 1900 5 26
+add_event $CH PMxqiwJ 7
+add_event $CI PMxqiwJ 7
+set_date $CB 1900 10 8
+set_date $CC 1900 10 8
+add_event $CC MAhSPGB 8
+add_event $CB MAhSPGB 8
+set_date $DV 1900 12 19
+set_date $DW 1900 12 19
+remove_event $DW rlOuKQV 20
+remove_event $DV rlOuKQV 20
+set_date $EQ 1900 9 19
+set_date $EP 1900 9 19
+remove_event $EP QxHVUqO 22 5
+remove_event $EQ QxHVUqO 22 5
+set_date $CC 1998 1 7
+set_date $CB 1998 1 7
+remove_event $CC LMmxiyN 27 6 1900
+remove_event $CB LMmxiyN 27 6 1900
+set_date $BT 1900 6 15
+set_date $BU 1900 6 15
+remove_event $BU WarxpgY 21
+remove_event $BT WarxpgY 21
+set_date $BW 1900 2 9
+set_date $BV 1900 2 9
+remove_event $BV SHvueBL 24 8
+remove_event $BW SHvueBL 24 8
+set_date $BY 1900 6 21
+set_date $BX 1900 6 21
+remove_event $BX kcNfFbe 13 10
+remove_event $BY kcNfFbe 13 10
+default-construct $EU gregorian 
+default-construct $ET gregorian 
+set_date $CG 1978 2 3
+set_date $CF 1978 2 3
+add_event $CG WLwmkDa 22 1 1900
+add_event $CF WLwmkDa 22 1 1900
+set_date $CG 1977 11 15
+set_date $CF 1977 11 15
+add_event $CF ZiKdwpO 15 3 1900
+add_event $CG ZiKdwpO 15 3 1900
+set_date $CM 1900 11 22
+set_date $CL 1900 11 22
+add_event $CM zRxfbtM 4 3
+add_event $CL zRxfbtM 4 3
+set_date $CB 1900 11 16
+set_date $CC 1900 11 16
+add_event $CC MTFtiUq 7 2
+add_event $CB MTFtiUq 7 2
+set_date $DJ 1900 2 20
+set_date $DK 1900 2 20
+remove_event $DJ rXDJonq 14 9
+remove_event $DK rXDJonq 14 9
+set_date $DB 1900 9 6
+set_date $DC 1900 9 6
+remove_event $DB FgrJkyd 13
+remove_event $DC FgrJkyd 13
+destruct $BL
+destruct $BM
+set_date $EL 2007 3 23
+set_date $EM 2007 3 23
+remove_event $EL ZGAlLWu 22 9 1900
+remove_event $EM ZGAlLWu 22 9 1900
+set_date $BT 1900 9 4
+set_date $BU 1900 9 4
+remove_event $BT jcFTODJ 19
+remove_event $BU jcFTODJ 19
+set_date $CT 1900 8 23
+set_date $CU 1900 8 23
+add_event $CT VsqFxAX
+add_event $CU VsqFxAX
+set_date $BS 1900 2 9
+set_date $BR 1900 2 9
+add_event $BS tAnrjDE 13
+add_event $BR tAnrjDE 13
+set_date $BP 1900 4 16
+set_date $BQ 1900 4 16
+remove_event $BQ ArEnGuH 7 1
+remove_event $BP ArEnGuH 7 1
+set_date $EC 2023 1 25
+set_date $EB 2023 1 25
+remove_event $EC eFnoQYI 10 4 1900
+remove_event $EB eFnoQYI 10 4 1900
+set_date $EG 1900 10 8
+set_date $EF 1900 10 8
+remove_event $EF DOypWeE 22 12
+remove_event $EG DOypWeE 22 12
+set_date $CU 1900 5 19
+set_date $CT 1900 5 19
+remove_event $CT xNJOcoS 28
+remove_event $CU xNJOcoS 28
+set_date $DU 1900 4 13
+set_date $DT 1900 4 13
+add_event $DU dkWQhFK
+add_event $DT dkWQhFK
+set_date $CL 2005 10 22
+set_date $CM 2005 10 22
+add_event $CL cdyKqQj 25 5 1900
+add_event $CM cdyKqQj 25 5 1900
+set_date $CH 1900 4 10
+set_date $CI 1900 4 10
+add_event $CH tRIKLzE 20 7
+add_event $CI tRIKLzE 20 7
+set_date $DY 1900 10 23
+set_date $DX 1900 10 23
+add_event $DX nfdXKtb
+add_event $DY nfdXKtb
+set_date $CD 1900 8 21
+set_date $CE 1900 8 21
+add_event $CD VavXJfI
+add_event $CE VavXJfI
+set_date $EQ 1900 12 23
+set_date $EP 1900 12 23
+add_event $EQ elmRvxU 18
+add_event $EP elmRvxU 18
+set_date $BN 1900 6 15
+set_date $BO 1900 6 15
+add_event $BN utzcQgw 10 2
+add_event $BO utzcQgw 10 2
+set_date $CW 1900 4 2
+set_date $CV 1900 4 2
+add_event $CW aGsDoWt 18 1
+add_event $CV aGsDoWt 18 1
+set_date $CR 1900 6 18
+set_date $CS 1900 6 18
+remove_event $CS XwMzlbq 24 6
+remove_event $CR XwMzlbq 24 6
+set_date $DF 1900 9 19
+set_date $DG 1900 9 19
+remove_event $DF jcFTODJ
+remove_event $DG jcFTODJ
+set_date $EJ 1900 4 2
+set_date $EK 1900 4 2
+add_event $EK wTVgEsJ 12 8
+add_event $EJ wTVgEsJ 12 8
+set_date $CE 2016 5 9
+set_date $CD 2016 5 9
+add_event $CE mQJfVoL 8 7 1900
+add_event $CD mQJfVoL 8 7 1900
+set_date $CA 1900 2 17
+set_date $BZ 1900 2 17
+add_event $BZ jqWeyEC 19
+add_event $CA jqWeyEC 19
+set_date $CT 1900 8 9
+set_date $CU 1900 8 9
+add_event $CT JPxNKDy 21
+add_event $CU JPxNKDy 21
+set_date $BN 1975 7 26
+set_date $BO 1975 7 26
+add_event $BO AHLfVRE 4 11 1900
+add_event $BN AHLfVRE 4 11 1900
+set_date $EC 1900 4 20
+set_date $EB 1900 4 20
+add_event $EC lKGZvCh
+add_event $EB lKGZvCh
+set_date $EH 1900 11 26
+set_date $EI 1900 11 26
+add_event $EI trXxUYh 14
+add_event $EH trXxUYh 14
+set_date $EM 1900 2 25
+set_date $EL 1900 2 25
+add_event $EM IKMWjzP
+add_event $EL IKMWjzP
+set_date $CA 1900 12 22
+set_date $BZ 1900 12 22
+remove_event $BZ HbpyRNB 16
+remove_event $CA HbpyRNB 16
+set_date $DX 1900 12 15
+set_date $DY 1900 12 15
+remove_event $DX XBqawDj
+remove_event $DY XBqawDj
+set_date $DX 1900 9 7
+set_date $DY 1900 9 7
+remove_event $DY VzvTHAS 12 6
+remove_event $DX VzvTHAS 12 6
+set_date $DE 1900 5 24
+set_date $DD 1900 5 24
+remove_event $DD cdyKqQj 25
+remove_event $DE cdyKqQj 25
+set_date $BZ 1899 1 1
+set_date $CA 1899 1 1
+set_date $DS 1900 2 29
+set_date $DR 1900 2 29
+print $CK
+print $CJ
+set_date $CR 1900 5 12
+set_date $CS 1900 5 12
+add_event $CR JuFytWh 22
+add_event $CS JuFytWh 22
+set_date $DK 1977 7 7
+set_date $DJ 1977 7 7
+add_event $DK RbqFHIj 14 8 1900
+add_event $DJ RbqFHIj 14 8 1900
+print $EG
+print $EF
+set_date $BQ 1900 5 15
+set_date $BP 1900 5 15
+add_event $BP LKSEQJe
+add_event $BQ LKSEQJe
+set_date $EK 1900 1 12
+set_date $EJ 1900 1 12
+add_event $EK PgZUfHJ 4
+add_event $EJ PgZUfHJ 4
+destruct $BO
+destruct $BN
+set_date $CY 1992 9 14
+set_date $CX 1992 9 14
+remove_event $CX kWRgbnO 11 1 1900
+remove_event $CY kWRgbnO 11 1 1900
+set_date $EL 1900 10 9
+set_date $EM 1900 10 9
+remove_event $EL QWHwaXn 10 1
+remove_event $EM QWHwaXn 10 1
+set_date $BZ 1977 1 15
+set_date $CA 1977 1 15
+remove_event $BZ oTsjZgx 8 12 1900
+remove_event $CA oTsjZgx 8 12 1900
+set_date $EG 1900 7 11
+set_date $EF 1900 7 11
+remove_event $EF lbowHCN 16
+remove_event $EG lbowHCN 16
+default-construct $EV gregorian 
+default-construct $EW gregorian 
+destruct $BQ
+destruct $BP
+set_date $DV 1899 1 1
+set_date $DW 1899 1 1
+set_date $DR 1900 2 29
+set_date $DS 1900 2 29
+print $CC
+print $CB
+set_date $EF 1900 9 3
+set_date $EG 1900 9 3
+remove_event $EF YsazQCv
+remove_event $EG YsazQCv
+set_date $DD 1900 7 22
+set_date $DE 1900 7 22
+remove_event $DD xEGImTQ 26
+remove_event $DE xEGImTQ 26
+set_date $CU 2007 12 12
+set_date $CT 2007 12 12
+add_event $CT zFQqrGc 23 7 1900
+add_event $CU zFQqrGc 23 7 1900
+set_date $ER 1981 6 8
+set_date $ES 1981 6 8
+add_event $ES MLyQduD 25 3 1900
+add_event $ER MLyQduD 25 3 1900
+default-construct $EY gregorian 
+default-construct $EX gregorian 
+set_date $CX 1900 3 14
+set_date $CY 1900 3 14
+add_event $CX GbFBEOM 22
+add_event $CY GbFBEOM 22
+set_date $DO 1900 10 20
+set_date $DN 1900 10 20
+add_event $DO hmBeiat
+add_event $DN hmBeiat
+set_date $CH 1900 5 15
+set_date $CI 1900 5 15
+add_event $CI XdUyVgt 10
+add_event $CH XdUyVgt 10
+set_date $CL 1900 1 8
+set_date $CM 1900 1 8
+add_event $CL BNSoxvf 2
+add_event $CM BNSoxvf 2
+set_date $CY 2005 5 15
+set_date $CX 2005 5 15
+add_event $CY bHdSrBc 17 7 1900
+add_event $CX bHdSrBc 17 7 1900
+set_date $CM 1900 11 28
+set_date $CL 1900 11 28
+add_event $CL OVzUWmF 14
+add_event $CM OVzUWmF 14
+set_date $DH 2029 3 22
+set_date $DI 2029 3 22
+add_event $DI bcfChtM 21 10 1900
+add_event $DH bcfChtM 21 10 1900
+set_date $ES 1900 3 21
+set_date $ER 1900 3 21
+add_event $ER TBVeGKy 28 8
+add_event $ES TBVeGKy 28 8
+set_date $CG 1900 4 12
+set_date $CF 1900 4 12
+add_event $CF aXFnKZE
+add_event $CG aXFnKZE
+set_date $CB 1900 3 22
+set_date $CC 1900 3 22
+add_event $CC LEiZDjY 8
+add_event $CB LEiZDjY 8
+set_date $DE 1900 10 19
+set_date $DD 1900 10 19
+remove_event $DE qjtTLNh
+remove_event $DD qjtTLNh
+set_date $EE 1900 10 18
+set_date $ED 1900 10 18
+remove_event $ED JjyAEHS
+remove_event $EE JjyAEHS
+set_date $CG 1900 11 25
+set_date $CF 1900 11 25
+add_event $CG TSnzIeJ 5
+add_event $CF TSnzIeJ 5
+set_date $EW 1900 9 10
+set_date $EV 1900 9 10
+add_event $EW nCYXwdL 27 12
+add_event $EV nCYXwdL 27 12
+set_date $CV 1900 8 19
+set_date $CW 1900 8 19
+add_event $CV YmTdAWF 23 8
+add_event $CW YmTdAWF 23 8
+set_date $EE 1900 2 8
+set_date $ED 1900 2 8
+add_event $EE cIKbYNx 28 11
+add_event $ED cIKbYNx 28 11
+set_date $DM 1899 1 1
+set_date $DL 1899 1 1
+set_date $EV 1900 2 29
+set_date $EW 1900 2 29
+print $EP
+print $EQ
+set_date $CN 1988 4 18
+set_date $CO 1988 4 18
+add_event $CN eXJHaQx 3 12 1900
+add_event $CO eXJHaQx 3 12 1900
+set_date $DJ 1900 1 5
+set_date $DK 1900 1 5
+add_event $DK hBQfEZM 22 4
+add_event $DJ hBQfEZM 22 4
+set_date $BU 2033 9 27
+set_date $BT 2033 9 27
+remove_event $BT qYyGngV 14 7 1900
+remove_event $BU qYyGngV 14 7 1900
+set_date $CG 1900 7 16
+set_date $CF 1900 7 16
+remove_event $CG ymrgWwF 6
+remove_event $CF ymrgWwF 6
+set_date $ER 1900 11 7
+set_date $ES 1900 11 7
+remove_event $ER wGekvNU 9
+remove_event $ES wGekvNU 9
+set_date $DZ 1983 6 23
+set_date $EA 1983 6 23
+remove_event $EA SHvueBL 24 8 1900
+remove_event $DZ SHvueBL 24 8 1900
+set_date $DA 1900 11 13
+set_date $CZ 1900 11 13
+add_event $DA QDIcVzU 20
+add_event $CZ QDIcVzU 20
+set_date $DS 1900 3 20
+set_date $DR 1900 3 20
+add_event $DS JWnsibS
+add_event $DR JWnsibS
+print $DS
+print $DR
+destruct $BR
+destruct $BS
+set_date $CG 2029 9 22
+set_date $CF 2029 9 22
+add_event $CF oYSIRcC 21 9 1900
+add_event $CG oYSIRcC 21 9 1900
+set_date $EC 1900 6 2
+set_date $EB 1900 6 2
+add_event $EC neCJhXp 23
+add_event $EB neCJhXp 23
+set_date $DB 1998 2 17
+set_date $DC 1998 2 17
+add_event $DC feQBaCV 13 11 1900
+add_event $DB feQBaCV 13 11 1900
+set_date $EY 1900 11 13
+set_date $EX 1900 11 13
+add_event $EX ZRgXnHl 17 9
+add_event $EY ZRgXnHl 17 9
+set_date $CY 1900 4 26
+set_date $CX 1900 4 26
+add_event $CX KWhZtIH
+add_event $CY KWhZtIH
+set_date $EP 1900 10 10
+set_date $EQ 1900 10 10
+add_event $EP SqhMHrs 19 5
+add_event $EQ SqhMHrs 19 5
+set_date $DD 1900 1 8
+set_date $DE 1900 1 8
+add_event $DE gkWCUAp 22
+add_event $DD gkWCUAp 22
+set_date $CM 1900 7 22
+set_date $CL 1900 7 22
+add_event $CL YQqPmjA
+add_event $CM YQqPmjA
+destruct $BU
+destruct $BT
+destruct $BV
+destruct $BW
+set_date $EC 1900 4 27
+set_date $EB 1900 4 27
+remove_event $EB hsLYprF 22
+remove_event $EC hsLYprF 22
+set_date $CN 1900 11 26
+set_date $CO 1900 11 26
+remove_event $CO sDnxCOM 13 5
+remove_event $CN sDnxCOM 13 5
+set_date $DC 1899 1 1
+set_date $DB 1899 1 1
+set_date $DB 1900 2 29
+set_date $DC 1900 2 29
+print $DB
+print $DC
+set_date $DR 1900 3 17
+set_date $DS 1900 3 17
+remove_event $DR FoGpBUA 12
+remove_event $DS FoGpBUA 12
+set_date $CM 1900 8 19
+set_date $CL 1900 8 19
+remove_event $CL VavXJfI 21
+remove_event $CM VavXJfI 21
+print $EW
+print $EV
+set_date $EO 1900 2 1
+set_date $EN 1900 2 1
+add_event $EN ChnkVUm
+add_event $EO ChnkVUm
+set_date $DC 1900 7 5
+set_date $DB 1900 7 5
+add_event $DB yrtGBmi
+add_event $DC yrtGBmi
+set_date $CV 1900 8 16
+set_date $CW 1900 8 16
+add_event $CV clYosaw 3
+add_event $CW clYosaw 3
+set_date $BZ 1900 11 16
+set_date $CA 1900 11 16
+add_event $CA GsUnZfc
+add_event $BZ GsUnZfc
+set_date $EA 1900 10 3
+set_date $DZ 1900 10 3
+remove_event $EA NPtvRua 9 2
+remove_event $DZ NPtvRua 9 2
+set_date $EM 2023 11 19
+set_date $EL 2023 11 19
+remove_event $EM vFcJkMz 1 11 1900
+remove_event $EL vFcJkMz 1 11 1900
+copy-construct $FA gregorian $DW
+copy-construct $EZ julian $DV
+set_date $DE 1899 1 1
+set_date $DD 1899 1 1
+set_date $CG 1900 2 29
+set_date $CF 1900 2 29
+print $DA
+print $CZ
+print $EU
+print $ET
+set_date $DC 1900 2 13
+set_date $DB 1900 2 13
+add_event $DC sEhbXMK
+add_event $DB sEhbXMK
+set_date $DZ 1900 6 14
+set_date $EA 1900 6 14
+add_event $EA HSukfFA
+add_event $DZ HSukfFA
+set_date $CW 1899 1 1
+set_date $CV 1899 1 1
+set_date $BZ 1900 2 29
+set_date $CA 1900 2 29
+print $EE
+print $ED
+set_date $CM 1900 1 25
+set_date $CL 1900 1 25
+add_event $CL ebYdnga
+add_event $CM ebYdnga
+set_date $DP 1900 9 7
+set_date $DQ 1900 9 7
+add_event $DP PhrmVSY
+add_event $DQ PhrmVSY
+set_date $DI 1899 1 1
+set_date $DH 1899 1 1
+set_date $EH 1900 2 29
+set_date $EI 1900 2 29
+print $CW
+print $CV
+set_date $DJ 1899 1 1
+set_date $DK 1899 1 1
+set_date $EY 1900 2 29
+set_date $EX 1900 2 29
+print $CB
+print $CC
+set_date $EU 2018 9 6
+set_date $ET 2018 9 6
+add_event $EU yeFzmlr 25 1 1900
+add_event $ET yeFzmlr 25 1 1900
+set_date $CI 1900 3 9
+set_date $CH 1900 3 9
+add_event $CI SIwFXyR 8
+add_event $CH SIwFXyR 8
+destruct $BX
+destruct $BY
+set_date $CF 1900 7 28
+set_date $CG 1900 7 28
+remove_event $CF VzYvFHZ
+remove_event $CG VzYvFHZ
+set_date $ET 1900 9 25
+set_date $EU 1900 9 25
+remove_event $ET yhIFSbK 18 6
+remove_event $EU yhIFSbK 18 6
+print $EB
+print $EC
+set_date $CO 1900 7 14
+set_date $CN 1900 7 14
+add_event $CN ijrgUQo
+add_event $CO ijrgUQo
+set_date $ET 2021 10 16
+set_date $EU 2021 10 16
+add_event $EU hnrCXvB 7 10 1900
+add_event $ET hnrCXvB 7 10 1900
+set_date $FA 1900 12 11
+set_date $EZ 1900 12 11
+add_event $EZ AaZtuxI 16
+add_event $FA AaZtuxI 16
+set_date $CU 2000 1 11
+set_date $CT 2000 1 11
+add_event $CU KrzHnUV 1 4 1900
+add_event $CT KrzHnUV 1 4 1900
+set_date $DU 1900 10 16
+set_date $DT 1900 10 16
+add_event $DU eEtiLYN 16
+add_event $DT eEtiLYN 16
+set_date $CV 1900 11 28
+set_date $CW 1900 11 28
+add_event $CV nZtcaie 9 4
+add_event $CW nZtcaie 9 4
+set_date $DW 1899 1 1
+set_date $DV 1899 1 1
+set_date $DN 1900 2 29
+set_date $DO 1900 2 29
+print $DS
+print $DR
+set_date $CM 1900 8 3
+set_date $CL 1900 8 3
+add_event $CL cQTqPBu 5 7
+add_event $CM cQTqPBu 5 7
+set_date $CM 1900 6 28
+set_date $CL 1900 6 28
+add_event $CM VDRoGnN 9
+add_event $CL VDRoGnN 9
+set_date $DZ 2033 12 7
+set_date $EA 2033 12 7
+add_event $DZ QRMzpeC 9 2 1900
+add_event $EA QRMzpeC 9 2 1900
+set_date $EP 1973 2 24
+set_date $EQ 1973 2 24
+add_event $EQ sYrCqxg 12 2 1900
+add_event $EP sYrCqxg 12 2 1900
+set_date $CM 1899 1 1
+set_date $CL 1899 1 1
+set_date $DW 1900 2 29
+set_date $DV 1900 2 29
+print $DI
+print $DH
+set_date $EJ 1899 1 1
+set_date $EK 1899 1 1
+set_date $CD 1900 2 29
+set_date $CE 1900 2 29
+print $DF
+print $DG
+destruct $BZ
+destruct $CA
+set_date $ET 1900 6 6
+set_date $EU 1900 6 6
+add_event $EU lfEBbgF 16 7
+add_event $ET lfEBbgF 16 7
+set_date $CF 1900 3 12
+set_date $CG 1900 3 12
+add_event $CF gPyRHUX 2
+add_event $CG gPyRHUX 2
+set_date $CW 1899 1 1
+set_date $CV 1899 1 1
+set_date $DJ 1900 2 29
+set_date $DK 1900 2 29
+print $EY
+print $EX
+set_date $DU 1900 10 3
+set_date $DT 1900 10 3
+remove_event $DU nCYXwdL 27 12
+remove_event $DT nCYXwdL 27 12
+set_date $CQ 1900 3 11
+set_date $CP 1900 3 11
+remove_event $CQ NUytcxa 22
+remove_event $CP NUytcxa 22
+set_date $EH 1900 10 27
+set_date $EI 1900 10 27
+remove_event $EH VuGAYwS 8 1
+remove_event $EI VuGAYwS 8 1
+set_date $CO 1900 6 5
+set_date $CN 1900 6 5
+remove_event $CN qhzKnrO 5 5
+remove_event $CO qhzKnrO 5 5
+set_date $DW 1899 1 1
+set_date $DV 1899 1 1
+set_date $DK 1900 2 29
+set_date $DJ 1900 2 29
+print $DP
+print $DQ
+set_date $EJ 1900 8 11
+set_date $EK 1900 8 11
+add_event $EK GUqXLml 24
+add_event $EJ GUqXLml 24
+set_date $EL 1900 4 17
+set_date $EM 1900 4 17
+add_event $EL iPaUHTZ
+add_event $EM iPaUHTZ
+copy-construct $FC gregorian $DU
+copy-construct $FB julian $DT
+print $EW
+print $EV
+set_date $ER 2012 7 14
+set_date $ES 2012 7 14
+add_event $ES ouGMdVh 19 9 1900
+add_event $ER ouGMdVh 19 9 1900
+set_date $DH 1900 2 3
+set_date $DI 1900 2 3
+add_event $DI qetdXDC
+add_event $DH qetdXDC
+set_date $DE 1900 7 25
+set_date $DD 1900 7 25
+add_event $DD JhCdzym 15 6
+add_event $DE JhCdzym 15 6
+set_date $CO 1900 12 28
+set_date $CN 1900 12 28
+add_event $CO PioWtCx 16 7
+add_event $CN PioWtCx 16 7
+default-construct $FD gregorian 
+default-construct $FE gregorian 
+set_date $DX 1900 4 26
+set_date $DY 1900 4 26
+remove_event $DX fBZiFjP
+remove_event $DY fBZiFjP
+set_date $DD 1900 1 5
+set_date $DE 1900 1 5
+remove_event $DE eyPGElg
+remove_event $DD eyPGElg
+set_date $DG 1900 12 25
+set_date $DF 1900 12 25
+add_event $DF lBpCLZP 11 4
+add_event $DG lBpCLZP 11 4
+set_date $CX 1900 9 23
+set_date $CY 1900 9 23
+add_event $CX sVilMmJ 19 5
+add_event $CY sVilMmJ 19 5
+destruct $CC
+destruct $CB
+set_date $EN 1899 1 1
+set_date $EO 1899 1 1
+set_date $FC 1900 2 29
+set_date $FB 1900 2 29
+print $DL
+print $DM
+default-construct $FF gregorian 
+default-construct $FG gregorian 
+set_date $DY 1900 6 4
+set_date $DX 1900 6 4
+remove_event $DX bfpWrBd 14 11
+remove_event $DY bfpWrBd 14 11
+set_date $DI 1900 4 7
+set_date $DH 1900 4 7
+remove_event $DH eTbQhOq 9
+remove_event $DI eTbQhOq 9
+set_date $DK 1899 1 1
+set_date $DJ 1899 1 1
+set_date $CW 1900 2 29
+set_date $CV 1900 2 29
+print $DH
+print $DI
+set_date $EF 1900 10 1
+set_date $EG 1900 10 1
+add_event $EF aOMLlSF 22 8
+add_event $EG aOMLlSF 22 8
+set_date $DK 1900 7 20
+set_date $DJ 1900 7 20
+add_event $DJ NVIqufF 25 1
+add_event $DK NVIqufF 25 1
+set_date $DH 1998 10 6
+set_date $DI 1998 10 6
+add_event $DH FjbMghz 1 11 1900
+add_event $DI FjbMghz 1 11 1900
+set_date $DN 1900 10 17
+set_date $DO 1900 10 17
+add_event $DN AaebmvE 24 4
+add_event $DO AaebmvE 24 4
+set_date $CP 1989 3 13
+set_date $CQ 1989 3 13
+remove_event $CP XvWicVg 6 9 1900
+remove_event $CQ XvWicVg 6 9 1900
+set_date $EA 1995 5 11
+set_date $DZ 1995 5 11
+remove_event $EA tAnrjDE 13 2 1900
+remove_event $DZ tAnrjDE 13 2 1900
+set_date $DK 1899 1 1
+set_date $DJ 1899 1 1
+set_date $FG 1900 2 29
+set_date $FF 1900 2 29
+print $DV
+print $DW
+set_date $EO 1900 9 23
+set_date $EN 1900 9 23
+add_event $EO XKGCoDN 12
+add_event $EN XKGCoDN 12
+set_date $ES 1900 6 14
+set_date $ER 1900 6 14
+add_event $ES DAKkdSQ
+add_event $ER DAKkdSQ
+set_date $DD 1900 1 22
+set_date $DE 1900 1 22
+remove_event $DD jQVkfrc
+remove_event $DE jQVkfrc
+set_date $DJ 1900 1 13
+set_date $DK 1900 1 13
+remove_event $DK VmbyQfJ 18 1
+remove_event $DJ VmbyQfJ 18 1
+default-construct $FH gregorian 
+default-construct $FI gregorian 
+destruct $CE
+destruct $CD
+set_date $ER 2000 2 1
+set_date $ES 2000 2 1
+add_event $ES xDsJHRS 6 9 1900
+add_event $ER xDsJHRS 6 9 1900
+set_date $FI 1900 3 4
+set_date $FH 1900 3 4
+add_event $FH VpYXJOl 17 6
+add_event $FI VpYXJOl 17 6
+set_date $EO 1900 10 6
+set_date $EN 1900 10 6
+add_event $EN kqGJfKO
+add_event $EO kqGJfKO
+set_date $DZ 1900 5 6
+set_date $EA 1900 5 6
+add_event $EA tNTukMR 22
+add_event $DZ tNTukMR 22
+default-construct $FK gregorian 
+default-construct $FJ gregorian 
+copy-construct $FM gregorian $EM
+copy-construct $FL julian $EL
+set_date $ER 1900 1 24
+set_date $ES 1900 1 24
+add_event $ER EiImLoC
+add_event $ES EiImLoC
+set_date $CM 1900 7 6
+set_date $CL 1900 7 6
+add_event $CL lALtmNy 4 3
+add_event $CM lALtmNy 4 3
+set_date $EJ 1900 12 12
+set_date $EK 1900 12 12
+add_event $EJ PyzQoTG
+add_event $EK PyzQoTG
+set_date $CG 1900 12 20
+set_date $CF 1900 12 20
+add_event $CF zsjAuIy
+add_event $CG zsjAuIy
+default-construct $FO gregorian 
+default-construct $FN gregorian 
+print $EP
+print $EQ
+set_date $EK 1900 9 26
+set_date $EJ 1900 9 26
+add_event $EK BjcETWh 14
+add_event $EJ BjcETWh 14
+set_date $ET 1900 6 6
+set_date $EU 1900 6 6
+add_event $ET IBCUKml 20 4
+add_event $EU IBCUKml 20 4
+set_date $DY 1900 9 22
+set_date $DX 1900 9 22
+add_event $DY ibXVWtp 25
+add_event $DX ibXVWtp 25
+set_date $DM 1900 6 5
+set_date $DL 1900 6 5
+add_event $DM toTQnWf 5
+add_event $DL toTQnWf 5
+copy-construct $FQ gregorian $ES
+copy-construct $FP julian $ER
+set_date $DH 1900 8 26
+set_date $DI 1900 8 26
+remove_event $DH dqQNsBH
+remove_event $DI dqQNsBH
+set_date $DY 1900 12 24
+set_date $DX 1900 12 24
+remove_event $DX FRSxqhe 11
+remove_event $DY FRSxqhe 11
+set_date $CO 1899 1 1
+set_date $CN 1899 1 1
+set_date $CR 1900 2 29
+set_date $CS 1900 2 29
+print $DS
+print $DR
+set_date $DP 1899 1 1
+set_date $DQ 1899 1 1
+set_date $EM 1900 2 29
+set_date $EL 1900 2 29
+print $EQ
+print $EP
+set_date $CK 1900 4 21
+set_date $CJ 1900 4 21
+add_event $CJ ncLJoMq 10
+add_event $CK ncLJoMq 10
+set_date $EW 2003 2 27
+set_date $EV 2003 2 27
+add_event $EW qKmZfYN 28 12 1900
+add_event $EV qKmZfYN 28 12 1900
+copy-construct $FR julian $DP
+copy-construct $FS gregorian $DQ
+set_date $CJ 1899 1 1
+set_date $CK 1899 1 1
+set_date $DK 1900 2 29
+set_date $DJ 1900 2 29
+print $FR
+print $FS
+set_date $CU 1900 5 23
+set_date $CT 1900 5 23
+add_event $CU HAPzbyt 9
+add_event $CT HAPzbyt 9
+set_date $EO 1900 3 18
+set_date $EN 1900 3 18
+add_event $EN FNZQOlB
+add_event $EO FNZQOlB
+copy-construct $FT julian $FJ
+copy-construct $FU gregorian $FK
+set_date $FF 1900 3 21
+set_date $FG 1900 3 21
+add_event $FF tKQsmRI 20
+add_event $FG tKQsmRI 20
+set_date $EX 1900 3 3
+set_date $EY 1900 3 3
+add_event $EY jmgldAJ 17
+add_event $EX jmgldAJ 17
+set_date $DX 1899 1 1
+set_date $DY 1899 1 1
+set_date $ED 1900 2 29
+set_date $EE 1900 2 29
+print $DS
+print $DR
+set_date $CM 1993 10 2
+set_date $CL 1993 10 2
+add_event $CM ZqiBKFG 21 2 1900
+add_event $CL ZqiBKFG 21 2 1900
+set_date $CG 1980 5 9
+set_date $CF 1980 5 9
+add_event $CF zKbVZMJ 10 8 1900
+add_event $CG zKbVZMJ 10 8 1900
+set_date $CJ 1900 5 8
+set_date $CK 1900 5 8
+add_event $CK nzhNrUZ 28 9
+add_event $CJ nzhNrUZ 28 9
+set_date $DQ 1900 8 8
+set_date $DP 1900 8 8
+add_event $DP lXOjUdH 2 7
+add_event $DQ lXOjUdH 2 7
+set_date $EJ 1900 2 4
+set_date $EK 1900 2 4
+add_event $EK vWQRylH
+add_event $EJ vWQRylH
+set_date $FH 1900 8 18
+set_date $FI 1900 8 18
+add_event $FI YLUdZry
+add_event $FH YLUdZry
+set_date $EK 1900 8 12
+set_date $EJ 1900 8 12
+add_event $EK CYLlogc 10 8
+add_event $EJ CYLlogc 10 8
+set_date $CS 1900 2 17
+set_date $CR 1900 2 17
+add_event $CR uoTROVY 15
+add_event $CS uoTROVY 15
+set_date $DK 2000 4 14
+set_date $DJ 2000 4 14
+add_event $DK YVodaOw 7 11 1900
+add_event $DJ YVodaOw 7 11 1900
+set_date $EB 1900 6 28
+set_date $EC 1900 6 28
+add_event $EB mKkxXJN 20 4
+add_event $EC mKkxXJN 20 4
+set_date $FL 1900 7 18
+set_date $FM 1900 7 18
+add_event $FL cOpUkFB
+add_event $FM cOpUkFB
+set_date $CO 1900 3 4
+set_date $CN 1900 3 4
+add_event $CN OXnbBUE 16
+add_event $CO OXnbBUE 16
+set_date $DP 2030 9 25
+set_date $DQ 2030 9 25
+add_event $DQ mTYiyvW 1 2 1900
+add_event $DP mTYiyvW 1 2 1900
+set_date $EY 1900 1 25
+set_date $EX 1900 1 25
+add_event $EX toVAOng
+add_event $EY toVAOng
+set_date $CV 1900 12 27
+set_date $CW 1900 12 27
+add_event $CW eaGYdrQ 24 2
+add_event $CV eaGYdrQ 24 2
+set_date $DD 1900 8 18
+set_date $DE 1900 8 18
+add_event $DE okvXejI 9
+add_event $DD okvXejI 9
+set_date $CM 1900 12 23
+set_date $CL 1900 12 23
+add_event $CL pKgfhEs
+add_event $CM pKgfhEs
+set_date $EP 1900 4 5
+set_date $EQ 1900 4 5
+add_event $EP uSTQwUi 17 7
+add_event $EQ uSTQwUi 17 7
+set_date $CK 1990 2 27
+set_date $CJ 1990 2 27
+add_event $CK khELjfK 15 10 1900
+add_event $CJ khELjfK 15 10 1900
+set_date $CP 1974 10 22
+set_date $CQ 1974 10 22
+add_event $CQ wWKqfbL 7 6 1900
+add_event $CP wWKqfbL 7 6 1900
+set_date $EQ 1900 7 19
+set_date $EP 1900 7 19
+remove_event $EQ NasXIWU
+remove_event $EP NasXIWU
+set_date $DH 1900 11 1
+set_date $DI 1900 11 1
+remove_event $DH oZnEVWM 10 6
+remove_event $DI oZnEVWM 10 6
+destruct $CG
+destruct $CF
+set_date $FD 1900 12 14
+set_date $FE 1900 12 14
+add_event $FD aFkTCPE
+add_event $FE aFkTCPE
+set_date $FE 1900 2 28
+set_date $FD 1900 2 28
+add_event $FE bXHVwgq
+add_event $FD bXHVwgq
+copy-construct $FV julian $CH
+copy-construct $FW gregorian $CI
+copy-construct $FX julian $DL
+copy-construct $FY gregorian $DM
+destruct $CH
+destruct $CI
+set_date $DK 2036 1 21
+set_date $DJ 2036 1 21
+add_event $DK hAqdbZD 22 10 1900
+add_event $DJ hAqdbZD 22 10 1900
+set_date $CR 1900 7 12
+set_date $CS 1900 7 12
+add_event $CS GmlvJOg 11
+add_event $CR GmlvJOg 11
+set_date $DQ 1899 1 1
+set_date $DP 1899 1 1
+set_date $DN 1900 2 29
+set_date $DO 1900 2 29
+print $FC
+print $FB
+set_date $DF 1900 12 20
+set_date $DG 1900 12 20
+add_event $DF gGTYXeE 3
+add_event $DG gGTYXeE 3
+set_date $CT 1982 1 5
+set_date $CU 1982 1 5
+add_event $CT wCLidYI 15 9 1900
+add_event $CU wCLidYI 15 9 1900
+print $FD
+print $FE
+set_date $DN 1900 11 10
+set_date $DO 1900 11 10
+remove_event $DO aGsDoWt 18 1
+remove_event $DN aGsDoWt 18 1
+set_date $DX 1900 8 10
+set_date $DY 1900 8 10
+remove_event $DY GUqXLml 24
+remove_event $DX GUqXLml 24
+print $EL
+print $EM
+set_date $CV 1900 3 8
+set_date $CW 1900 3 8
+remove_event $CW LEiZDjY
+remove_event $CV LEiZDjY
+set_date $FP 1900 7 24
+set_date $FQ 1900 7 24
+remove_event $FQ oiYpOAu 17 1
+remove_event $FP oiYpOAu 17 1
+copy-construct $FZ julian $EV
+copy-construct $GA gregorian $EW
+set_date $DG 1987 12 14
+set_date $DF 1987 12 14
+remove_event $DG OnYTlIM 27 7 1900
+remove_event $DF OnYTlIM 27 7 1900
+set_date $FJ 2012 5 25
+set_date $FK 2012 5 25
+remove_event $FJ umSjLTt 23 7 1900
+remove_event $FK umSjLTt 23 7 1900
+set_date $FY 1900 8 18
+set_date $FX 1900 8 18
+remove_event $FY CuZDmGf 2
+remove_event $FX CuZDmGf 2
+set_date $FJ 1900 5 26
+set_date $FK 1900 5 26
+remove_event $FJ OaqRTLi
+remove_event $FK OaqRTLi
+set_date $EI 1899 1 1
+set_date $EH 1899 1 1
+set_date $DH 1900 2 29
+set_date $DI 1900 2 29
+print $DY
+print $DX
+set_date $FM 2017 10 7
+set_date $FL 2017 10 7
+remove_event $FM CoSlDgG 24 7 1900
+remove_event $FL CoSlDgG 24 7 1900
+set_date $DG 2022 1 25
+set_date $DF 2022 1 25
+remove_event $DG zFUTMIq 18 9 1900
+remove_event $DF zFUTMIq 18 9 1900
+set_date $FG 1900 11 4
+set_date $FF 1900 11 4
+add_event $FG DfKIFXe 19
+add_event $FF DfKIFXe 19
+set_date $DZ 1900 3 19
+set_date $EA 1900 3 19
+add_event $DZ wRIpxHB 26
+add_event $EA wRIpxHB 26
+set_date $ER 1899 1 1
+set_date $ES 1899 1 1
+set_date $CK 1900 2 29
+set_date $CJ 1900 2 29
+print $DT
+print $DU
+set_date $DD 1900 5 14
+set_date $DE 1900 5 14
+remove_event $DD UZYSzRI 16 10
+remove_event $DE UZYSzRI 16 10
+set_date $EN 1900 11 7
+set_date $EO 1900 11 7
+remove_event $EN qhzKnrO 5 5
+remove_event $EO qhzKnrO 5 5
+print $EQ
+print $EP
+set_date $CS 1900 1 13
+set_date $CR 1900 1 13
+remove_event $CR ZPLUTxh
+remove_event $CS ZPLUTxh
+set_date $CJ 1900 8 21
+set_date $CK 1900 8 21
+remove_event $CK BgpidFs 26 7
+remove_event $CJ BgpidFs 26 7
+set_date $FU 1900 9 14
+set_date $FT 1900 9 14
+remove_event $FU VwOKDnv 27 10
+remove_event $FT VwOKDnv 27 10
+set_date $EG 1900 11 2
+set_date $EF 1900 11 2
+remove_event $EF tavkEGJ 9 6
+remove_event $EG tavkEGJ 9 6
+set_date $DM 1993 7 1
+set_date $DL 1993 7 1
+add_event $DL mhDbgld 9 12 1900
+add_event $DM mhDbgld 9 12 1900
+set_date $EY 1900 10 20
+set_date $EX 1900 10 20
+add_event $EY sLQnIjN
+add_event $EX sLQnIjN
+set_date $FR 1900 10 20
+set_date $FS 1900 10 20
+remove_event $FS sLQnIjN
+remove_event $FR sLQnIjN
+set_date $ES 2011 1 25
+set_date $ER 2011 1 25
+remove_event $ES KfMtGOJ 6 7 1900
+remove_event $ER KfMtGOJ 6 7 1900
+print $EF
+print $EG
+set_date $CX 1900 9 7
+set_date $CY 1900 9 7
+remove_event $CX gxShKQu
+remove_event $CY gxShKQu
+set_date $FN 1900 10 26
+set_date $FO 1900 10 26
+remove_event $FN ZKwsSfY
+remove_event $FO ZKwsSfY
+set_date $FJ 1899 1 1
+set_date $FK 1899 1 1
+set_date $DL 1900 2 29
+set_date $DM 1900 2 29
+print $DY
+print $DX
+set_date $DQ 1900 4 27
+set_date $DP 1900 4 27
+remove_event $DP oAFJSPu
+remove_event $DQ oAFJSPu
+set_date $CQ 1900 10 15
+set_date $CP 1900 10 15
+remove_event $CQ fmFIHoG
+remove_event $CP fmFIHoG
+set_date $FN 1899 1 1
+set_date $FO 1899 1 1
+set_date $EM 1900 2 29
+set_date $EL 1900 2 29
+print $FK
+print $FJ
+copy-construct $GB julian $EF
+copy-construct $GC gregorian $EG
+set_date $DD 2009 1 23
+set_date $DE 2009 1 23
+add_event $DE BMNiDqf 1 12 1900
+add_event $DD BMNiDqf 1 12 1900
+set_date $DS 1900 4 9
+set_date $DR 1900 4 9
+add_event $DS GPIDayJ
+add_event $DR GPIDayJ
+set_date $DN 2016 12 23
+set_date $DO 2016 12 23
+add_event $DO vTSjFtd 16 4 1900
+add_event $DN vTSjFtd 16 4 1900
+set_date $EE 1900 7 27
+set_date $ED 1900 7 27
+add_event $EE aKGiVrX
+add_event $ED aKGiVrX
+set_date $FJ 1900 5 5
+set_date $FK 1900 5 5
+add_event $FJ svTQJNG 19 7
+add_event $FK svTQJNG 19 7
+set_date $GC 1900 9 8
+set_date $GB 1900 9 8
+add_event $GB TouIVyd
+add_event $GC TouIVyd
+set_date $FE 2032 12 5
+set_date $FD 2032 12 5
+remove_event $FD YAxvGBm 4 3 1900
+remove_event $FE YAxvGBm 4 3 1900
+set_date $DN 1900 8 23
+set_date $DO 1900 8 23
+remove_event $DO zKbVZMJ 10
+remove_event $DN zKbVZMJ 10
+copy-construct $GD julian $DV
+copy-construct $GE gregorian $DW
+set_date $EQ 1900 11 7
+set_date $EP 1900 11 7
+remove_event $EP YVodaOw
+remove_event $EQ YVodaOw
+set_date $GB 2035 12 15
+set_date $GC 2035 12 15
+remove_event $GB bTcVnzy 1 5 1900
+remove_event $GC bTcVnzy 1 5 1900
+set_date $DL 1900 9 5
+set_date $DM 1900 9 5
+add_event $DM mAuRbDH
+add_event $DL mAuRbDH
+set_date $FY 1900 11 24
+set_date $FX 1900 11 24
+add_event $FX XEbBuiY
+add_event $FY XEbBuiY
+set_date $FH 1899 1 1
+set_date $FI 1899 1 1
+set_date $GC 1900 2 29
+set_date $GB 1900 2 29
+print $DX
+print $DY
+set_date $FV 1900 7 13
+set_date $FW 1900 7 13
+add_event $FV HUrRwCu
+add_event $FW HUrRwCu
+set_date $DW 1900 7 2
+set_date $DV 1900 7 2
+add_event $DW jriGwKF
+add_event $DV jriGwKF
+set_date $EW 1900 8 21
+set_date $EV 1900 8 21
+remove_event $EV xhmqRXZ 1 8
+remove_event $EW xhmqRXZ 1 8
+set_date $DP 1900 8 28
+set_date $DQ 1900 8 28
+remove_event $DQ VavXJfI 21
+remove_event $DP VavXJfI 21
+set_date $FD 1900 1 26
+set_date $FE 1900 1 26
+add_event $FE czZnlEf 2 5
+add_event $FD czZnlEf 2 5
+set_date $FF 1900 11 2
+set_date $FG 1900 11 2
+add_event $FF UuXDyFE 8
+add_event $FG UuXDyFE 8
+set_date $DR 1900 8 16
+set_date $DS 1900 8 16
+remove_event $DS thBbJin 2 12
+remove_event $DR thBbJin 2 12
+set_date $EO 1900 5 12
+set_date $EN 1900 5 12
+remove_event $EN ADNdofm 24 5
+remove_event $EO ADNdofm 24 5
+destruct $CK
+destruct $CJ
+set_date $EL 1900 2 3
+set_date $EM 1900 2 3
+add_event $EL uABSlpc
+add_event $EM uABSlpc
+set_date $FY 1900 5 6
+set_date $FX 1900 5 6
+add_event $FY xSODqtT 13
+add_event $FX xSODqtT 13
+default-construct $GF gregorian 
+default-construct $GG gregorian 
+set_date $EE 1994 5 21
+set_date $ED 1994 5 21
+add_event $EE zPQDqsK 12 6 1900
+add_event $ED zPQDqsK 12 6 1900
+set_date $GB 1978 1 13
+set_date $GC 1978 1 13
+add_event $GB YPzQkBD 19 8 1900
+add_event $GC YPzQkBD 19 8 1900
+set_date $CX 1900 8 2
+set_date $CY 1900 8 2
+remove_event $CY rPmHJwa 15
+remove_event $CX rPmHJwa 15
+set_date $EE 1900 8 22
+set_date $ED 1900 8 22
+remove_event $ED QixHkTM 2
+remove_event $EE QixHkTM 2
+set_date $EK 1900 7 24
+set_date $EJ 1900 7 24
+remove_event $EJ TjgIVvZ
+remove_event $EK TjgIVvZ
+set_date $CQ 2034 1 18
+set_date $CP 2034 1 18
+remove_event $CQ AJhwken 17 7 1900
+remove_event $CP AJhwken 17 7 1900
+set_date $CX 1900 1 19
+set_date $CY 1900 1 19
+add_event $CX FvdblcS 25
+add_event $CY FvdblcS 25
+set_date $EA 1900 5 6
+set_date $DZ 1900 5 6
+add_event $EA TPpGKdX
+add_event $DZ TPpGKdX
+print $FI
+print $FH
+copy-construct $GI gregorian $FE
+copy-construct $GH julian $FD
+copy-construct $GK gregorian $FY
+copy-construct $GJ julian $FX
+set_date $CY 1900 11 11
+set_date $CX 1900 11 11
+add_event $CY tbonhGW 21 2
+add_event $CX tbonhGW 21 2
+set_date $FP 1900 6 18
+set_date $FQ 1900 6 18
+add_event $FP NtfkYZj
+add_event $FQ NtfkYZj
+set_date $EK 1900 10 21
+set_date $EJ 1900 10 21
+add_event $EJ pRHtGoP
+add_event $EK pRHtGoP
+set_date $DC 1900 7 7
+set_date $DB 1900 7 7
+add_event $DC pRAlTPV 1 3
+add_event $DB pRAlTPV 1 3
+set_date $FA 1983 6 15
+set_date $EZ 1983 6 15
+add_event $EZ zYKRJkm 4 2 1900
+add_event $FA zYKRJkm 4 2 1900
+set_date $FK 1900 1 13
+set_date $FJ 1900 1 13
+add_event $FJ YgkWwRt 6
+add_event $FK YgkWwRt 6
+set_date $FH 2003 12 18
+set_date $FI 2003 12 18
+add_event $FI VyMKqQC 8 11 1900
+add_event $FH VyMKqQC 8 11 1900
+set_date $EA 2014 10 12
+set_date $DZ 2014 10 12
+add_event $EA dfqHcRk 1 9 1900
+add_event $DZ dfqHcRk 1 9 1900
+copy-construct $GM gregorian $FI
+copy-construct $GL julian $FH
+set_date $EQ 1900 7 3
+set_date $EP 1900 7 3
+remove_event $EP FPvMmfH
+remove_event $EQ FPvMmfH
+set_date $EK 2039 5 7
+set_date $EJ 2039 5 7
+remove_event $EK TBVeGKy 28 8 1900
+remove_event $EJ TBVeGKy 28 8 1900
+set_date $FW 1900 10 10
+set_date $FV 1900 10 10
+remove_event $FW ajnMthJ 24
+remove_event $FV ajnMthJ 24
+set_date $DU 1900 10 13
+set_date $DT 1900 10 13
+remove_event $DU jDQzLfx 8 2
+remove_event $DT jDQzLfx 8 2
+set_date $DC 1899 1 1
+set_date $DB 1899 1 1
+set_date $EJ 1900 2 29
+set_date $EK 1900 2 29
+print $CP
+print $CQ
+set_date $EW 2006 1 1
+set_date $EV 2006 1 1
+remove_event $EW GJxTQjR 11 2 1900
+remove_event $EV GJxTQjR 11 2 1900
+set_date $FN 1900 5 28
+set_date $FO 1900 5 28
+remove_event $FN PmHeILV
+remove_event $FO PmHeILV
+set_date $FC 1900 3 18
+set_date $FB 1900 3 18
+remove_event $FB aJmWREl 24
+remove_event $FC aJmWREl 24
+set_date $FH 1900 10 17
+set_date $FI 1900 10 17
+remove_event $FH NtboKBm 28
+remove_event $FI NtboKBm 28
+default-construct $GN gregorian 
+default-construct $GO gregorian 
+set_date $EO 1900 3 4
+set_date $EN 1900 3 4
+remove_event $EO YAxvGBm
+remove_event $EN YAxvGBm
+set_date $FC 2019 4 14
+set_date $FB 2019 4 14
+remove_event $FC ipamKLz 25 7 1900
+remove_event $FB ipamKLz 25 7 1900
+set_date $CO 2031 1 3
+set_date $CN 2031 1 3
+add_event $CO XTbQJYP 14 3 1900
+add_event $CN XTbQJYP 14 3 1900
+set_date $FJ 1900 1 22
+set_date $FK 1900 1 22
+add_event $FJ fRNEGsi 2
+add_event $FK fRNEGsi 2
+set_date $EK 1900 4 21
+set_date $EJ 1900 4 21
+add_event $EK nLoBMQf
+add_event $EJ nLoBMQf
+set_date $EG 1900 4 2
+set_date $EF 1900 4 2
+add_event $EF BoTshVP 25
+add_event $EG BoTshVP 25
+set_date $EO 1899 1 1
+set_date $EN 1899 1 1
+set_date $DL 1900 2 29
+set_date $DM 1900 2 29
+print $ED
+print $EE
+set_date $CN 1900 2 10
+set_date $CO 1900 2 10
+add_event $CN QbjOnkP
+add_event $CO QbjOnkP
+set_date $FZ 1900 9 16
+set_date $GA 1900 9 16
+add_event $GA qvroFPX 21
+add_event $FZ qvroFPX 21
+set_date $FD 1900 4 28
+set_date $FE 1900 4 28
+add_event $FD HMgWvKB
+add_event $FE HMgWvKB
+set_date $DF 1992 5 19
+set_date $DG 1992 5 19
+add_event $DF ARdDUya 28 6 1900
+add_event $DG ARdDUya 28 6 1900
+print $CT
+print $CU
+default-construct $GQ gregorian 
+default-construct $GP gregorian 
+set_date $CT 1900 9 24
+set_date $CU 1900 9 24
+remove_event $CU qjtTLNh 19 10
+remove_event $CT qjtTLNh 19 10
+set_date $GG 1900 3 24
+set_date $GF 1900 3 24
+remove_event $GG ICLiQTX 10 1
+remove_event $GF ICLiQTX 10 1
+set_date $DZ 1900 12 11
+set_date $EA 1900 12 11
+add_event $EA PZiYSgy
+add_event $DZ PZiYSgy
+set_date $FS 1900 4 26
+set_date $FR 1900 4 26
+add_event $FR ubNngHq
+add_event $FS ubNngHq
+set_date $EA 1900 1 17
+set_date $DZ 1900 1 17
+add_event $DZ xEyhzqY 14
+add_event $EA xEyhzqY 14
+set_date $FB 1988 6 22
+set_date $FC 1988 6 22
+add_event $FC ElDHowp 2 3 1900
+add_event $FB ElDHowp 2 3 1900
+set_date $CR 1900 7 22
+set_date $CS 1900 7 22
+add_event $CR dUPDtQv
+add_event $CS dUPDtQv
+set_date $CT 1900 2 4
+set_date $CU 1900 2 4
+add_event $CU MYRrdjp
+add_event $CT MYRrdjp
+copy-construct $GR julian $FJ
+copy-construct $GS gregorian $FK
+set_date $FU 1995 1 14
+set_date $FT 1995 1 14
+remove_event $FU HQauURD 20 12 1900
+remove_event $FT HQauURD 20 12 1900
+set_date $DS 1900 12 25
+set_date $DR 1900 12 25
+remove_event $DS gpmaAvX 27 12
+remove_event $DR gpmaAvX 27 12
+set_date $DF 1900 1 21
+set_date $DG 1900 1 21
+add_event $DG ZSJtLOX
+add_event $DF ZSJtLOX
+set_date $CR 1900 7 20
+set_date $CS 1900 7 20
+add_event $CR OsLpwPH 23 5
+add_event $CS OsLpwPH 23 5
+set_date $EN 1900 2 7
+set_date $EO 1900 2 7
+remove_event $EN fRNbwGh
+remove_event $EO fRNbwGh
+set_date $EE 1900 5 28
+set_date $ED 1900 5 28
+remove_event $ED PmHeILV 28
+remove_event $EE PmHeILV 28
+destruct $CL
+destruct $CM
+set_date $GN 1899 1 1
+set_date $GO 1899 1 1
+set_date $GD 1900 2 29
+set_date $GE 1900 2 29
+print $EL
+print $EM
+print $DM
+print $DL
+set_date $ET 1899 1 1
+set_date $EU 1899 1 1
+set_date $DA 1900 2 29
+set_date $CZ 1900 2 29
+print $GA
+print $FZ
+set_date $FX 1995 3 14
+set_date $FY 1995 3 14
+add_event $FY NPHKyVZ 3 7 1900
+add_event $FX NPHKyVZ 3 7 1900
+set_date $GH 1900 11 28
+set_date $GI 1900 11 28
+add_event $GI lJLCfNz 22 3
+add_event $GH lJLCfNz 22 3
+set_date $GQ 1899 1 1
+set_date $GP 1899 1 1
+set_date $GP 1900 2 29
+set_date $GQ 1900 2 29
+print $GD
+print $GE
+set_date $CR 1900 5 1
+set_date $CS 1900 5 1
+add_event $CS MKLjiwG
+add_event $CR MKLjiwG
+set_date $FT 1900 4 4
+set_date $FU 1900 4 4
+add_event $FU XQkhNsq 27
+add_event $FT XQkhNsq 27
+set_date $DG 1900 9 3
+set_date $DF 1900 9 3
+add_event $DF VcwxnGo
+add_event $DG VcwxnGo
+set_date $DO 1900 12 28
+set_date $DN 1900 12 28
+add_event $DN mVBFMAS
+add_event $DO mVBFMAS
+set_date $CW 1975 7 6
+set_date $CV 1975 7 6
+add_event $CV ByEsKlr 27 3 1900
+add_event $CW ByEsKlr 27 3 1900
+set_date $GB 1900 3 3
+set_date $GC 1900 3 3
+add_event $GB jnWzyHZ
+add_event $GC jnWzyHZ
+default-construct $GT gregorian 
+default-construct $GU gregorian 
+default-construct $GW gregorian 
+default-construct $GV gregorian 
+print $CW
+print $CV
+set_date $GJ 1899 1 1
+set_date $GK 1899 1 1
+set_date $DQ 1900 2 29
+set_date $DP 1900 2 29
+print $EO
+print $EN
+set_date $CQ 1900 4 15
+set_date $CP 1900 4 15
+remove_event $CP pteJdaG
+remove_event $CQ pteJdaG
+set_date $GC 1900 2 20
+set_date $GB 1900 2 20
+remove_event $GB rNvRdCc 18 12
+remove_event $GC rNvRdCc 18 12
+set_date $DF 1900 2 11
+set_date $DG 1900 2 11
+add_event $DF TnyJupz 26 1
+add_event $DG TnyJupz 26 1
+set_date $GB 1900 1 8
+set_date $GC 1900 1 8
+add_event $GC uETdlmC 4 8
+add_event $GB uETdlmC 4 8
+set_date $GA 1979 12 11
+set_date $FZ 1979 12 11
+add_event $FZ bamIZxV 23 2 1900
+add_event $GA bamIZxV 23 2 1900
+set_date $FE 1900 3 13
+set_date $FD 1900 3 13
+add_event $FE XQmLKgu
+add_event $FD XQmLKgu
+set_date $CO 2007 2 25
+set_date $CN 2007 2 25
+add_event $CO gmfpuRT 21 12 1900
+add_event $CN gmfpuRT 21 12 1900
+set_date $FL 1900 10 11
+set_date $FM 1900 10 11
+add_event $FM FHOeALm
+add_event $FL FHOeALm
+set_date $DB 1900 4 26
+set_date $DC 1900 4 26
+remove_event $DB ncLJoMq 10
+remove_event $DC ncLJoMq 10
+set_date $FD 1900 6 4
+set_date $FE 1900 6 4
+remove_event $FD XdUyVgt 10 5
+remove_event $FE XdUyVgt 10 5
+set_date $ET 1899 1 1
+set_date $EU 1899 1 1
+set_date $FH 1900 2 29
+set_date $FI 1900 2 29
+print $GF
+print $GG
+set_date $EW 1899 1 1
+set_date $EV 1899 1 1
+set_date $EO 1900 2 29
+set_date $EN 1900 2 29
+print $FO
+print $FN
+set_date $FW 1900 7 25
+set_date $FV 1900 7 25
+add_event $FV PcvkuJl 12 4
+add_event $FW PcvkuJl 12 4
+set_date $FC 2004 1 2
+set_date $FB 2004 1 2
+add_event $FB ziAjycL 21 3 1900
+add_event $FC ziAjycL 21 3 1900
+destruct $CN
+destruct $CO
+set_date $CS 1900 4 3
+set_date $CR 1900 4 3
+add_event $CS iFrqOpo 7
+add_event $CR iFrqOpo 7
+set_date $DI 1900 3 3
+set_date $DH 1900 3 3
+add_event $DI GrDfJdm 16
+add_event $DH GrDfJdm 16
+copy-construct $GY gregorian $EI
+copy-construct $GX julian $EH
+set_date $DK 2004 4 2
+set_date $DJ 2004 4 2
+add_event $DJ fRltkax 5 9 1900
+add_event $DK fRltkax 5 9 1900
+set_date $DF 1900 3 24
+set_date $DG 1900 3 24
+add_event $DG usYRyfr 7
+add_event $DF usYRyfr 7
+set_date $GL 1900 5 21
+set_date $GM 1900 5 21
+add_event $GM OsiPJXr
+add_event $GL OsiPJXr
+set_date $EK 1900 2 14
+set_date $EJ 1900 2 14
+add_event $EK FVxrHQb
+add_event $EJ FVxrHQb
+set_date $EU 1899 1 1
+set_date $ET 1899 1 1
+set_date $FC 1900 2 29
+set_date $FB 1900 2 29
+print $EU
+print $ET
+default-construct $HA gregorian 
+default-construct $GZ gregorian 
+copy-construct $HC gregorian $GE
+copy-construct $HB julian $GD
+set_date $DR 2010 4 5
+set_date $DS 2010 4 5
+add_event $DR dAgMTLc 16 9 1900
+add_event $DS dAgMTLc 16 9 1900
+set_date $DC 1900 8 7
+set_date $DB 1900 8 7
+add_event $DC WucdHUk
+add_event $DB WucdHUk
+set_date $EE 1900 7 8
+set_date $ED 1900 7 8
+add_event $ED AKMxiDR
+add_event $EE AKMxiDR
+set_date $DI 1900 4 8
+set_date $DH 1900 4 8
+add_event $DH DsnfumS 20
+add_event $DI DsnfumS 20
+copy-construct $HD julian $HB
+copy-construct $HE gregorian $HC
+set_date $EL 1900 2 17
+set_date $EM 1900 2 17
+add_event $EL xwgYLlh 24
+add_event $EM xwgYLlh 24
+set_date $EQ 1900 8 1
+set_date $EP 1900 8 1
+add_event $EP WXGjPTR 19
+add_event $EQ WXGjPTR 19
+set_date $GE 1900 11 17
+set_date $GD 1900 11 17
+add_event $GE wAslghK
+add_event $GD wAslghK
+set_date $GS 1900 8 3
+set_date $GR 1900 8 3
+add_event $GR MrzoFCQ 19
+add_event $GS MrzoFCQ 19
+set_date $EM 1899 1 1
+set_date $EL 1899 1 1
+set_date $FM 1900 2 29
+set_date $FL 1900 2 29
+print $GZ
+print $HA
+print $DP
+print $DQ
+set_date $FD 1900 11 14
+set_date $FE 1900 11 14
+remove_event $FD bfpWrBd
+remove_event $FE bfpWrBd
+set_date $EN 1900 5 4
+set_date $EO 1900 5 4
+remove_event $EO SqhMHrs 19
+remove_event $EN SqhMHrs 19
+set_date $DQ 1900 7 13
+set_date $DP 1900 7 13
+add_event $DQ CsxcVkj 14 7
+add_event $DP CsxcVkj 14 7
+set_date $GV 1900 7 13
+set_date $GW 1900 7 13
+add_event $GV xWHmhMp 26
+add_event $GW xWHmhMp 26
+destruct $CP
+destruct $CQ
+print $ET
+print $EU
+set_date $DX 1900 10 4
+set_date $DY 1900 10 4
+add_event $DX wmFXqgV 18
+add_event $DY wmFXqgV 18
+set_date $GU 1900 8 24
+set_date $GT 1900 8 24
+add_event $GT KlSPVDX
+add_event $GU KlSPVDX
+set_date $DC 1900 9 15
+set_date $DB 1900 9 15
+add_event $DB NKwEFxz 7 7
+add_event $DC NKwEFxz 7 7
+set_date $FO 2035 11 18
+set_date $FN 2035 11 18
+add_event $FO LxqGZWs 21 11 1900
+add_event $FN LxqGZWs 21 11 1900
+set_date $GL 1900 1 15
+set_date $GM 1900 1 15
+remove_event $GL neFkGxN
+remove_event $GM neFkGxN
+set_date $EY 2000 11 17
+set_date $EX 2000 11 17
+remove_event $EY YJESIwV 6 2 1900
+remove_event $EX YJESIwV 6 2 1900
+set_date $CW 1900 5 11
+set_date $CV 1900 5 11
+add_event $CW wJgXGHO 9 12
+add_event $CV wJgXGHO 9 12
+set_date $DC 2028 8 27
+set_date $DB 2028 8 27
+add_event $DC UzeGhSq 15 5 1900
+add_event $DB UzeGhSq 15 5 1900
+destruct $CR
+destruct $CS
+set_date $EL 1900 7 18
+set_date $EM 1900 7 18
+remove_event $EL NctdmLK 12 6
+remove_event $EM NctdmLK 12 6
+set_date $FX 1900 12 28
+set_date $FY 1900 12 28
+remove_event $FX mVBFMAS
+remove_event $FY mVBFMAS
+set_date $FA 1900 7 11
+set_date $EZ 1900 7 11
+remove_event $FA eEKzhIo
+remove_event $EZ eEKzhIo
+set_date $FK 2002 2 28
+set_date $FJ 2002 2 28
+remove_event $FK FhWmujR 10 6 1900
+remove_event $FJ FhWmujR 10 6 1900
+set_date $DM 1900 6 6
+set_date $DL 1900 6 6
+remove_event $DM foWEMpr
+remove_event $DL foWEMpr
+set_date $DT 1990 10 18
+set_date $DU 1990 10 18
+remove_event $DU bLnIwKl 21 4 1900
+remove_event $DT bLnIwKl 21 4 1900
+default-construct $HG gregorian 
+default-construct $HF gregorian 
+set_date $CT 1900 1 13
+set_date $CU 1900 1 13
+add_event $CU YbecIOt
+add_event $CT YbecIOt
+set_date $FB 1900 12 25
+set_date $FC 1900 12 25
+add_event $FC iqshPGm
+add_event $FB iqshPGm
+copy-construct $HI gregorian $GU
+copy-construct $HH julian $GT
+set_date $GP 1900 12 23
+set_date $GQ 1900 12 23
+remove_event $GQ gGTYXeE 3
+remove_event $GP gGTYXeE 3
+set_date $DB 1900 1 9
+set_date $DC 1900 1 9
+remove_event $DC owzWFOu 20 8
+remove_event $DB owzWFOu 20 8
+set_date $EO 2038 6 5
+set_date $EN 2038 6 5
+remove_event $EN tQUCDwE 4 8 1900
+remove_event $EO tQUCDwE 4 8 1900
+set_date $GP 1982 2 7
+set_date $GQ 1982 2 7
+remove_event $GQ FvXIYVN 3 11 1900
+remove_event $GP FvXIYVN 3 11 1900
+set_date $EF 1900 6 11
+set_date $EG 1900 6 11
+remove_event $EF DVUGjky 23
+remove_event $EG DVUGjky 23
+set_date $EH 1995 4 23
+set_date $EI 1995 4 23
+remove_event $EH zFUTMIq 18 9 1900
+remove_event $EI zFUTMIq 18 9 1900
+set_date $HD 1900 1 15
+set_date $HE 1900 1 15
+remove_event $HE EABocMZ 24
+remove_event $HD EABocMZ 24
+set_date $GC 2006 4 22
+set_date $GB 2006 4 22
+remove_event $GC oiYpOAu 17 1 1900
+remove_event $GB oiYpOAu 17 1 1900
+set_date $EU 1995 8 10
+set_date $ET 1995 8 10
+add_event $EU RfeCaNy 3 4 1900
+add_event $ET RfeCaNy 3 4 1900
+set_date $GO 1900 8 9
+set_date $GN 1900 8 9
+add_event $GN uNJGKPt 6
+add_event $GO uNJGKPt 6
+set_date $EQ 2005 9 12
+set_date $EP 2005 9 12
+add_event $EQ qOVMbeF 5 4 1900
+add_event $EP qOVMbeF 5 4 1900
+set_date $DL 2004 4 2
+set_date $DM 2004 4 2
+add_event $DL EhGRIVP 10 4 1900
+add_event $DM EhGRIVP 10 4 1900
+set_date $EB 1900 9 19
+set_date $EC 1900 9 19
+remove_event $EC nzhNrUZ 28
+remove_event $EB nzhNrUZ 28
+set_date $FT 1975 2 6
+set_date $FU 1975 2 6
+remove_event $FU FVxrHQb 14 2 1900
+remove_event $FT FVxrHQb 14 2 1900
+set_date $DB 1900 12 12
+set_date $DC 1900 12 12
+add_event $DB imFDdCJ 26 2
+add_event $DC imFDdCJ 26 2
+set_date $FG 1900 8 14
+set_date $FF 1900 8 14
+add_event $FG gvyhJjL
+add_event $FF gvyhJjL
+set_date $DI 1900 2 6
+set_date $DH 1900 2 6
+add_event $DI HIqTanx
+add_event $DH HIqTanx
+set_date $DB 1900 9 28
+set_date $DC 1900 9 28
+add_event $DB JSXwcQa 28 4
+add_event $DC JSXwcQa 28 4
+set_date $EB 1900 4 12
+set_date $EC 1900 4 12
+add_event $EC dnPYurg 10 9
+add_event $EB dnPYurg 10 9
+set_date $GO 1900 10 26
+set_date $GN 1900 10 26
+add_event $GO Waikxcm 7 4
+add_event $GN Waikxcm 7 4
+print $GY
+print $GX
+set_date $CZ 1900 1 28
+set_date $DA 1900 1 28
+remove_event $CZ eAzFuSU 21 10
+remove_event $DA eAzFuSU 21 10
+set_date $GE 1990 9 16
+set_date $GD 1990 9 16
+remove_event $GD NPHKyVZ 3 7 1900
+remove_event $GE NPHKyVZ 3 7 1900
+set_date $FC 1900 6 20
+set_date $FB 1900 6 20
+add_event $FB BIriyLD 20 11
+add_event $FC BIriyLD 20 11
+set_date $FP 1900 6 5
+set_date $FQ 1900 6 5
+add_event $FP GyJSusX 5
+add_event $FQ GyJSusX 5
+set_date $FB 2011 8 17
+set_date $FC 2011 8 17
+add_event $FC GoFHnea 26 5 1900
+add_event $FB GoFHnea 26 5 1900
+set_date $DJ 1900 1 1
+set_date $DK 1900 1 1
+add_event $DJ mCbxWcl 9
+add_event $DK mCbxWcl 9
+set_date $FU 1899 1 1
+set_date $FT 1899 1 1
+set_date $GB 1900 2 29
+set_date $GC 1900 2 29
+print $DX
+print $DY
+set_date $GE 1900 1 14
+set_date $GD 1900 1 14
+add_event $GD eQLKPhF
+add_event $GE eQLKPhF
+set_date $DR 1900 2 18
+set_date $DS 1900 2 18
+add_event $DR DKiXIYy 15
+add_event $DS DKiXIYy 15
+set_date $FL 1900 10 13
+set_date $FM 1900 10 13
+add_event $FM VpsJlkW
+add_event $FL VpsJlkW
+set_date $ED 1900 8 27
+set_date $EE 1900 8 27
+add_event $ED OAxWPlR 27
+add_event $EE OAxWPlR 27
+default-construct $HK gregorian 
+default-construct $HJ gregorian 
+set_date $HJ 1900 10 26
+set_date $HK 1900 10 26
+add_event $HK CNjUekl
+add_event $HJ CNjUekl
+set_date $GG 1900 9 20
+set_date $GF 1900 9 20
+add_event $GG HAJgGmE
+add_event $GF HAJgGmE
+set_date $EU 1900 2 5
+set_date $ET 1900 2 5
+add_event $EU qwQmkDJ 12 4
+add_event $ET qwQmkDJ 12 4
+set_date $GN 1900 12 8
+set_date $GO 1900 12 8
+add_event $GO xZSsODf
+add_event $GN xZSsODf
+copy-construct $HL julian $DD
+copy-construct $HM gregorian $DE
+copy-construct $HO gregorian $EE
+copy-construct $HN julian $ED
+default-construct $HQ gregorian 
+default-construct $HP gregorian 
+set_date $DI 2023 11 13
+set_date $DH 2023 11 13
+add_event $DI gdOMVis 17 8 1900
+add_event $DH gdOMVis 17 8 1900
+set_date $HN 1900 5 22
+set_date $HO 1900 5 22
+add_event $HN wNeGJny 27
+add_event $HO wNeGJny 27
+set_date $GU 1899 1 1
+set_date $GT 1899 1 1
+set_date $GQ 1900 2 29
+set_date $GP 1900 2 29
+print $GO
+print $GN
+set_date $DL 1900 1 9
+set_date $DM 1900 1 9
+add_event $DL wqadpLZ
+add_event $DM wqadpLZ
+set_date $EN 1900 12 26
+set_date $EO 1900 12 26
+add_event $EN ZJGNUpt 17
+add_event $EO ZJGNUpt 17
+set_date $GT 1900 8 13
+set_date $GU 1900 8 13
+add_event $GU oCkFrgQ
+add_event $GT oCkFrgQ
+set_date $HE 1900 3 3
+set_date $HD 1900 3 3
+add_event $HD QfGexCZ
+add_event $HE QfGexCZ
+set_date $FF 1900 5 25
+set_date $FG 1900 5 25
+add_event $FG LTcnhVM 17
+add_event $FF LTcnhVM 17
+set_date $EC 1900 7 8
+set_date $EB 1900 7 8
+add_event $EC VOqthHw 6
+add_event $EB VOqthHw 6
+set_date $FU 2001 9 27
+set_date $FT 2001 9 27
+add_event $FU TfBmFRs 18 4 1900
+add_event $FT TfBmFRs 18 4 1900
+set_date $FH 2005 5 17
+set_date $FI 2005 5 17
+add_event $FI ZperqOH 25 9 1900
+add_event $FH ZperqOH 25 9 1900
+set_date $FR 1900 8 18
+set_date $FS 1900 8 18
+remove_event $FS VpsJlkW 13 10
+remove_event $FR VpsJlkW 13 10
+set_date $EY 1900 8 14
+set_date $EX 1900 8 14
+remove_event $EY IUxpSPY
+remove_event $EX IUxpSPY

@@ -1,0 +1,14 @@
+DATA: natch\:\:instruction_id: 1; 
+DATA: $A: $HASH$0; natch\:\:instruction_id: 2; 
+DATA: $B: $HASH$0; natch\:\:instruction_id: 3; 
+DATA: return-value: true; $A: $HASH$0; natch\:\:instruction_id: 4; 
+DATA: return-value: true; $A: $HASH$0; natch\:\:instruction_id: 5; 
+DATA: return-value: true; $A: $HASH$0; natch\:\:instruction_id: 6; 
+DATA: return-value: true; $A: $HASH$0; natch\:\:instruction_id: 7; 
+DATA: return-value: false; $A: $HASH$0; natch\:\:instruction_id: 8; 
+DATA: return-value: false; $A: $HASH$0; natch\:\:instruction_id: 9; 
+DATA: return-value: false; $A: $HASH$0; natch\:\:instruction_id: 10; 
+DATA: $A: $HASH$0; $C: $HASH$0; natch\:\:instruction_id: 11; 
+DATA: Date(000112): Events = [ foobar ]; Date(001012): Events = [ birbaz ]; Date(150812): Events = [ fizbar ]; $A: $HASH$0; natch\:\:instruction_id: 12; 
+DATA: $B: $HASH$0; natch\:\:instruction_id: 13; 
+DATA: Date(000124): Events = [ foobar ]; Date(001025): Events = [ birbaz ]; Date(150825): Events = [ fizbar ]; $C: $HASH$0; natch\:\:instruction_id: 14; 

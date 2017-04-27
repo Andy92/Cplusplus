@@ -1,0 +1,14 @@
+set_k_time 0
+default-construct $A julian
+default-construct $B gregorian
+add_event $A fizbar 12 8 2015
+set_date $A 1900 1 1
+add_event $A birbaz 12 10
+add_event $A foobar 12
+add_event $A fizbar -1 -1 -1
+add_event $A fizbar 0 0 0 
+remove_event $A foobar 12 8 2015
+copy-construct $C gregorian $A
+print $A
+print $B
+print $C
