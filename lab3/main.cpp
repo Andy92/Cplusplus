@@ -1,16 +1,8 @@
-#include <stdio.h>
-#include <iostream>
-#include <string>
-
 using namespace std;
+#include "main.hpp"
+using namespace lab3;
 
-#include "Profession.cpp"
-#include "Race.cpp"
-#include "Creature.cpp"
-#include "environment.cpp"
-
-
-void combat1v1(Character *first, Creature *second) {
+void Main::combat1v1(Character *first, Creature *second){
 	string winner;
 	while(true) {
 		first->hit(second->str);
@@ -25,13 +17,12 @@ void combat1v1(Character *first, Creature *second) {
 		}
 	}
 	cout << winner << endl;
-}
+		}
 
-void Game() {
-	Environment *e = new Environment();
-	Room *rum = new Room(e);
-	Character *charr = new Character(new Human(), new Warrior(), rum);
-	Creature  *creat = new Creature(new Orc());
+		void Main::Game() {
+	Character *charr = new Character(new Human(), new Warrior());
+	Creature *creat = new Creature(new Orc());
+	
 	cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
 
@@ -39,13 +30,74 @@ void Game() {
   	combat1v1(charr, creat);
   	cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
+	
 
-}
+	//Creature List
+	vector<Creature*> creatures; 
+	vector<Creature*> creatures2;
+	vector<Creature*> creatures3;
+	vector<Creature*> creatures4;
+	vector<Creature*> creatures5;    
+
+	creatures.push_back(creat);
+	creatures.push_back(charr);
+	
+	// Environments
+	Environment *e1 = new Environment("TavernDesc");
+	Environment *e2 = new Environment("BeachDesc");
+
+	//Rooms
+	vector<Room> ruums;
+	Room *rum = new Room(e1, creatures);
+	Room *rum2 = new Room(e1, creatures2);
+	Room *rum3 = new Room(e1, creatures3);
+	Room *rum4 = new Room(e1, creatures4);
+	Room *rum5 = new Room(e2, creatures5);
+
+
+	//Directions
+	//rum
+	Direction *ex = new Direction(rum, "East", rum2);
+	Direction *ex2 = new Direction(rum, "South", rum3);
+
+	//rum2
+	Direction *ex3 = new Direction(rum2, "West", rum);
+	Direction *ex4 = new Direction(rum2, "South", rum4);
+
+	//rum3
+	Direction *ex5 = new Direction(rum3, "North", rum);
+	Direction *ex6 = new Direction(rum3, "East", rum4);
+	//rum4
+	Direction *ex7 = new Direction(rum4, "West", rum3);
+	Direction *ex8 = new Direction(rum4, "North", rum2);
+	Direction *ex9 = new Direction(rum4, "East", rum5);
+
+	//rum5
+	Direction *ex10 = new Direction(rum5, "West", rum4);
+	
+	
+	cout << "Description:" << e1->getDesc() << endl;
+	vector<Room> rooms = e1->getRooms();
+	cout << "Nr of Rooms: " << rooms.size() << endl;
+	for(int i=0;i<rooms.size();++i) {
+		vector<Direction> dirs = rooms[i].getDirections();
+		cout << endl;
+		cout << "EnvDesc: " << rooms[i].getEnvDesc() << " Room: " << rooms[i].getID() << " Directions: " << dirs.size();
+		for (int v = 0; v < dirs.size(); ++v) {
+			cout << " " << dirs[v].getName();
+		}
+	}
+
+	cout << endl;
+		
+		}
+
 
 
 
 int main() {
-	cout << "\033[33mStarting game\033[37m" << endl;
-	Game();
-	cout << "\033[33mGame ended\033[37m" << endl;
-}
+			cout << "\033[33mStarting game\033[37m" << endl;
+			Main gn;
+			gn.Game();
+			cout << "\033[33mGame ended\033[37m" << endl;
+		}

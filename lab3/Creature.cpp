@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
+
 class Creature {
 public:
 	Race* r = 0;
@@ -31,10 +36,10 @@ class Character : public Creature// Creature being a lower order base class for 
 {
 public:
 	Profession* p = 0;
-	Room rum = 0;
-	Character(Race* race, Profession* profession, Room *e) : Creature(race) {
+	//Room rum = 0;
+	Character(Race* race, Profession* profession) : Creature(race) {
 		p = profession;
-		rum = e;
+		//rum = e;
 		hp *= p->php;
 		str *= p-> pstr;
 	}
