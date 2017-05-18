@@ -1,9 +1,7 @@
-using namespace std;
-#include "main.hpp"
-using namespace lab3;
 
+#include "Main.hpp"
 void Main::combat1v1(Character *first, Creature *second){
-	string winner;
+	std::string winner;
 	while(true) {
 		first->hit(second->str);
 		if(first->hp <= 0) {
@@ -19,9 +17,39 @@ void Main::combat1v1(Character *first, Creature *second){
 	cout << winner << endl;
 		}
 
-		void Main::Game() {
-	Character *charr = new Character(new Human(), new Warrior());
-	Creature *creat = new Creature(new Orc());
+		void Main::Init() {
+	
+	
+
+	//Creature List
+	std::vector<Creature*> creatures; 
+	std::vector<Creature*> creatures2;
+	std::vector<Creature*> creatures3;
+	std::vector<Creature*> creatures4;
+	std::vector<Creature*> creatures5;    
+
+
+
+
+	
+	// Environments
+	Environment *e1 = new Environment("TavernDesc");
+	Environment *e2 = new Environment("BeachDesc");
+
+	//Rooms
+	std::vector<Room> ruums;
+	Room *rum = new Room(e1, creatures);
+	Room *rum2 = new Room(e1, creatures2);
+	Room *rum3 = new Room(e1, creatures3);
+	Room *rum4 = new Room(e1, creatures4);
+	Room *rum5 = new Room(e2, creatures5);
+
+	Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
+	Creature *creat = new Creature(new Orc("Orc"));
+
+	creatures.push_back(creat);
+	creatures.push_back(charr);
+	
 	
 	cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
@@ -31,30 +59,6 @@ void Main::combat1v1(Character *first, Creature *second){
   	cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
 	
-
-	//Creature List
-	vector<Creature*> creatures; 
-	vector<Creature*> creatures2;
-	vector<Creature*> creatures3;
-	vector<Creature*> creatures4;
-	vector<Creature*> creatures5;    
-
-	creatures.push_back(creat);
-	creatures.push_back(charr);
-	
-	// Environments
-	Environment *e1 = new Environment("TavernDesc");
-	Environment *e2 = new Environment("BeachDesc");
-
-	//Rooms
-	vector<Room> ruums;
-	Room *rum = new Room(e1, creatures);
-	Room *rum2 = new Room(e1, creatures2);
-	Room *rum3 = new Room(e1, creatures3);
-	Room *rum4 = new Room(e1, creatures4);
-	Room *rum5 = new Room(e2, creatures5);
-
-
 	//Directions
 	//rum
 	Direction *ex = new Direction(rum, "East", rum2);
@@ -74,13 +78,14 @@ void Main::combat1v1(Character *first, Creature *second){
 
 	//rum5
 	Direction *ex10 = new Direction(rum5, "West", rum4);
-	
+
+
 	
 	cout << "Description:" << e1->getDesc() << endl;
-	vector<Room> rooms = e1->getRooms();
+	std::vector<Room> rooms = e1->getRooms();
 	cout << "Nr of Rooms: " << rooms.size() << endl;
 	for(int i=0;i<rooms.size();++i) {
-		vector<Direction> dirs = rooms[i].getDirections();
+		std::vector<Direction> dirs = rooms[i].getDirections();
 		cout << endl;
 		cout << "EnvDesc: " << rooms[i].getEnvDesc() << " Room: " << rooms[i].getID() << " Directions: " << dirs.size();
 		for (int v = 0; v < dirs.size(); ++v) {
@@ -92,12 +97,22 @@ void Main::combat1v1(Character *first, Creature *second){
 		
 		}
 
+		void Main::Game() {
+			while(true) {
+				std::string s;
+				std::cin >> s;
+				Parser se;
+				se.Parse(s);
+			}
+		}
+
 
 
 
 int main() {
 			cout << "\033[33mStarting game\033[37m" << endl;
 			Main gn;
+			gn.Init();
 			gn.Game();
 			cout << "\033[33mGame ended\033[37m" << endl;
 		}

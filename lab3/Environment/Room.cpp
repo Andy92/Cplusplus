@@ -1,8 +1,6 @@
 #include "Room.hpp"
-using namespace std;
-using namespace lab3;
 
-	Room::Room(Environment *e, vector<Creature*> creatures) {	
+	Room::Room(Environment *e, std::vector<Creature*> creatures) {	
 		this->creatures = creatures;
 		this->e = e;
 		setID();	// Set the id of the room.
@@ -10,12 +8,12 @@ using namespace lab3;
 	}
 
 	void Room::setID() {
-		vector<Room> rooms = this->e->getRooms();
+		std::vector<Room> rooms = this->e->getRooms();
 		this->id = rooms.size();
 	}
 
 	bool Room::setEnv() {
-		vector<Room> rooms = this->e->getRooms();
+		std::vector<Room> rooms = this->e->getRooms();
 		// If there is already a room with same id in list, update it.
 		for(int i=0;i<rooms.size();++i) {
 			if(this->id == rooms.at(i).id) {
@@ -26,6 +24,7 @@ using namespace lab3;
 		} 
 		rooms.push_back(*this);
 		this->e->setRoom(rooms);
+		// TODO: check if there are memory leaks here?
 		return true;
 		
 	}
@@ -35,16 +34,16 @@ using namespace lab3;
 		return this->id;
 	}
 
-	string Room::getEnvDesc() {
+	std::string Room::getEnvDesc() {
 		return e->getDesc();
 	}
 	
-	void Room::setDirections(vector<Direction> dirs) {
+	void Room::setDirections(std::vector<Direction> dirs) {
 		this->dirs = dirs;
 		setEnv();
 	}
 
-	vector<Direction> Room::getDirections() {
+	std::vector<Direction> Room::getDirections() {
 		return this->dirs;
 	}
 	

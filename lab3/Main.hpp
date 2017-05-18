@@ -2,13 +2,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
-using namespace std;
-#include "Profession.cpp"
-#include "Race.cpp"
-#include "Creature.cpp"
-#include "Environment.cpp"
-#include "Room.cpp"
-#include "Direction.cpp"
+#include "Characters/Creature.cpp"
+#include "Environment/Environment.cpp"
+#include "Environment/Room.cpp"
+#include "Environment/Direction.cpp"
+#include "Checker.hpp"
+#include "Core/Parser.cpp"
 
 
 
@@ -18,14 +17,13 @@ using namespace std;
 #ifndef MAIN_HPP
 #define MAIN_HPP
 
-namespace lab3 {
 	class Main {
 public:
 		void combat1v1(Character *first, Creature *second);
-
+		void Init();
 		void Game();
 		
 };
-}
+
 
 #endif

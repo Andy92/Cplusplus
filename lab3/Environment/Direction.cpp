@@ -1,16 +1,13 @@
 #include "Direction.hpp"
-using namespace std;
-using namespace lab3;
 
-
-		Direction::Direction(string name) {
+		Direction::Direction(std::string name) {
 			this->name = name;
 		}
 		/* r = from room
 		 * name = direction name/id
 		 * tor = to room
 		 */
-		Direction::Direction(Room *r, string name, Room *tor) {
+		Direction::Direction(Room *r, std::string name, Room *tor) {
 			this->tor = tor;
 			this->r = r;
 			this->name = name;
@@ -18,7 +15,7 @@ using namespace lab3;
 		}
 
 		void Direction::addDirs() {
-			vector<Direction> dirs = this->r->getDirections();
+			std::vector<Direction> dirs = this->r->getDirections();
 			dirs.push_back(*this);
 			//cout << " DirName: " << dirs[0].getName() << endl;
 			this->r->setDirections(dirs);
@@ -29,6 +26,6 @@ using namespace lab3;
 			this->r = r;
 		}
 
-		string Direction::getName() {
+		std::string Direction::getName() {
 			return this->name;
 		}
