@@ -100,7 +100,7 @@ void Main::combat1v1(Character *first, Creature *second){
 		void Main::Game() {
 			while(true) {
 				std::string s;
-				std::cin >> s;
+				std::getline (std::cin,s);
 				Parser se;
 				se.Parse(s);
 			}
