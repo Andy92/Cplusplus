@@ -47,3 +47,19 @@
 		return this->dirs;
 	}
 	
+	Creature* Room::getChar() {
+		return this->mainChar;
+	}
+
+	void Room::setChar(Creature* newChar) {
+		this->mainChar = newChar;
+	}
+	
+	bool Room::remChar() {
+		if(this->mainChar != NULL){
+			this->mainChar = NULL;
+			return true;
+		} else {
+			return false;
+		}
+	}

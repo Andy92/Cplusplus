@@ -11,6 +11,7 @@ using namespace std;
 		Character* character;
 		Room* curroom;
 		Checker(Character* character, Room* curroom);
+		bool moveChar(Room* toRoom);
 	};
 
 #endif

@@ -1,4 +1,14 @@
 Checker::Checker(Character* char, Room* curroom) {
-		this->char = char;
+		this->character = char;
 		this->curroom = curroom;
 	}
+
+bool Checker::moveChar(Room* toRoom) {
+	if(this->curroom->remChar()) {
+		toRoom->setChar(this->character);
+		this->curroom = toRoom;
+		return true;
+	} else {
+		return false;
+	}
+}

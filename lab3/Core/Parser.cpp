@@ -19,7 +19,6 @@
 	};
 
 
-
 void Parser::Parse(std::string input) {
 
 

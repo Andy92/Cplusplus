@@ -48,7 +48,7 @@ void Main::combat1v1(Character *first, Creature *second){
 	Creature *creat = new Creature(new Orc("Orc"));
 
 	creatures.push_back(creat);
-	creatures.push_back(charr);
+	rum->setChar(charr);
 	
 	
 	cout << charr->toString() << endl;

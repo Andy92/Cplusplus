@@ -11,6 +11,7 @@
 		std::vector<Creature*> creatures;
 		Environment *e;
 		int id;
+		Creature* mainChar;
 	public:
 		
 
@@ -21,6 +22,9 @@
 		int getID();
 		bool setEnv();
 		std::string getEnvDesc();
+		Creature* getChar();
+		void setChar(Creature* newChar);
+		bool remChar();
 	}; 
 
 #endif
