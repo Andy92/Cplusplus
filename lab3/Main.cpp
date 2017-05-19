@@ -1,5 +1,7 @@
 
 #include "Main.hpp"
+
+
 void Main::combat1v1(Character *first, Creature *second){
 	std::string winner;
 	while(true) {
@@ -49,7 +51,9 @@ void Main::combat1v1(Character *first, Creature *second){
 
 	creatures.push_back(creat);
 	rum->setChar(charr);
-	
+
+	this->ch = new Checker(charr, rum);
+	this->gl = new GameLogic(this->ch);
 	
 	cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
@@ -102,7 +106,8 @@ void Main::combat1v1(Character *first, Creature *second){
 				std::string s;
 				std::getline (std::cin,s);
 				Parser se;
-				se.Parse(s);
+				int par = se.Parse(s);
+				gl->ExecCmd(par);
 			}
 		}
 

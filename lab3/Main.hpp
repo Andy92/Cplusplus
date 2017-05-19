@@ -6,9 +6,9 @@
 #include "Environment/Environment.cpp"
 #include "Environment/Room.cpp"
 #include "Environment/Direction.cpp"
-#include "Checker.hpp"
+#include "Checker.cpp"
 #include "Core/Parser.cpp"
-
+#include "Core/GameLogic.cpp"
 
 
 
@@ -18,6 +18,9 @@
 #define MAIN_HPP
 
 	class Main {
+private:
+	Checker* ch = 0;
+	GameLogic* gl = 0;
 public:
 		void combat1v1(Character *first, Creature *second);
 		void Init();

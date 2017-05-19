@@ -18,6 +18,7 @@
 
 			void changeRoom(Room *r);
 			std::string getName();
+			Room* getToRoom();
 	};
 
 #endif

@@ -1,5 +1,7 @@
-Checker::Checker(Character* char, Room* curroom) {
-		this->character = char;
+#include "Checker.hpp"
+
+Checker::Checker(Character* character, Room* curroom) {
+		this->character = character;
 		this->curroom = curroom;
 	}
 
@@ -11,4 +13,8 @@ bool Checker::moveChar(Room* toRoom) {
 	} else {
 		return false;
 	}
+}
+
+Room* Checker::getRoom() {
+	return this->curroom;
 }

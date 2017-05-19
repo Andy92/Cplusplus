@@ -1,7 +1,6 @@
 
 #include "Parser.hpp"
 
-
  	//std::string keywords[]= 
 
 	std::vector<std::string> Parser::cmd = {
@@ -19,7 +18,7 @@
 	};
 
 
-void Parser::Parse(std::string input) {
+int Parser::Parse(std::string input) {
 
 
 	transform(input.begin(), input.end(), input.begin(),::tolower);
@@ -38,7 +37,8 @@ void Parser::Parse(std::string input) {
 			if(input.find(" ")==0) { // Get whitespace
 				input = input.substr(1);	// remove whitespace
 			} else {
-				std::cerr << "ERROR: Whitespace not present.";
+				std::cerr << "ERROR: Whitespace not present." << std::endl;
+				return -1;
 				break;
 			}
 			// Get the keyword after GO
@@ -49,28 +49,35 @@ void Parser::Parse(std::string input) {
 				}
 			}
 			switch(keywordInt) {
-				case 0 : std::cout << "WEST keyword registered";
+				case 0 : std::cout << "WEST keyword registered" << std::endl;
+					return 0;
 					break;
-				case 1 : std::cout << "EAST keyword registered";
+				case 1 : std::cout << "EAST keyword registered" << std::endl;
+					return 1;
 					break;
-				case 2 : std::cout << "NORTH keyword registered";
+				case 2 : std::cout << "NORTH keyword registered" << std::endl;
+					return 2;
 					break;
-				case 3 : std::cout << "SOUTH keyword registered";
+				case 3 : std::cout << "SOUTH keyword registered" << std::endl;
+					return 3;
 					break;
 				default:
-					std::cout << "No keyword recognized after GO, try again!";
+					std::cout << "No keyword recognized after GO, try again!" << std::endl;
+					return -1;
 					break;
 			}
-			std::cout << std::endl;
-			break;
 		case 1 : std::cout << "HELP command recognized" << std::endl;
+			return 666;
 			break;
 		case 2 : std::cout << "TIME command recognized" << std::endl;
+			return 22;
 			break;
 		case 3 : std::cout << "EXIT command recognized" << std::endl;
+			return 33;
 			break;
 		default:
 			std::cout << "wrong command! or command not recognized, type HELP" << std::endl;
+			return -1;
 			break;
 	}
 

@@ -29,3 +29,7 @@
 		std::string Direction::getName() {
 			return this->name;
 		}
+
+		Room* Direction::getToRoom() {
+			return this->tor;
+		}
