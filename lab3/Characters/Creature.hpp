@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Race.cpp"
-#include "Profession.cpp"
+#include "Race.hpp"
+#include "Profession.hpp"
 
 #ifndef CREATURE_HPP
 #define CREATURE_HPP
@@ -25,5 +25,6 @@ public:
 	Character(Race* race, Profession* profession);
 	std::string toString();
 };
+
 
 #endif

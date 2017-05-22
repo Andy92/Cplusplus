@@ -1,10 +1,12 @@
-
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
 
 #ifndef DIRECTION_HPP
 #define DIRECTION_HPP
-
-
 	class Room;
+
 	class Direction {
 	private:
 		Room *r;

@@ -1,4 +1,5 @@
 #include "Direction.hpp"
+#include "Room.hpp"
 
 		Direction::Direction(std::string name) {
 			this->name = name;

@@ -1,4 +1,4 @@
-FLAGS = -g -Wall -std=c++11
+FLAGS = -g -std=c++11
 CFLAGS = -c $(FLAGS)
 
 # Characters ===========
@@ -44,7 +44,7 @@ Main.o: Main.cpp Main.hpp
 
 CC    = g++
 #CC   = clang++-3.6 -L /usr/lib/gcc/x86_64-linux-gnu/4.8 -I /usr/include/x86_64-linux-gnu/c++/4.8 -I /usr/include/c++/4.8 
-FLAGS2 = -std=c++11 -O2 -Wall -pedantic
+FLAGS2 = -std=c++11 -O2 -pedantic
  
 main: Race.o Profession.o Creature.o Character.o Direction.o Room.o Environment.o Parser.o GameLogic.o Checker.o Main.o
 	 $(CC) $(FLAGS2) -o main.out Characters/Race.o Characters/Profession.o Characters/Creature.o Characters/Character.o Environment/Direction.o Environment/Room.o Environment/Environment.o Core/Parser.o Core/GameLogic.o Checker.o Main.o

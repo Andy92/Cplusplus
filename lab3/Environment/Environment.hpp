@@ -1,10 +1,17 @@
+/**
+
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
 #include "Room.hpp"
 
 #ifndef ENVIRONMENT_HPP
 #define ENVIRONMENT_HPP
  
-	class Environment {
 
+	class Environment {
+	private:
 		std::string description = "";
 		std::vector<Room> rooms;
 	public:
@@ -14,3 +21,5 @@
 		std::vector<Room> getRooms();
 	}; 
 #endif
+
+	**/

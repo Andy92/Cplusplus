@@ -27,7 +27,7 @@
 		}
 	}
 
-Character::Character(Race* race, Profession* profession) : Creature(race) {
+	Character::Character(Race* race, Profession* profession) : Creature(race) {
 		this->p = profession;
 		//rum = e;
 		hp *= this->p->php;
@@ -36,3 +36,4 @@ Character::Character(Race* race, Profession* profession) : Creature(race) {
 	std::string Character::toString() {
 		return "profession: " + this->p->Profession::toString() + " race: " + this->r->Race::toString() + " " + this->stats();
 	}
+

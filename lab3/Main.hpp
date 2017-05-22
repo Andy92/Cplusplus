@@ -2,13 +2,13 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Characters/Creature.cpp"
-#include "Environment/Environment.cpp"
-#include "Environment/Room.cpp"
-#include "Environment/Direction.cpp"
-#include "Checker.cpp"
-#include "Core/Parser.cpp"
-#include "Core/GameLogic.cpp"
+#include "Characters/Creature.hpp"
+#include "Environment/Environment.hpp"
+//#include "Environment/Room.cpp"
+//#include "Environment/Direction.cpp"
+#include "Checker.hpp"
+#include "Core/Parser.hpp"
+#include "Core/GameLogic.hpp"
 
 
 
