@@ -11,7 +11,7 @@ class GameLogic {
 		static std::vector<std::string> Professions;
 		Checker* ch = 0;
 	public:
-		Character charCreation();
+		Character* charCreation();
 		GameLogic(Checker* ch);
 		bool changeDir(std::string newDir);
 		void ExecCmd(int parsedInt);	

@@ -41,14 +41,18 @@ void GameLogic::ExecCmd(int parsedInt) {
 		case 3 : std::cout << "go south" << std::endl;
 			this->changeDir("South"); // go east
 			break;
-		case 666 : std::cout << "You are at roomID: " << this->ch->getRoom()->getID() << std::endl;
+		case 666 : std::cout << "Your character: " << this->ch->getChar()->toString() << std::endl;
+			std::cout << "You are at roomID: " << this->ch->getRoom()->getID() << " at environment: " << this->ch->getRoom()->getEnvDesc() << std::endl;
+			break;
+		case 33 : std::cout << "Exiting the program..." << std::endl;
+			exit(0);
 			break;
 		default : std::cout << "default" << std::endl;
 			break;
 	}
 }
 // 
-Character GameLogic::charCreation() {
+Character* GameLogic::charCreation() {
 	
 	std::string s;
 	int raceInt = -1;
@@ -118,5 +122,5 @@ Character GameLogic::charCreation() {
 		default : std::cerr << std::endl << "ERROR: Bad race, exception!" <<  std::endl;
 			exit(-1);
 		}
-	return *retCharac;
+	return retCharac;
 }

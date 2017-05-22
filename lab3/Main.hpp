@@ -19,6 +19,7 @@
 
 	class Main {
 private:
+	Room *rum = 0;
 	Checker* ch = 0;
 	GameLogic* gl = 0;
 public:

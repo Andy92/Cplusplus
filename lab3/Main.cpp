@@ -40,7 +40,7 @@ void Main::combat1v1(Character *first, Creature *second){
 
 	//Rooms
 	std::vector<Room> ruums;
-	Room *rum = new Room(e1, creatures);
+	rum = new Room(e1, creatures);
 	Room *rum2 = new Room(e1, creatures2);
 	Room *rum3 = new Room(e1, creatures3);
 	Room *rum4 = new Room(e1, creatures4);
@@ -49,11 +49,8 @@ void Main::combat1v1(Character *first, Creature *second){
 	Creature *creat = new Creature(new Orc("Orc"));
 
 	creatures.push_back(creat);
-	Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
-	rum->setChar(charr);
-
-	this->ch = new Checker(charr, rum);
-	this->gl = new GameLogic(this->ch);
+	//Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
+	
 	
 	//cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
@@ -65,15 +62,15 @@ void Main::combat1v1(Character *first, Creature *second){
 	
 	//Directions
 	//rum
-	Direction *ex = new Direction(rum, "East", rum2);
-	Direction *ex2 = new Direction(rum, "South", rum3);
+	Direction *ex = new Direction(this->rum, "East", rum2);
+	Direction *ex2 = new Direction(this->rum, "South", rum3);
 
 	//rum2
-	Direction *ex3 = new Direction(rum2, "West", rum);
+	Direction *ex3 = new Direction(rum2, "West", this->rum);
 	Direction *ex4 = new Direction(rum2, "South", rum4);
 
 	//rum3
-	Direction *ex5 = new Direction(rum3, "North", rum);
+	Direction *ex5 = new Direction(rum3, "North", this->rum);
 	Direction *ex6 = new Direction(rum3, "East", rum4);
 	//rum4
 	Direction *ex7 = new Direction(rum4, "West", rum3);
@@ -102,7 +99,12 @@ void Main::combat1v1(Character *first, Creature *second){
 		}
 
 		void Main::Game() {
-			Character charac = gl->charCreation();
+			Character *charr = gl->charCreation();
+
+			this->rum->setChar(charr);
+
+			this->ch = new Checker(charr, this->rum);
+			this->gl = new GameLogic(this->ch);
 			while(true) {
 				std::string s;
 				std::getline (std::cin,s);

@@ -7,12 +7,14 @@ using namespace std;
 #define CHECKER_HPP
 
 	class Checker {
-	public:
+	private:
 		Character* character;
 		Room* curroom;
+	public:
 		Checker(Character* character, Room* curroom);
 		bool moveChar(Room* toRoom);
 		Room* getRoom();
+		Character* getChar();
 	};
 
 #endif

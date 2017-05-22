@@ -18,3 +18,7 @@ bool Checker::moveChar(Room* toRoom) {
 Room* Checker::getRoom() {
 	return this->curroom;
 }
+
+Character* Checker::getChar() {
+	return this->character;
+}
