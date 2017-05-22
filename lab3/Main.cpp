@@ -46,21 +46,21 @@ void Main::combat1v1(Character *first, Creature *second){
 	Room *rum4 = new Room(e1, creatures4);
 	Room *rum5 = new Room(e2, creatures5);
 
-	Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
 	Creature *creat = new Creature(new Orc("Orc"));
 
 	creatures.push_back(creat);
+	Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
 	rum->setChar(charr);
 
 	this->ch = new Checker(charr, rum);
 	this->gl = new GameLogic(this->ch);
 	
-	cout << charr->toString() << endl;
+	//cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
 
   	
-  	combat1v1(charr, creat);
-  	cout << charr->toString() << endl;
+  	//combat1v1(charr, creat);
+  	//cout << charr->toString() << endl;
   	cout << creat->toString() << endl;
 	
 	//Directions
@@ -102,6 +102,7 @@ void Main::combat1v1(Character *first, Creature *second){
 		}
 
 		void Main::Game() {
+			Character charac = gl->charCreation();
 			while(true) {
 				std::string s;
 				std::getline (std::cin,s);
