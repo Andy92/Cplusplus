@@ -163,7 +163,10 @@ void GameLogic::fightingMode() {
 	std::cout << "FIGHTING> ";
 	std::getline(std::cin, ss);
 	fightmob = atoi(ss.c_str());
-	std::cout << "registered choice: " << fightmob << std::endl;
-
-	combat1v1(this->ch->getChar(), cl.at(fightmob));
+	if(fightmob < 0 || fightmob >= cl.size()) {
+		std::cout << "ERROR: choice: " << fightmob << " is not available." << std::endl;
+	} else {
+		std::cout << "registered choice: " << fightmob << std::endl;
+		combat1v1(this->ch->getChar(), cl.at(fightmob));
+	}
 }
