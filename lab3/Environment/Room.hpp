@@ -29,6 +29,7 @@
 		Creature* getChar();
 		void setChar(Creature* newChar);
 		bool remChar();
+		std::vector<Creature*> getCreatureList();
 	}; 
 	class Environment {
 	private:

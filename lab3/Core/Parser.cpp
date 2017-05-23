@@ -7,7 +7,8 @@
 		"go",
 		"help",
 		"time",
-		"exit"
+		"exit",
+		"fight"
 	};
 
 	std::vector<std::string> Parser::keyw{
@@ -74,6 +75,9 @@ int Parser::Parse(std::string input) {
 			break;
 		case 3 : std::cout << "EXIT command recognized" << std::endl;
 			return 33;
+			break;
+		case 4 : std::cout << "FIGHT command recognized" << std::endl;
+			return 44;
 			break;
 		default:
 			std::cout << "wrong command! or command not recognized, type HELP" << std::endl;

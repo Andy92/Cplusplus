@@ -15,6 +15,8 @@ class GameLogic {
 		GameLogic(Checker* ch);
 		bool changeDir(std::string newDir);
 		void ExecCmd(int parsedInt);	
+		void fightingMode();
+		void combat1v1(Character* first, Creature* second);
 
 };
 #endif

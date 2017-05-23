@@ -31,7 +31,7 @@
 	bool Room::setEnv() {
 		std::vector<Room> rooms = this->e->getRooms();
 		// If there is already a room with same id in list, update it.
-		for(int i=0;i<rooms.size();++i) {
+		for(unsigned int i=0;i<rooms.size();++i) {
 			if(this->id == rooms.at(i).id) {
 				rooms.at(i) = *this;
 				this->e->setRoom(rooms);
@@ -63,6 +63,9 @@
 		return this->dirs;
 	}
 	
+	std::vector<Creature*> Room::getCreatureList() {
+		return this->creatures;
+	}
 	Creature* Room::getChar() {
 		return this->mainChar;
 	}

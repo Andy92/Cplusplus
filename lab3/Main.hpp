@@ -23,7 +23,6 @@ private:
 	Checker* ch = 0;
 	GameLogic* gl = 0;
 public:
-		void combat1v1(Character *first, Creature *second);
 		void Init();
 		void Game();
 		

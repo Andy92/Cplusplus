@@ -1,23 +1,6 @@
 #include "Main.hpp"
 
 
-void Main::combat1v1(Character *first, Creature *second){
-	std::string winner;
-	while(true) {
-		first->hit(second->str);
-		if(first->hp <= 0) {
-			winner = second->r->id;
-			break;
-		}
-		second->hit(first->str);
-		if(second->hp <= 0) {
-			winner = first->r->id;
-			break;
-		}
-	}
-	cout << winner << endl;
-		}
-
 		void Main::Init() {
 	
 	
@@ -38,6 +21,9 @@ void Main::combat1v1(Character *first, Creature *second){
 	Environment *e2 = new Environment("BeachDesc");
 
 	//Rooms
+	Creature *creat = new Creature(new Orc("Orc"));
+
+	creatures.push_back(creat);
 	std::vector<Room> ruums;
 	rum = new Room(e1, creatures);
 	Room *rum2 = new Room(e1, creatures2);
@@ -45,9 +31,7 @@ void Main::combat1v1(Character *first, Creature *second){
 	Room *rum4 = new Room(e1, creatures4);
 	Room *rum5 = new Room(e2, creatures5);
 
-	Creature *creat = new Creature(new Orc("Orc"));
-
-	creatures.push_back(creat);
+	
 	//Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
 	
 	
@@ -106,6 +90,7 @@ void Main::combat1v1(Character *first, Creature *second){
 			this->gl = new GameLogic(this->ch);
 			while(true) {
 				std::string s;
+				std::cout << "RPG> ";
 				std::getline (std::cin,s);
 				Parser se;
 				int par = se.Parse(s);
