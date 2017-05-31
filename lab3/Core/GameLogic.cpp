@@ -51,6 +51,15 @@ void GameLogic::ExecCmd(int parsedInt) {
 	case 44 : std::cout << "FightingMode" << std::endl;
 		this->fightingMode();
 		break;
+	case 55 : 
+		std::cout << this->ch->getQuest()->getMainObjective() << std::endl;
+		break;
+	case 66 : std::cout << "===============item list====================" << std::endl;
+		this->backpackMode();
+		break;
+	case 77 : std::cout << "===============item list====================" << std::endl;
+		this->inventoryMode();
+		break;
 	default : std::cout << "default" << std::endl;
 		break;
 }
@@ -74,7 +83,7 @@ for(int i=0; i<Races.size(); ++i) { //Race iteration
 	}
 }
 
-std::cout << raceInt << endl;
+std::cout << raceInt << std::endl;
 if(raceInt == -1) {
 	std::cout << "Non existant race, try again!" << std::endl;
 }
@@ -92,7 +101,7 @@ for(int i=0; i<Professions.size(); ++i) { //Race iteration
 		profInt = i;
 	}
 }
-std::cout << profInt << endl;
+std::cout << profInt << std::endl;
 if(profInt == -1) {
 	std::cout << "Non existant profession, try again!" << std::endl;
 }
@@ -136,14 +145,15 @@ void GameLogic::combat1v1(Character* first, Creature* second){
 		std::cout << "This monster is dead, you cannot fight a dead monster. Type LOOT to try to loot it." << std::endl;
 	} else {
 		while(true) {
-			first->hit(second->str);
+			first->hit(second->str+second->wepdmg);
 			if(first->hp <= 0) {
 				winner = second->toString();
 				break;
 			}
-			second->hit(first->str);
+			second->hit(first->str+first->wepdmg);
 			if(second->hp <= 0) {
 				winner = first->toString();
+				first->drop(second);
 				break;
 			}
 		}
@@ -152,6 +162,53 @@ void GameLogic::combat1v1(Character* first, Creature* second){
 }
 
 
+void GameLogic::backpackMode() {
+	this->ch->getChar()->displayitems();
+	int equipitem = -1;
+	std::cout << "EQUIP> ";
+	equipitem = takeInt();
+	if(equipitem < 0 || equipitem >= this->ch->getChar()->Items.size()) { // bokstäver går förbi checken
+		std::cout << "ERROR: choice: " << equipitem << " is not available." << std::endl;
+	} else {
+		std::cout << "registered choice: " << equipitem << std::endl;
+		this->ch->getChar()->equip(this->ch->getChar()->Items.at(equipitem));
+		this->ch->getChar()->Items.erase(this->ch->getChar()->Items.begin()+equipitem);
+	}
+}
+
+void GameLogic::inventoryMode() {
+	this->ch->getChar()->displayEquippedItems();
+	int unequipitem = -1;
+	std::cout << "UNEQUIP> ";
+	unequipitem = takeInt();
+	if(unequipitem < 1 || unequipitem > 4) { // bokstäver går förbi checken
+		std::cout << "ERROR: choice: " << unequipitem << " is not available." << std::endl;
+	} else {
+		std::cout << "registered choice: " << unequipitem << std::endl;
+		switch(unequipitem) {
+			case 1:
+				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipWep());
+				break;
+			case 2:
+				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipHelm());
+				break;
+			case 3:
+				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipChest());
+				break;
+			case 4:
+				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipLegs());
+				break;
+		}
+	}
+}
+
+int GameLogic::takeInt() {
+	std::string ss;
+	int ret = -1;
+	std::getline(std::cin, ss); 
+	ret = atoi(ss.c_str());
+	return ret; 
+}
 void GameLogic::fightingMode() {
 	std::cout << "choose between available monsters to fight: " << std::endl;
 	std::vector<Creature*> cl = this->ch->getRoom()->getCreatureList();
@@ -159,11 +216,9 @@ void GameLogic::fightingMode() {
 		std::cout << cl.at(i)->toString() << " to fight this monster press: " << (i) << std::endl;
 	}
 	int fightmob = -1;
-	std::string ss;
 	std::cout << "FIGHTING> ";
-	std::getline(std::cin, ss);
-	fightmob = atoi(ss.c_str());
-	if(fightmob < 0 || fightmob >= cl.size()) {
+	fightmob = takeInt();
+	if(fightmob < 0 || fightmob >= cl.size()) { // bokstäver går förbi checken
 		std::cout << "ERROR: choice: " << fightmob << " is not available." << std::endl;
 	} else {
 		std::cout << "registered choice: " << fightmob << std::endl;

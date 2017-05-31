@@ -8,6 +8,9 @@
 #ifndef ROOM_HPP
 #define ROOM_HPP
 
+// Maximum number of rooms
+#define maxRooms 1000
+
  	class Environment;
 	class Room {
 	private:
@@ -35,10 +38,12 @@
 	private:
 		std::string description = "";
 		std::vector<Room> rooms;
+		int id;
 	public:
-		Environment(std::string descr);
+		Environment(std::string descr, int id);
 		void setRoom(std::vector<Room> rooms);
 		std::string getDesc();
 		std::vector<Room> getRooms();
+		int getID(); 
 	}; 
 #endif

@@ -12,6 +12,7 @@ class A {
 
 int main() {
 	int *a = new int(5);
+	delete a;
 	std::cout << a << std::endl;
 }
 

@@ -4,8 +4,9 @@
 		return this->rooms;
 	}
 	
-	Environment::Environment(std::string descr) {
+	Environment::Environment(std::string descr, int id) {
 		this->description = descr;
+		this->id = id;
 	}
 	
 	void Environment::setRoom(std::vector<Room> rooms) {
@@ -14,6 +15,10 @@
 
 	std::string Environment::getDesc() {
 		return this->description;
+	}
+
+	int Environment::getID() {
+		return this->id;
 	}
 
 	Room::Room(Environment *e, std::vector<Creature*> creatures) {	
@@ -25,9 +30,10 @@
 
 	void Room::setID() {
 		std::vector<Room> rooms = this->e->getRooms();
-		this->id = rooms.size();
+		this->id = this->e->getID() * maxRooms + rooms.size();
 	}
 
+	// Environment will have 1000 room maximum.
 	bool Room::setEnv() {
 		std::vector<Room> rooms = this->e->getRooms();
 		// If there is already a room with same id in list, update it.

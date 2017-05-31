@@ -1,6 +1,16 @@
 FLAGS = -g -std=c++11
 CFLAGS = -c $(FLAGS)
 
+# Quests ============
+
+Quest.o: Quest.cpp Quest.hpp
+	g++ $(CFLAGS) -o Quest.o Quest.cpp
+
+# Items ============
+
+Item.o: Items/Item.cpp Items/Item.hpp
+	g++ $(CFLAGS) -o Items/Item.o Items/Item.cpp
+
 # Characters ===========
 Race.o: Characters/Race.cpp Characters/Race.hpp
 	g++ $(CFLAGS) -o Characters/Race.o Characters/Race.cpp 
@@ -46,8 +56,8 @@ CC    = g++
 #CC   = clang++-3.6 -L /usr/lib/gcc/x86_64-linux-gnu/4.8 -I /usr/include/x86_64-linux-gnu/c++/4.8 -I /usr/include/c++/4.8 
 FLAGS2 = -std=c++11 -O2 -pedantic
  
-main: Race.o Profession.o Creature.o Character.o Direction.o Room.o Environment.o Parser.o GameLogic.o Checker.o Main.o
-	 $(CC) $(FLAGS2) -o main.out Characters/Race.o Characters/Profession.o Characters/Creature.o Characters/Character.o Environment/Direction.o Environment/Room.o Environment/Environment.o Core/Parser.o Core/GameLogic.o Checker.o Main.o
+main: Quest.o Item.o Race.o Profession.o Creature.o Character.o Direction.o Room.o Environment.o Parser.o GameLogic.o Checker.o Main.o
+	 $(CC) $(FLAGS2) -o main.out Items/Item.o Characters/Race.o Characters/Profession.o Characters/Creature.o Characters/Character.o Environment/Direction.o Environment/Room.o Environment/Environment.o Core/Parser.o Core/GameLogic.o Checker.o Quest.o Main.o
 
 
 

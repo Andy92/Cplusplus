@@ -9,6 +9,7 @@
 #include "Checker.hpp"
 #include "Core/Parser.hpp"
 #include "Core/GameLogic.hpp"
+//#include "Quest.hpp"
 
 
 
@@ -19,7 +20,7 @@
 
 	class Main {
 private:
-	Room *rum = 0;
+	std::vector<Room*> roomVec;
 	Checker* ch = 0;
 	GameLogic* gl = 0;
 public:
