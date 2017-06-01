@@ -10,15 +10,27 @@ std::string Race::toString() {
 	return this->id;
 } 
 
-Human::Human(std::string identifier) : Race(identifier) {
+Human::Human() : Race("Human") {
 	rhp = 1.1;
 	rstr = 1.1;
 
 
 }
 
-Orc::Orc(std::string identifier) : Race(identifier) {
+Orc::Orc() : Race("Orc") {
 	rhp = 1.3;
 	rstr = 1.4;
+  
+}
+
+Bandit::Bandit() : Race("Bandit") {
+	rhp = 1.3;
+	rstr = 1.4;
+  
+}
+
+Dragon::Dragon() : Race("Dragon") {
+	rhp = 6.0;
+	rstr = 4.5;
   
 }

@@ -15,8 +15,9 @@ GameLogic::GameLogic(Checker* ch) {
 	this->ch = ch;
 }
 
+// Move character from current room to given room.
 bool GameLogic::changeDir(std::string newDir) {
-	Room* oldRoom = this->ch->getRoom();
+	Room* oldRoom = ROOM;
 	std::vector<Direction> dirs = oldRoom->getDirections();
 	for(int i =0; i < dirs.size() ;++i) {
 		if(dirs.at(i).getName().compare(newDir) == 0) {
@@ -27,13 +28,20 @@ bool GameLogic::changeDir(std::string newDir) {
 	return false;
 }
 
+void GameLogic::getDirections() {
+	std::vector<Direction> dirs2 = ROOM->getDirections();
+	for(int k=0;k<dirs2.size();++k) {
+		std::cout << dirs2.at(k).getName() << std::endl;
+	}
+}
+
 void GameLogic::ExecCmd(int parsedInt) {
 	switch(parsedInt) {
 	case 0 : std::cout << "go west" << std::endl;
 		this->changeDir("West"); // go east
 		break; // go west
 	case 1 : std::cout << "go east" << std::endl;
-		this->changeDir("East"); // go east
+		this->castleTax();
 		break;
 	case 2 : std::cout << "go north" << std::endl;
 		this->changeDir("North"); // go east
@@ -41,28 +49,104 @@ void GameLogic::ExecCmd(int parsedInt) {
 	case 3 : std::cout << "go south" << std::endl;
 		this->changeDir("South"); // go east
 		break;
-	case 666 : std::cout << "Your character: " << this->ch->getChar()->toString() << std::endl;
-		std::cout << "You are at roomID: " << this->ch->getRoom()->getID() << " at environment: " << this->ch->getRoom()->getEnvDesc() << std::endl;
+	case 666 : std::cout << "Your character: " << CHARAC->toString() << std::endl;
+		std::cout << "You are at roomID: " << ROOM->getID() << " at environment: " << ROOM->getEnvDesc() << std::endl;
+		break;
+	case 22 : std::cout << "Available commands:" << std::endl;
+			std::cout << "GO, STATS, HELP, EXIT, FIGHT, QUEST, ITEMS, INV, SHOP, TALK" << std::endl;
 		break;
 	case 33 : std::cout << "Exiting the program..." << std::endl;
 		exit(0);
-	break;
-
+		break;
 	case 44 : std::cout << "FightingMode" << std::endl;
 		this->fightingMode();
 		break;
 	case 55 : 
-		std::cout << this->ch->getQuest()->getMainObjective() << std::endl;
+		this->outputQuestObj();
 		break;
 	case 66 : std::cout << "===============item list====================" << std::endl;
 		this->backpackMode();
 		break;
-	case 77 : std::cout << "===============item list====================" << std::endl;
+	case 77 : std::cout << "===============equipped list====================" << std::endl;
 		this->inventoryMode();
+		break;
+	case 88 : std::cout << "=================shopkeeper list=================" << std::endl;
+		this->shopkeeperMode();
+		break;
+	case 4 : std::cout << "=================directions=================" << std::endl;
+		this->getDirections();
+		break;
+	case 99 : std::cout << "=================talking=================" << std::endl;
+		this->talking();
 		break;
 	default : std::cout << "default" << std::endl;
 		break;
 }
+}
+
+void GameLogic::castleTax() {
+
+
+
+	// outside castle entrance
+	if(ROOM->getID() == 2003) {
+			if(this->ch->getTax()) {
+				std::cout << "Guard: Have you payed the tax for today? Would you like to?" << std::endl;
+				std::string str;
+				std::cout << std::endl << "TALK> ";
+				std::getline (std::cin,str);
+				if(str == "yes") {
+					int cc = CHARAC->getcoins();
+					if(cc >= 5000) {
+						CHARAC->setcoins(cc - 5000);
+						std::cout << "Guard: Thank you, i will deliver this 5000 coins to the kings treasure." << std::endl;
+						this->ch->payTax();
+					} else {
+						std::cout << "You have not payed taxes for years, it has accumulated into 5000 coins." << std::endl;
+					}
+				} else {
+					std::cout << "Guard: Well unless you answer me yes and accept to pay taxes i can't let you in." << std::endl;
+				}
+			}else {
+				std::cout << "Guard: Welcome to the king's castle sir." << std::endl;
+				this->changeDir("East"); // go east
+			}
+			// outside dragonlair
+		} else if(ROOM->getID() == 3003) {
+			if(this->ch->getQuest()->checkQuest(2)
+			&& this->ch->getQuest()->checkQuest(3)) {
+				this->changeDir("East"); // go east
+			} else {
+				std::cout << "You are trying to enter the dragon lair, but you shiver in fear and do not dare to enter." << std::endl;
+				std::cout << "Maybe if you complete all the other quests and get stronger you might be more confident." << std::endl;
+			}
+
+
+		} else {
+			this->changeDir("East"); // go east
+		}
+
+
+
+}
+void GameLogic::talking() {
+	if(ROOM->getID() == 5004) {
+		this->ch->getQuest()->setQuest(2);
+	}
+	else if(ROOM->getID() == 6008) {
+		this->ch->getQuest()->setQuest(3);
+	}
+}
+
+void GameLogic::outputQuestObj() {
+	Quest* quest = this->ch->getQuest();
+	std::cout << quest->getMainObjective() << std::endl;
+	if(quest->checkQuest(2)){
+		std::cout << quest->getSecondaryObjective() << std::endl;
+	}
+	if(quest->checkQuest(3)){
+		std::cout << quest->getThirdObjective() << std::endl;
+	}
 }
 // 
 Character* GameLogic::charCreation() {
@@ -83,7 +167,7 @@ for(int i=0; i<Races.size(); ++i) { //Race iteration
 	}
 }
 
-std::cout << raceInt << std::endl;
+std::cerr << raceInt << std::endl;
 if(raceInt == -1) {
 	std::cout << "Non existant race, try again!" << std::endl;
 }
@@ -101,7 +185,7 @@ for(int i=0; i<Professions.size(); ++i) { //Race iteration
 		profInt = i;
 	}
 }
-std::cout << profInt << std::endl;
+std::cerr << profInt << std::endl;
 if(profInt == -1) {
 	std::cout << "Non existant profession, try again!" << std::endl;
 }
@@ -111,10 +195,10 @@ switch(raceInt) {
 	case 0 : std::cout << "you are a human ";
 	switch(profInt) {
 		case 0 : std::cout << "warrior" << std::endl;
-		retCharac = new Character(new Human("Human"), new Warrior("Warrior"));
+		retCharac = new Character(new Human(), new Warrior());
 			break; // go west
 			case 1 : std::cout << "wizard" << std::endl;
-			retCharac = new Character(new Human("Human"), new Wizard("Wizard"));
+			retCharac = new Character(new Human(), new Wizard());
 			break;
 			default : std::cerr << std::endl << "ERROR: Bad profession, exception!" <<  std::endl;
 			exit(-1);
@@ -123,10 +207,10 @@ switch(raceInt) {
 	case 1 : std::cout << "you are an orc ";
 	switch(profInt) {
 		case 0 : std::cout << "warrior" << std::endl;
-		retCharac = new Character(new Orc("Orc"), new Warrior("Warrior"));
+		retCharac = new Character(new Orc(), new Warrior());
 			break; // go west
 			case 1 : std::cout << "wizard" << std::endl;
-			retCharac = new Character(new Orc("Orc"), new Wizard("Wizard"));
+			retCharac = new Character(new Orc(), new Wizard());
 			break;
 			default : std::cerr << std::endl << "ERROR: Bad profession, try again!" <<  std::endl;
 			exit(-1);
@@ -141,44 +225,45 @@ switch(raceInt) {
 void GameLogic::combat1v1(Character* first, Creature* second){
 
 	std::string winner;
-	if(second->hp == 0) {
-		std::cout << "This monster is dead, you cannot fight a dead monster. Type LOOT to try to loot it." << std::endl;
+	if(second->gethp() == 0) {
+		std::cout << "This monster is dead, you cannot fight a dead monster. " << std::endl;
 	} else {
 		while(true) {
-			first->hit(second->str+second->wepdmg);
-			if(first->hp <= 0) {
-				winner = second->toString();
+			first->hit(second->getstr());
+			if(first->gethp() <= 0) {
+			std::cout << "And the winner is: Creature" << std::endl;
 				break;
 			}
-			second->hit(first->str+first->wepdmg);
-			if(second->hp <= 0) {
-				winner = first->toString();
+			second->hit(first->getstr()+first->getwep()->getdmg());
+			if(second->gethp() <= 0) {
+			std::cout << "And the winner is: You" << std::endl;
 				first->drop(second);
 				break;
 			}
 		}
-		std::cout << "And the winner is: " <<  winner << std::endl;
 	}
 }
 
 
 void GameLogic::backpackMode() {
-	this->ch->getChar()->displayitems();
+	CHARAC->displayitems();
+	std::vector<Item*> bitems = CHARAC->getItems();
 	int equipitem = -1;
-	std::cout << "EQUIP> ";
+	std::cout << "ITEMS> ";
 	equipitem = takeInt();
-	if(equipitem < 0 || equipitem >= this->ch->getChar()->Items.size()) { // bokstäver går förbi checken
+	if(equipitem < 0 || equipitem >= bitems.size()) { // bokstäver går förbi checken
 		std::cout << "ERROR: choice: " << equipitem << " is not available." << std::endl;
 	} else {
 		std::cout << "registered choice: " << equipitem << std::endl;
-		this->ch->getChar()->equip(this->ch->getChar()->Items.at(equipitem));
-		this->ch->getChar()->Items.erase(this->ch->getChar()->Items.begin()+equipitem);
+		CHARAC->equip(bitems.at(equipitem));
+		bitems.erase(bitems.begin()+equipitem);
 	}
 }
 
 void GameLogic::inventoryMode() {
-	this->ch->getChar()->displayEquippedItems();
+	CHARAC->displayEquippedItems();
 	int unequipitem = -1;
+	std::vector<Item*> iitems = CHARAC->getItems();
 	std::cout << "UNEQUIP> ";
 	unequipitem = takeInt();
 	if(unequipitem < 1 || unequipitem > 4) { // bokstäver går förbi checken
@@ -187,16 +272,16 @@ void GameLogic::inventoryMode() {
 		std::cout << "registered choice: " << unequipitem << std::endl;
 		switch(unequipitem) {
 			case 1:
-				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipWep());
+				iitems.push_back(CHARAC->unEquipWep());
 				break;
 			case 2:
-				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipHelm());
+				iitems.push_back(CHARAC->unEquipHelm());
 				break;
 			case 3:
-				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipChest());
+				iitems.push_back(CHARAC->unEquipChest());
 				break;
 			case 4:
-				this->ch->getChar()->Items.push_back(this->ch->getChar()->unEquipLegs());
+				iitems.push_back(CHARAC->unEquipLegs());
 				break;
 		}
 	}
@@ -211,7 +296,7 @@ int GameLogic::takeInt() {
 }
 void GameLogic::fightingMode() {
 	std::cout << "choose between available monsters to fight: " << std::endl;
-	std::vector<Creature*> cl = this->ch->getRoom()->getCreatureList();
+	std::vector<Creature*> cl = ROOM->getCreatureList();
 	for(unsigned int i=0;i<cl.size();++i){
 		std::cout << cl.at(i)->toString() << " to fight this monster press: " << (i) << std::endl;
 	}
@@ -222,6 +307,47 @@ void GameLogic::fightingMode() {
 		std::cout << "ERROR: choice: " << fightmob << " is not available." << std::endl;
 	} else {
 		std::cout << "registered choice: " << fightmob << std::endl;
-		combat1v1(this->ch->getChar(), cl.at(fightmob));
+		combat1v1(CHARAC, cl.at(fightmob));
+	}
+}
+void GameLogic::shopkeeperMode() {
+	std::cout << "you have: " << CHARAC->getcoins() << " coins, choose between available items to purchase or go into sell mode: " << std::endl;
+	ROOM->getShopkeeper()->displayInventory();
+	int shopitem = -1;
+	std::vector<Item*> sitems = CHARAC->getItems();
+	std::cout << "SHOP> ";
+	shopitem = takeInt();
+
+	if(shopitem == ROOM->getShopkeeper()->getinv().size()) {
+		this->sellMode();
+	}
+	else if((shopitem < 0 || shopitem >= ROOM->getShopkeeper()->getinv().size()) || CHARAC->getcoins() < ROOM->getShopkeeper()->getinv().at(shopitem)->getvalue()) {
+		std::cout << "ERROR: choice: " << shopitem << " is not available." << std::endl;
+	}
+	else {
+		sitems.push_back(ROOM->getShopkeeper()->getinv().at(shopitem));
+		int currcoins = CHARAC->getcoins();
+		currcoins -= ROOM->getShopkeeper()->getinv().at(shopitem)->getvalue();
+		CHARAC->setcoins(currcoins);
+	}
+}
+void GameLogic::sellMode() {
+	std::cout << "Sell mode, you have: " << CHARAC->getcoins() << "coins, choose between available items to sell from your getinv()" << std::endl;
+	std::vector<Item*> Itemvec = CHARAC->getItems();
+	for(int i =0; i < Itemvec.size() ;++i) {
+			std::cout << "press: " << i << " to sell item: " << Itemvec.at(i)->desc() << std::endl;
+		}
+	int sellitem = -1;
+	std::cout << "SELL> ";
+	sellitem = takeInt();
+
+	if(sellitem < 0 || sellitem >= Itemvec.size()) {
+		std::cout << "ERROR: choice: " << sellitem << " is not available." << std::endl;
+	}
+	else {
+
+		CHARAC->setcoins(CHARAC->getcoins() + Itemvec.at(sellitem)->getvalue());
+		Itemvec.erase(Itemvec.begin() + sellitem);
+		CHARAC->setItems(Itemvec);
 	}
 }

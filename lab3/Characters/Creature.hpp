@@ -9,7 +9,7 @@
 #ifndef CREATURE_HPP
 #define CREATURE_HPP
 class Creature {
-public:
+protected:
 	static std::vector<Item*> noobdrops;
 	static std::vector<Item*> mediumdrops;
 	static std::vector<Item*> prodrops;
@@ -19,24 +19,31 @@ public:
 	int armorbonus = 0;
 	int wepdmg = 1; // unarmed combat
 	int droptable = 0;
+	int maxhp = 0;
+public:
+	const int getdroptable();
 	Creature();
 	Creature(Race* race, int droptable);
-	std::string stats();
-	std::string toString();
+	const std::string stats() const;
+	const std::string toString() const;
 	void hit(int dmg);
-	void drop(Creature* c);
+	const int gethp();
+	const int getstr();
 };
 class Character : public Creature {	// Creature being a lower order base class for example
-public:
+private:
 	Weapon* wep = NULL;
 	Helm* helm = NULL;
 	Chest* chest = NULL;
 	Legs* legs = NULL;
 	Profession* p = 0;
+	int coins = 1000;
 	std::vector<Item*> Items;
 	//Room* rum;
+public:
+	void setItems(std::vector<Item*> in);
 	Character(Race* race, Profession* profession);
-	std::string toString();
+	std::string toString() const;
 	void addItem(Item* it);
 	void equip(Item* it);
 	void equip(Weapon* it);
@@ -44,13 +51,19 @@ public:
 	void equip(Chest* it);
 	void equip(Legs* it);
 	void unequip(Item* it);
+	void drink(Potion* p);
 	Weapon* unEquipWep();
 	Helm* unEquipHelm();
 	Chest* unEquipChest();
 	Legs* unEquipLegs();
 	void calcBonus();
-	void displayitems();
-	void displayEquippedItems();
+	void displayitems() const;
+	void displayEquippedItems() const;
+	void drop(Creature* c);
+	const Weapon* getwep() const;
+	const int getcoins() const;
+	void setcoins(int newcoins);
+	std::vector<Item*> getItems() const;
 };
 
 

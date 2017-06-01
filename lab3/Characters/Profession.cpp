@@ -12,12 +12,12 @@
     }  
 
 
-    Warrior::Warrior(std::string identifier) : Profession(identifier) {
+    Warrior::Warrior() : Profession("Warrior") {
       php = 3;
       pstr = 3;
     }
 
-    Wizard::Wizard(std::string identifier) : Profession(identifier) { 
+    Wizard::Wizard() : Profession("Wizard") { 
       php = 3;
       pstr = 3;
     }

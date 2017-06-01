@@ -3,6 +3,16 @@
 
 void Main::Init() {
 	
+
+	//shopkeeperlist
+	std::vector<Item*> inventory;
+	/*
+	inventory.push_back(new Weapon(250,std::string("noobwep"), 100));
+	inventory.push_back(new Legs(15,std::string("nooblegs"), 100));
+	inventory.push_back(new Chest(20,std::string("noobchest"), 100));
+	inventory.push_back(new Helm(25,std::string("noobhelm"), 100));
+	*/
+	Shopkeeper *sk = new Shopkeeper(inventory);
 	
 
 	//Creature List
@@ -10,81 +20,236 @@ void Main::Init() {
 	std::vector<Creature*> creatures2;
 	std::vector<Creature*> creatures3;
 	std::vector<Creature*> creatures4;
-	std::vector<Creature*> creatures5;    
+	std::vector<Creature*> creatures5;
+	std::vector<Creature*> creatures6;
+	std::vector<Creature*> creatures7;
+	//std::vector<Creature*> creatures8;
+	std::vector<Creature*> creaNull;
 
 
-
-
-	
 	// Environments
-	Environment *e1 = new Environment("TavernDesc", 1);
-	Environment *e2 = new Environment("BeachDesc", 2);
+	Environment *e1 = new Environment("Tavern", 1);
+	Environment *e2 = new Environment("Road", 2);
+	Environment *e3 = new Environment("Forrest", 3);
+	Environment *e4 = new Environment("Dragon lair", 4);
+	Environment *e5 = new Environment("Town", 5);
+	Environment *e6 = new Environment("Castle", 6);
 
-	//Rooms
-	Creature *creat = new Creature(new Orc("Orc"), 3);
+	//Creatures
+	creatures.push_back(new Creature(new Orc(), 1));
+	creatures2.push_back(new Creature(new Bandit(), 1));
+	creatures2.push_back(new Creature(new Bandit(), 1));
+	creatures2.push_back(new Creature(new Bandit(), 1));
 
+	creatures3.push_back(new Creature(new Bandit(), 1));
+	creatures3.push_back(new Creature(new Bandit(), 1));
 
-	creatures.push_back(creat);
+	creatures4.push_back(new Creature(new Bandit(), 1));
+	creatures4.push_back(new Creature(new Bandit(), 1));
+	creatures4.push_back(new Creature(new Bandit(), 1));
+	creatures4.push_back(new Creature(new Bandit(), 1));
+	creatures4.push_back(new Creature(new Bandit(), 1));
+
+	creatures5.push_back(new Creature(new Bandit(), 1));
+
+	creatures6.push_back(new Creature(new Human(), 2));
+	creatures7.push_back(new Creature(new Dragon(), 3));
+
+	
+	// Tavern
 	Room *rum = new Room(e1, creatures);
-	Room *rum2 = new Room(e1, creatures2);
-	Room *rum3 = new Room(e1, creatures3);
-	Room *rum4 = new Room(e1, creatures4);
-	Room *rum5 = new Room(e2, creatures5);
-	
+	Room *rum2 = new Room(e1, creaNull);
+	Room *rum3 = new Room(e1, creaNull);
+	Room *rum4 = new Room(e1, creaNull);
 
 
+	// Road
+	Room *rrum = new Room(e2, creatures2);
+	Room *rrum2 = new Room(e2, creaNull);
+	Room *rrum3 = new Room(e2, creaNull);
+	Room *rrum4 = new Room(e2, creatures6);
+
+	// Forrest
+	Room *frum = new Room(e3, creatures4);
+	Room *frum2 = new Room(e3, creatures5);
+	Room *frum3 = new Room(e3, creatures3);
+	Room *frum4 = new Room(e3, creaNull);
+
+	// Dragon Lair
+	Room *drum = new Room(e4, creatures7);
+
+	// Town
+	Room *trum = new Room(e5, creaNull);
+	Room *trum2 = new Room(e5, creaNull);
+	Room *trum3 = new Room(e5, creaNull);
+	Room *trum4 = new Room(e5, creaNull);
+	Room *trum5 = new Room(e5, creaNull);
+	Room *trum6 = new Room(e5, creaNull);
+	Room *trum7 = new Room(e5, creaNull);
+	
+
+	// Castle
+	Room *crum = new Room(e6, creaNull);
+	Room *crum2 = new Room(e6, creaNull);
+	Room *crum3 = new Room(e6, creaNull);
+	Room *crum4 = new Room(e6, creaNull);
+	Room *crum5 = new Room(e6, creaNull);
+	Room *crum6 = new Room(e6, creaNull);
+	Room *crum7 = new Room(e6, creaNull);
+	Room *crum8 = new Room(e6, creaNull);
+	Room *crum9 = new Room(e6, creaNull);
 
 	
-	//Character *charr = new Character(new Human("Human"), new Warrior("Warrior"));
-	
-	
-	//cout << charr->toString() << endl;
-  	std::cout << creat->toString() << std::endl;
-
-  	
-  	//combat1v1(charr, creat);
-  	//std::cout << charr->toString() << std::endl;
-  	std::cout << creat->toString() << std::endl;
+	trum5->setShopkeeper(sk);
 	
 	//Directions
+	// ### Tavern ###
 	//rum
-	Direction *ex = new Direction(rum, "East", rum2);
-	Direction *ex2 = new Direction(rum, "South", rum3);
-
+	new Direction(rum, E, rum2);
+	new Direction(rum, S, rum3);
+	new Direction(rum, W, rrum2);
 	//rum2
-	Direction *ex3 = new Direction(rum2, "West", rum);
-	Direction *ex4 = new Direction(rum2, "South", rum4);
-
+	new Direction(rum2, W, rum);
+	new Direction(rum2, S, rum4);
 	//rum3
-	Direction *ex5 = new Direction(rum3, "North", rum);
-	Direction *ex6 = new Direction(rum3, "East", rum4);
+	new Direction(rum3, N, rum);
+	new Direction(rum3, E, rum4);
 	//rum4
-	Direction *ex7 = new Direction(rum4, "West", rum3);
-	Direction *ex8 = new Direction(rum4, "North", rum2);
-	Direction *ex9 = new Direction(rum4, "East", rum5);
+	new Direction(rum4, W, rum3);
+	new Direction(rum4, N, rum2);
 
-	//rum5
-	Direction *ex10 = new Direction(rum5, "West", rum4);
+	// ##### END OF TAVERN ####
+
+	// ### Road ###
+
+	new Direction(rrum, N, frum2);
+	new Direction(rrum, S, rrum2);
+	
+	new Direction(rrum2, E, rum);
+	new Direction(rrum2, N, rrum);
+	new Direction(rrum2, S, trum2);
+
+	new Direction(rrum3, W, trum4);
+	new Direction(rrum3, E, rrum4);
+
+	new Direction(rrum4, W, rrum3);
+	new Direction(rrum4, E, crum4);
+
+
+	// ##### END OF ROAD ####
+
+	// ### Forrest ###
+
+	new Direction(frum, E, frum2);
+	
+	new Direction(frum2, E, frum3);
+	new Direction(frum2, W, frum);
+
+	new Direction(frum3, E, frum4);
+	new Direction(frum3, W, frum2);
+
+	new Direction(frum4, E, drum);
+	new Direction(frum4, W, frum3);
+
+// ##### END OF FORREST ####
+
+	// ### Dragon lair ###
+
+	new Direction(drum, W, frum4);
+
+	// ##### END OF DRAGONLAIR ####
+	// ### Town ###
+
+	new Direction(trum, S, trum3);
+	
+	new Direction(trum2, N, rrum2);
+	new Direction(trum2, S, trum4);
+
+	new Direction(trum3, E, trum4);
+	new Direction(trum3, N, trum);
+	new Direction(trum3, S, trum5);
+
+	new Direction(trum4, E, rrum3);
+	new Direction(trum4, W, trum3);
+	new Direction(trum4, N, trum2);
+	new Direction(trum4, S, trum6);
+
+	new Direction(trum5, N, trum3);
+
+	new Direction(trum6, N, trum4);
+
+	// ##### END OF TOWN ####
+	// ### CASTLE ###
+	new Direction(crum, S, crum4);
+
+	new Direction(crum2, S, crum5);
+
+	new Direction(crum3, S, crum6);
+
+	new Direction(crum4, E, crum5);
+	new Direction(crum4, W, rrum4);
+	new Direction(crum4, N, crum);
+	new Direction(crum4, S, crum7);
+
+	new Direction(crum5, E, crum6);
+	new Direction(crum5, W, crum4);
+	new Direction(crum5, N, crum8);
+	new Direction(crum5, S, crum2);
+
+	new Direction(crum6, W, crum5);
+	new Direction(crum6, N, crum3);
+	new Direction(crum6, S, crum9);
+
+	new Direction(crum7, E, crum8);
+	new Direction(crum7, N, crum4);
+
+	new Direction(crum8, W, crum7);
+	new Direction(crum8, N, crum5);
+
+	new Direction(crum9, N, crum6);
+
+	// ##### END OF CASTLE ####
+
+
+	// All rooms in a list.
 	
 	this->roomVec.push_back(rum);
 	this->roomVec.push_back(rum2);
 	this->roomVec.push_back(rum3);
 	this->roomVec.push_back(rum4);
-	this->roomVec.push_back(rum5);
 
-	std::cout << "Description:" << e1->getDesc() << std::endl;
-	std::vector<Room> rooms = e1->getRooms();
-	std::cout << "Nr of Rooms: " << rooms.size() << std::endl;
-	for(int i=0;i<rooms.size();++i) {
-		std::vector<Direction> dirs = rooms[i].getDirections();
-		std::cout << std::endl;
-		std::cout << "EnvDesc: " << rooms[i].getEnvDesc() << " Room: " << rooms[i].getID() << " Directions: " << dirs.size();
-		for (int v = 0; v < dirs.size(); ++v) {
-			std::cout << " " << dirs[v].getName();
-		}
-	}
+	this->roomVec.push_back(rrum);
+	this->roomVec.push_back(rrum2);
+	this->roomVec.push_back(rrum3);
+	this->roomVec.push_back(rrum4);
 
-	std::cout << std::endl;
+	this->roomVec.push_back(frum);
+	this->roomVec.push_back(frum2);
+	this->roomVec.push_back(frum3);
+	this->roomVec.push_back(frum4);
+
+	this->roomVec.push_back(drum);
+
+	this->roomVec.push_back(trum);
+	this->roomVec.push_back(trum2);
+	this->roomVec.push_back(trum3);
+	this->roomVec.push_back(trum4);
+	this->roomVec.push_back(trum5);
+	this->roomVec.push_back(trum6);
+
+	this->roomVec.push_back(crum);
+	this->roomVec.push_back(crum2);
+	this->roomVec.push_back(crum3);
+	this->roomVec.push_back(crum4);
+	this->roomVec.push_back(crum5);
+	this->roomVec.push_back(crum6);
+	this->roomVec.push_back(crum7);
+	this->roomVec.push_back(crum8);
+	this->roomVec.push_back(crum9);
+
+	// END OF ROOMLIST
+
+	std::cerr << std::endl;
 		
 }
 
@@ -106,8 +271,6 @@ void Main::Init() {
 				gl->ExecCmd(par);
 			}
 		}
-
-
 
 
 int main() {

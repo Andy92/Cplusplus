@@ -1,0 +1,18 @@
+
+1
+0
+GO command recognized
+WEST keyword registered
+GO command recognized
+NORTH keyword registered
+GO command recognized
+NORTH keyword registered
+GO command recognized
+EAST keyword registered
+GO command recognized
+EAST keyword registered
+GO command recognized
+EAST keyword registered
+GO command recognized
+EAST keyword registered
+STATS command recognized

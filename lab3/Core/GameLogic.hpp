@@ -5,6 +5,8 @@
 
 #ifndef GameLogic_HPP
 #define GameLogic_HPP
+#define CHARAC this->ch->getChar()
+#define ROOM this->ch->getRoom()
 
 class GameLogic {
 	private:
@@ -20,6 +22,12 @@ class GameLogic {
 		void fightingMode();
 		void backpackMode();
 		void inventoryMode();
+		void shopkeeperMode();
 		void combat1v1(Character* first, Creature* second);
+		void getDirections();
+		void sellMode();
+		void outputQuestObj();
+		void talking();
+		void castleTax();
 };
 #endif

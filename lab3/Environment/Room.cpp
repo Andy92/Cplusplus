@@ -72,12 +72,18 @@
 	std::vector<Creature*> Room::getCreatureList() {
 		return this->creatures;
 	}
+	Shopkeeper* Room::getShopkeeper() {
+		return this->sk;
+	}
 	Creature* Room::getChar() {
 		return this->mainChar;
 	}
 
 	void Room::setChar(Creature* newChar) {
 		this->mainChar = newChar;
+	}
+	void Room::setShopkeeper(Shopkeeper* sk) {
+		this->sk = sk;
 	}
 	
 	bool Room::remChar() {

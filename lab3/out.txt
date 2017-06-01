@@ -1,0 +1,5 @@
+
+1
+0
+FIGHT command recognized
+SHOP command recognized

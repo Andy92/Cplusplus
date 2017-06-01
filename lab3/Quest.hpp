@@ -34,18 +34,26 @@ private:
 
 	// Copy of game map
 	std::vector<Room*> roomVec;
-	
+	// make it a list of booleans.
+	bool enableMain = true;
+	bool enableSecondary = false;
+	bool enableThird = false;
 	
 public:
 	Quest(std::vector<Room*> room);
-	void mainQuest();
-	std::string getMainObjective();
-	std::string getSecondaryObjective();
-	std::string getObjective(std::string qN, std::string qT);
+	const std::string getMainObjective();
+	const std::string getSecondaryObjective();
+	const std::string getThirdObjective();
+	const std::string getObjective(const std::string qN, const std::string qT) const;
 	bool checkMainCondition();
-	bool completed();
-
+	bool checkSecondaryCondition();
+	bool checkThirdCondition();
+	void setQuest(const int n);
+	const bool checkQuest(const int n) const;
 };
+
+
+
 
 
 

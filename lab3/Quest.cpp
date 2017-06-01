@@ -12,14 +12,9 @@ Quest::Quest(std::vector<Room*> room) {
 	this->roomVec = room;
 }
 
-void Quest::mainQuest() {
-	std::cerr << GREEN << "err" << RESET << std::endl;
-}
 
-std::string Quest::getObjective(std::string qN, std::string qT) {
-	std::string questName = qN;
-	std::string questText = qT;
-	std::string text = YELLOW + std::string("########## ") + questName + std::string(" ################\n") + questText + YELLOW + std::string("\n######################################") + RESET;
+const std::string Quest::getObjective(const std::string qN, const std::string qT) const {
+	const std::string text = YELLOW + std::string("########## ") + qN + std::string(" ################\n") + qT + YELLOW + std::string("\n######################################") + RESET;
 
 
 	//YELLOW + std::string("########## MAIN QUEST ################\nDescription: " + description + YELLOW + "\nObjective: " + objective + YELLOW + "\n######################################") + RESET;
@@ -27,11 +22,11 @@ std::string Quest::getObjective(std::string qN, std::string qT) {
 	return text;
 }
 
-std::string Quest::getMainObjective() {
+const std::string Quest::getMainObjective() {
 
-	std::string name = "MAIN QUEST";
-	std::string description = BOLDCYAN + std::string("The orc in the first room of the game has been bothering me, finish him.\n")  + RESET;
-	std::string objective = BOLDYELLOW + std::string("Kill the orc in roomID 0 in environment tavern.\n") + RESET;
+	const std::string name = "MAIN QUEST";
+	const std::string description = BOLDCYAN + std::string("The dragon has been terrorizing the city, there are burned houses and destroyed streets.\n")  + RESET;
+	const std::string objective = BOLDYELLOW + std::string("Kill the dragon in the dragon lair north of here.\n") + RESET;
 	std::string status = "";
 	if(checkMainCondition()) {
 		status = BOLDGREEN + std::string("Completed\n") + RESET;
@@ -39,50 +34,114 @@ std::string Quest::getMainObjective() {
 		status = BOLDYELLOW + std::string("In progress") + RESET;
 	}
 	
-	std::string questText = YELLOW + std::string("Description: ") + description + YELLOW + std::string("Objective: ") + objective + YELLOW + std::string("Status: ") + status;
+	const std::string questText = YELLOW + std::string("Description: ") + description + YELLOW + std::string("Objective: ") + objective + YELLOW + std::string("Status: ") + status;
 
 	return getObjective(name, questText);
 }
 
 
-std::string Quest::getSecondaryObjective() {
+const std::string Quest::getSecondaryObjective() {
 
-	std::string name = "SECONDARY QUEST";
-	std::string description = BOLDCYAN + std::string("Finish off all the creatures in tavern.\n")  + RESET;
-	std::string objective = BOLDYELLOW + std::string("Kill all creatures in all rooms in tavern.\n") + RESET;
+	const std::string name = "BANDIT TROUBLE QUEST";
+	const std::string description = BOLDCYAN + std::string("The bandits have brought touble to the town, they rob people who cross the road to the forrest to the north.\n")  + RESET;
+	const std::string objective = BOLDYELLOW + std::string("Kill all bandits on the road.\n") + RESET;
 	std::string status = "";
-	if(completed()) {
+	if(checkSecondaryCondition()) {
 		status = BOLDGREEN + std::string("Completed\n") + RESET;
 	} else {
 		status = BOLDYELLOW + std::string("In progress") + RESET;
 	}
 	
-	std::string questText = YELLOW + std::string("Description: ") + description + YELLOW + std::string("Objective: ") + objective + YELLOW + std::string("Status: ") + status;
+	const std::string questText = YELLOW + std::string("Description: ") + description + YELLOW + std::string("Objective: ") + objective + YELLOW + std::string("Status: ") + status;
 
 	return getObjective(name, questText);
 }
 
+const std::string Quest::getThirdObjective() {
+
+	const std::string name = "BANDIT PROBLEM QUEST";
+	const std::string description = BOLDCYAN + std::string("The bandits are planning to attack the castle. You have to go and find their hideout in the forrest and destroy them before it is too late!\n")  + RESET;
+	const std::string objective = BOLDYELLOW + std::string("Destroy the bandits hideout, and kill all bandits.\n") + RESET;
+	std::string status = "";
+	if(checkThirdCondition()) {
+		status = BOLDGREEN + std::string("Completed\n") + RESET;
+	} else {
+		status = BOLDYELLOW + std::string("In progress") + RESET;
+	}
+	
+	const std::string questText = YELLOW + std::string("Description: ") + description + YELLOW + std::string("Objective: ") + objective + YELLOW + std::string("Status: ") + status;
+
+	return getObjective(name, questText);
+}
 
 bool Quest::checkMainCondition() {
 	
 	for(int i=0;i<this->roomVec.size();++i) {
-		if(this->roomVec.at(i)->getID()==1000) {
+		if(this->roomVec.at(i)->getID()==4000) {
 			std::vector<Creature*> crea = this->roomVec.at(i)->getCreatureList();
 			for(int j=0;j<crea.size();++j) {
-				if(crea[j]->hp == 0) {
+				if(crea[j]->gethp() == 0) {
+					// dead dragon
 					return true;
 				} else {
+					// alive dragon
 					return false;
 				}
 			}
-		}
-		
+		}	
 	}
-	
 }
 
-bool Quest::completed() {
+bool Quest::checkSecondaryCondition() {
+	
+	for(int i=0;i<this->roomVec.size();++i) {
+		if(this->roomVec.at(i)->getID()==2000) {
+			std::vector<Creature*> crea = this->roomVec.at(i)->getCreatureList();
+			for(int j=0;j<crea.size();++j) {
+				if(crea[j]->gethp() != 0) {
+					return false;
+				}
+			}
+			// if all creatures in room 2000 are dead, return true
+			return true;
+		}	
+	}
+}
+
+
+
+bool Quest::checkThirdCondition() {
+	
+	for(int i=0;i<this->roomVec.size();++i) {
+
+		if((this->roomVec.at(i)->getID()==3000) && (this->roomVec.at(i)->getID()==3001) && (this->roomVec.at(i)->getID()==3002) && (this->roomVec.at(i)->getID()==3003)) {
+			std::vector<Creature*> crea = this->roomVec.at(i)->getCreatureList();
+			for(int j=0;j<crea.size();++j) {
+				if(crea[j]->gethp() != 0) {
+					return false;
+				}
+			}
+		}	
+	}
+	// if all creatures in the roomid 3000, 3001, 3002, 3003 that are bandits are dead, return true.
 	return true;
+}
+
+void Quest::setQuest(const int n) {
+	if(n==2) {
+		this->enableSecondary = true;
+	} else if(n == 3) {
+		this->enableThird = true;
+	}
+}
+
+const bool Quest::checkQuest(const int n) const {
+	if(n==2) {
+		return this->enableSecondary;
+	} else if(n == 3) {
+		return this->enableThird;
+	}
+	return false;
 }
 
 /*

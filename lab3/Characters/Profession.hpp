@@ -19,13 +19,13 @@ class Warrior : public Profession
 {
 
   public:
-    Warrior(std::string identifier);
+    Warrior();
 };
 
 class Wizard : public Profession
 {
   public:
-    Wizard (std::string identifier);
+    Wizard ();
 };
 
 #endif

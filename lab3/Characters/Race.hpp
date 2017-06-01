@@ -17,14 +17,26 @@
 	class Human : public Race
 	{
 	public:
-		Human(std::string identifier);
+		Human();
 
 	};
 
 	class Orc: public Race
 	{
 	public:
-		Orc(std::string identifier);
+		Orc();
+	};
+
+	class Bandit: public Race
+	{
+	public:
+		Bandit();
+	};
+
+	class Dragon: public Race
+	{
+	public:
+		Dragon();
 	};
 
 #endif

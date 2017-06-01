@@ -29,8 +29,10 @@ Quest* Checker::getQuest() {
 	return this->quest;
 }
 
-/*
-bool Checker::checkQuest() {
-	return checkCondition(*this->curroom);
+bool Checker::getTax() {
+	return this->tax;
 }
-*/
+
+void Checker::payTax() {
+	this->tax = true;
+}

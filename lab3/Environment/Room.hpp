@@ -1,5 +1,6 @@
 #include "../Characters/Creature.hpp"
 #include "Direction.hpp"
+#include "../Characters/Shopkeeper.hpp"
 #include <stdio.h>
 #include <iostream>
 #include <string>
@@ -19,9 +20,8 @@
 		Environment *e;
 		int id;
 		Creature* mainChar;
+		Shopkeeper* sk;
 	public:
-		
-
 		Room(Environment *e, std::vector<Creature*> creatures);
 		void setDirections(std::vector<Direction> dirs);
 		std::vector<Direction> getDirections();
@@ -33,6 +33,8 @@
 		void setChar(Creature* newChar);
 		bool remChar();
 		std::vector<Creature*> getCreatureList();
+		Shopkeeper* getShopkeeper();
+		void setShopkeeper(Shopkeeper* sk);
 	}; 
 	class Environment {
 	private:

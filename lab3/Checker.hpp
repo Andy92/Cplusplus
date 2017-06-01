@@ -11,17 +11,17 @@
 		Character* character = 0;
 		Room* curroom = 0;
 		Quest* quest = 0;
+		bool tax = false;
 
 	public:
-		//std::vector<Room*> roomVec;
-		//Quest* quest;
 		Checker(Character* character, Room* curroom, std::vector<Room*> room);
 		bool moveChar(Room* toRoom);
 		Room* getRoom();
 		Character* getChar();
 
 		Quest* getQuest();
-		//bool checkQuest();
+		bool getTax();
+		void payTax();
 	};
 
 #endif

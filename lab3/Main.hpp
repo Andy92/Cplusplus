@@ -18,6 +18,11 @@
 #ifndef MAIN_HPP
 #define MAIN_HPP
 
+#define E "East"
+#define W "West"
+#define N "North"
+#define S "South"
+
 	class Main {
 private:
 	std::vector<Room*> roomVec;
