@@ -144,6 +144,7 @@ void Main::Init() {
 	
 	new Direction(frum2, E, frum3);
 	new Direction(frum2, W, frum);
+	new Direction(frum2, S, rrum);
 
 	new Direction(frum3, E, frum4);
 	new Direction(frum3, W, frum2);
