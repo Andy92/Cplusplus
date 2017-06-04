@@ -11,9 +11,9 @@ protected:
 	int id;
 	std::string name;
 public:
-	const int getid();
-	const int getvalue();
-	virtual std::string desc();
+	const int getid() const;
+	const int getvalue() const;
+	const virtual std::string desc() const;
 	void setValue(int value);
 };
 
@@ -22,8 +22,9 @@ private:
 	int heal;
 public:
 	Potion(int heal, std::string name);
-	std::string desc();
-	const int getheal();
+	Potion(int heal, std::string name, int value);
+	const std::string desc() const;
+	const int getheal() const;
 };
 
 class Weapon : public Item {
@@ -32,7 +33,7 @@ private:
 public:
 	Weapon(int dmg, std::string name);
 	Weapon(int dmg, std::string name, int value);
-	std::string desc();
+	const std::string desc() const;
 	const int getdmg() const;
 	const Weapon* get() const;
 };
@@ -41,10 +42,10 @@ class Armor : public Item {
 protected:
 	int armor;
 public:
-	const int getarmor();
+	const int getarmor() const;
 	Armor(int armor, std::string name);
 	Armor(int armor, std::string name, int value);
-	std::string desc();
+	const std::string desc() const;
 };
 
 class Helm : public Armor {

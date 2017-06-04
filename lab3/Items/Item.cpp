@@ -1,16 +1,16 @@
 #include "Item.hpp"
 //item.cpp
-std::string Item::desc() {
+const std::string Item::desc() const {
 	std::string ret = "this is an item \n";
 	return ret;
 }
 void Item::setValue(int value) {
 	this->value = value;
 }
-const int Item::getvalue() {
+const int Item::getvalue() const {
 	return this->value;
 }
-const int Item::getid() {
+const int Item::getid() const {
 	return this->id;
 }
 //potion.cpp
@@ -19,11 +19,17 @@ Potion::Potion(int heal, std::string name) {
 	this->name = name;
 	this->id = 6;
 }
-std::string Potion::desc()  {
+Potion::Potion(int heal, std::string name, int value) {
+	this->heal = heal;
+	this->name = name;
+	this->id = 6;
+	this->value = value;
+}
+const std::string Potion::desc() const {
 	std::string ret = "Potion: " + name + " ";
 	return ret;
 }
-const int Potion::getheal() {
+const int Potion::getheal() const {
 	return this->heal;
 }
 //weapon.cpp
@@ -44,7 +50,7 @@ const Weapon* Weapon::get() const {
 const int Weapon::getdmg() const {
 	return this->dmg;
 }
-std::string Weapon::desc()  {
+const std::string Weapon::desc() const {
 	std::string ret = "weapon: " + name + " ";
 	return ret;
 }
@@ -60,11 +66,11 @@ Armor::Armor(int armor, std::string name, int value) {
 	this->id = 2;
 	this->value = value;
 }
-const int Armor::getarmor() {
+const int Armor::getarmor() const {
 	return this->armor;
 }
 
-std::string Armor::desc() {
+const std::string Armor::desc() const {
 	std::string ret = "armor: " + name + " ";
 	return ret;
 }

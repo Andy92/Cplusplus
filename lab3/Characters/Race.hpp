@@ -33,6 +33,12 @@
 		Bandit();
 	};
 
+		class Knight: public Race
+	{
+	public:
+		Knight();
+	};
+
 	class Dragon: public Race
 	{
 	public:

@@ -21,11 +21,12 @@
 		return this->id;
 	}
 
-	Room::Room(Environment *e, std::vector<Creature*> creatures) {	
+	Room::Room(Environment *e, std::vector<Creature*> creatures, std::string description) {	
 		this->creatures = creatures;
 		this->e = e;
 		setID();	// Set the id of the room.
 		setEnv();
+		this->desc = description;
 	}
 
 	void Room::setID() {
@@ -58,6 +59,10 @@
 
 	std::string Room::getEnvDesc() {
 		return e->getDesc();
+	}
+
+	std::string Room::getRoomDesc() {
+		return this->desc;
 	}
 	
 	void Room::setDirections(std::vector<Direction> dirs) {

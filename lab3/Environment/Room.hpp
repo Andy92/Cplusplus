@@ -17,18 +17,20 @@
 	private:
 		std::vector<Direction> dirs;
 		std::vector<Creature*> creatures;
-		Environment *e;
+		std::string desc = "";
+		Environment *e = 0;
 		int id;
-		Creature* mainChar;
-		Shopkeeper* sk;
+		Creature* mainChar = 0;
+		Shopkeeper* sk = 0;
 	public:
-		Room(Environment *e, std::vector<Creature*> creatures);
+		Room(Environment *e, std::vector<Creature*> creatures, std::string description);
 		void setDirections(std::vector<Direction> dirs);
 		std::vector<Direction> getDirections();
 		void setID();
 		int getID();
 		bool setEnv();
 		std::string getEnvDesc();
+		std::string getRoomDesc();
 		Creature* getChar();
 		void setChar(Creature* newChar);
 		bool remChar();

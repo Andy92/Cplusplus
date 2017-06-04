@@ -60,8 +60,8 @@ const std::string Quest::getSecondaryObjective() {
 const std::string Quest::getThirdObjective() {
 
 	const std::string name = "BANDIT PROBLEM QUEST";
-	const std::string description = BOLDCYAN + std::string("The bandits are planning to attack the castle. You have to go and find their hideout in the forrest and destroy them before it is too late!\n")  + RESET;
-	const std::string objective = BOLDYELLOW + std::string("Destroy the bandits hideout, and kill all bandits.\n") + RESET;
+	const std::string description = BOLDCYAN + std::string("The knights who abandoned their post have fled to the forest. You have to go and find their hideout in the forrest and destroy them before they make plans to destory the castle.\n")  + RESET;
+	const std::string objective = BOLDYELLOW + std::string("Destroy the knights hideout, and kill all knights.\n") + RESET;
 	std::string status = "";
 	if(checkThirdCondition()) {
 		status = BOLDGREEN + std::string("Completed\n") + RESET;
@@ -114,7 +114,8 @@ bool Quest::checkThirdCondition() {
 	
 	for(int i=0;i<this->roomVec.size();++i) {
 
-		if((this->roomVec.at(i)->getID()==3000) && (this->roomVec.at(i)->getID()==3001) && (this->roomVec.at(i)->getID()==3002) && (this->roomVec.at(i)->getID()==3003)) {
+		if((this->roomVec.at(i)->getID()==3000) || (this->roomVec.at(i)->getID()==3001) 
+			|| (this->roomVec.at(i)->getID()==3002) || (this->roomVec.at(i)->getID()==3003)) {
 			std::vector<Creature*> crea = this->roomVec.at(i)->getCreatureList();
 			for(int j=0;j<crea.size();++j) {
 				if(crea[j]->gethp() != 0) {

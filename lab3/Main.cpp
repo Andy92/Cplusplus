@@ -6,14 +6,13 @@ void Main::Init() {
 
 	//shopkeeperlist
 	std::vector<Item*> inventory;
-	/*
 	inventory.push_back(new Weapon(250,std::string("noobwep"), 100));
 	inventory.push_back(new Legs(15,std::string("nooblegs"), 100));
 	inventory.push_back(new Chest(20,std::string("noobchest"), 100));
 	inventory.push_back(new Helm(25,std::string("noobhelm"), 100));
-	*/
 	Shopkeeper *sk = new Shopkeeper(inventory);
 	
+
 
 	//Creature List
 	std::vector<Creature*> creatures; 
@@ -21,7 +20,6 @@ void Main::Init() {
 	std::vector<Creature*> creatures3;
 	std::vector<Creature*> creatures4;
 	std::vector<Creature*> creatures5;
-	std::vector<Creature*> creatures6;
 	std::vector<Creature*> creatures7;
 	//std::vector<Creature*> creatures8;
 	std::vector<Creature*> creaNull;
@@ -30,7 +28,7 @@ void Main::Init() {
 	// Environments
 	Environment *e1 = new Environment("Tavern", 1);
 	Environment *e2 = new Environment("Road", 2);
-	Environment *e3 = new Environment("Forrest", 3);
+	Environment *e3 = new Environment("forest", 3);
 	Environment *e4 = new Environment("Dragon lair", 4);
 	Environment *e5 = new Environment("Town", 5);
 	Environment *e6 = new Environment("Castle", 6);
@@ -41,63 +39,61 @@ void Main::Init() {
 	creatures2.push_back(new Creature(new Bandit(), 1));
 	creatures2.push_back(new Creature(new Bandit(), 1));
 
-	creatures3.push_back(new Creature(new Bandit(), 1));
-	creatures3.push_back(new Creature(new Bandit(), 1));
+	creatures3.push_back(new Creature(new Knight(), 2));
+	creatures3.push_back(new Creature(new Knight(), 2));
 
-	creatures4.push_back(new Creature(new Bandit(), 1));
-	creatures4.push_back(new Creature(new Bandit(), 1));
-	creatures4.push_back(new Creature(new Bandit(), 1));
-	creatures4.push_back(new Creature(new Bandit(), 1));
-	creatures4.push_back(new Creature(new Bandit(), 1));
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
 
-	creatures5.push_back(new Creature(new Bandit(), 1));
+	creatures5.push_back(new Creature(new Knight(), 3));
 
-	creatures6.push_back(new Creature(new Human(), 2));
 	creatures7.push_back(new Creature(new Dragon(), 3));
 
 	
 	// Tavern
-	Room *rum = new Room(e1, creatures);
-	Room *rum2 = new Room(e1, creaNull);
-	Room *rum3 = new Room(e1, creaNull);
-	Room *rum4 = new Room(e1, creaNull);
+	Room *rum = new Room(e1, creatures, "You are at the tavern hall, you see the exit to the west.");
+	Room *rum2 = new Room(e1, creaNull, "This is a empty room.");
+	Room *rum3 = new Room(e1, creaNull, "This room have a beatiful view to the mountains.");
+	Room *rum4 = new Room(e1, creaNull, "This is another empty room.");
 
 
 	// Road
-	Room *rrum = new Room(e2, creatures2);
-	Room *rrum2 = new Room(e2, creaNull);
-	Room *rrum3 = new Room(e2, creaNull);
-	Room *rrum4 = new Room(e2, creatures6);
+	Room *rrum = new Room(e2, creatures2, "You are in a dangerous road, there are usually bandits here that are waiting to rob someone.");
+	Room *rrum2 = new Room(e2, creaNull, "You are at the main road. You see a sign in the south that says \"Town\"");
+	Room *rrum3 = new Room(e2, creaNull, "You are on a road that seems to lead to a big castle that you see far to the east.");
+	Room *rrum4 = new Room(e2, creaNull, "You are very close to the castle entrance. You see a guard standing at the entrance.");
 
-	// Forrest
-	Room *frum = new Room(e3, creatures4);
-	Room *frum2 = new Room(e3, creatures5);
-	Room *frum3 = new Room(e3, creatures3);
-	Room *frum4 = new Room(e3, creaNull);
+	// Forest
+	Room *frum = new Room(e3, creatures4, "You see a big hut and a camp fire, seems bandits used to live here.");
+	Room *frum2 = new Room(e3, creatures5, "This forest is beautiful and have a big mountain to the far far east.");
+	Room *frum3 = new Room(e3, creatures3, "You keep going through the forest.");
+	Room *frum4 = new Room(e3, creaNull, "This forest have a lot of mountains, you are sourrounded by mountains in all directions, there is a big cave hole on the mountain to the east.");
 
 	// Dragon Lair
-	Room *drum = new Room(e4, creatures7);
+	Room *drum = new Room(e4, creatures7, "You are in a dragon lair, you see and face a big big dragon, would you want to fight it, it seems powerful?");
 
 	// Town
-	Room *trum = new Room(e5, creaNull);
-	Room *trum2 = new Room(e5, creaNull);
-	Room *trum3 = new Room(e5, creaNull);
-	Room *trum4 = new Room(e5, creaNull);
-	Room *trum5 = new Room(e5, creaNull);
-	Room *trum6 = new Room(e5, creaNull);
-	Room *trum7 = new Room(e5, creaNull);
+	Room *trum = new Room(e5, creaNull, "You are inside a house.");
+	Room *trum2 = new Room(e5, creaNull, "From this place you see a burned house to the south and a shop to the west-south.");
+	Room *trum3 = new Room(e5, creaNull, "You can see a shop to the south.");
+	Room *trum4 = new Room(e5, creaNull, "There is a road to the east that seems pretty long.");
+	Room *trum5 = new Room(e5, creaNull, "You are at the shop, you see a man standing here very worried about some things, maybe talk to him?");
+	Room *trum6 = new Room(e5, creaNull, "This house looks burned, probably the dragon you hunt did this.");
 	
 
 	// Castle
-	Room *crum = new Room(e6, creaNull);
-	Room *crum2 = new Room(e6, creaNull);
-	Room *crum3 = new Room(e6, creaNull);
-	Room *crum4 = new Room(e6, creaNull);
-	Room *crum5 = new Room(e6, creaNull);
-	Room *crum6 = new Room(e6, creaNull);
-	Room *crum7 = new Room(e6, creaNull);
-	Room *crum8 = new Room(e6, creaNull);
-	Room *crum9 = new Room(e6, creaNull);
+	Room *crum = new Room(e6, creaNull, "You've entered a room. This bedroom is full of wine and food.");
+	Room *crum2 = new Room(e6, creaNull, "You've entered a room, this room seems to be pretty.");
+	Room *crum3 = new Room(e6, creaNull, "You have accidently entered the treasure room, if you get caught being in here you are screwed.");
+	Room *crum4 = new Room(e6, creaNull, "You are at the hall of the castle near the exit door.");
+	Room *crum5 = new Room(e6, creaNull, "This hall is very long you can keep going to the east, there are doors to the south and north aswell.");
+	Room *crum6 = new Room(e6, creaNull, "You have arrived to the end of the hall, you see big doors to the south.");
+	Room *crum7 = new Room(e6, creaNull, "This is the big balcony of the castle, you can see the whole town from here.");
+	Room *crum8 = new Room(e6, creaNull, "This room is a bedroom, the king and queen probably sleeps here, but none of them are here.");
+	Room *crum9 = new Room(e6, creaNull, "You walk in to the kings hall, there is a golden throne, and the king is sitting in it. He looks very sad, maybe go talk to him and cheer him up.");
 
 	
 	trum5->setShopkeeper(sk);
@@ -138,7 +134,7 @@ void Main::Init() {
 
 	// ##### END OF ROAD ####
 
-	// ### Forrest ###
+	// ### FOREST ###
 
 	new Direction(frum, E, frum2);
 	
@@ -152,7 +148,7 @@ void Main::Init() {
 	new Direction(frum4, E, drum);
 	new Direction(frum4, W, frum3);
 
-// ##### END OF FORREST ####
+// ##### END OF FOREST ####
 
 	// ### Dragon lair ###
 

@@ -11,7 +11,6 @@
       return this->id;
     }  
 
-
     Warrior::Warrior() : Profession("Warrior") {
       php = 3;
       pstr = 3;

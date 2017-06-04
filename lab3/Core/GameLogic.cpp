@@ -1,14 +1,13 @@
 #include "GameLogic.hpp"
-std::vector<std::string> GameLogic::Races = {
+std::vector<std::string> GameLogic::Races {
 	"human",
 	"orc"
 };
 
-std::vector<std::string> GameLogic::Professions{
+std::vector<std::string> GameLogic::Professions {
 	"warrior",
 	"wizard"
 };
-
 
 
 GameLogic::GameLogic(Checker* ch) {
@@ -70,10 +69,14 @@ void GameLogic::ExecCmd(int parsedInt) {
 	case 77 : std::cout << "===============equipped list====================" << std::endl;
 		this->inventoryMode();
 		break;
-	case 88 : std::cout << "=================shopkeeper list=================" << std::endl;
+	case 88 : if(ROOM->getShopkeeper() == NULL) {
+			std::cout << "there is no available shopkeeper here";
+			break;
+		}
+		std::cout << "=================shopkeeper list=================" << std::endl;
 		this->shopkeeperMode();
 		break;
-	case 4 : std::cout << "=================directions=================" << std::endl;
+	case 4 : std::cout << "=================disetShoprections=================" << std::endl;
 		this->getDirections();
 		break;
 	case 99 : std::cout << "=================talking=================" << std::endl;
@@ -90,19 +93,19 @@ void GameLogic::castleTax() {
 
 	// outside castle entrance
 	if(ROOM->getID() == 2003) {
-			if(this->ch->getTax()) {
+			if(!this->ch->getTax()) {
 				std::cout << "Guard: Have you payed the tax for today? Would you like to?" << std::endl;
 				std::string str;
 				std::cout << std::endl << "TALK> ";
 				std::getline (std::cin,str);
 				if(str == "yes") {
 					int cc = CHARAC->getcoins();
-					if(cc >= 5000) {
-						CHARAC->setcoins(cc - 5000);
-						std::cout << "Guard: Thank you, i will deliver this 5000 coins to the kings treasure." << std::endl;
+					if(cc >= 2000) {
+						CHARAC->setcoins(cc - 2000);
+						std::cout << "Guard: Thank you, i will deliver this 2000 coins to the kings treasure." << std::endl;
 						this->ch->payTax();
 					} else {
-						std::cout << "You have not payed taxes for years, it has accumulated into 5000 coins." << std::endl;
+						std::cout << "You have not payed taxes for years, it has accumulated into 2000 coins, you only have " << CHARAC->getcoins() << "." << std::endl;
 					}
 				} else {
 					std::cout << "Guard: Well unless you answer me yes and accept to pay taxes i can't let you in." << std::endl;
@@ -131,10 +134,36 @@ void GameLogic::castleTax() {
 }
 void GameLogic::talking() {
 	if(ROOM->getID() == 5004) {
+		if(this->ch->getQuest()->checkSecondaryCondition()) {
+			std::cout << "Shopkeeper: Alright, reports tell me the bandits are dead. Good job." << std::endl;
+			std::cout << "Shopkeeper: Now to my promise, you have to visit the king in the castle and talk to him, he will tell you more." << std::endl;
+		} else if(!this->ch->getQuest()->checkQuest(2)) {
+			std::cout << "Shopkeeper: Have you seen the bandits at the road? They always disturb people trying to cross it. That's why i never get any customers. I wish someone could kill them." << std::endl;
+			std::cout << "If you do it, i will tell you a secret." << std::endl;
+		} else {
+			std::cout << "Shopkeeper: Have you killed the bandits yet?" << std::endl;
+		}
 		this->ch->getQuest()->setQuest(2);
-	}
-	else if(ROOM->getID() == 6008) {
+	} else if(ROOM->getID() == 6008) {
+		if(this->ch->getQuest()->checkThirdCondition()) {
+			// if third quest is completed.
+			std::cout << "King: Oh wow, good job, you killed all the traitors!" << std::endl;
+			if(this->ch->getQuest()->checkMainCondition()) {
+				
+				std::cout << "King: You have done well my friend, you saved this town!" << std::endl;
+				exit(0);
+			}
+			std::cout << "King: The dragon is not dead, please kill it!" << std::endl;
+		} else if(!this->ch->getQuest()->checkQuest(3)) {
+			std::cout << "King: I want destroy all the traitors who fled to the forest, but have no men to do so. Please kill them for me." << std::endl;
+			
+		} else {
+			// If it is still in progress
+			std::cout << "King: Have you killed all the knights yet?" << std::endl;
+		}
 		this->ch->getQuest()->setQuest(3);
+	} else {
+		std::cout << "You are talking...\nSeems that you are not getting an answer, make sure there is someone that can hear you." << std::endl;
 	}
 }
 
@@ -228,13 +257,19 @@ void GameLogic::combat1v1(Character* first, Creature* second){
 	if(second->gethp() == 0) {
 		std::cout << "This monster is dead, you cannot fight a dead monster. " << std::endl;
 	} else {
+		
 		while(true) {
 			first->hit(second->getstr());
 			if(first->gethp() <= 0) {
 			std::cout << "And the winner is: Creature" << std::endl;
 				break;
 			}
-			second->hit(first->getstr()+first->getwep()->getdmg());
+			if(first->getwep() ==  NULL) {
+				second->hit(first->getstr());
+			}
+			else{
+				second->hit(first->getstr()+first->getwep()->getdmg());
+			}
 			if(second->gethp() <= 0) {
 			std::cout << "And the winner is: You" << std::endl;
 				first->drop(second);
@@ -257,6 +292,7 @@ void GameLogic::backpackMode() {
 		std::cout << "registered choice: " << equipitem << std::endl;
 		CHARAC->equip(bitems.at(equipitem));
 		bitems.erase(bitems.begin()+equipitem);
+		CHARAC->setItems(bitems);
 	}
 }
 
@@ -284,6 +320,7 @@ void GameLogic::inventoryMode() {
 				iitems.push_back(CHARAC->unEquipLegs());
 				break;
 		}
+		CHARAC->setItems(iitems);
 	}
 }
 

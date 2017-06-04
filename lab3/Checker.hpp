@@ -16,11 +16,11 @@
 	public:
 		Checker(Character* character, Room* curroom, std::vector<Room*> room);
 		bool moveChar(Room* toRoom);
-		Room* getRoom();
-		Character* getChar();
+		Room* getRoom() const;
+		Character* getChar() const;
 
-		Quest* getQuest();
-		bool getTax();
+		Quest* getQuest() const;
+		bool getTax() const;
 		void payTax();
 	};
 

@@ -69,7 +69,7 @@ Character::Character(Race* race, Profession* profession) : Creature(race, 1) {
 	this->maxhp = hp;
 	Weapon* w = new Weapon(150, std::string("startwep"), 100);
 	Helm* h = new Helm(10, std::string("starthelm"), 100);
-	Potion* p = new Potion(100, std::string("noobpot"));
+	Potion* p = new Potion(100, std::string("noobpot"), 100);
 	this->addItem(p);
 	this->addItem(h);
 	this->addItem(w);
@@ -101,10 +101,16 @@ void Character::equip(Item* it) {
 	}
 void Character::drink(Potion* p) {
 	int a = this->hp + p->getheal();
+	int printheal = 0;
 	if(a <= this->maxhp) {
+		printheal = p->getheal();
 		this->hp += p->getheal();
 	}
-	std::cout << "You drink the potion: " << p->desc() << " and it heals you for";
+	else {
+		printheal = (this->maxhp - this->hp);
+		this->hp = this->maxhp;
+	}
+	std::cout << "You drink the potion: " << p->desc() << " and it heals you for " << printheal << " hp";
 }
 
 void Character::calcBonus() {
@@ -156,6 +162,10 @@ void Character::equip(Legs* it){
 	this->calcBonus();
 }
 Weapon* Character::unEquipWep() {
+	if(this->wep == NULL) {
+		std::cout << "you have no weapon equipped at the moment" << std::endl;
+		return NULL;
+	}
 	Weapon* w = this->wep;
 	this->wep = NULL;
 	std::cout << "you unequipped a wep" << std::endl;
@@ -163,6 +173,10 @@ Weapon* Character::unEquipWep() {
 	return w;
 }
 Helm* Character::unEquipHelm() {
+	if(this->helm == NULL) {
+		std::cout << "you have no helm equipped at the moment" << std::endl;
+		return NULL;
+	}
 	Helm* h = this->helm;
 	this->helm = NULL; // destructor?
 	std::cout << "you unequipped an helm" << std::endl;
@@ -170,6 +184,10 @@ Helm* Character::unEquipHelm() {
 	return h;
 }
 Chest* Character::unEquipChest(){
+	if(this->chest == NULL) {
+		std::cout << "you have no chest equipped at the moment" << std::endl;
+		return NULL;
+	}
 	Chest* c = this->chest;
 	this->chest = NULL; // destructor?
 	std::cout << "you unequipped chestarmor" << std::endl;
@@ -177,6 +195,10 @@ Chest* Character::unEquipChest(){
 	return c;
 }
 Legs* Character::unEquipLegs(){
+	if(this->legs == NULL) {
+		std::cout << "you have no legs equipped at the moment" << std::endl;
+		return NULL;
+	}
 	Legs* l = this->legs;
 	this->legs = NULL; // destructor?
 	std::cout << "you unequipped legarmor" << std::endl;
@@ -190,31 +212,32 @@ void Character::displayitems() const {
 	}
 }
 void Character::displayEquippedItems() const {
+	std::cout << "You have " << this->coins << " coins available" << std::endl;
 	if(this->wep != NULL)
-		std::cout << this->wep->desc() << "1 for wep";
+		std::cout << this->wep->desc() << "1 for wep" << std::endl;
 	if(this->helm != NULL)
-		std::cout << this->helm->desc() << "2 for helm";
+		std::cout << this->helm->desc() << "2 for helm" << std::endl;
 	if(this->chest != NULL)
-		std::cout << this->chest->desc() << "3 for chest";
+		std::cout << this->chest->desc() << "3 for chest" << std::endl;
 	if(this->legs != NULL)
-		std::cout << this->legs->desc() << "4 for legs";
+		std::cout << this->legs->desc() << "4 for legs" << std::endl;
 }
 void Character::drop(Creature* c) {
 	int randnum = 0;
 	srand (time(NULL));
 	switch(c->getdroptable()) {
 		case 1 : randnum = rand() % noobdrops.size();
-		std::cout << "You looted the creature that you have defeated and found: " << noobdrops.at(randnum)->desc() << " and 100 coins";
+		std::cout << "You looted the creature that you have defeated and found: " << noobdrops.at(randnum)->desc() << std::endl <<  " and you also found 100 coins";
 		this->Items.push_back(noobdrops.at(randnum));
 		this->coins += 100;
 		break;
 		case 2 : randnum = rand() % mediumdrops.size();
-		std::cout << "You looted the creature that you have defeated and found: " << mediumdrops.at(randnum)->desc() << " and 500 coins";
+		std::cout << "You looted the creature that you have defeated and found: " << mediumdrops.at(randnum)->desc() << std::endl <<  " and you also found 500 coins";;
 		this->Items.push_back(mediumdrops.at(randnum));
 		this->coins += 500;
 		break;
 		case 3 : randnum = rand() % prodrops.size();
-		std::cout << "You looted the creature that you have defeated and found: " << prodrops.at(randnum)->desc() << " and 1000 coins";
+		std::cout << "You looted the creature that you have defeated and found: " << prodrops.at(randnum)->desc() << std::endl <<  " and you also found 1000 coins";;
 		this->Items.push_back(prodrops.at(randnum));
 		this->coins += 1000;
 		break;
