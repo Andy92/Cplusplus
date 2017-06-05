@@ -1,6 +1,6 @@
 #include "Room.hpp"
 
-	std::vector<Room> Environment::getRooms() {
+	std::vector<Room*> Environment::getRooms() {
 		return this->rooms;
 	}
 	
@@ -8,8 +8,15 @@
 		this->description = descr;
 		this->id = id;
 	}
+	Environment::~Environment() {
+		/*
+		for(int i=0;i<this->rooms.size();++i) {
+			delete this->rooms[i];
+		}
+		*/
+	}
 	
-	void Environment::setRoom(std::vector<Room> rooms) {
+	void Environment::setRoom(std::vector<Room*> rooms) {
 		this->rooms = rooms;
 	}
 
@@ -29,23 +36,41 @@
 		this->desc = description;
 	}
 
+	Room::~Room() {
+		// delete all creatures
+		for(int i=0;i<this->creatures.size();++i) {
+			delete this->creatures[i];
+		}
+		
+		// delete all directions
+		for(int i=0;i<this->dirs.size();++i) {
+			delete this->dirs[i];
+		}
+		// delete all enviroments
+		if((this->getID() % 1000) == 0) {
+			delete this->e;
+		}
+		
+		
+	}
+
 	void Room::setID() {
-		std::vector<Room> rooms = this->e->getRooms();
+		std::vector<Room*> rooms = this->e->getRooms();
 		this->id = this->e->getID() * maxRooms + rooms.size();
 	}
 
 	// Environment will have 1000 room maximum.
 	bool Room::setEnv() {
-		std::vector<Room> rooms = this->e->getRooms();
+		std::vector<Room*> rooms = this->e->getRooms();
 		// If there is already a room with same id in list, update it.
 		for(unsigned int i=0;i<rooms.size();++i) {
-			if(this->id == rooms.at(i).id) {
-				rooms.at(i) = *this;
+			if(this->id == rooms.at(i)->id) {
+				rooms.at(i) = this;
 				this->e->setRoom(rooms);
 				return true;
 			}
 		} 
-		rooms.push_back(*this);
+		rooms.push_back(this);
 		this->e->setRoom(rooms);
 		// TODO: check if there are memory leaks here?
 		return true;
@@ -65,12 +90,12 @@
 		return this->desc;
 	}
 	
-	void Room::setDirections(std::vector<Direction> dirs) {
+	void Room::setDirections(std::vector<Direction*> dirs) {
 		this->dirs = dirs;
 		setEnv();
 	}
 
-	std::vector<Direction> Room::getDirections() {
+	std::vector<Direction*> Room::getDirections() {
 		return this->dirs;
 	}
 	

@@ -11,6 +11,12 @@
 Quest::Quest(std::vector<Room*> room) {
 	this->roomVec = room;
 }
+Quest::~Quest() {
+	for(int i=0;i<this->roomVec.size();++i) {
+		delete this->roomVec[i];
+	}
+
+}
 
 
 const std::string Quest::getObjective(const std::string qN, const std::string qT) const {

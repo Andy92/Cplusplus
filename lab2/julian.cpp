@@ -28,9 +28,9 @@ using namespace lab2;
         }
         Julian::Julian() {
                 //std::cout << now << std::endl;
-            time_t now;
-            //time_t now = time(0);
-            k_time(&now);
+            //time_t now;
+            time_t now = time(0);
+            //k_time(&now);
             this->julian_day_number = 2440588 + (now / 86400);
             validDate(year(), month(), day());
         }

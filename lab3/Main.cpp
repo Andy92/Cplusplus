@@ -34,7 +34,8 @@ void Main::Init() {
 	Environment *e6 = new Environment("Castle", 6);
 
 	//Creatures
-	creatures.push_back(new Creature(new Orc(), 1));
+	Creature *asd = new Creature(new Orc(), 1);
+	creatures.push_back(asd);
 	creatures2.push_back(new Creature(new Bandit(), 1));
 	creatures2.push_back(new Creature(new Bandit(), 1));
 	creatures2.push_back(new Creature(new Bandit(), 1));
@@ -101,7 +102,7 @@ void Main::Init() {
 	//Directions
 	// ### Tavern ###
 	//rum
-	new Direction(rum, E, rum2);
+	Direction *oop = new Direction(rum, E, rum2);
 	new Direction(rum, S, rum3);
 	new Direction(rum, W, rrum2);
 	//rum2

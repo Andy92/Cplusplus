@@ -6,7 +6,10 @@ Checker::Checker(Character* character, Room* curroom, std::vector<Room*> room) {
 		//this->roomVec = room;
 		this->quest = new Quest(room);
 	}
-
+Checker::~Checker() {
+	delete this->quest;
+	delete this->character;
+}
 bool Checker::moveChar(Room* toRoom) {
 	if(this->curroom->remChar()) {
 		toRoom->setChar(this->character);

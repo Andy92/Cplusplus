@@ -6,32 +6,32 @@
 #include "Creature.hpp"
 
 std::vector<Item*> Creature::noobdrops = {
-	new Weapon(200,std::string("noobwep")),
-	new Helm(15, std::string("noobhelm")),
-	new Potion(100, std::string("noobpotion"))
+	new Weapon(200,std::string("noobwep"), 100),
+	new Helm(15, std::string("noobhelm"), 100),
+	new Potion(100, std::string("noobpotion"), 100)
 };
 
 std::vector<Item*> Creature::mediumdrops = {
-	new Weapon(800,std::string("mediumwep")),
-	new Helm(100, std::string("mediumhelm")),
-	new Potion(300, std::string("mediumpotion"))
+	new Weapon(800,std::string("mediumwep"), 1000),
+	new Helm(100, std::string("mediumhelm"), 1000),
+	new Potion(300, std::string("mediumpotion"), 1000)
 };
 
 std::vector<Item*> Creature::prodrops = {
-	new Weapon(2000,std::string("prowep")),
-	new Helm(1500, std::string("prohelm")),
-	new Potion(500, std::string("propotion"))
+	new Weapon(2000,std::string("prowep"), 2000),
+	new Helm(1500, std::string("prohelm"), 2000),
+	new Potion(500, std::string("propotion"), 2000)
 };
 
 	//GETS
 
-const int Creature::getdroptable() {
+const int Creature::getdroptable() const {
 	return this->droptable;
 }
-const int Creature::gethp() {
+const int Creature::gethp() const {
 	return this->hp;
 }
-const int Creature::getstr() {
+const int Creature::getstr() const {
 	return this->str;
 }
 
@@ -42,6 +42,12 @@ Creature::Creature(Race* race, int droptable) {
 	this->armorbonus = 0;
 	this->droptable = droptable;
 }
+
+
+Creature::~Creature() {
+	delete this->r;
+}
+
 Creature::Creature() {
 	hp *= this->r->rhp;
 	str *= this->r->rstr;
@@ -55,6 +61,8 @@ const std::string Creature::toString() const {
 }
 void Creature::hit(int dmg) {
 	int rdmg = dmg - armorbonus;
+	if(rdmg < 0)
+		rdmg = 0;
 	if(hp-rdmg<= 0) {
 		hp = 0;
 	} else {
@@ -74,6 +82,19 @@ Character::Character(Race* race, Profession* profession) : Creature(race, 1) {
 	this->addItem(h);
 	this->addItem(w);
 }
+
+//destructor
+
+Character::~Character() {
+	delete this->wep;
+	delete this->helm;
+	delete this->legs;
+	delete this->chest;
+	delete this->p;
+	for(int i = 0; i < Items.size(); ++i) {
+		delete this->Items.at(i);
+	}
+}
 std::string Character::toString() const {
 	return "profession: " + this->p->Profession::toString() + "\nrace: " + this->r->Race::toString() + " " + this->stats();
 }
@@ -82,22 +103,25 @@ void Character::addItem(Item* it) {
 	this->Items.push_back(it);
 }
 
-void Character::equip(Item* it) {
+bool Character::equip(Item* it) {
 	int a = it->getid();
 	switch(a) {
-			case 1 : this->equip(dynamic_cast<Weapon*>(it)); // might remove data bc item vector
+			case 1 : if(this->getwep() != NULL) {std::cout << "unequip current weapon before equipping a new one" << std::endl; return false;} 
+			this->equip(static_cast<Weapon*>(it)); // might remove data bc item vector
 			break;
-			case 2 : this->equip(dynamic_cast<Armor*>(it)); // might remove data bc item vector
+			case 3 : if(this->gethelm() != NULL) {std::cout << "unequip current helm before equipping a new one" << std::endl; return false;}
+			this->equip(static_cast<Helm*>(it)); // might remove data bc item vector
 			break;
-			case 3 : this->equip(dynamic_cast<Helm*>(it)); // might remove data bc item vector
+			case 4 : if(this->getchest() != NULL) {std::cout << "unequip current chest before equipping a new one" << std::endl; return false;}
+			this->equip(static_cast<Chest*>(it)); // might remove data bc item vector
 			break;
-			case 4 : this->equip(dynamic_cast<Chest*>(it)); // might remove data bc item vector
+			case 5 : if(this->getlegs() != NULL) {std::cout << "unequip current legs before equipping a new one" << std::endl; return false;}
+			this->equip(static_cast<Legs*>(it)); // might remove data bc item vector
 			break;
-			case 5 : this->equip(dynamic_cast<Legs*>(it)); // might remove data bc item vector
-
-			case 6 : this->drink(dynamic_cast<Potion*>(it));
+			case 6 : this->drink(static_cast<Potion*>(it));
 			break;
 		}
+		return true;
 	}
 void Character::drink(Potion* p) {
 	int a = this->hp + p->getheal();
@@ -119,26 +143,29 @@ void Character::calcBonus() {
 	else {
 		this->wepdmg = 1;
 	}
-	if(this->helm != NULL && this->chest != NULL && this->legs != NULL)
+	if(this->helm != NULL && this->chest != NULL && this->legs != NULL) {
 		this->armorbonus = this->helm->getarmor() + this->chest->getarmor() + this->legs->getarmor();
-
-	if(this->helm != NULL && this->chest != NULL) {
+	}
+	else if(this->helm != NULL && this->chest != NULL) {
 		this->armorbonus = this->helm->getarmor() + this->chest->getarmor();
 	}
-	if(this->chest != NULL && this->legs != NULL) {
+	else if(this->chest != NULL && this->legs != NULL) {
 		this->armorbonus = this->chest->getarmor() + this->legs->getarmor();
 	}
-	if(this->helm != NULL && this->legs != NULL) {
+	else if(this->helm != NULL && this->legs != NULL) {
 		this->armorbonus = this->helm->getarmor() + this->legs->getarmor();
 	}
-	if(this->helm != NULL) {
+	else if(this->helm != NULL) {
 		this->armorbonus = this->helm->getarmor();
 	}
-	if(this->chest != NULL) {
+	else if(this->chest != NULL) {
 		this->armorbonus = this->chest->getarmor();
 	}
-	if(this->legs != NULL) {
+	else if(this->legs != NULL) {
 		this->armorbonus = this->legs->getarmor();
+	}
+	else {
+		this->armorbonus = 0;
 	}
 }
 void Character::equip(Weapon* it) {
@@ -254,6 +281,15 @@ void Character::setItems(std::vector<Item*> in) {
 const Weapon* Character::getwep() const {
 	return this->wep;
 }
+const Helm* Character::gethelm() const {
+	return this->helm;
+}
+const Chest* Character::getchest() const {
+	return this->chest;
+}
+const Legs* Character::getlegs() const {
+	return this->legs;
+}
 const int Character::getcoins() const {
 	return this->coins;
 }
@@ -261,3 +297,4 @@ const int Character::getcoins() const {
 void Character::setcoins(int newcoins) {
 	this->coins = newcoins;
 }
+

@@ -21,14 +21,15 @@ protected:
 	int droptable = 0;
 	int maxhp = 0;
 public:
-	const int getdroptable();
+	const int getdroptable() const;
 	Creature();
 	Creature(Race* race, int droptable);
+	~Creature();
 	const std::string stats() const;
 	const std::string toString() const;
 	void hit(int dmg);
-	const int gethp();
-	const int getstr();
+	const int gethp() const;
+	const int getstr() const;
 };
 class Character : public Creature {	// Creature being a lower order base class for example
 private:
@@ -43,9 +44,10 @@ private:
 public:
 	void setItems(std::vector<Item*> in);
 	Character(Race* race, Profession* profession);
+	~Character();
 	std::string toString() const;
 	void addItem(Item* it);
-	void equip(Item* it);
+	bool equip(Item* it);
 	void equip(Weapon* it);
 	void equip(Helm* it);
 	void equip(Chest* it);
@@ -61,6 +63,9 @@ public:
 	void displayEquippedItems() const;
 	void drop(Creature* c);
 	const Weapon* getwep() const;
+	const Helm* gethelm() const;
+	const Chest* getchest() const;
+	const Legs* getlegs() const;
 	const int getcoins() const;
 	void setcoins(int newcoins);
 	std::vector<Item*> getItems() const;

@@ -17,10 +17,10 @@ GameLogic::GameLogic(Checker* ch) {
 // Move character from current room to given room.
 bool GameLogic::changeDir(std::string newDir) {
 	Room* oldRoom = ROOM;
-	std::vector<Direction> dirs = oldRoom->getDirections();
+	std::vector<Direction*> dirs = oldRoom->getDirections();
 	for(int i =0; i < dirs.size() ;++i) {
-		if(dirs.at(i).getName().compare(newDir) == 0) {
-			Room* newRoom = dirs.at(i).getToRoom();
+		if(dirs.at(i)->getName().compare(newDir) == 0) {
+			Room* newRoom = dirs.at(i)->getToRoom();
 			return this->ch->moveChar(newRoom);
 		}
 	}
@@ -28,9 +28,9 @@ bool GameLogic::changeDir(std::string newDir) {
 }
 
 void GameLogic::getDirections() {
-	std::vector<Direction> dirs2 = ROOM->getDirections();
+	std::vector<Direction*> dirs2 = ROOM->getDirections();
 	for(int k=0;k<dirs2.size();++k) {
-		std::cout << dirs2.at(k).getName() << std::endl;
+		std::cout << dirs2.at(k)->getName() << std::endl;
 	}
 }
 
@@ -55,6 +55,7 @@ void GameLogic::ExecCmd(int parsedInt) {
 			std::cout << "GO, STATS, HELP, EXIT, FIGHT, QUEST, ITEMS, INV, SHOP, TALK" << std::endl;
 		break;
 	case 33 : std::cout << "Exiting the program..." << std::endl;
+		delete this->ch;
 		exit(0);
 		break;
 	case 44 : std::cout << "FightingMode" << std::endl;
@@ -290,9 +291,11 @@ void GameLogic::backpackMode() {
 		std::cout << "ERROR: choice: " << equipitem << " is not available." << std::endl;
 	} else {
 		std::cout << "registered choice: " << equipitem << std::endl;
-		CHARAC->equip(bitems.at(equipitem));
-		bitems.erase(bitems.begin()+equipitem);
-		CHARAC->setItems(bitems);
+		bool success = CHARAC->equip(bitems.at(equipitem));
+		if(success) {
+			bitems.erase(bitems.begin()+equipitem);
+			CHARAC->setItems(bitems);	
+		}
 	}
 }
 
@@ -366,6 +369,7 @@ void GameLogic::shopkeeperMode() {
 		int currcoins = CHARAC->getcoins();
 		currcoins -= ROOM->getShopkeeper()->getinv().at(shopitem)->getvalue();
 		CHARAC->setcoins(currcoins);
+		CHARAC->setItems(sitems);
 	}
 }
 void GameLogic::sellMode() {

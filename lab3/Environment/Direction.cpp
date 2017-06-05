@@ -16,8 +16,8 @@
 		}
 
 		void Direction::addDirs() {
-			std::vector<Direction> dirs = this->r->getDirections();
-			dirs.push_back(*this);
+			std::vector<Direction*> dirs = this->r->getDirections();
+			dirs.push_back(this);
 			//cout << " DirName: " << dirs[0].getName() << endl;
 			this->r->setDirections(dirs);
 		}

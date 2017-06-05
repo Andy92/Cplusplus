@@ -50,6 +50,7 @@ public:
 	bool checkThirdCondition();
 	void setQuest(const int n);
 	const bool checkQuest(const int n) const;
+	~Quest();
 };
 
 

@@ -15,7 +15,7 @@
  	class Environment;
 	class Room {
 	private:
-		std::vector<Direction> dirs;
+		std::vector<Direction*> dirs;
 		std::vector<Creature*> creatures;
 		std::string desc = "";
 		Environment *e = 0;
@@ -24,8 +24,9 @@
 		Shopkeeper* sk = 0;
 	public:
 		Room(Environment *e, std::vector<Creature*> creatures, std::string description);
-		void setDirections(std::vector<Direction> dirs);
-		std::vector<Direction> getDirections();
+		~Room();
+		void setDirections(std::vector<Direction*> dirs);
+		std::vector<Direction*> getDirections();
 		void setID();
 		int getID();
 		bool setEnv();
@@ -41,13 +42,14 @@
 	class Environment {
 	private:
 		std::string description = "";
-		std::vector<Room> rooms;
+		std::vector<Room*> rooms;
 		int id;
 	public:
 		Environment(std::string descr, int id);
-		void setRoom(std::vector<Room> rooms);
+		~Environment();
+		void setRoom(std::vector<Room*> rooms);
 		std::string getDesc();
-		std::vector<Room> getRooms();
+		std::vector<Room*> getRooms();
 		int getID(); 
 	}; 
 #endif
