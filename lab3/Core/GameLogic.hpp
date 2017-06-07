@@ -16,6 +16,7 @@ class GameLogic {
 	public:
 		Character* charCreation();
 		GameLogic(Checker* ch);
+		~GameLogic();
 		bool changeDir(std::string newDir);
 		void ExecCmd(int parsedInt);
 		int takeInt();	
@@ -29,5 +30,7 @@ class GameLogic {
 		void outputQuestObj();
 		void talking();
 		void castleTax();
+		void Special();
+		void findGodSword();
 };
 #endif

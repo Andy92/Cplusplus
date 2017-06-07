@@ -45,13 +45,13 @@ void Main::Init() {
 
 	creatures4.push_back(new Creature(new Knight(), 2));
 	creatures4.push_back(new Creature(new Knight(), 2));
-	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 3));
 	creatures4.push_back(new Creature(new Knight(), 2));
 	creatures4.push_back(new Creature(new Knight(), 2));
 
-	creatures5.push_back(new Creature(new Knight(), 3));
+	creatures5.push_back(new Creature(new Knight(), 4));
 
-	creatures7.push_back(new Creature(new Dragon(), 3));
+	creatures7.push_back(new Creature(new Dragon(), 5));
 
 	
 	// Tavern
@@ -82,7 +82,7 @@ void Main::Init() {
 	Room *trum3 = new Room(e5, creaNull, "You can see a shop to the south.");
 	Room *trum4 = new Room(e5, creaNull, "There is a road to the east that seems pretty long.");
 	Room *trum5 = new Room(e5, creaNull, "You are at the shop, you see a man standing here very worried about some things, maybe talk to him?");
-	Room *trum6 = new Room(e5, creaNull, "This house looks burned, probably the dragon you hunt did this.");
+	Room *trum6 = new Room(e5, creaNull, "This house looks burned, the people who used to live there are crying.");
 	
 
 	// Castle
@@ -94,7 +94,7 @@ void Main::Init() {
 	Room *crum6 = new Room(e6, creaNull, "You have arrived to the end of the hall, you see big doors to the south.");
 	Room *crum7 = new Room(e6, creaNull, "This is the big balcony of the castle, you can see the whole town from here.");
 	Room *crum8 = new Room(e6, creaNull, "This room is a bedroom, the king and queen probably sleeps here, but none of them are here.");
-	Room *crum9 = new Room(e6, creaNull, "You walk in to the kings hall, there is a golden throne, and the king is sitting in it. He looks very sad, maybe go talk to him and cheer him up.");
+	Room *crum9 = new Room(e6, creaNull, "You find yourself in the kings hall, there is a golden throne, and the king is sitting in it. Maybe go talk to him");
 
 	
 	trum5->setShopkeeper(sk);
@@ -252,10 +252,10 @@ void Main::Init() {
 }
 
 		void Main::Game() {
-			Character *charr = gl->charCreation();
+			Character *charr = gl->charCreation(); //Initialize char Creation process.
 
-			this->roomVec.at(0)->setChar(charr);
-			this->ch = new Checker(charr, this->roomVec.at(0), this->roomVec);
+			//this->roomVec.at(0)->setChar(charr); // Delete??
+			this->ch = new Checker(charr, this->roomVec.at(0), this->roomVec); // Put char, starting room and vector of all rooms.
 			this->gl = new GameLogic(this->ch);
 
 			while(true) {

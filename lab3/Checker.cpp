@@ -7,19 +7,13 @@ Checker::Checker(Character* character, Room* curroom, std::vector<Room*> room) {
 		this->quest = new Quest(room);
 	}
 Checker::~Checker() {
-	delete this->quest;
 	delete this->character;
+	delete this->quest;
 }
-bool Checker::moveChar(Room* toRoom) {
-	if(this->curroom->remChar()) {
-		toRoom->setChar(this->character);
-		this->curroom = toRoom;
-		std::cout << "Environment: " << this->curroom->getEnvDesc() << std::endl;
-		std::cout << this->curroom->getRoomDesc() << std::endl;
-		return true;
-	} else {
-		return false;
-	}
+void Checker::moveChar(Room* toRoom) {
+	this->curroom = toRoom;
+	std::cout << "Environment: " << this->curroom->getEnvDesc() << std::endl;
+	std::cout << this->curroom->getRoomDesc() << std::endl;
 }
 
 Room* Checker::getRoom() const {

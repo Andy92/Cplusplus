@@ -4,15 +4,9 @@
 #include <vector>
 #include "Characters/Creature.hpp"
 #include "Environment/Environment.hpp"
-//#include "Environment/Room.cpp"
-//#include "Environment/Direction.cpp"
 #include "Checker.hpp"
 #include "Core/Parser.hpp"
 #include "Core/GameLogic.hpp"
-//#include "Quest.hpp"
-
-
-
 
 
 #ifndef MAIN_HPP

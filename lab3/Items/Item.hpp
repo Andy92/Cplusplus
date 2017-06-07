@@ -36,7 +36,38 @@ public:
 	const std::string desc() const;
 	const int getdmg() const;
 	const Weapon* get() const;
+	const virtual int spec() const;
 };
+
+class KnightsSword : public Weapon {
+private:
+	int dmg;
+public:
+	const std::string desc() const;
+	KnightsSword(int dmg, std::string name, int value);
+	const virtual int spec() const;
+};
+
+
+class DragonTooth : public Weapon {
+private:
+	int dmg;
+public:
+	const std::string desc() const;
+	DragonTooth(int dmg, std::string name, int value);
+	const virtual int spec() const;
+};
+
+
+class GodSword : public Weapon {
+private:
+	int dmg;
+public:
+	const std::string desc() const;
+	GodSword(int dmg, std::string name, int value);
+	const virtual int spec() const;
+};
+
 
 class Armor : public Item {
 protected:

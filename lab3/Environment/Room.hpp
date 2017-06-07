@@ -10,7 +10,7 @@
 #define ROOM_HPP
 
 // Maximum number of rooms
-#define maxRooms 1000
+#define MAXROOM 1000
 
  	class Environment;
 	class Room {
@@ -20,7 +20,7 @@
 		std::string desc = "";
 		Environment *e = 0;
 		int id;
-		Creature* mainChar = 0;
+		//Creature* mainChar = 0;
 		Shopkeeper* sk = 0;
 	public:
 		Room(Environment *e, std::vector<Creature*> creatures, std::string description);
@@ -32,9 +32,9 @@
 		bool setEnv();
 		std::string getEnvDesc();
 		std::string getRoomDesc();
-		Creature* getChar();
-		void setChar(Creature* newChar);
-		bool remChar();
+		//Creature* getChar();
+		//void setChar(Creature* newChar);
+		//bool remChar();
 		std::vector<Creature*> getCreatureList();
 		Shopkeeper* getShopkeeper();
 		void setShopkeeper(Shopkeeper* sk);

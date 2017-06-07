@@ -1,5 +1,5 @@
 #include "Item.hpp"
-//item.cpp
+//item.cpp ===============================================
 const std::string Item::desc() const {
 	std::string ret = "this is an item \n";
 	return ret;
@@ -13,7 +13,8 @@ const int Item::getvalue() const {
 const int Item::getid() const {
 	return this->id;
 }
-//potion.cpp
+
+//potion.cpp ===============================================
 Potion::Potion(int heal, std::string name) {
 	this->heal = heal;
 	this->name = name;
@@ -32,7 +33,7 @@ const std::string Potion::desc() const {
 const int Potion::getheal() const {
 	return this->heal;
 }
-//weapon.cpp
+//weapon.cpp ===============================================
 Weapon::Weapon(int dmg, std::string name) {
 	this->dmg = dmg;
 	this->name = name;
@@ -54,7 +55,60 @@ const std::string Weapon::desc() const {
 	std::string ret = "weapon: " + name + " ";
 	return ret;
 }
-//armor.cpp
+
+const int Weapon::spec() const {
+	std::cout << "Stop hitting urself ( - 10 HP) ";
+	return 1;
+}
+
+//KnightsSword.cpp ===============================================
+
+const int KnightsSword::spec() const {
+	std::cout << "Next thing you know you are being dubbed by the king in his own castle" << std::endl;
+	return 2;
+}
+
+KnightsSword::KnightsSword(int dmg, std::string name, int value) : Weapon(dmg, name, value){
+}
+
+const std::string KnightsSword::desc() const {
+	std::string ret = "A knight's sword ";
+	return ret;
+}
+
+//DragonTooth.cpp ===============================================
+
+const int DragonTooth::spec() const {
+	std::cout << "You can feel your blood starting to bubble and after a while you realise that you just grew a pair of wings" << std::endl;
+	std::cout << "You wake up next to a burned house, maybe you did this?" << std::endl;
+	return 3;
+}
+
+DragonTooth::DragonTooth(int dmg, std::string name, int value) : Weapon(dmg, name, value){
+}
+
+const std::string DragonTooth::desc() const {
+	std::string ret = "A dragon's Tooth ";
+	return ret;
+}
+
+//GodSword.cpp ===============================================
+
+const int GodSword::spec() const {
+	std::cout << "Since you are a god now we cannot stop you from finishing the game" << std::endl;
+	return 4;
+}
+
+GodSword::GodSword(int dmg, std::string name, int value) : Weapon(dmg, name, value){
+}
+
+const std::string GodSword::desc() const {
+	std::string ret = "lolnoobs";
+	return ret;
+}
+
+//armor.cpp ===============================================
+
 Armor::Armor(int armor, std::string name) {
 	this->armor = armor;
 	this->name = name;
@@ -75,14 +129,14 @@ const std::string Armor::desc() const {
 	return ret;
 }
 
-//helm.cpp
+//helm.cpp ===============================================
 Helm::Helm(int armor, std::string name) : Armor(armor, name) {
 	this->id = 3;
 }
 Helm::Helm(int armor, std::string name, int value) : Armor(armor, name, value) {
 	this->id = 3;
 }
-//chest.cpp
+//chest.cpp ===============================================
 Chest::Chest(int armor, std::string name) : Armor(armor, name) {
 	this->id = 4;
 }
@@ -90,7 +144,7 @@ Chest::Chest(int armor, std::string name) : Armor(armor, name) {
 Chest::Chest(int armor, std::string name, int value) : Armor(armor, name, value) {
 	this->id = 4;
 }
-//legs.cpp
+//legs.cpp ===============================================
 Legs::Legs(int armor, std::string name) : Armor(armor, name) {
 	this->id = 5;
 }

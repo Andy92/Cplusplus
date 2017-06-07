@@ -16,7 +16,7 @@
 	public:
 		Checker(Character* character, Room* curroom, std::vector<Room*> room);
 		~Checker();
-		bool moveChar(Room* toRoom);
+		void moveChar(Room* toRoom);
 		Room* getRoom() const;
 		Character* getChar() const;
 

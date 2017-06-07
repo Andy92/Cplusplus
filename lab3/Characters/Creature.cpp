@@ -35,6 +35,7 @@ const int Creature::getstr() const {
 	return this->str;
 }
 
+
 Creature::Creature(Race* race, int droptable) {
 	this->r = race;
 	this->hp *= this->r->rhp;
@@ -46,6 +47,26 @@ Creature::Creature(Race* race, int droptable) {
 
 Creature::~Creature() {
 	delete this->r;
+
+	for (auto it = noobdrops.begin(); it != noobdrops.end(); ++it)
+	{
+		delete *it;
+	}
+
+	noobdrops.clear();
+	for (auto it = mediumdrops.begin(); it != mediumdrops.end(); ++it)
+	{
+		delete *it;
+	}
+
+	mediumdrops.clear();
+	for (auto it = prodrops.begin(); it != prodrops.end(); ++it)
+	{
+		delete *it;
+	}
+
+
+	prodrops.clear();
 }
 
 Creature::Creature() {
@@ -57,7 +78,7 @@ const std::string Creature::stats() const {
 	return "\nhp: " + std::to_string(hp) + "\nstr: " + std::to_string(str) + "\narmorbonus: " + std::to_string(armorbonus) + "\nweapondmg: " + std::to_string(wepdmg);
 }
 const std::string Creature::toString() const {
-	return "race: " + this->r->Race::toString() + this->stats();
+	return "race: " + this->r->toString() + this->stats();
 }
 void Creature::hit(int dmg) {
 	int rdmg = dmg - armorbonus;
@@ -83,6 +104,17 @@ Character::Character(Race* race, Profession* profession) : Creature(race, 1) {
 	this->addItem(w);
 }
 
+void Character::setRace(Race* newrace) {
+	this->hp /= this->r->rhp;
+	this->str /= this->r-> rstr;
+
+	delete this->r;
+	this->r = newrace;
+	this->hp = 100*this->r->rhp*this->p->php;
+	this->str *= this->r->rstr*this->p->pstr;
+	this->maxhp = hp;
+}
+
 //destructor
 
 Character::~Character() {
@@ -96,7 +128,7 @@ Character::~Character() {
 	}
 }
 std::string Character::toString() const {
-	return "profession: " + this->p->Profession::toString() + "\nrace: " + this->r->Race::toString() + " " + this->stats();
+	return "profession: " + this->p->Profession::toString() + "\nrace: " + this->r->toString() + " " + this->stats();
 }
 
 void Character::addItem(Item* it) {
@@ -233,7 +265,7 @@ Legs* Character::unEquipLegs(){
 	return l;
 
 }
-void Character::displayitems() const {
+void Character::displayitems() {
 	for(int i =0; i < this->Items.size() ;++i) {
 		std::cout << "press: " << i << " to equip or use item: " << this->Items.at(i)->desc() << std::endl;
 	}
@@ -255,18 +287,27 @@ void Character::drop(Creature* c) {
 	switch(c->getdroptable()) {
 		case 1 : randnum = rand() % noobdrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << noobdrops.at(randnum)->desc() << std::endl <<  " and you also found 100 coins";
-		this->Items.push_back(noobdrops.at(randnum));
+		this->Items.push_back(c->noobdrops.at(randnum));
+		c->noobdrops.erase(c->noobdrops.begin() + randnum);
 		this->coins += 100;
 		break;
 		case 2 : randnum = rand() % mediumdrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << mediumdrops.at(randnum)->desc() << std::endl <<  " and you also found 500 coins";;
-		this->Items.push_back(mediumdrops.at(randnum));
+		this->Items.push_back(c->mediumdrops.at(randnum));
+		c->mediumdrops.erase(c->mediumdrops.begin() + randnum);
 		this->coins += 500;
 		break;
 		case 3 : randnum = rand() % prodrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << prodrops.at(randnum)->desc() << std::endl <<  " and you also found 1000 coins";;
-		this->Items.push_back(prodrops.at(randnum));
+		this->Items.push_back(c->prodrops.at(randnum));
+		c->prodrops.erase(c->mediumdrops.begin() + randnum);
 		this->coins += 1000;
+		break;
+		case 4 : std::cout << "You looted the creature that you have defeated and found something extra interesting, a KnightsSword" << std::endl;
+		this->Items.push_back(new KnightsSword(300, std::string("knightsSword"), 3000));
+		break;
+		case 5 : std::cout << "You have looted the creature that you have defeated and found something extra interesting, a DragonTooth" << std::endl;
+		this->Items.push_back(new DragonTooth(300, std::string("DragonTooth"), 3000));
 		break;
 	}
 }
@@ -278,19 +319,19 @@ std::vector<Item*> Character::getItems() const {
 void Character::setItems(std::vector<Item*> in) {
 	this->Items = in;
 }
-const Weapon* Character::getwep() const {
+Weapon* Character::getwep() const {
 	return this->wep;
 }
-const Helm* Character::gethelm() const {
+Helm* Character::gethelm() const {
 	return this->helm;
 }
-const Chest* Character::getchest() const {
+Chest* Character::getchest() const {
 	return this->chest;
 }
-const Legs* Character::getlegs() const {
+Legs* Character::getlegs() const {
 	return this->legs;
 }
-const int Character::getcoins() const {
+int Character::getcoins() const {
 	return this->coins;
 }
 

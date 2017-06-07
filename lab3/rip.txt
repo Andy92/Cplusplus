@@ -1,0 +1,155 @@
+
+orc
+warrior
+quest
+go west
+go north
+go north
+fight
+0
+items
+3
+go south
+go south
+go east
+go west
+go south
+go south
+go west
+go south
+talk
+quest
+shop
+8
+inv
+5
+items
+100
+inv
+8
+stats
+go north
+go east
+quest
+go north
+go north
+go north
+fight
+0
+stats
+fight
+1
+fight
+1
+quest
+go south
+go south
+go south
+go west
+go south
+quest
+talk
+go north
+go east
+go east
+go east
+go east
+stats
+inv
+1
+go east
+stats
+go west
+go west
+go west
+go east
+go north
+go north
+go north
+go north
+fight
+0
+stats
+go west
+fight
+1
+go east
+inv
+0
+go west
+fight 2
+go east
+stats
+inv
+0
+items
+4
+stats
+go south
+go south
+go south
+go south
+go east
+go east
+go east
+go east
+go east
+go east
+go south
+quest
+talk
+yes
+quest
+go north
+go west
+go west
+go west
+go west
+go west
+go west
+go east
+go north
+go north
+go north
+go north
+go west
+fight
+3
+stats
+quest
+go east
+go east
+go east
+go east
+go west
+go west
+fight
+4
+stats
+quest
+items
+4
+stats
+quest
+go east
+go east
+stats
+fight
+0
+stats
+go west
+go west
+go west
+go south
+go south
+go south
+go south
+go east
+go east
+go east
+go east
+go east
+go east
+go south
+talk
+exit

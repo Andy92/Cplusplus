@@ -12,8 +12,10 @@ private:
 	std::vector<Item*> inventory;
 public:
 	Shopkeeper(std::vector<Item*> inventory);
+	~Shopkeeper();
 	void displayInventory();
 	std::vector<Item*> getinv() const;
+	void setinv(std::vector<Item*>);
 };
 
 #endif

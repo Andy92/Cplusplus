@@ -30,6 +30,7 @@ public:
 	void hit(int dmg);
 	const int gethp() const;
 	const int getstr() const;
+	void setRace(Race* newrace);
 };
 class Character : public Creature {	// Creature being a lower order base class for example
 private:
@@ -42,6 +43,7 @@ private:
 	std::vector<Item*> Items;
 	//Room* rum;
 public:
+	void setRace(Race* newrace);
 	void setItems(std::vector<Item*> in);
 	Character(Race* race, Profession* profession);
 	~Character();
@@ -59,14 +61,14 @@ public:
 	Chest* unEquipChest();
 	Legs* unEquipLegs();
 	void calcBonus();
-	void displayitems() const;
+	void displayitems();
 	void displayEquippedItems() const;
 	void drop(Creature* c);
-	const Weapon* getwep() const;
-	const Helm* gethelm() const;
-	const Chest* getchest() const;
-	const Legs* getlegs() const;
-	const int getcoins() const;
+	Weapon* getwep() const;
+	Helm* gethelm() const;
+	Chest* getchest() const;
+	Legs* getlegs() const;
+	int getcoins() const;
 	void setcoins(int newcoins);
 	std::vector<Item*> getItems() const;
 };

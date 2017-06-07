@@ -7,17 +7,16 @@
 #define RACE_HPP
 	class Race {
 		public:
-		std::string id;
 		float rhp = 0;
 		float rstr = 0;
-		Race(std::string identifier);
-		std::string toString();
+		virtual std::string toString() = 0;
 	};
 
 	class Human : public Race
 	{
 	public:
 		Human();
+		virtual std::string toString();
 
 	};
 
@@ -25,24 +24,28 @@
 	{
 	public:
 		Orc();
+		virtual std::string toString();
 	};
 
 	class Bandit: public Race
 	{
 	public:
 		Bandit();
+		virtual std::string toString();
 	};
 
 		class Knight: public Race
 	{
 	public:
 		Knight();
+		virtual std::string toString();
 	};
 
 	class Dragon: public Race
 	{
 	public:
 		Dragon();
+		virtual std::string toString();
 	};
 
 #endif
