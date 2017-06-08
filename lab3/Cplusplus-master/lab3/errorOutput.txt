@@ -1,0 +1,542 @@
+orc
+warrior
+QUEST command recognized
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+GO DIRECTIONS command recognized
+GO command recognized
+SOUTH keyword registered
+go south
+TALK command recognized
+QUEST command recognized
+SHOP command recognized
+INVENTORY command recognized
+ITEMS command recognized
+INVENTORY command recognized
+STATS command recognized
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+EAST keyword registered
+go east
+QUEST command recognized
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+FIGHT command recognized
+STATS command recognized
+FIGHT command recognized
+FIGHT command recognized
+FIGHT command recognized
+QUEST command recognized
+FIGHT command recognized
+QUEST command recognized
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+SOUTH keyword registered
+go south
+QUEST command recognized
+TALK command recognized
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+STATS command recognized
+INVENTORY command recognized
+GO command recognized
+EAST keyword registered
+go east
+STATS command recognized
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+FIGHT command recognized
+STATS command recognized
+GO command recognized
+WEST keyword registered
+go west
+FIGHT command recognized
+GO command recognized
+EAST keyword registered
+go east
+INVENTORY command recognized
+FIGHT command recognized
+FIGHT command recognized
+GO command recognized
+WEST keyword registered
+go west
+FIGHT command recognized
+GO command recognized
+EAST keyword registered
+go east
+STATS command recognized
+INVENTORY command recognized
+ITEMS command recognized
+STATS command recognized
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+SOUTH keyword registered
+go south
+QUEST command recognized
+TALK command recognized
+QUEST command recognized
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+NORTH keyword registered
+go north
+GO command recognized
+WEST keyword registered
+go west
+FIGHT command recognized
+FIGHT command recognized
+FIGHT command recognized
+STATS command recognized
+QUEST command recognized
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+FIGHT command recognized
+FIGHT command recognized
+STATS command recognized
+QUEST command recognized
+ITEMS command recognized
+STATS command recognized
+QUEST command recognized
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+STATS command recognized
+FIGHT command recognized
+STATS command recognized
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+WEST keyword registered
+go west
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+SOUTH keyword registered
+go south
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+EAST keyword registered
+go east
+GO command recognized
+SOUTH keyword registered
+go south
+TALK command recognized
+==14023== Invalid write of size 8
+==14023==    at 0x403537: Item::~Item() (Item.hpp:8)
+==14023==    by 0x40611C: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ee0 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid read of size 8
+==14023==    at 0x4F596C3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==14023==    by 0x403549: Item::~Item() (Item.hpp:8)
+==14023==    by 0x40611C: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ef0 is 16 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid free() / delete / delete[] / realloc()
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ee0 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid write of size 8
+==14023==    at 0x403537: Item::~Item() (Item.hpp:8)
+==14023==    by 0x40553A: Creature::~Creature() (Creature.cpp:53)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5c80 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4075A3: __static_initialization_and_destruction_0(int, int) (Creature.cpp:8)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid read of size 8
+==14023==    at 0x4F596C3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==14023==    by 0x403549: Item::~Item() (Item.hpp:8)
+==14023==    by 0x40553A: Creature::~Creature() (Creature.cpp:53)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5c90 is 16 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4075A3: __static_initialization_and_destruction_0(int, int) (Creature.cpp:8)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid free() / delete / delete[] / realloc()
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x405542: Creature::~Creature() (Creature.cpp:53)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5c80 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4075A3: __static_initialization_and_destruction_0(int, int) (Creature.cpp:8)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid write of size 8
+==14023==    at 0x403537: Item::~Item() (Item.hpp:8)
+==14023==    by 0x4055A9: Creature::~Creature() (Creature.cpp:59)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ee0 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid read of size 8
+==14023==    at 0x4F596C3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==14023==    by 0x403549: Item::~Item() (Item.hpp:8)
+==14023==    by 0x4055A9: Creature::~Creature() (Creature.cpp:59)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ef0 is 16 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== Invalid free() / delete / delete[] / realloc()
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4055B1: Creature::~Creature() (Creature.cpp:59)
+==14023==    by 0x406146: Character::~Character() (Creature.cpp:120)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Address 0x5ab5ee0 is 0 bytes inside a block of size 56 free'd
+==14023==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x406124: Character::~Character() (Creature.cpp:127)
+==14023==    by 0x41326E: Checker::~Checker() (Checker.cpp:10)
+==14023==    by 0x40FB44: GameLogic::~GameLogic() (GameLogic.cpp:13)
+==14023==    by 0x410EF5: GameLogic::talking() (GameLogic.cpp:202)
+==14023==    by 0x410316: GameLogic::ExecCmd(int) (GameLogic.cpp:88)
+==14023==    by 0x41B1EF: Main::Game() (Main.cpp:269)
+==14023==    by 0x41B2C6: main (Main.cpp:278)
+==14023==  Block was alloc'd at
+==14023==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14023==    by 0x4077EF: __static_initialization_and_destruction_0(int, int) (Creature.cpp:14)
+==14023==    by 0x407D69: _GLOBAL__sub_I__ZN8Creature9noobdropsE (Creature.cpp:337)
+==14023==    by 0x41C14C: __libc_csu_init (in /afs/kth.se/home/a/n/andyy/c++/lab3/main.out)
+==14023==    by 0x53F27BE: (below main) (libc-start.c:247)
+==14023== 
+==14023== 
+==14023== HEAP SUMMARY:
+==14023==     in use at exit: 73,072 bytes in 4 blocks
+==14023==   total heap usage: 1,559 allocs, 1,564 frees, 178,806 bytes allocated
+==14023== 
+==14023== LEAK SUMMARY:
+==14023==    definitely lost: 112 bytes in 2 blocks
+==14023==    indirectly lost: 0 bytes in 0 blocks
+==14023==      possibly lost: 0 bytes in 0 blocks
+==14023==    still reachable: 72,960 bytes in 2 blocks
+==14023==         suppressed: 0 bytes in 0 blocks
+==14023== Rerun with --leak-check=full to see details of leaked memory
+==14023== 
+==14023== For counts of detected and suppressed errors, rerun with: -v
+==14023== ERROR SUMMARY: 27 errors from 9 contexts (suppressed: 1 from 1)

@@ -3,6 +3,23 @@
 #include <string>
 #include <vector>
 #include "Race.hpp"
+<<<<<<< HEAD
+Race::Race(std::string identifier){
+	this->id = identifier;
+}
+std::string Race::toString() {
+	return this->id;
+} 
+
+Human::Human() : Race("Human") {
+	rhp = 1.1;
+	rstr = 1.1;
+
+
+}
+
+Orc::Orc() : Race("Orc") {
+=======
 
 Human::Human() {
 	rhp = 1.1;
@@ -14,31 +31,46 @@ std::string Human::toString() {
 } 
 
 Orc::Orc() {
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	rhp = 1.3;
 	rstr = 1.4;
   
 }
 
+<<<<<<< HEAD
+Bandit::Bandit() : Race("Bandit") {
+=======
 std::string Orc::toString() {
 	return std::string("Orc");
 } 
 
 Bandit::Bandit() {
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	rhp = 0.9;
 	rstr = 0.9;
   
 }
 
+<<<<<<< HEAD
+Knight::Knight() : Race("Knight") {
+=======
 std::string Bandit::toString() {
 	return std::string("Bandit");
 } 
 
 Knight::Knight() {
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	rhp = 2.7;
 	rstr = 2.7;
   
 }
 
+<<<<<<< HEAD
+Dragon::Dragon() : Race("Dragon") {
+	rhp = 6.5;
+	rstr = 4.5;
+}
+=======
 
 std::string Knight::toString() {
 	return std::string("Knight");
@@ -52,3 +84,4 @@ Dragon::Dragon() {
 std::string Dragon::toString() {
 	return std::string("Dragon");
 } 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965

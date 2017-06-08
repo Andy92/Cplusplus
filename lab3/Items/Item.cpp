@@ -1,5 +1,9 @@
 #include "Item.hpp"
+<<<<<<< HEAD
+//item.cpp
+=======
 //item.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 const std::string Item::desc() const {
 	std::string ret = "this is an item \n";
 	return ret;
@@ -13,8 +17,12 @@ const int Item::getvalue() const {
 const int Item::getid() const {
 	return this->id;
 }
+<<<<<<< HEAD
+//potion.cpp
+=======
 
 //potion.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Potion::Potion(int heal, std::string name) {
 	this->heal = heal;
 	this->name = name;
@@ -33,7 +41,11 @@ const std::string Potion::desc() const {
 const int Potion::getheal() const {
 	return this->heal;
 }
+<<<<<<< HEAD
+//weapon.cpp
+=======
 //weapon.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Weapon::Weapon(int dmg, std::string name) {
 	this->dmg = dmg;
 	this->name = name;
@@ -55,6 +67,9 @@ const std::string Weapon::desc() const {
 	std::string ret = "weapon: " + name + " ";
 	return ret;
 }
+<<<<<<< HEAD
+//armor.cpp
+=======
 
 const int Weapon::spec() const {
 	std::cout << "Stop hitting urself ( - 10 HP) ";
@@ -109,6 +124,7 @@ const std::string GodSword::desc() const {
 
 //armor.cpp ===============================================
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Armor::Armor(int armor, std::string name) {
 	this->armor = armor;
 	this->name = name;
@@ -129,14 +145,22 @@ const std::string Armor::desc() const {
 	return ret;
 }
 
+<<<<<<< HEAD
+//helm.cpp
+=======
 //helm.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Helm::Helm(int armor, std::string name) : Armor(armor, name) {
 	this->id = 3;
 }
 Helm::Helm(int armor, std::string name, int value) : Armor(armor, name, value) {
 	this->id = 3;
 }
+<<<<<<< HEAD
+//chest.cpp
+=======
 //chest.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Chest::Chest(int armor, std::string name) : Armor(armor, name) {
 	this->id = 4;
 }
@@ -144,7 +168,11 @@ Chest::Chest(int armor, std::string name) : Armor(armor, name) {
 Chest::Chest(int armor, std::string name, int value) : Armor(armor, name, value) {
 	this->id = 4;
 }
+<<<<<<< HEAD
+//legs.cpp
+=======
 //legs.cpp ===============================================
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Legs::Legs(int armor, std::string name) : Armor(armor, name) {
 	this->id = 5;
 }

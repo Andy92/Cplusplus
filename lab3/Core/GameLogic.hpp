@@ -16,7 +16,10 @@ class GameLogic {
 	public:
 		Character* charCreation();
 		GameLogic(Checker* ch);
+<<<<<<< HEAD
+=======
 		~GameLogic();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		bool changeDir(std::string newDir);
 		void ExecCmd(int parsedInt);
 		int takeInt();	
@@ -30,7 +33,10 @@ class GameLogic {
 		void outputQuestObj();
 		void talking();
 		void castleTax();
+<<<<<<< HEAD
+=======
 		void Special();
 		void findGodSword();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 };
 #endif

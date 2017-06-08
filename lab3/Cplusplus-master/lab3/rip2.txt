@@ -1,0 +1,83 @@
+orc
+warrior
+go west
+go north
+go north
+fight
+0
+items
+3
+go east
+fight
+0
+fight
+1
+go west
+go south
+go south
+go south
+go south
+go west
+go south
+talk
+go north
+go east
+go east
+go east
+go east
+yes
+go east
+go east
+go east
+go south
+talk
+go north
+go west
+go west
+go west
+go west
+go west
+go north
+go north
+go north
+quest
+items
+0
+fight
+0
+fight
+1
+fight
+2
+go north
+go west
+fight
+0
+fight
+1
+fight
+2
+fight
+3
+fight
+4
+go east
+go east
+go east
+go east
+fight
+0
+go west
+go west
+go west
+go south
+go south
+go south
+go south
+go east
+go east
+go east
+go east
+go east
+go south
+talk

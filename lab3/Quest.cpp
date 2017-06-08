@@ -18,6 +18,8 @@ Quest::~Quest() {
 
 }
 
+<<<<<<< HEAD
+=======
 Room* Quest::getSpecificRoom(int id) const {
 	for(int i = 0; i < this->roomVec.size(); ++i) {
 		if(this->roomVec.at(i)->getID() == id)
@@ -25,6 +27,7 @@ Room* Quest::getSpecificRoom(int id) const {
 	}
 }
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 
 const std::string Quest::getObjective(const std::string qN, const std::string qT) const {
 	const std::string text = YELLOW + std::string("########## ") + qN + std::string(" ################\n") + qT + YELLOW + std::string("\n######################################") + RESET;

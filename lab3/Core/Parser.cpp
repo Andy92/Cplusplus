@@ -13,10 +13,14 @@
 		"items",
 		"inv",
 		"shop",
+<<<<<<< HEAD
+		"talk"
+=======
 		"talk",
 		"spec",
 		"desc",
 		"look"
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	};
 
 	std::vector<std::string> Parser::keyw{
@@ -106,6 +110,8 @@ int Parser::Parse(std::string input) {
 		case 9 : std::cerr << "TALK command recognized" << std::endl;
 			return 99;
 			break;
+<<<<<<< HEAD
+=======
 		case 10 : std::cerr << "SPEC command recognized" << std::endl;
 			return 100;
 			break;
@@ -115,6 +121,7 @@ int Parser::Parse(std::string input) {
 		case 12 : std::cerr << "LOOK command recognized" << std::endl;
 			return 102;
 			break;
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		default:
 			std::cout << "Wrong command! Or command not recognized, type HELP" << std::endl;
 			return -1;

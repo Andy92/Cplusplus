@@ -51,7 +51,10 @@ public:
 	void setQuest(const int n);
 	const bool checkQuest(const int n) const;
 	~Quest();
+<<<<<<< HEAD
+=======
 	Room* getSpecificRoom(int id) const;
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 };
 
 

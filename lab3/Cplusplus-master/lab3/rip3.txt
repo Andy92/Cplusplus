@@ -1,0 +1,58 @@
+orc
+warrior
+go west
+go north
+go north
+fight
+0
+items
+3
+go east
+fight
+0
+fight
+1
+go west
+go south
+go south
+go south
+go south
+go west
+go south
+talk
+shop
+0
+shop
+0
+shop
+0
+shop
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+shop
+0
+0
+exit

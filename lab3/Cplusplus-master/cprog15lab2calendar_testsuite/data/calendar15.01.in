@@ -1,0 +1,6496 @@
+set_k_time 1174350517
+default-construct $C gregorian 
+default-construct $B gregorian 
+set_k_time 763609892
+print $B
+print $C
+set_date $B 2012 2 29
+set_date $C 2012 2 29
+add_event $C pNGVXBK 7 2
+add_event $B pNGVXBK 7 2
+remove_event $C pNGVXBK 11 -9
+remove_event $B pNGVXBK 11 -9
+set_date $B 1990 2 29
+set_date $C 1990 2 29
+print $B
+print $C
+set_date $B 2010 2 29
+set_date $C 2010 2 29
+set_date $C 1996 2 29
+set_date $B 1996 2 29
+add_event $C HCJygYh 15 2 2013
+add_event $B HCJygYh 15 2 2013
+remove_event $C HCJygYh 7 8 1987
+remove_event $B HCJygYh 7 8 1987
+set_date $C 1995 2 29
+set_date $B 1995 2 29
+print $C
+print $B
+set_date $C 2006 2 29
+set_date $B 2006 2 29
+set_date $C 2007 2 29
+set_date $B 2007 2 29
+add_event $B UZughxE 4
+add_event $C UZughxE 4
+remove_event $C UZughxE 19
+remove_event $B UZughxE 19
+set_date $B 2001 2 29
+set_date $C 2001 2 29
+print $B
+print $C
+set_date $B 2002 2 29
+set_date $C 2002 2 29
+set_date $C 2003 2 29
+set_date $B 2003 2 29
+add_event $C uBCNDAo 16
+add_event $B uBCNDAo 16
+remove_event $C uBCNDAo 31
+remove_event $B uBCNDAo 31
+set_date $C 1992 2 29
+set_date $B 1992 2 29
+print $C
+print $B
+set_date $C 2011 2 29
+set_date $B 2011 2 29
+set_date $C 2005 2 29
+set_date $B 2005 2 29
+add_event $C oUAQlme
+add_event $B oUAQlme
+remove_event $B oUAQlme
+remove_event $C oUAQlme
+set_date $C 1990 2 29
+set_date $B 1990 2 29
+print $C
+print $B
+set_date $B 2010 2 29
+set_date $C 2010 2 29
+set_date $C 2000 2 29
+set_date $B 2000 2 29
+add_event $B jRVoMYC 0 11
+add_event $C jRVoMYC 0 11
+remove_event $B jRVoMYC 15 -9
+remove_event $C jRVoMYC 15 -9
+set_date $B 1991 2 29
+set_date $C 1991 2 29
+print $B
+print $C
+set_date $B 1991 2 29
+set_date $C 1991 2 29
+set_date $C 1997 2 29
+set_date $B 1997 2 29
+add_event $C oLcYase
+add_event $B oLcYase
+remove_event $C oLcYase
+remove_event $B oLcYase
+set_date $B 2006 2 29
+set_date $C 2006 2 29
+print $C
+print $B
+set_date $B 1992 2 29
+set_date $C 1992 2 29
+set_date $B 2004 2 29
+set_date $C 2004 2 29
+add_event $C ebrkSyc 29
+add_event $B ebrkSyc 29
+remove_event $B ebrkSyc 1
+remove_event $C ebrkSyc 1
+set_date $C 2003 2 29
+set_date $B 2003 2 29
+print $B
+print $C
+set_date $B 2008 2 29
+set_date $C 2008 2 29
+set_date $B 1997 2 29
+set_date $C 1997 2 29
+add_event $B CVQipqT 5 1
+add_event $C CVQipqT 5 1
+remove_event $B CVQipqT 14 5
+remove_event $C CVQipqT 14 5
+set_date $B 1995 2 29
+set_date $C 1995 2 29
+print $C
+print $B
+set_date $B 2009 2 29
+set_date $C 2009 2 29
+set_date $C 1999 2 29
+set_date $B 1999 2 29
+add_event $C MxnbKEp 22 7 1971
+add_event $B MxnbKEp 22 7 1971
+remove_event $C MxnbKEp 11 10 1995
+remove_event $B MxnbKEp 11 10 1995
+set_date $C 1997 2 29
+set_date $B 1997 2 29
+print $C
+print $B
+set_date $B 2008 2 29
+set_date $C 2008 2 29
+copy-construct $E gregorian $C
+copy-construct $D julian $B
+print $D
+print $E
+set_date $B 2008 2 29
+set_date $C 2008 2 29
+set_date $B 2000 2 1
+set_date $C 2000 2 1
+remove_event $B thfAqsW
+remove_event $C thfAqsW
+add_event $B thfAqsW 1 2 2000
+add_event $C thfAqsW 1 2 2000
+add_event $B thfAqsW 1
+add_event $C thfAqsW 1
+add_event $B thfAqsW 1
+add_event $C thfAqsW 1
+remove_event $B thfAqsW 1
+remove_event $C thfAqsW 1
+add_event $B THFaQSw
+add_event $C THFaQSw
+add_event $C thfAqsW 1 2
+add_event $B thfAqsW 1 2
+remove_event $B thfAqsW 1 2 2000
+remove_event $C thfAqsW 1 2 2000
+remove_event $C thfAqsW 1
+remove_event $B thfAqsW 1
+print $B
+print $C
+set_date $B 2011 2 29
+set_date $C 2011 2 29
+set_date $B 2000 2 2
+set_date $C 2000 2 2
+remove_event $B pMRbZUf 2
+remove_event $C pMRbZUf 2
+remove_event $B pMRbZUf 2 2 2000
+remove_event $C pMRbZUf 2 2 2000
+remove_event $C PmrBzuF 2
+remove_event $B PmrBzuF 2
+add_event $C pMRbZUf 2 2
+add_event $B pMRbZUf 2 2
+remove_event $C pMRbZUf
+remove_event $B pMRbZUf
+add_event $C PmrBzuF
+add_event $B PmrBzuF
+add_event $B pMRbZUf 2
+add_event $C pMRbZUf 2
+add_event $C PmrBzuF 2
+add_event $B PmrBzuF 2
+add_event $C PmrBzuF 2 2 2000
+add_event $B PmrBzuF 2 2 2000
+print $B
+print $C
+set_date $B 1993 2 29
+set_date $C 1993 2 29
+set_date $B 2001 1 2
+set_date $C 2001 1 2
+add_event $C CXaJPDB 2
+add_event $B CXaJPDB 2
+remove_event $C CXaJPDB 2 1 2001
+remove_event $B CXaJPDB 2 1 2001
+remove_event $C cxAjpdb 2
+remove_event $B cxAjpdb 2
+add_event $C CXaJPDB
+add_event $B CXaJPDB
+add_event $C cxAjpdb 2 1
+add_event $B cxAjpdb 2 1
+add_event $B cxAjpdb 2 1 2001
+add_event $C cxAjpdb 2 1 2001
+remove_event $B cxAjpdb 2
+remove_event $C cxAjpdb 2
+add_event $B cxAjpdb 2
+add_event $C cxAjpdb 2
+remove_event $C cxAjpdb
+remove_event $B cxAjpdb
+print $B
+print $C
+set_date $C 1994 2 29
+set_date $B 1994 2 29
+set_date $C 2000 2 2
+set_date $B 2000 2 2
+add_event $B GtvpjbL 2
+add_event $C GtvpjbL 2
+add_event $C gTVPJBl
+add_event $B gTVPJBl
+remove_event $B GtvpjbL 2
+remove_event $C GtvpjbL 2
+add_event $B gTVPJBl 2
+add_event $C gTVPJBl 2
+remove_event $B GtvpjbL
+remove_event $C GtvpjbL
+remove_event $B gTVPJBl 2
+remove_event $C gTVPJBl 2
+add_event $B GtvpjbL 2 2 2000
+add_event $C GtvpjbL 2 2 2000
+remove_event $B gTVPJBl 2 2 2000
+remove_event $C gTVPJBl 2 2 2000
+add_event $B GtvpjbL 2 2
+add_event $C GtvpjbL 2 2
+print $B
+print $C
+set_date $B 2009 2 29
+set_date $C 2009 2 29
+set_date $B 2000 1 1
+set_date $C 2000 1 1
+add_event $B ESGkDuZ
+add_event $C ESGkDuZ
+add_event $C ESGkDuZ 1 1 2000
+add_event $B ESGkDuZ 1 1 2000
+remove_event $B ESGkDuZ 1
+remove_event $C ESGkDuZ 1
+add_event $B ESGkDuZ 1
+add_event $C ESGkDuZ 1
+remove_event $C ESGkDuZ
+remove_event $B ESGkDuZ
+add_event $B esgKdUz 1
+add_event $C esgKdUz 1
+remove_event $B esgKdUz 1 1 2000
+remove_event $C esgKdUz 1 1 2000
+remove_event $B ESGkDuZ 1
+remove_event $C ESGkDuZ 1
+add_event $B esgKdUz 1 1
+add_event $C esgKdUz 1 1
+print $C
+print $B
+set_date $B 2002 2 29
+set_date $C 2002 2 29
+set_date $C 2000 2 2
+set_date $B 2000 2 2
+add_event $C zefBoSC 2 2 2000
+add_event $B zefBoSC 2 2 2000
+remove_event $B zefBoSC 2 2 2000
+remove_event $C zefBoSC 2 2 2000
+remove_event $B zefBoSC
+remove_event $C zefBoSC
+add_event $C zefBoSC 2
+add_event $B zefBoSC 2
+add_event $C zefBoSC
+add_event $B zefBoSC
+remove_event $C ZEFbOsc 2
+remove_event $B ZEFbOsc 2
+remove_event $C ZEFbOsc 2
+remove_event $B ZEFbOsc 2
+add_event $C ZEFbOsc 2 2
+add_event $B ZEFbOsc 2 2
+add_event $B ZEFbOsc 2
+add_event $C ZEFbOsc 2
+print $B
+print $C
+set_date $B 1993 2 29
+set_date $C 1993 2 29
+set_date $B 2000 2 2
+set_date $C 2000 2 2
+remove_event $B ijUndSY 2
+remove_event $C ijUndSY 2
+remove_event $B IJuNDsy 2 2 2000
+remove_event $C IJuNDsy 2 2 2000
+add_event $B ijUndSY 2
+add_event $C ijUndSY 2
+add_event $B IJuNDsy
+add_event $C IJuNDsy
+remove_event $B IJuNDsy 2
+remove_event $C IJuNDsy 2
+remove_event $C IJuNDsy
+remove_event $B IJuNDsy
+add_event $B ijUndSY 2 2 2000
+add_event $C ijUndSY 2 2 2000
+add_event $B IJuNDsy 2
+add_event $C IJuNDsy 2
+add_event $C ijUndSY 2 2
+add_event $B ijUndSY 2 2
+print $B
+print $C
+set_date $C 1994 2 29
+set_date $B 1994 2 29
+set_date $C 2001 2 1
+set_date $B 2001 2 1
+add_event $C mvdyJtw
+add_event $B mvdyJtw
+add_event $B mvdyJtw 1
+add_event $C mvdyJtw 1
+add_event $B MVDYjTW 1
+add_event $C MVDYjTW 1
+add_event $B MVDYjTW 1 2
+add_event $C MVDYjTW 1 2
+remove_event $C MVDYjTW 1
+remove_event $B MVDYjTW 1
+remove_event $C mvdyJtw 1 2 2001
+remove_event $B mvdyJtw 1 2 2001
+add_event $C mvdyJtw 1 2 2001
+add_event $B mvdyJtw 1 2 2001
+remove_event $B MVDYjTW
+remove_event $C MVDYjTW
+remove_event $B MVDYjTW 1
+remove_event $C MVDYjTW 1
+print $C
+print $B
+set_date $C 2004 2 29
+set_date $B 2004 2 29
+set_date $B 2001 1 1
+set_date $C 2001 1 1
+add_event $B ZqhnSet 1 1 2001
+add_event $C ZqhnSet 1 1 2001
+remove_event $C ZqhnSet 1
+remove_event $B ZqhnSet 1
+remove_event $C ZqhnSet 1
+remove_event $B ZqhnSet 1
+add_event $C ZqhnSet
+add_event $B ZqhnSet
+add_event $B ZqhnSet 1
+add_event $C ZqhnSet 1
+remove_event $B ZqhnSet
+remove_event $C ZqhnSet
+add_event $B zQHNsET 1
+add_event $C zQHNsET 1
+remove_event $C zQHNsET 1 1 2001
+remove_event $B zQHNsET 1 1 2001
+add_event $B zQHNsET 1 1
+add_event $C zQHNsET 1 1
+print $B
+print $C
+set_date $B 2005 2 29
+set_date $C 2005 2 29
+set_date $B 2000 1 1
+set_date $C 2000 1 1
+remove_event $B mSodUBb
+remove_event $C mSodUBb
+remove_event $C MsODubB 1 1 2000
+remove_event $B MsODubB 1 1 2000
+remove_event $B mSodUBb 1
+remove_event $C mSodUBb 1
+add_event $C mSodUBb 1
+add_event $B mSodUBb 1
+add_event $B MsODubB 1 1 2000
+add_event $C MsODubB 1 1 2000
+remove_event $C mSodUBb 1
+remove_event $B mSodUBb 1
+add_event $C MsODubB
+add_event $B MsODubB
+add_event $C MsODubB 1 1
+add_event $B MsODubB 1 1
+add_event $C MsODubB 1
+add_event $B MsODubB 1
+print $C
+print $B
+set_date $C 1999 2 29
+set_date $B 1999 2 29
+set_date $C 2001 1 1
+set_date $B 2001 1 1
+remove_event $B migwKCz
+remove_event $C migwKCz
+remove_event $C migwKCz 1
+remove_event $B migwKCz 1
+remove_event $C MIGWkcZ 1
+remove_event $B MIGWkcZ 1
+add_event $B MIGWkcZ 1 1 2001
+add_event $C MIGWkcZ 1 1 2001
+remove_event $C MIGWkcZ 1 1 2001
+remove_event $B MIGWkcZ 1 1 2001
+add_event $C MIGWkcZ 1 1
+add_event $B MIGWkcZ 1 1
+add_event $C migwKCz
+add_event $B migwKCz
+add_event $B MIGWkcZ 1
+add_event $C MIGWkcZ 1
+add_event $C MIGWkcZ 1
+add_event $B MIGWkcZ 1
+print $B
+print $C
+set_date $C 2012 2 29
+set_date $B 2012 2 29
+set_date $C 2000 2 1
+set_date $B 2000 2 1
+add_event $C AfxTypo 1 2
+add_event $B AfxTypo 1 2
+remove_event $B aFXtYPO 1
+remove_event $C aFXtYPO 1
+add_event $C aFXtYPO 1 2 2000
+add_event $B aFXtYPO 1 2 2000
+remove_event $C AfxTypo 1 2 2000
+remove_event $B AfxTypo 1 2 2000
+add_event $B AfxTypo
+add_event $C AfxTypo
+remove_event $B aFXtYPO 1
+remove_event $C aFXtYPO 1
+remove_event $C AfxTypo
+remove_event $B AfxTypo
+add_event $B aFXtYPO 1
+add_event $C aFXtYPO 1
+add_event $C aFXtYPO 1
+add_event $B aFXtYPO 1
+print $B
+print $C
+set_date $B 1991 2 29
+set_date $C 1991 2 29
+set_date $C 2000 1 2
+set_date $B 2000 1 2
+add_event $B OzIXYbZ 2 1 2000
+add_event $C OzIXYbZ 2 1 2000
+remove_event $C OzIXYbZ 2
+remove_event $B OzIXYbZ 2
+add_event $C oZixyBz 2 1
+add_event $B oZixyBz 2 1
+add_event $B OzIXYbZ
+add_event $C OzIXYbZ
+remove_event $C OzIXYbZ 2
+remove_event $B OzIXYbZ 2
+add_event $B OzIXYbZ 2
+add_event $C OzIXYbZ 2
+add_event $B OzIXYbZ 2
+add_event $C OzIXYbZ 2
+remove_event $B oZixyBz
+remove_event $C oZixyBz
+remove_event $B oZixyBz 2 1 2000
+remove_event $C oZixyBz 2 1 2000
+print $B
+print $C
+set_date $B 2007 2 29
+set_date $C 2007 2 29
+set_date $B 2001 1 2
+set_date $C 2001 1 2
+remove_event $B cLyOWKs 2
+remove_event $C cLyOWKs 2
+add_event $C ClYowkS 2 1 2001
+add_event $B ClYowkS 2 1 2001
+remove_event $B cLyOWKs 2
+remove_event $C cLyOWKs 2
+add_event $B cLyOWKs 2 1
+add_event $C cLyOWKs 2 1
+remove_event $C cLyOWKs
+remove_event $B cLyOWKs
+remove_event $B cLyOWKs 2 1 2001
+remove_event $C cLyOWKs 2 1 2001
+add_event $C cLyOWKs 2
+add_event $B cLyOWKs 2
+add_event $B ClYowkS 2
+add_event $C ClYowkS 2
+add_event $B cLyOWKs
+add_event $C cLyOWKs
+print $B
+print $C
+set_date $C 2004 2 29
+set_date $B 2004 2 29
+set_date $C 2001 1 1
+set_date $B 2001 1 1
+add_event $C qghvMmx 1
+add_event $B qghvMmx 1
+remove_event $B qghvMmx 1 1 2001
+remove_event $C qghvMmx 1 1 2001
+add_event $B qghvMmx 1 1
+add_event $C qghvMmx 1 1
+add_event $B qghvMmx 1
+add_event $C qghvMmx 1
+add_event $B QGHVmMX 1 1 2001
+add_event $C QGHVmMX 1 1 2001
+remove_event $C QGHVmMX 1
+remove_event $B QGHVmMX 1
+remove_event $C qghvMmx 1
+remove_event $B qghvMmx 1
+remove_event $C qghvMmx
+remove_event $B qghvMmx
+add_event $C qghvMmx
+add_event $B qghvMmx
+print $B
+print $C
+set_date $B 2000 2 29
+set_date $C 2000 2 29
+set_date $B 2001 1 1
+set_date $C 2001 1 1
+remove_event $B XBbzMhl 1 1 2001
+remove_event $C XBbzMhl 1 1 2001
+add_event $C XBbzMhl 1
+add_event $B XBbzMhl 1
+remove_event $C xbBZmHL
+remove_event $B xbBZmHL
+remove_event $B xbBZmHL 1
+remove_event $C xbBZmHL 1
+add_event $B XBbzMhl 1 1
+add_event $C XBbzMhl 1 1
+remove_event $C XBbzMhl 1
+remove_event $B XBbzMhl 1
+add_event $B xbBZmHL
+add_event $C xbBZmHL
+add_event $B XBbzMhl 1 1 2001
+add_event $C XBbzMhl 1 1 2001
+add_event $C XBbzMhl 1
+add_event $B XBbzMhl 1
+print $B
+print $C
+set_date $B 2010 2 29
+set_date $C 2010 2 29
+set_date $C 2000 2 2
+set_date $B 2000 2 2
+remove_event $B lKopjzX 2 2 2000
+remove_event $C lKopjzX 2 2 2000
+remove_event $B LkOPJZx 2
+remove_event $C LkOPJZx 2
+add_event $B lKopjzX 2
+add_event $C lKopjzX 2
+add_event $B lKopjzX 2
+add_event $C lKopjzX 2
+remove_event $B lKopjzX
+remove_event $C lKopjzX
+add_event $C LkOPJZx 2 2
+add_event $B LkOPJZx 2 2
+remove_event $C lKopjzX 2
+remove_event $B lKopjzX 2
+add_event $B LkOPJZx 2 2 2000
+add_event $C LkOPJZx 2 2 2000
+add_event $C lKopjzX
+add_event $B lKopjzX
+print $C
+print $B
+set_date $B 2004 2 29
+set_date $C 2004 2 29
+set_date $C 2001 2 1
+set_date $B 2001 2 1
+add_event $C LKJNlhr 1 2
+add_event $B LKJNlhr 1 2
+remove_event $C lkjnLHR
+remove_event $B lkjnLHR
+remove_event $C lkjnLHR 1
+remove_event $B lkjnLHR 1
+add_event $B LKJNlhr 1
+add_event $C LKJNlhr 1
+add_event $C LKJNlhr
+add_event $B LKJNlhr
+add_event $C LKJNlhr 1
+add_event $B LKJNlhr 1
+remove_event $B LKJNlhr 1 2 2001
+remove_event $C LKJNlhr 1 2 2001
+add_event $B LKJNlhr 1 2 2001
+add_event $C LKJNlhr 1 2 2001
+remove_event $B lkjnLHR 1
+remove_event $C lkjnLHR 1
+print $B
+print $C
+set_date $C 1991 2 29
+set_date $B 1991 2 29
+set_date $B 2001 2 2
+set_date $C 2001 2 2
+remove_event $C yTXEvNB 2 2 2001
+remove_event $B yTXEvNB 2 2 2001
+add_event $C YtxeVnb 2 2
+add_event $B YtxeVnb 2 2
+remove_event $C YtxeVnb
+remove_event $B YtxeVnb
+add_event $B yTXEvNB 2 2 2001
+add_event $C yTXEvNB 2 2 2001
+add_event $C YtxeVnb
+add_event $B YtxeVnb
+remove_event $C YtxeVnb 2
+remove_event $B YtxeVnb 2
+add_event $C yTXEvNB 2
+add_event $B yTXEvNB 2
+add_event $B yTXEvNB 2
+add_event $C yTXEvNB 2
+remove_event $B YtxeVnb 2
+remove_event $C YtxeVnb 2
+print $B
+print $C
+set_date $B 2010 2 29
+set_date $C 2010 2 29
+set_date $C 2001 2 1
+set_date $B 2001 2 1
+add_event $B AvSnojc 1
+add_event $C AvSnojc 1
+add_event $B aVsNOJC
+add_event $C aVsNOJC
+remove_event $C aVsNOJC
+remove_event $B aVsNOJC
+add_event $C AvSnojc 1 2 2001
+add_event $B AvSnojc 1 2 2001
+add_event $B aVsNOJC 1
+add_event $C aVsNOJC 1
+add_event $B aVsNOJC 1 2
+add_event $C aVsNOJC 1 2
+remove_event $B aVsNOJC 1 2 2001
+remove_event $C aVsNOJC 1 2 2001
+remove_event $C AvSnojc 1
+remove_event $B AvSnojc 1
+remove_event $B AvSnojc 1
+remove_event $C AvSnojc 1
+print $C
+print $B
+set_date $C 2004 2 29
+set_date $B 2004 2 29
+set_date $C 2001 1 2
+set_date $B 2001 1 2
+remove_event $C ciaLnYG 2 1 2001
+remove_event $B ciaLnYG 2 1 2001
+remove_event $B CIAlNyg
+remove_event $C CIAlNyg
+remove_event $B CIAlNyg 2
+remove_event $C CIAlNyg 2
+add_event $B CIAlNyg 2 1
+add_event $C CIAlNyg 2 1
+add_event $C CIAlNyg 2
+add_event $B CIAlNyg 2
+add_event $B ciaLnYG 2
+add_event $C ciaLnYG 2
+add_event $B ciaLnYG
+add_event $C ciaLnYG
+remove_event $C CIAlNyg 2
+remove_event $B CIAlNyg 2
+add_event $B ciaLnYG 2 1 2001
+add_event $C ciaLnYG 2 1 2001
+print $C
+print $B
+set_date $C 2001 2 29
+set_date $B 2001 2 29
+set_date $B 2000 1 1
+set_date $C 2000 1 1
+add_event $B MRpQbnC 1
+add_event $C MRpQbnC 1
+add_event $B MRpQbnC 1 1
+add_event $C MRpQbnC 1 1
+remove_event $C mrPqBNc 1 1 2000
+remove_event $B mrPqBNc 1 1 2000
+add_event $C mrPqBNc 1 1 2000
+add_event $B mrPqBNc 1 1 2000
+remove_event $B MRpQbnC 1
+remove_event $C MRpQbnC 1
+add_event $B MRpQbnC 1
+add_event $C MRpQbnC 1
+remove_event $B MRpQbnC 1
+remove_event $C MRpQbnC 1
+add_event $C MRpQbnC
+add_event $B MRpQbnC
+remove_event $B MRpQbnC
+remove_event $C MRpQbnC
+print $C
+print $B
+set_date $B 2006 2 29
+set_date $C 2006 2 29
+set_date $B 2000 1 2
+set_date $C 2000 1 2
+remove_event $B iNaLUQn 2 1 2000
+remove_event $C iNaLUQn 2 1 2000
+remove_event $B iNaLUQn 2
+remove_event $C iNaLUQn 2
+add_event $B InAluqN 2 1 2000
+add_event $C InAluqN 2 1 2000
+add_event $B InAluqN 2 1
+add_event $C InAluqN 2 1
+add_event $C iNaLUQn
+add_event $B iNaLUQn
+remove_event $B InAluqN 2
+remove_event $C InAluqN 2
+add_event $B InAluqN 2
+add_event $C InAluqN 2
+add_event $C InAluqN 2
+add_event $B InAluqN 2
+remove_event $C InAluqN
+remove_event $B InAluqN
+print $B
+print $C
+set_date $C 1997 2 29
+set_date $B 1997 2 29
+set_date $B 2000 1 1
+set_date $C 2000 1 1
+add_event $B MVevuGj 1 1
+add_event $C MVevuGj 1 1
+add_event $B MVevuGj 1
+add_event $C MVevuGj 1
+remove_event $B MVevuGj
+remove_event $C MVevuGj
+add_event $B mvEVUgJ 1
+add_event $C mvEVUgJ 1
+add_event $B mvEVUgJ 1 1 2000
+add_event $C mvEVUgJ 1 1 2000
+remove_event $B MVevuGj 1
+remove_event $C MVevuGj 1
+remove_event $C mvEVUgJ 1 1 2000
+remove_event $B mvEVUgJ 1 1 2000
+remove_event $C MVevuGj 1
+remove_event $B MVevuGj 1
+add_event $C MVevuGj
+add_event $B MVevuGj
+print $B
+print $C
+set_date $B 1992 2 29
+set_date $C 1992 2 29
+set_date $C 2001 1 1
+set_date $B 2001 1 1
+add_event $C KZuHMpU 1
+add_event $B KZuHMpU 1
+add_event $B KZuHMpU 1 1
+add_event $C KZuHMpU 1 1
+remove_event $C KZuHMpU
+remove_event $B KZuHMpU
+add_event $C kzUhmPu 1
+add_event $B kzUhmPu 1
+remove_event $C kzUhmPu 1 1 2001
+remove_event $B kzUhmPu 1 1 2001
+add_event $B kzUhmPu 1 1 2001
+add_event $C kzUhmPu 1 1 2001
+remove_event $B KZuHMpU 1
+remove_event $C KZuHMpU 1
+add_event $B KZuHMpU
+add_event $C KZuHMpU
+remove_event $B KZuHMpU 1
+remove_event $C KZuHMpU 1
+print $B
+print $C
+set_date $C 2008 2 29
+set_date $B 2008 2 29
+set_date $B 2000 2 2
+set_date $C 2000 2 2
+remove_event $B MfCSDNr 2
+remove_event $C MfCSDNr 2
+add_event $C mFcsdnR 2
+add_event $B mFcsdnR 2
+add_event $C MfCSDNr 2
+add_event $B MfCSDNr 2
+remove_event $B mFcsdnR 2
+remove_event $C mFcsdnR 2
+remove_event $C mFcsdnR 2 2 2000
+remove_event $B mFcsdnR 2 2 2000
+add_event $B MfCSDNr 2 2 2000
+add_event $C MfCSDNr 2 2 2000
+remove_event $B MfCSDNr
+remove_event $C MfCSDNr
+add_event $B MfCSDNr
+add_event $C MfCSDNr
+add_event $B MfCSDNr 2 2
+add_event $C MfCSDNr 2 2
+print $C
+print $B
+set_date $C 1999 2 29
+set_date $B 1999 2 29
+set_date $B 2001 1 2
+set_date $C 2001 1 2
+add_event $C NaeBrCm 2
+add_event $B NaeBrCm 2
+remove_event $C NaeBrCm 2
+remove_event $B NaeBrCm 2
+remove_event $B NaeBrCm 2
+remove_event $C NaeBrCm 2
+add_event $C nAEbRcM 2
+add_event $B nAEbRcM 2
+remove_event $C nAEbRcM
+remove_event $B nAEbRcM
+remove_event $C NaeBrCm 2 1 2001
+remove_event $B NaeBrCm 2 1 2001
+add_event $C NaeBrCm
+add_event $B NaeBrCm
+add_event $C nAEbRcM 2 1
+add_event $B nAEbRcM 2 1
+add_event $C NaeBrCm 2 1 2001
+add_event $B NaeBrCm 2 1 2001
+print $C
+print $B
+set_date $C 1997 2 29
+set_date $B 1997 2 29
+set_date $C 2001 1 2
+set_date $B 2001 1 2
+remove_event $C svFpaCh 2
+remove_event $B svFpaCh 2
+add_event $C SVfPAcH 2
+add_event $B SVfPAcH 2
+add_event $C SVfPAcH 2 1
+add_event $B SVfPAcH 2 1
+add_event $C svFpaCh
+add_event $B svFpaCh
+add_event $B SVfPAcH 2 1 2001
+add_event $C SVfPAcH 2 1 2001
+add_event $B svFpaCh 2
+add_event $C svFpaCh 2
+remove_event $B SVfPAcH 2 1 2001
+remove_event $C SVfPAcH 2 1 2001
+remove_event $B SVfPAcH 2
+remove_event $C SVfPAcH 2
+remove_event $C svFpaCh
+remove_event $B svFpaCh
+print $B
+print $C
+set_date $C 2000 2 29
+set_date $B 2000 2 29
+set_date $B 2000 2 2
+set_date $C 2000 2 2
+remove_event $C dVrNgvp
+remove_event $B dVrNgvp
+add_event $B dVrNgvp 2
+add_event $C dVrNgvp 2
+add_event $B dVrNgvp 2 2 2000
+add_event $C dVrNgvp 2 2 2000
+remove_event $C dVrNgvp 2 2 2000
+remove_event $B dVrNgvp 2 2 2000
+remove_event $B dVrNgvp 2
+remove_event $C dVrNgvp 2
+remove_event $C DvRnGVP 2
+remove_event $B DvRnGVP 2
+add_event $B DvRnGVP 2 2
+add_event $C DvRnGVP 2 2
+add_event $C DvRnGVP
+add_event $B DvRnGVP
+add_event $B dVrNgvp 2
+add_event $C dVrNgvp 2
+print $C
+print $B
+set_date $B 2005 2 29
+set_date $C 2005 2 29
+set_date $B 2001 2 1
+set_date $C 2001 2 1
+add_event $B JgMfbyF 1 2
+add_event $C JgMfbyF 1 2
+add_event $B jGmFBYf
+add_event $C jGmFBYf
+add_event $C jGmFBYf 1 2 2001
+add_event $B jGmFBYf 1 2 2001
+add_event $C jGmFBYf 1
+add_event $B jGmFBYf 1
+remove_event $B JgMfbyF 1 2 2001
+remove_event $C JgMfbyF 1 2 2001
+remove_event $B jGmFBYf
+remove_event $C jGmFBYf
+remove_event $B jGmFBYf 1
+remove_event $C jGmFBYf 1
+remove_event $C jGmFBYf 1
+remove_event $B jGmFBYf 1
+add_event $B JgMfbyF 1
+add_event $C JgMfbyF 1
+print $B
+print $C
+set_date $C 1990 2 29
+set_date $B 1990 2 29
+set_date $B 2000 1 1
+set_date $C 2000 1 1
+remove_event $C wlIMEmO 1
+remove_event $B wlIMEmO 1
+remove_event $C WLimeMo
+remove_event $B WLimeMo
+add_event $B WLimeMo 1
+add_event $C WLimeMo 1
+add_event $B WLimeMo
+add_event $C WLimeMo
+remove_event $C wlIMEmO 1
+remove_event $B wlIMEmO 1
+add_event $B wlIMEmO 1
+add_event $C wlIMEmO 1
+remove_event $C WLimeMo 1 1 2000
+remove_event $B WLimeMo 1 1 2000
+add_event $C WLimeMo 1 1
+add_event $B WLimeMo 1 1
+add_event $C WLimeMo 1 1 2000
+add_event $B WLimeMo 1 1 2000
+print $B
+print $C
+set_date $C 1992 2 29
+set_date $B 1992 2 29
+set_date $C 2000 2 2
+set_date $B 2000 2 2
+add_event $B WzMleia 2
+add_event $C WzMleia 2
+remove_event $B WzMleia
+remove_event $C WzMleia
+remove_event $B WzMleia 2 2 2000
+remove_event $C WzMleia 2 2 2000
+add_event $C WzMleia 2 2
+add_event $B WzMleia 2 2
+add_event $B wZmLEIA
+add_event $C wZmLEIA
+remove_event $C WzMleia 2
+remove_event $B WzMleia 2
+add_event $B wZmLEIA 2
+add_event $C wZmLEIA 2
+remove_event $B WzMleia 2
+remove_event $C WzMleia 2
+add_event $C WzMleia 2 2 2000
+add_event $B WzMleia 2 2 2000
+print $B
+print $C
+set_date $C 1996 2 29
+set_date $B 1996 2 29
+set_date $C 2001 2 2
+set_date $B 2001 2 2
+remove_event $B vhgmzPB
+remove_event $C vhgmzPB
+add_event $C VHGMZpb
+add_event $B VHGMZpb
+add_event $B VHGMZpb 2
+add_event $C VHGMZpb 2
+add_event $C VHGMZpb 2
+add_event $B VHGMZpb 2
+remove_event $B vhgmzPB 2
+remove_event $C vhgmzPB 2
+remove_event $C vhgmzPB 2
+remove_event $B vhgmzPB 2
+add_event $C VHGMZpb 2 2
+add_event $B VHGMZpb 2 2
+remove_event $B VHGMZpb 2 2 2001
+remove_event $C VHGMZpb 2 2 2001
+add_event $C VHGMZpb 2 2 2001
+add_event $B VHGMZpb 2 2 2001
+print $B
+print $C
+set_date $C 2000 2 29
+set_date $B 2000 2 29
+set_date $B 2000 2 1
+set_date $C 2000 2 1
+add_event $C jqmUpHF 1 2
+add_event $B jqmUpHF 1 2
+remove_event $C JQMuPhf 1
+remove_event $B JQMuPhf 1
+remove_event $B jqmUpHF 1
+remove_event $C jqmUpHF 1
+add_event $C jqmUpHF 1 2 2000
+add_event $B jqmUpHF 1 2 2000
+add_event $C jqmUpHF 1
+add_event $B jqmUpHF 1
+remove_event $C jqmUpHF 1 2 2000
+remove_event $B jqmUpHF 1 2 2000
+add_event $B JQMuPhf 1
+add_event $C JQMuPhf 1
+add_event $C JQMuPhf
+add_event $B JQMuPhf
+remove_event $C jqmUpHF
+remove_event $B jqmUpHF
+print $B
+print $C
+set_date $B 2012 2 29
+set_date $C 2012 2 29
+set_date $B 2001 2 2
+set_date $C 2001 2 2
+add_event $B ABrSDLj 2 2 2001
+add_event $C ABrSDLj 2 2 2001
+add_event $C abRsdlJ 2 2
+add_event $B abRsdlJ 2 2
+add_event $B ABrSDLj 2
+add_event $C ABrSDLj 2
+remove_event $B abRsdlJ
+remove_event $C abRsdlJ
+add_event $B abRsdlJ
+add_event $C abRsdlJ
+remove_event $C abRsdlJ 2 2 2001
+remove_event $B abRsdlJ 2 2 2001
+remove_event $B ABrSDLj 2
+remove_event $C ABrSDLj 2
+remove_event $C ABrSDLj 2
+remove_event $B ABrSDLj 2
+add_event $C ABrSDLj 2
+add_event $B ABrSDLj 2
+print $C
+print $B
+set_date $B 2004 2 29
+set_date $C 2004 2 29
+set_date $C 2001 2 1
+set_date $B 2001 2 1
+remove_event $B JyDuAUY
+remove_event $C JyDuAUY
+remove_event $C JyDuAUY 1
+remove_event $B JyDuAUY 1
+add_event $C JyDuAUY
+add_event $B JyDuAUY
+remove_event $C JyDuAUY 1
+remove_event $B JyDuAUY 1
+add_event $B JyDuAUY 1
+add_event $C JyDuAUY 1
+add_event $C JyDuAUY 1 2 2001
+add_event $B JyDuAUY 1 2 2001
+remove_event $C jYdUauy 1 2 2001
+remove_event $B jYdUauy 1 2 2001
+add_event $B jYdUauy 1 2
+add_event $C jYdUauy 1 2
+add_event $C jYdUauy 1
+add_event $B jYdUauy 1
+print $B
+print $C
+set_date $C 2005 2 29
+set_date $B 2005 2 29
+set_date $B 2001 1 2
+set_date $C 2001 1 2
+add_event $C HTlVvxW
+add_event $B HTlVvxW
+remove_event $B HTlVvxW 2 1 2001
+remove_event $C HTlVvxW 2 1 2001
+add_event $C HTlVvxW 2 1 2001
+add_event $B HTlVvxW 2 1 2001
+remove_event $C HTlVvxW 2
+remove_event $B HTlVvxW 2
+add_event $C HTlVvxW 2
+add_event $B HTlVvxW 2
+add_event $C htLvVXw 2 1
+add_event $B htLvVXw 2 1
+remove_event $C htLvVXw 2
+remove_event $B htLvVXw 2
+add_event $C HTlVvxW 2
+add_event $B HTlVvxW 2
+remove_event $C HTlVvxW
+remove_event $B HTlVvxW
+print $B
+print $C
+set_date $C 1993 2 29
+set_date $B 1993 2 29
+set_date $C 2001 1 2
+set_date $B 2001 1 2
+remove_event $B FRYscTm
+remove_event $C FRYscTm
+add_event $C frySCtM 2 1
+add_event $B frySCtM 2 1
+add_event $C FRYscTm
+add_event $B FRYscTm
+add_event $C frySCtM 2
+add_event $B frySCtM 2
+remove_event $B frySCtM 2 1 2001
+remove_event $C frySCtM 2 1 2001
+add_event $B FRYscTm 2
+add_event $C FRYscTm 2
+add_event $C FRYscTm 2 1 2001
+add_event $B FRYscTm 2 1 2001
+remove_event $C FRYscTm 2
+remove_event $B FRYscTm 2
+remove_event $C FRYscTm 2
+remove_event $B FRYscTm 2
+print $C
+print $B
+set_date $B 2005 2 29
+set_date $C 2005 2 29
+set_date $C 2000 1 1
+set_date $B 2000 1 1
+remove_event $B jxPAJka 1 1 2000
+remove_event $C jxPAJka 1 1 2000
+add_event $C jxPAJka 1
+add_event $B jxPAJka 1
+add_event $C jxPAJka 1 1 2000
+add_event $B jxPAJka 1 1 2000
+remove_event $C JXpajKA 1
+remove_event $B JXpajKA 1
+remove_event $B JXpajKA 1
+remove_event $C JXpajKA 1
+add_event $C jxPAJka
+add_event $B jxPAJka
+remove_event $C jxPAJka
+remove_event $B jxPAJka
+add_event $B jxPAJka 1
+add_event $C jxPAJka 1
+add_event $B jxPAJka 1 1
+add_event $C jxPAJka 1 1
+print $C
+print $B
+set_date $C 2007 2 29
+set_date $B 2007 2 29
+set_date $B 2001 1 2
+set_date $C 2001 1 2
+add_event $B xSYseoc 2 1 2001
+add_event $C xSYseoc 2 1 2001
+add_event $B XsySEOC 2 1
+add_event $C XsySEOC 2 1
+remove_event $B XsySEOC
+remove_event $C XsySEOC
+add_event $C XsySEOC 2
+add_event $B XsySEOC 2
+add_event $C XsySEOC 2
+add_event $B XsySEOC 2
+remove_event $B xSYseoc 2 1 2001
+remove_event $C xSYseoc 2 1 2001
+add_event $C XsySEOC
+add_event $B XsySEOC
+remove_event $C xSYseoc 2
+remove_event $B xSYseoc 2
+remove_event $C XsySEOC 2
+remove_event $B XsySEOC 2
+print $C
+print $B
+destruct $D
+destruct $E
+copy-construct $F julian $B
+copy-construct $G gregorian $C
+print $G
+print $F
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $B XsySEOC 2 1 2001
+remove_event $C XsySEOC 2 1 2001
+set_date $C 1900 1 1
+set_date $B 1900 1 1
+print $B
+print $C
+destruct $C
+destruct $B
+set_k_time 2047103016
+default-construct $I gregorian 
+default-construct $H gregorian 
+set_k_time 438821771
+print $I
+print $H
+set_date $H 1992 2 29
+set_date $I 1992 2 29
+add_event $H NSlmiDq 20 11
+add_event $I NSlmiDq 20 11
+remove_event $H NSlmiDq 1 11
+remove_event $I NSlmiDq 1 11
+set_date $I 1990 2 29
+set_date $H 1990 2 29
+print $I
+print $H
+set_date $I 1994 2 29
+set_date $H 1994 2 29
+set_date $I 1990 2 29
+set_date $H 1990 2 29
+add_event $H juKdIpv
+add_event $I juKdIpv
+remove_event $I juKdIpv
+remove_event $H juKdIpv
+set_date $I 2009 2 29
+set_date $H 2009 2 29
+print $I
+print $H
+set_date $I 1999 2 29
+set_date $H 1999 2 29
+set_date $I 1995 2 29
+set_date $H 1995 2 29
+add_event $I pVwFDdn 13 0 1974
+add_event $H pVwFDdn 13 0 1974
+remove_event $I pVwFDdn 27 10 2002
+remove_event $H pVwFDdn 27 10 2002
+set_date $I 1995 2 29
+set_date $H 1995 2 29
+print $H
+print $I
+set_date $I 2002 2 29
+set_date $H 2002 2 29
+set_date $I 1994 2 29
+set_date $H 1994 2 29
+add_event $H kgrGqNb
+add_event $I kgrGqNb
+remove_event $H kgrGqNb
+remove_event $I kgrGqNb
+set_date $I 1995 2 29
+set_date $H 1995 2 29
+print $H
+print $I
+set_date $H 2010 2 29
+set_date $I 2010 2 29
+set_date $H 1998 2 29
+set_date $I 1998 2 29
+add_event $H eALuRCn 25
+add_event $I eALuRCn 25
+remove_event $H eALuRCn 27
+remove_event $I eALuRCn 27
+set_date $H 1990 2 29
+set_date $I 1990 2 29
+print $I
+print $H
+set_date $H 2003 2 29
+set_date $I 2003 2 29
+set_date $I 1990 2 29
+set_date $H 1990 2 29
+add_event $H zcFnbfm 31 2 2002
+add_event $I zcFnbfm 31 2 2002
+remove_event $H zcFnbfm 13 10 2018
+remove_event $I zcFnbfm 13 10 2018
+set_date $H 1998 2 29
+set_date $I 1998 2 29
+print $H
+print $I
+set_date $I 2001 2 29
+set_date $H 2001 2 29
+set_date $H 1999 2 29
+set_date $I 1999 2 29
+add_event $I vnjFoHI 4
+add_event $H vnjFoHI 4
+remove_event $I vnjFoHI 1
+remove_event $H vnjFoHI 1
+set_date $I 2010 2 29
+set_date $H 2010 2 29
+print $I
+print $H
+set_date $H 2009 2 29
+set_date $I 2009 2 29
+set_date $H 2011 2 29
+set_date $I 2011 2 29
+add_event $I yiqIpjd
+add_event $H yiqIpjd
+remove_event $H yiqIpjd
+remove_event $I yiqIpjd
+set_date $H 2003 2 29
+set_date $I 2003 2 29
+print $I
+print $H
+set_date $H 1990 2 29
+set_date $I 1990 2 29
+set_date $H 1995 2 29
+set_date $I 1995 2 29
+add_event $I dHuCbkU 16 11 2023
+add_event $H dHuCbkU 16 11 2023
+remove_event $I dHuCbkU 1 12 2004
+remove_event $H dHuCbkU 1 12 2004
+set_date $H 2007 2 29
+set_date $I 2007 2 29
+print $H
+print $I
+set_date $I 1993 2 29
+set_date $H 1993 2 29
+set_date $H 2004 2 29
+set_date $I 2004 2 29
+add_event $H PfdEMRs 3 -1 1982
+add_event $I PfdEMRs 3 -1 1982
+remove_event $H PfdEMRs 27 8 1988
+remove_event $I PfdEMRs 27 8 1988
+set_date $I 2002 2 29
+set_date $H 2002 2 29
+print $H
+print $I
+set_date $H 1992 2 29
+set_date $I 1992 2 29
+copy-construct $J julian $H
+copy-construct $K gregorian $I
+print $K
+print $J
+set_date $I 1990 2 29
+set_date $H 1990 2 29
+set_date $I 2000 2 1
+set_date $H 2000 2 1
+remove_event $H ROGQdvV
+remove_event $I ROGQdvV
+add_event $H ROGQdvV 1 2 2000
+add_event $I ROGQdvV 1 2 2000
+remove_event $I rogqDVv 1
+remove_event $H rogqDVv 1
+add_event $I ROGQdvV
+add_event $H ROGQdvV
+remove_event $I rogqDVv 1 2 2000
+remove_event $H rogqDVv 1 2 2000
+add_event $H rogqDVv 1
+add_event $I rogqDVv 1
+remove_event $H rogqDVv 1
+remove_event $I rogqDVv 1
+add_event $I rogqDVv 1 2
+add_event $H rogqDVv 1 2
+add_event $I ROGQdvV 1
+add_event $H ROGQdvV 1
+print $H
+print $I
+set_date $I 2004 2 29
+set_date $H 2004 2 29
+set_date $I 2001 1 1
+set_date $H 2001 1 1
+add_event $I oZhkxOG 1
+add_event $H oZhkxOG 1
+remove_event $H oZhkxOG
+remove_event $I oZhkxOG
+add_event $H oZhkxOG
+add_event $I oZhkxOG
+add_event $I oZhkxOG 1 1 2001
+add_event $H oZhkxOG 1 1 2001
+add_event $I OzHKXog 1 1
+add_event $H OzHKXog 1 1
+remove_event $I OzHKXog 1 1 2001
+remove_event $H OzHKXog 1 1 2001
+remove_event $I oZhkxOG 1
+remove_event $H oZhkxOG 1
+remove_event $H oZhkxOG 1
+remove_event $I oZhkxOG 1
+add_event $I OzHKXog 1
+add_event $H OzHKXog 1
+print $I
+print $H
+set_date $H 2010 2 29
+set_date $I 2010 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+add_event $H wOBrPWD 1 1
+add_event $I wOBrPWD 1 1
+remove_event $I WobRpwd 1
+remove_event $H WobRpwd 1
+add_event $I WobRpwd 1
+add_event $H WobRpwd 1
+remove_event $H wOBrPWD 1
+remove_event $I wOBrPWD 1
+add_event $I WobRpwd
+add_event $H WobRpwd
+remove_event $I WobRpwd
+remove_event $H WobRpwd
+remove_event $H WobRpwd 1 1 2000
+remove_event $I WobRpwd 1 1 2000
+add_event $H wOBrPWD 1 1 2000
+add_event $I wOBrPWD 1 1 2000
+add_event $I WobRpwd 1
+add_event $H WobRpwd 1
+print $I
+print $H
+set_date $I 2007 2 29
+set_date $H 2007 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+add_event $I BUDxCzQ
+add_event $H BUDxCzQ
+add_event $I BUDxCzQ 1 1
+add_event $H BUDxCzQ 1 1
+remove_event $H BUDxCzQ 1 1 2000
+remove_event $I BUDxCzQ 1 1 2000
+add_event $H budXcZq 1
+add_event $I budXcZq 1
+add_event $I BUDxCzQ 1 1 2000
+add_event $H BUDxCzQ 1 1 2000
+remove_event $H BUDxCzQ
+remove_event $I BUDxCzQ
+add_event $H budXcZq 1
+add_event $I budXcZq 1
+remove_event $H BUDxCzQ 1
+remove_event $I BUDxCzQ 1
+remove_event $I BUDxCzQ 1
+remove_event $H BUDxCzQ 1
+print $H
+print $I
+set_date $H 1998 2 29
+set_date $I 1998 2 29
+set_date $I 2000 1 1
+set_date $H 2000 1 1
+remove_event $H kpFHyuC 1
+remove_event $I kpFHyuC 1
+add_event $I KPfhYUc 1 1 2000
+add_event $H KPfhYUc 1 1 2000
+remove_event $H KPfhYUc
+remove_event $I KPfhYUc
+remove_event $I kpFHyuC 1 1 2000
+remove_event $H kpFHyuC 1 1 2000
+add_event $H KPfhYUc 1 1
+add_event $I KPfhYUc 1 1
+add_event $I kpFHyuC 1
+add_event $H kpFHyuC 1
+remove_event $H KPfhYUc 1
+remove_event $I KPfhYUc 1
+add_event $H KPfhYUc 1
+add_event $I KPfhYUc 1
+add_event $I kpFHyuC
+add_event $H kpFHyuC
+print $I
+print $H
+set_date $I 2006 2 29
+set_date $H 2006 2 29
+set_date $H 2000 2 2
+set_date $I 2000 2 2
+add_event $I hRNdHWL 2
+add_event $H hRNdHWL 2
+add_event $H hRNdHWL 2 2
+add_event $I hRNdHWL 2 2
+remove_event $H hRNdHWL
+remove_event $I hRNdHWL
+add_event $H hRNdHWL
+add_event $I hRNdHWL
+add_event $H HrnDhwl 2
+add_event $I HrnDhwl 2
+add_event $H hRNdHWL 2 2 2000
+add_event $I hRNdHWL 2 2 2000
+remove_event $I hRNdHWL 2
+remove_event $H hRNdHWL 2
+remove_event $H hRNdHWL 2
+remove_event $I hRNdHWL 2
+remove_event $H HrnDhwl 2 2 2000
+remove_event $I HrnDhwl 2 2 2000
+print $I
+print $H
+set_date $I 1991 2 29
+set_date $H 1991 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+add_event $H xnJwvcz 1 1 2000
+add_event $I xnJwvcz 1 1 2000
+remove_event $I XNjWVCZ 1
+remove_event $H XNjWVCZ 1
+remove_event $H xnJwvcz
+remove_event $I xnJwvcz
+add_event $H XNjWVCZ 1 1
+add_event $I XNjWVCZ 1 1
+remove_event $H XNjWVCZ 1 1 2000
+remove_event $I XNjWVCZ 1 1 2000
+remove_event $H XNjWVCZ 1
+remove_event $I XNjWVCZ 1
+add_event $I XNjWVCZ 1
+add_event $H XNjWVCZ 1
+add_event $I xnJwvcz
+add_event $H xnJwvcz
+add_event $H xnJwvcz 1
+add_event $I xnJwvcz 1
+print $H
+print $I
+set_date $H 2003 2 29
+set_date $I 2003 2 29
+set_date $H 2001 1 1
+set_date $I 2001 1 1
+add_event $I byNsRja 1 1
+add_event $H byNsRja 1 1
+remove_event $I BYnSrJA 1
+remove_event $H BYnSrJA 1
+add_event $H BYnSrJA 1 1 2001
+add_event $I BYnSrJA 1 1 2001
+add_event $I BYnSrJA 1
+add_event $H BYnSrJA 1
+add_event $H byNsRja
+add_event $I byNsRja
+remove_event $H BYnSrJA
+remove_event $I BYnSrJA
+remove_event $H byNsRja 1 1 2001
+remove_event $I byNsRja 1 1 2001
+add_event $I BYnSrJA 1
+add_event $H BYnSrJA 1
+remove_event $I byNsRja 1
+remove_event $H byNsRja 1
+print $H
+print $I
+set_date $H 2005 2 29
+set_date $I 2005 2 29
+set_date $I 2000 2 2
+set_date $H 2000 2 2
+remove_event $H iQUZePY 2
+remove_event $I iQUZePY 2
+add_event $I iQUZePY 2 2
+add_event $H iQUZePY 2 2
+add_event $I iQUZePY 2
+add_event $H iQUZePY 2
+remove_event $H iQUZePY 2 2 2000
+remove_event $I iQUZePY 2 2 2000
+add_event $I iQUZePY 2
+add_event $H iQUZePY 2
+remove_event $I IquzEpy
+remove_event $H IquzEpy
+add_event $H IquzEpy 2 2 2000
+add_event $I IquzEpy 2 2 2000
+add_event $I iQUZePY
+add_event $H iQUZePY
+remove_event $I IquzEpy 2
+remove_event $H IquzEpy 2
+print $I
+print $H
+set_date $I 1999 2 29
+set_date $H 1999 2 29
+set_date $I 2001 1 1
+set_date $H 2001 1 1
+remove_event $H awJbxqV
+remove_event $I awJbxqV
+add_event $H awJbxqV 1
+add_event $I awJbxqV 1
+remove_event $H AWjBXQv 1 1 2001
+remove_event $I AWjBXQv 1 1 2001
+add_event $H awJbxqV 1 1 2001
+add_event $I awJbxqV 1 1 2001
+remove_event $I AWjBXQv 1
+remove_event $H AWjBXQv 1
+add_event $H AWjBXQv 1
+add_event $I AWjBXQv 1
+add_event $I AWjBXQv
+add_event $H AWjBXQv
+add_event $H AWjBXQv 1 1
+add_event $I AWjBXQv 1 1
+remove_event $H awJbxqV 1
+remove_event $I awJbxqV 1
+print $H
+print $I
+set_date $H 1997 2 29
+set_date $I 1997 2 29
+set_date $H 2001 2 2
+set_date $I 2001 2 2
+add_event $H WoyRCqO 2 2 2001
+add_event $I WoyRCqO 2 2 2001
+remove_event $I wOYrcQo 2
+remove_event $H wOYrcQo 2
+add_event $I WoyRCqO 2
+add_event $H WoyRCqO 2
+remove_event $H wOYrcQo 2 2 2001
+remove_event $I wOYrcQo 2 2 2001
+add_event $H WoyRCqO 2
+add_event $I WoyRCqO 2
+remove_event $I wOYrcQo
+remove_event $H wOYrcQo
+remove_event $I wOYrcQo 2
+remove_event $H wOYrcQo 2
+add_event $H wOYrcQo
+add_event $I wOYrcQo
+add_event $H WoyRCqO 2 2
+add_event $I WoyRCqO 2 2
+print $I
+print $H
+set_date $H 2011 2 29
+set_date $I 2011 2 29
+set_date $H 2000 2 2
+set_date $I 2000 2 2
+remove_event $I jptwRcW 2 2 2000
+remove_event $H jptwRcW 2 2 2000
+add_event $I JPTWrCw 2 2
+add_event $H JPTWrCw 2 2
+add_event $H JPTWrCw 2
+add_event $I JPTWrCw 2
+remove_event $H jptwRcW 2
+remove_event $I jptwRcW 2
+add_event $I JPTWrCw 2
+add_event $H JPTWrCw 2
+remove_event $I jptwRcW 2
+remove_event $H jptwRcW 2
+remove_event $H JPTWrCw
+remove_event $I JPTWrCw
+add_event $H JPTWrCw 2 2 2000
+add_event $I JPTWrCw 2 2 2000
+add_event $H jptwRcW
+add_event $I jptwRcW
+print $I
+print $H
+set_date $I 1997 2 29
+set_date $H 1997 2 29
+set_date $H 2000 2 1
+set_date $I 2000 2 1
+add_event $I MYebPXq 1
+add_event $H MYebPXq 1
+add_event $H MYebPXq 1
+add_event $I MYebPXq 1
+remove_event $H myEBpxQ 1 2 2000
+remove_event $I myEBpxQ 1 2 2000
+add_event $H myEBpxQ 1 2 2000
+add_event $I myEBpxQ 1 2 2000
+remove_event $I myEBpxQ 1
+remove_event $H myEBpxQ 1
+remove_event $H myEBpxQ 1
+remove_event $I myEBpxQ 1
+add_event $I MYebPXq 1 2
+add_event $H MYebPXq 1 2
+add_event $I MYebPXq
+add_event $H MYebPXq
+remove_event $H myEBpxQ
+remove_event $I myEBpxQ
+print $H
+print $I
+set_date $I 1994 2 29
+set_date $H 1994 2 29
+set_date $H 2000 1 2
+set_date $I 2000 1 2
+remove_event $H jZfhSVl
+remove_event $I jZfhSVl
+remove_event $I JzFHsvL 2
+remove_event $H JzFHsvL 2
+remove_event $I jZfhSVl 2 1 2000
+remove_event $H jZfhSVl 2 1 2000
+add_event $I JzFHsvL 2 1
+add_event $H JzFHsvL 2 1
+add_event $H JzFHsvL 2
+add_event $I JzFHsvL 2
+add_event $I JzFHsvL 2
+add_event $H JzFHsvL 2
+add_event $H JzFHsvL 2 1 2000
+add_event $I JzFHsvL 2 1 2000
+add_event $H JzFHsvL
+add_event $I JzFHsvL
+remove_event $H JzFHsvL 2
+remove_event $I JzFHsvL 2
+print $H
+print $I
+set_date $H 1994 2 29
+set_date $I 1994 2 29
+set_date $H 2001 1 1
+set_date $I 2001 1 1
+add_event $H whFKPDp 1
+add_event $I whFKPDp 1
+remove_event $I WHfkpdP 1 1 2001
+remove_event $H WHfkpdP 1 1 2001
+remove_event $I whFKPDp
+remove_event $H whFKPDp
+add_event $I whFKPDp 1 1
+add_event $H whFKPDp 1 1
+remove_event $H whFKPDp 1
+remove_event $I whFKPDp 1
+add_event $H whFKPDp 1
+add_event $I whFKPDp 1
+add_event $H WHfkpdP 1 1 2001
+add_event $I WHfkpdP 1 1 2001
+remove_event $I whFKPDp 1
+remove_event $H whFKPDp 1
+add_event $I WHfkpdP
+add_event $H WHfkpdP
+print $H
+print $I
+set_date $H 2000 2 29
+set_date $I 2000 2 29
+set_date $I 2001 1 2
+set_date $H 2001 1 2
+remove_event $I aQFtGZM 2
+remove_event $H aQFtGZM 2
+add_event $I aQFtGZM 2
+add_event $H aQFtGZM 2
+add_event $I aQFtGZM 2
+add_event $H aQFtGZM 2
+remove_event $H aQFtGZM 2 1 2001
+remove_event $I aQFtGZM 2 1 2001
+add_event $H aQFtGZM
+add_event $I aQFtGZM
+add_event $H aQFtGZM 2 1
+add_event $I aQFtGZM 2 1
+add_event $H AqfTgzm 2 1 2001
+add_event $I AqfTgzm 2 1 2001
+remove_event $I aQFtGZM 2
+remove_event $H aQFtGZM 2
+remove_event $H aQFtGZM
+remove_event $I aQFtGZM
+print $I
+print $H
+set_date $I 1990 2 29
+set_date $H 1990 2 29
+set_date $I 2001 2 1
+set_date $H 2001 2 1
+remove_event $H RgUOtNS 1
+remove_event $I RgUOtNS 1
+add_event $I rGuoTns 1 2 2001
+add_event $H rGuoTns 1 2 2001
+add_event $I RgUOtNS 1
+add_event $H RgUOtNS 1
+remove_event $H rGuoTns
+remove_event $I rGuoTns
+remove_event $I RgUOtNS 1 2 2001
+remove_event $H RgUOtNS 1 2 2001
+add_event $I RgUOtNS 1
+add_event $H RgUOtNS 1
+add_event $I rGuoTns
+add_event $H rGuoTns
+remove_event $H rGuoTns 1
+remove_event $I rGuoTns 1
+add_event $I RgUOtNS 1 2
+add_event $H RgUOtNS 1 2
+print $I
+print $H
+set_date $H 1997 2 29
+set_date $I 1997 2 29
+set_date $I 2001 1 1
+set_date $H 2001 1 1
+add_event $H bHDyCui 1 1 2001
+add_event $I bHDyCui 1 1 2001
+add_event $H BhdYcUI 1
+add_event $I BhdYcUI 1
+remove_event $H bHDyCui
+remove_event $I bHDyCui
+remove_event $I bHDyCui 1 1 2001
+remove_event $H bHDyCui 1 1 2001
+add_event $H bHDyCui
+add_event $I bHDyCui
+remove_event $H bHDyCui 1
+remove_event $I bHDyCui 1
+remove_event $I BhdYcUI 1
+remove_event $H BhdYcUI 1
+add_event $I BhdYcUI 1 1
+add_event $H BhdYcUI 1 1
+add_event $H bHDyCui 1
+add_event $I bHDyCui 1
+print $H
+print $I
+set_date $I 2002 2 29
+set_date $H 2002 2 29
+set_date $I 2000 2 2
+set_date $H 2000 2 2
+remove_event $H tRdzTUA
+remove_event $I tRdzTUA
+add_event $I tRdzTUA
+add_event $H tRdzTUA
+remove_event $I TrDZtua 2
+remove_event $H TrDZtua 2
+add_event $I TrDZtua 2 2
+add_event $H TrDZtua 2 2
+add_event $H TrDZtua 2 2 2000
+add_event $I TrDZtua 2 2 2000
+add_event $H tRdzTUA 2
+add_event $I tRdzTUA 2
+remove_event $H TrDZtua 2
+remove_event $I TrDZtua 2
+add_event $H TrDZtua 2
+add_event $I TrDZtua 2
+remove_event $I tRdzTUA 2 2 2000
+remove_event $H tRdzTUA 2 2 2000
+print $H
+print $I
+set_date $I 2010 2 29
+set_date $H 2010 2 29
+set_date $I 2000 2 2
+set_date $H 2000 2 2
+remove_event $H VbSkmLn 2 2 2000
+remove_event $I VbSkmLn 2 2 2000
+remove_event $I vBsKMlN 2
+remove_event $H vBsKMlN 2
+add_event $H vBsKMlN 2 2 2000
+add_event $I vBsKMlN 2 2 2000
+add_event $H vBsKMlN 2 2
+add_event $I vBsKMlN 2 2
+remove_event $I VbSkmLn
+remove_event $H VbSkmLn
+add_event $H vBsKMlN 2
+add_event $I vBsKMlN 2
+remove_event $I vBsKMlN 2
+remove_event $H vBsKMlN 2
+add_event $I vBsKMlN 2
+add_event $H vBsKMlN 2
+add_event $H vBsKMlN
+add_event $I vBsKMlN
+print $H
+print $I
+set_date $I 2003 2 29
+set_date $H 2003 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+add_event $I zPsFaHQ 1
+add_event $H zPsFaHQ 1
+remove_event $H zPsFaHQ 1
+remove_event $I zPsFaHQ 1
+remove_event $I zPsFaHQ 1 1 2000
+remove_event $H zPsFaHQ 1 1 2000
+add_event $I ZpSfAhq 1 1
+add_event $H ZpSfAhq 1 1
+remove_event $H zPsFaHQ
+remove_event $I zPsFaHQ
+add_event $H ZpSfAhq 1 1 2000
+add_event $I ZpSfAhq 1 1 2000
+add_event $I zPsFaHQ 1
+add_event $H zPsFaHQ 1
+remove_event $I zPsFaHQ 1
+remove_event $H zPsFaHQ 1
+add_event $I ZpSfAhq
+add_event $H ZpSfAhq
+print $H
+print $I
+set_date $I 1996 2 29
+set_date $H 1996 2 29
+set_date $I 2001 2 1
+set_date $H 2001 2 1
+add_event $I XsVNGrn 1 2
+add_event $H XsVNGrn 1 2
+remove_event $I xSvngRN 1 2 2001
+remove_event $H xSvngRN 1 2 2001
+remove_event $H xSvngRN
+remove_event $I xSvngRN
+add_event $I xSvngRN 1 2 2001
+add_event $H xSvngRN 1 2 2001
+remove_event $I xSvngRN 1
+remove_event $H xSvngRN 1
+add_event $H xSvngRN 1
+add_event $I xSvngRN 1
+add_event $H XsVNGrn
+add_event $I XsVNGrn
+add_event $H xSvngRN 1
+add_event $I xSvngRN 1
+remove_event $I xSvngRN 1
+remove_event $H xSvngRN 1
+print $I
+print $H
+set_date $I 1994 2 29
+set_date $H 1994 2 29
+set_date $I 2001 2 2
+set_date $H 2001 2 2
+add_event $I MfVksrR 2
+add_event $H MfVksrR 2
+add_event $I mFvKSRr
+add_event $H mFvKSRr
+remove_event $H MfVksrR 2
+remove_event $I MfVksrR 2
+add_event $I MfVksrR 2 2 2001
+add_event $H MfVksrR 2 2 2001
+remove_event $H MfVksrR
+remove_event $I MfVksrR
+remove_event $H MfVksrR 2
+remove_event $I MfVksrR 2
+add_event $H MfVksrR 2
+add_event $I MfVksrR 2
+remove_event $I mFvKSRr 2 2 2001
+remove_event $H mFvKSRr 2 2 2001
+add_event $I MfVksrR 2 2
+add_event $H MfVksrR 2 2
+print $H
+print $I
+set_date $I 2011 2 29
+set_date $H 2011 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+add_event $I FIrPlUb 1
+add_event $H FIrPlUb 1
+remove_event $H FIrPlUb 1
+remove_event $I FIrPlUb 1
+remove_event $I FIrPlUb 1 1 2000
+remove_event $H FIrPlUb 1 1 2000
+remove_event $I fiRpLuB 1
+remove_event $H fiRpLuB 1
+add_event $H fiRpLuB
+add_event $I fiRpLuB
+add_event $H fiRpLuB 1 1 2000
+add_event $I fiRpLuB 1 1 2000
+remove_event $H fiRpLuB
+remove_event $I fiRpLuB
+add_event $I FIrPlUb 1 1
+add_event $H FIrPlUb 1 1
+add_event $I FIrPlUb 1
+add_event $H FIrPlUb 1
+print $I
+print $H
+set_date $I 2006 2 29
+set_date $H 2006 2 29
+set_date $H 2001 2 2
+set_date $I 2001 2 2
+add_event $I JPvUumG 2 2
+add_event $H JPvUumG 2 2
+add_event $H JPvUumG
+add_event $I JPvUumG
+add_event $H JPvUumG 2
+add_event $I JPvUumG 2
+remove_event $I JPvUumG
+remove_event $H JPvUumG
+remove_event $H jpVuUMg 2
+remove_event $I jpVuUMg 2
+remove_event $I JPvUumG 2 2 2001
+remove_event $H JPvUumG 2 2 2001
+add_event $H jpVuUMg 2
+add_event $I jpVuUMg 2
+remove_event $I jpVuUMg 2
+remove_event $H jpVuUMg 2
+add_event $I jpVuUMg 2 2 2001
+add_event $H jpVuUMg 2 2 2001
+print $H
+print $I
+set_date $I 2002 2 29
+set_date $H 2002 2 29
+set_date $H 2000 1 2
+set_date $I 2000 1 2
+add_event $I McZrPDk 2
+add_event $H McZrPDk 2
+add_event $H mCzRpdK 2 1
+add_event $I mCzRpdK 2 1
+add_event $I mCzRpdK
+add_event $H mCzRpdK
+add_event $H McZrPDk 2 1 2000
+add_event $I McZrPDk 2 1 2000
+remove_event $H mCzRpdK 2 1 2000
+remove_event $I mCzRpdK 2 1 2000
+remove_event $I mCzRpdK 2
+remove_event $H mCzRpdK 2
+remove_event $I mCzRpdK
+remove_event $H mCzRpdK
+remove_event $H McZrPDk 2
+remove_event $I McZrPDk 2
+add_event $H mCzRpdK 2
+add_event $I mCzRpdK 2
+print $I
+print $H
+set_date $H 2006 2 29
+set_date $I 2006 2 29
+set_date $I 2000 2 1
+set_date $H 2000 2 1
+remove_event $H xPRAikc 1
+remove_event $I xPRAikc 1
+remove_event $H XpraIKC
+remove_event $I XpraIKC
+add_event $H XpraIKC
+add_event $I XpraIKC
+remove_event $H xPRAikc 1
+remove_event $I xPRAikc 1
+add_event $H XpraIKC 1
+add_event $I XpraIKC 1
+add_event $I XpraIKC 1 2 2000
+add_event $H XpraIKC 1 2 2000
+remove_event $I xPRAikc 1 2 2000
+remove_event $H xPRAikc 1 2 2000
+add_event $I XpraIKC 1 2
+add_event $H XpraIKC 1 2
+add_event $H XpraIKC 1
+add_event $I XpraIKC 1
+print $H
+print $I
+set_date $H 1990 2 29
+set_date $I 1990 2 29
+set_date $H 2000 1 1
+set_date $I 2000 1 1
+remove_event $I UbLBzJn 1
+remove_event $H UbLBzJn 1
+add_event $I uBlbZjN 1
+add_event $H uBlbZjN 1
+remove_event $H uBlbZjN
+remove_event $I uBlbZjN
+remove_event $H UbLBzJn 1 1 2000
+remove_event $I UbLBzJn 1 1 2000
+add_event $H uBlbZjN
+add_event $I uBlbZjN
+add_event $I uBlbZjN 1 1
+add_event $H uBlbZjN 1 1
+add_event $I uBlbZjN 1 1 2000
+add_event $H uBlbZjN 1 1 2000
+add_event $I UbLBzJn 1
+add_event $H UbLBzJn 1
+remove_event $H UbLBzJn 1
+remove_event $I UbLBzJn 1
+print $I
+print $H
+set_date $I 1998 2 29
+set_date $H 1998 2 29
+set_date $H 2001 1 1
+set_date $I 2001 1 1
+remove_event $H Niwcbnf
+remove_event $I Niwcbnf
+add_event $I nIWCBNF 1 1 2001
+add_event $H nIWCBNF 1 1 2001
+remove_event $I Niwcbnf 1
+remove_event $H Niwcbnf 1
+remove_event $H Niwcbnf 1
+remove_event $I Niwcbnf 1
+add_event $H nIWCBNF
+add_event $I nIWCBNF
+remove_event $H nIWCBNF 1 1 2001
+remove_event $I nIWCBNF 1 1 2001
+add_event $I Niwcbnf 1
+add_event $H Niwcbnf 1
+add_event $H nIWCBNF 1 1
+add_event $I nIWCBNF 1 1
+add_event $H nIWCBNF 1
+add_event $I nIWCBNF 1
+print $H
+print $I
+set_date $H 1994 2 29
+set_date $I 1994 2 29
+set_date $H 2001 2 2
+set_date $I 2001 2 2
+add_event $H ZwxbSuY 2 2 2001
+add_event $I ZwxbSuY 2 2 2001
+add_event $H zWXBsUy 2 2
+add_event $I zWXBsUy 2 2
+remove_event $I ZwxbSuY 2
+remove_event $H ZwxbSuY 2
+remove_event $H ZwxbSuY
+remove_event $I ZwxbSuY
+add_event $I zWXBsUy
+add_event $H zWXBsUy
+add_event $I zWXBsUy 2
+add_event $H zWXBsUy 2
+remove_event $H zWXBsUy 2
+remove_event $I zWXBsUy 2
+add_event $I ZwxbSuY 2
+add_event $H ZwxbSuY 2
+remove_event $H ZwxbSuY 2 2 2001
+remove_event $I ZwxbSuY 2 2 2001
+print $I
+print $H
+set_date $H 1995 2 29
+set_date $I 1995 2 29
+set_date $H 2001 1 1
+set_date $I 2001 1 1
+add_event $I nhYwHUZ 1
+add_event $H nhYwHUZ 1
+add_event $I nhYwHUZ 1 1
+add_event $H nhYwHUZ 1 1
+remove_event $H NHyWhuz 1 1 2001
+remove_event $I NHyWhuz 1 1 2001
+add_event $I nhYwHUZ 1
+add_event $H nhYwHUZ 1
+remove_event $I nhYwHUZ 1
+remove_event $H nhYwHUZ 1
+add_event $H nhYwHUZ
+add_event $I nhYwHUZ
+add_event $I NHyWhuz 1 1 2001
+add_event $H NHyWhuz 1 1 2001
+remove_event $I nhYwHUZ 1
+remove_event $H nhYwHUZ 1
+remove_event $H nhYwHUZ
+remove_event $I nhYwHUZ
+print $I
+print $H
+set_date $I 2010 2 29
+set_date $H 2010 2 29
+set_date $I 2001 2 2
+set_date $H 2001 2 2
+add_event $I trPGjmH 2
+add_event $H trPGjmH 2
+remove_event $I trPGjmH 2
+remove_event $H trPGjmH 2
+add_event $I trPGjmH 2 2
+add_event $H trPGjmH 2 2
+add_event $H TRpgJMh 2 2 2001
+add_event $I TRpgJMh 2 2 2001
+remove_event $I TRpgJMh
+remove_event $H TRpgJMh
+remove_event $H trPGjmH 2
+remove_event $I trPGjmH 2
+add_event $I TRpgJMh
+add_event $H TRpgJMh
+add_event $H trPGjmH 2
+add_event $I trPGjmH 2
+remove_event $H trPGjmH 2 2 2001
+remove_event $I trPGjmH 2 2 2001
+print $I
+print $H
+set_date $H 2007 2 29
+set_date $I 2007 2 29
+set_date $H 2000 2 2
+set_date $I 2000 2 2
+remove_event $I DSaABrO 2
+remove_event $H DSaABrO 2
+remove_event $I dsAabRo 2
+remove_event $H dsAabRo 2
+add_event $H DSaABrO 2 2
+add_event $I DSaABrO 2 2
+add_event $H DSaABrO
+add_event $I DSaABrO
+add_event $I DSaABrO 2 2 2000
+add_event $H DSaABrO 2 2 2000
+add_event $I dsAabRo 2
+add_event $H dsAabRo 2
+remove_event $H DSaABrO
+remove_event $I DSaABrO
+remove_event $H dsAabRo 2 2 2000
+remove_event $I dsAabRo 2 2 2000
+add_event $H DSaABrO 2
+add_event $I DSaABrO 2
+print $H
+print $I
+set_date $H 1998 2 29
+set_date $I 1998 2 29
+set_date $I 2001 1 1
+set_date $H 2001 1 1
+add_event $H HFyXhNI 1
+add_event $I HFyXhNI 1
+remove_event $H HFyXhNI 1
+remove_event $I HFyXhNI 1
+add_event $H hfYxHni 1
+add_event $I hfYxHni 1
+add_event $I HFyXhNI 1 1 2001
+add_event $H HFyXhNI 1 1 2001
+add_event $I hfYxHni
+add_event $H hfYxHni
+remove_event $I hfYxHni 1
+remove_event $H hfYxHni 1
+add_event $H HFyXhNI 1 1
+add_event $I HFyXhNI 1 1
+remove_event $H HFyXhNI 1 1 2001
+remove_event $I HFyXhNI 1 1 2001
+remove_event $H HFyXhNI
+remove_event $I HFyXhNI
+print $I
+print $H
+set_date $H 1996 2 29
+set_date $I 1996 2 29
+set_date $H 2000 2 2
+set_date $I 2000 2 2
+add_event $I UiynXBH 2
+add_event $H UiynXBH 2
+remove_event $I UiynXBH
+remove_event $H UiynXBH
+remove_event $I uIYNxbh 2
+remove_event $H uIYNxbh 2
+add_event $I UiynXBH 2 2 2000
+add_event $H UiynXBH 2 2 2000
+remove_event $I uIYNxbh 2
+remove_event $H uIYNxbh 2
+add_event $I uIYNxbh 2
+add_event $H uIYNxbh 2
+remove_event $I UiynXBH 2 2 2000
+remove_event $H UiynXBH 2 2 2000
+add_event $I UiynXBH 2 2
+add_event $H UiynXBH 2 2
+add_event $I uIYNxbh
+add_event $H uIYNxbh
+print $I
+print $H
+set_date $I 1994 2 29
+set_date $H 1994 2 29
+set_date $I 2000 1 1
+set_date $H 2000 1 1
+add_event $I dNOLJpm
+add_event $H dNOLJpm
+remove_event $H DnoljPM
+remove_event $I DnoljPM
+remove_event $H dNOLJpm 1 1 2000
+remove_event $I dNOLJpm 1 1 2000
+add_event $I DnoljPM 1
+add_event $H DnoljPM 1
+add_event $I dNOLJpm 1 1
+add_event $H dNOLJpm 1 1
+remove_event $I dNOLJpm 1
+remove_event $H dNOLJpm 1
+add_event $H dNOLJpm 1
+add_event $I dNOLJpm 1
+add_event $I dNOLJpm 1 1 2000
+add_event $H dNOLJpm 1 1 2000
+remove_event $I DnoljPM 1
+remove_event $H DnoljPM 1
+print $H
+print $I
+set_date $I 2012 2 29
+set_date $H 2012 2 29
+set_date $I 2001 2 1
+set_date $H 2001 2 1
+add_event $I RopDCSA 1
+add_event $H RopDCSA 1
+remove_event $H rOPdcsa
+remove_event $I rOPdcsa
+remove_event $H RopDCSA 1
+remove_event $I RopDCSA 1
+add_event $H RopDCSA 1 2
+add_event $I RopDCSA 1 2
+add_event $H rOPdcsa 1
+add_event $I rOPdcsa 1
+add_event $H RopDCSA
+add_event $I RopDCSA
+add_event $H RopDCSA 1 2 2001
+add_event $I RopDCSA 1 2 2001
+remove_event $H RopDCSA 1
+remove_event $I RopDCSA 1
+remove_event $H rOPdcsa 1 2 2001
+remove_event $I rOPdcsa 1 2 2001
+print $H
+print $I
+set_date $I 2007 2 29
+set_date $H 2007 2 29
+set_date $H 2000 2 1
+set_date $I 2000 2 1
+remove_event $I CFhRxvz 1
+remove_event $H CFhRxvz 1
+remove_event $I CFhRxvz 1 2 2000
+remove_event $H CFhRxvz 1 2 2000
+add_event $H CFhRxvz 1
+add_event $I CFhRxvz 1
+remove_event $H CFhRxvz 1
+remove_event $I CFhRxvz 1
+remove_event $I CFhRxvz
+remove_event $H CFhRxvz
+add_event $I CFhRxvz 1
+add_event $H CFhRxvz 1
+add_event $I cfHrXVZ 1 2
+add_event $H cfHrXVZ 1 2
+add_event $I cfHrXVZ
+add_event $H cfHrXVZ
+add_event $I CFhRxvz 1 2 2000
+add_event $H CFhRxvz 1 2 2000
+print $I
+print $H
+set_date $H 2007 2 29
+set_date $I 2007 2 29
+set_date $H 2000 2 1
+set_date $I 2000 2 1
+add_event $I SzEqliB 1 2 2000
+add_event $H SzEqliB 1 2 2000
+add_event $H sZeQLIb 1
+add_event $I sZeQLIb 1
+add_event $I sZeQLIb 1
+add_event $H sZeQLIb 1
+remove_event $H sZeQLIb 1 2 2000
+remove_event $I sZeQLIb 1 2 2000
+remove_event $I sZeQLIb 1
+remove_event $H sZeQLIb 1
+remove_event $I sZeQLIb
+remove_event $H sZeQLIb
+remove_event $I SzEqliB 1
+remove_event $H SzEqliB 1
+add_event $I sZeQLIb 1 2
+add_event $H sZeQLIb 1 2
+add_event $H sZeQLIb
+add_event $I sZeQLIb
+print $H
+print $I
+set_date $H 1997 2 29
+set_date $I 1997 2 29
+set_date $I 2001 2 1
+set_date $H 2001 2 1
+remove_event $H UHaNhIQ 1 2 2001
+remove_event $I UHaNhIQ 1 2 2001
+remove_event $I uhAnHiq 1
+remove_event $H uhAnHiq 1
+add_event $H uhAnHiq 1
+add_event $I uhAnHiq 1
+remove_event $H UHaNhIQ
+remove_event $I UHaNhIQ
+add_event $H UHaNhIQ 1
+add_event $I UHaNhIQ 1
+add_event $I uhAnHiq
+add_event $H uhAnHiq
+add_event $H UHaNhIQ 1 2 2001
+add_event $I UHaNhIQ 1 2 2001
+remove_event $I UHaNhIQ 1
+remove_event $H UHaNhIQ 1
+add_event $I uhAnHiq 1 2
+add_event $H uhAnHiq 1 2
+print $I
+print $H
+destruct $J
+destruct $K
+copy-construct $L julian $H
+copy-construct $M gregorian $I
+print $L
+print $M
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+remove_event $I uhAnHiq 1 2 2001
+remove_event $H uhAnHiq 1 2 2001
+set_date $I 1900 1 1
+set_date $H 1900 1 1
+print $I
+print $H
+destruct $I
+destruct $H
+print $F
+print $G
+destruct $F
+destruct $G
+set_k_time 58971400
+default-construct $O gregorian 
+default-construct $N gregorian 
+set_k_time 1367166649
+print $O
+print $N
+set_date $N 2001 2 29
+set_date $O 2001 2 29
+add_event $O OJSFNPr -1
+add_event $N OJSFNPr -1
+remove_event $O OJSFNPr 22
+remove_event $N OJSFNPr 22
+set_date $N 1996 2 29
+set_date $O 1996 2 29
+print $O
+print $N
+set_date $N 2002 2 29
+set_date $O 2002 2 29
+set_date $N 2009 2 29
+set_date $O 2009 2 29
+add_event $O yGkCJfM
+add_event $N yGkCJfM
+remove_event $N yGkCJfM
+remove_event $O yGkCJfM
+set_date $O 2011 2 29
+set_date $N 2011 2 29
+print $O
+print $N
+set_date $O 1999 2 29
+set_date $N 1999 2 29
+set_date $O 1992 2 29
+set_date $N 1992 2 29
+add_event $N BdjCfzN 2
+add_event $O BdjCfzN 2
+remove_event $N BdjCfzN 3
+remove_event $O BdjCfzN 3
+set_date $N 2003 2 29
+set_date $O 2003 2 29
+print $O
+print $N
+set_date $N 1999 2 29
+set_date $O 1999 2 29
+set_date $N 2006 2 29
+set_date $O 2006 2 29
+add_event $O OhXIZKH 8 5
+add_event $N OhXIZKH 8 5
+remove_event $O OhXIZKH 27 5
+remove_event $N OhXIZKH 27 5
+set_date $O 1999 2 29
+set_date $N 1999 2 29
+print $O
+print $N
+set_date $O 2008 2 29
+set_date $N 2008 2 29
+set_date $O 2007 2 29
+set_date $N 2007 2 29
+add_event $N IyTdBEP
+add_event $O IyTdBEP
+remove_event $N IyTdBEP
+remove_event $O IyTdBEP
+set_date $N 1993 2 29
+set_date $O 1993 2 29
+print $N
+print $O
+set_date $N 2001 2 29
+set_date $O 2001 2 29
+set_date $N 2011 2 29
+set_date $O 2011 2 29
+add_event $N oBfrVek 31 7 1979
+add_event $O oBfrVek 31 7 1979
+remove_event $O oBfrVek 11 9 2031
+remove_event $N oBfrVek 11 9 2031
+set_date $O 2002 2 29
+set_date $N 2002 2 29
+print $N
+print $O
+set_date $O 2005 2 29
+set_date $N 2005 2 29
+set_date $O 1990 2 29
+set_date $N 1990 2 29
+add_event $N bOLYfmo
+add_event $O bOLYfmo
+remove_event $O bOLYfmo
+remove_event $N bOLYfmo
+set_date $N 2010 2 29
+set_date $O 2010 2 29
+print $O
+print $N
+set_date $O 2007 2 29
+set_date $N 2007 2 29
+set_date $N 2006 2 29
+set_date $O 2006 2 29
+add_event $N YzxKwPb
+add_event $O YzxKwPb
+remove_event $O YzxKwPb
+remove_event $N YzxKwPb
+set_date $O 1990 2 29
+set_date $N 1990 2 29
+print $N
+print $O
+set_date $O 2011 2 29
+set_date $N 2011 2 29
+set_date $O 2004 2 29
+set_date $N 2004 2 29
+add_event $O ypMnwYO 28 1
+add_event $N ypMnwYO 28 1
+remove_event $N ypMnwYO 26 9
+remove_event $O ypMnwYO 26 9
+set_date $N 2004 2 29
+set_date $O 2004 2 29
+print $N
+print $O
+set_date $N 2004 2 29
+set_date $O 2004 2 29
+set_date $N 2000 2 29
+set_date $O 2000 2 29
+add_event $N mxfHaEn 32
+add_event $O mxfHaEn 32
+remove_event $O mxfHaEn 14
+remove_event $N mxfHaEn 14
+set_date $O 1996 2 29
+set_date $N 1996 2 29
+print $N
+print $O
+set_date $N 2004 2 29
+set_date $O 2004 2 29
+copy-construct $P julian $N
+copy-construct $Q gregorian $O
+print $Q
+print $P
+set_date $N 2003 2 29
+set_date $O 2003 2 29
+set_date $N 2001 2 1
+set_date $O 2001 2 1
+add_event $O lLGqjON
+add_event $N lLGqjON
+add_event $O lLGqjON 1
+add_event $N lLGqjON 1
+remove_event $O LlgQJon 1 2 2001
+remove_event $N LlgQJon 1 2 2001
+add_event $N LlgQJon 1 2 2001
+add_event $O LlgQJon 1 2 2001
+remove_event $O lLGqjON
+remove_event $N lLGqjON
+add_event $N LlgQJon 1
+add_event $O LlgQJon 1
+remove_event $N lLGqjON 1
+remove_event $O lLGqjON 1
+add_event $O lLGqjON 1 2
+add_event $N lLGqjON 1 2
+remove_event $N LlgQJon 1
+remove_event $O LlgQJon 1
+print $O
+print $N
+set_date $N 2002 2 29
+set_date $O 2002 2 29
+set_date $O 2000 2 2
+set_date $N 2000 2 2
+add_event $N AbmelRv 2
+add_event $O AbmelRv 2
+add_event $N AbmelRv 2 2
+add_event $O AbmelRv 2 2
+remove_event $N aBMELrV 2 2 2000
+remove_event $O aBMELrV 2 2 2000
+remove_event $O aBMELrV 2
+remove_event $N aBMELrV 2
+add_event $N AbmelRv
+add_event $O AbmelRv
+add_event $O AbmelRv 2 2 2000
+add_event $N AbmelRv 2 2 2000
+remove_event $O AbmelRv
+remove_event $N AbmelRv
+remove_event $O AbmelRv 2
+remove_event $N AbmelRv 2
+add_event $O aBMELrV 2
+add_event $N aBMELrV 2
+print $O
+print $N
+set_date $N 1990 2 29
+set_date $O 1990 2 29
+set_date $O 2000 2 1
+set_date $N 2000 2 1
+remove_event $O pmdEBaI 1 2 2000
+remove_event $N pmdEBaI 1 2 2000
+remove_event $O pmdEBaI
+remove_event $N pmdEBaI
+remove_event $O PMDebAi 1
+remove_event $N PMDebAi 1
+add_event $N pmdEBaI 1 2
+add_event $O pmdEBaI 1 2
+add_event $N PMDebAi
+add_event $O PMDebAi
+add_event $N PMDebAi 1 2 2000
+add_event $O PMDebAi 1 2 2000
+add_event $O PMDebAi 1
+add_event $N PMDebAi 1
+add_event $N PMDebAi 1
+add_event $O PMDebAi 1
+remove_event $N pmdEBaI 1
+remove_event $O pmdEBaI 1
+print $N
+print $O
+set_date $O 1994 2 29
+set_date $N 1994 2 29
+set_date $O 2001 1 2
+set_date $N 2001 1 2
+add_event $N SiuLfvT 2 1 2001
+add_event $O SiuLfvT 2 1 2001
+remove_event $N SiuLfvT 2 1 2001
+remove_event $O SiuLfvT 2 1 2001
+add_event $N sIUlFVt
+add_event $O sIUlFVt
+remove_event $O sIUlFVt 2
+remove_event $N sIUlFVt 2
+add_event $N sIUlFVt 2
+add_event $O sIUlFVt 2
+remove_event $N SiuLfvT 2
+remove_event $O SiuLfvT 2
+add_event $N sIUlFVt 2
+add_event $O sIUlFVt 2
+remove_event $N SiuLfvT
+remove_event $O SiuLfvT
+add_event $O SiuLfvT 2 1
+add_event $N SiuLfvT 2 1
+print $O
+print $N
+set_date $O 1996 2 29
+set_date $N 1996 2 29
+set_date $N 2001 1 2
+set_date $O 2001 1 2
+remove_event $N GhfjZzE 2
+remove_event $O GhfjZzE 2
+remove_event $N gHFJzZe 2
+remove_event $O gHFJzZe 2
+remove_event $O gHFJzZe
+remove_event $N gHFJzZe
+add_event $N gHFJzZe 2 1 2001
+add_event $O gHFJzZe 2 1 2001
+add_event $N gHFJzZe
+add_event $O gHFJzZe
+add_event $N gHFJzZe 2 1
+add_event $O gHFJzZe 2 1
+add_event $O gHFJzZe 2
+add_event $N gHFJzZe 2
+remove_event $O gHFJzZe 2 1 2001
+remove_event $N gHFJzZe 2 1 2001
+add_event $N gHFJzZe 2
+add_event $O gHFJzZe 2
+print $N
+print $O
+set_date $N 2012 2 29
+set_date $O 2012 2 29
+set_date $O 2000 1 2
+set_date $N 2000 1 2
+add_event $O tdcYGlf
+add_event $N tdcYGlf
+add_event $O TDCygLF 2 1 2000
+add_event $N TDCygLF 2 1 2000
+remove_event $N tdcYGlf 2 1 2000
+remove_event $O tdcYGlf 2 1 2000
+add_event $O TDCygLF 2
+add_event $N TDCygLF 2
+add_event $O TDCygLF 2
+add_event $N TDCygLF 2
+add_event $O TDCygLF 2 1
+add_event $N TDCygLF 2 1
+remove_event $O tdcYGlf
+remove_event $N tdcYGlf
+remove_event $N TDCygLF 2
+remove_event $O TDCygLF 2
+remove_event $N TDCygLF 2
+remove_event $O TDCygLF 2
+print $O
+print $N
+set_date $O 1994 2 29
+set_date $N 1994 2 29
+set_date $N 2000 1 1
+set_date $O 2000 1 1
+add_event $O TJEtBKY
+add_event $N TJEtBKY
+add_event $O tjeTbky 1
+add_event $N tjeTbky 1
+remove_event $O TJEtBKY 1 1 2000
+remove_event $N TJEtBKY 1 1 2000
+add_event $N tjeTbky 1 1 2000
+add_event $O tjeTbky 1 1 2000
+remove_event $O TJEtBKY 1
+remove_event $N TJEtBKY 1
+add_event $O TJEtBKY 1
+add_event $N TJEtBKY 1
+remove_event $O tjeTbky
+remove_event $N tjeTbky
+add_event $O TJEtBKY 1 1
+add_event $N TJEtBKY 1 1
+remove_event $O tjeTbky 1
+remove_event $N tjeTbky 1
+print $O
+print $N
+set_date $O 1998 2 29
+set_date $N 1998 2 29
+set_date $N 2000 1 2
+set_date $O 2000 1 2
+add_event $N inAfqoh
+add_event $O inAfqoh
+add_event $O inAfqoh 2 1 2000
+add_event $N inAfqoh 2 1 2000
+remove_event $N INaFQOH
+remove_event $O INaFQOH
+remove_event $O INaFQOH 2
+remove_event $N INaFQOH 2
+remove_event $N inAfqoh 2 1 2000
+remove_event $O inAfqoh 2 1 2000
+add_event $N INaFQOH 2
+add_event $O INaFQOH 2
+add_event $O INaFQOH 2 1
+add_event $N INaFQOH 2 1
+add_event $N INaFQOH 2
+add_event $O INaFQOH 2
+remove_event $N INaFQOH 2
+remove_event $O INaFQOH 2
+print $N
+print $O
+set_date $O 2011 2 29
+set_date $N 2011 2 29
+set_date $N 2000 2 2
+set_date $O 2000 2 2
+add_event $N NIwsdrE
+add_event $O NIwsdrE
+add_event $O NIwsdrE 2
+add_event $N NIwsdrE 2
+add_event $O NIwsdrE 2
+add_event $N NIwsdrE 2
+remove_event $O NIwsdrE
+remove_event $N NIwsdrE
+add_event $O NIwsdrE 2 2
+add_event $N NIwsdrE 2 2
+remove_event $N niWSDRe 2 2 2000
+remove_event $O niWSDRe 2 2 2000
+remove_event $N NIwsdrE 2
+remove_event $O NIwsdrE 2
+add_event $N niWSDRe 2 2 2000
+add_event $O niWSDRe 2 2 2000
+remove_event $O NIwsdrE 2
+remove_event $N NIwsdrE 2
+print $O
+print $N
+set_date $O 2012 2 29
+set_date $N 2012 2 29
+set_date $N 2000 1 2
+set_date $O 2000 1 2
+remove_event $N OBDYfop
+remove_event $O OBDYfop
+add_event $O obdyFOP 2
+add_event $N obdyFOP 2
+remove_event $O OBDYfop 2
+remove_event $N OBDYfop 2
+add_event $O OBDYfop 2
+add_event $N OBDYfop 2
+remove_event $N OBDYfop 2
+remove_event $O OBDYfop 2
+add_event $N OBDYfop 2 1
+add_event $O OBDYfop 2 1
+add_event $O OBDYfop 2 1 2000
+add_event $N OBDYfop 2 1 2000
+add_event $O OBDYfop
+add_event $N OBDYfop
+remove_event $O OBDYfop 2 1 2000
+remove_event $N OBDYfop 2 1 2000
+print $O
+print $N
+set_date $O 1997 2 29
+set_date $N 1997 2 29
+set_date $O 2001 1 1
+set_date $N 2001 1 1
+add_event $O mhZDawz 1
+add_event $N mhZDawz 1
+add_event $O mhZDawz 1 1 2001
+add_event $N mhZDawz 1 1 2001
+add_event $O mhZDawz 1 1
+add_event $N mhZDawz 1 1
+add_event $N MHzdAWZ 1
+add_event $O MHzdAWZ 1
+remove_event $O mhZDawz 1 1 2001
+remove_event $N mhZDawz 1 1 2001
+remove_event $O MHzdAWZ 1
+remove_event $N MHzdAWZ 1
+remove_event $O mhZDawz 1
+remove_event $N mhZDawz 1
+add_event $O MHzdAWZ
+add_event $N MHzdAWZ
+remove_event $O MHzdAWZ
+remove_event $N MHzdAWZ
+print $O
+print $N
+set_date $N 1997 2 29
+set_date $O 1997 2 29
+set_date $O 2000 2 2
+set_date $N 2000 2 2
+add_event $O weBXIJD
+add_event $N weBXIJD
+add_event $N weBXIJD 2
+add_event $O weBXIJD 2
+remove_event $O weBXIJD 2
+remove_event $N weBXIJD 2
+remove_event $N weBXIJD 2
+remove_event $O weBXIJD 2
+add_event $O WEbxijd 2
+add_event $N WEbxijd 2
+add_event $O WEbxijd 2 2
+add_event $N WEbxijd 2 2
+remove_event $N WEbxijd
+remove_event $O WEbxijd
+add_event $O weBXIJD 2 2 2000
+add_event $N weBXIJD 2 2 2000
+remove_event $O weBXIJD 2 2 2000
+remove_event $N weBXIJD 2 2 2000
+print $N
+print $O
+set_date $N 1993 2 29
+set_date $O 1993 2 29
+set_date $N 2000 1 2
+set_date $O 2000 1 2
+add_event $N TEAIzXS 2
+add_event $O TEAIzXS 2
+add_event $O teaiZxs
+add_event $N teaiZxs
+remove_event $N TEAIzXS 2 1 2000
+remove_event $O TEAIzXS 2 1 2000
+remove_event $O teaiZxs
+remove_event $N teaiZxs
+remove_event $N teaiZxs 2
+remove_event $O teaiZxs 2
+add_event $N TEAIzXS 2
+add_event $O TEAIzXS 2
+remove_event $N TEAIzXS 2
+remove_event $O TEAIzXS 2
+add_event $N teaiZxs 2 1
+add_event $O teaiZxs 2 1
+add_event $O TEAIzXS 2 1 2000
+add_event $N TEAIzXS 2 1 2000
+print $O
+print $N
+set_date $N 1995 2 29
+set_date $O 1995 2 29
+set_date $O 2001 1 1
+set_date $N 2001 1 1
+add_event $O aIfUJAr
+add_event $N aIfUJAr
+add_event $O aIfUJAr 1
+add_event $N aIfUJAr 1
+add_event $N AiFujaR 1 1
+add_event $O AiFujaR 1 1
+remove_event $N AiFujaR
+remove_event $O AiFujaR
+remove_event $N aIfUJAr 1
+remove_event $O aIfUJAr 1
+remove_event $O aIfUJAr 1
+remove_event $N aIfUJAr 1
+add_event $N AiFujaR 1 1 2001
+add_event $O AiFujaR 1 1 2001
+add_event $O aIfUJAr 1
+add_event $N aIfUJAr 1
+remove_event $O AiFujaR 1 1 2001
+remove_event $N AiFujaR 1 1 2001
+print $N
+print $O
+set_date $N 2008 2 29
+set_date $O 2008 2 29
+set_date $N 2000 1 2
+set_date $O 2000 1 2
+add_event $N banJcXE 2 1
+add_event $O banJcXE 2 1
+remove_event $N banJcXE 2 1 2000
+remove_event $O banJcXE 2 1 2000
+add_event $N BANjCxe
+add_event $O BANjCxe
+remove_event $O BANjCxe
+remove_event $N BANjCxe
+remove_event $O BANjCxe 2
+remove_event $N BANjCxe 2
+remove_event $N BANjCxe 2
+remove_event $O BANjCxe 2
+add_event $O banJcXE 2
+add_event $N banJcXE 2
+add_event $N banJcXE 2 1 2000
+add_event $O banJcXE 2 1 2000
+add_event $O banJcXE 2
+add_event $N banJcXE 2
+print $O
+print $N
+set_date $N 2010 2 29
+set_date $O 2010 2 29
+set_date $O 2001 1 2
+set_date $N 2001 1 2
+add_event $O VvGadmi 2 1
+add_event $N VvGadmi 2 1
+add_event $O vVgADMI 2
+add_event $N vVgADMI 2
+remove_event $O vVgADMI 2
+remove_event $N vVgADMI 2
+add_event $O vVgADMI
+add_event $N vVgADMI
+remove_event $N VvGadmi 2 1 2001
+remove_event $O VvGadmi 2 1 2001
+remove_event $O vVgADMI
+remove_event $N vVgADMI
+add_event $N vVgADMI 2 1 2001
+add_event $O vVgADMI 2 1 2001
+remove_event $O vVgADMI 2
+remove_event $N vVgADMI 2
+add_event $N VvGadmi 2
+add_event $O VvGadmi 2
+print $N
+print $O
+set_date $O 2004 2 29
+set_date $N 2004 2 29
+set_date $O 2000 2 1
+set_date $N 2000 2 1
+add_event $O eoyjSbQ 1
+add_event $N eoyjSbQ 1
+remove_event $N EOYJsBq 1 2 2000
+remove_event $O EOYJsBq 1 2 2000
+add_event $O eoyjSbQ 1 2
+add_event $N eoyjSbQ 1 2
+remove_event $N EOYJsBq 1
+remove_event $O EOYJsBq 1
+add_event $N EOYJsBq 1 2 2000
+add_event $O EOYJsBq 1 2 2000
+add_event $N EOYJsBq
+add_event $O EOYJsBq
+remove_event $N EOYJsBq 1
+remove_event $O EOYJsBq 1
+add_event $O EOYJsBq 1
+add_event $N EOYJsBq 1
+remove_event $O EOYJsBq
+remove_event $N EOYJsBq
+print $N
+print $O
+set_date $N 1998 2 29
+set_date $O 1998 2 29
+set_date $O 2000 1 1
+set_date $N 2000 1 1
+add_event $O wxJokDy 1 1 2000
+add_event $N wxJokDy 1 1 2000
+add_event $N WXjOKdY 1 1
+add_event $O WXjOKdY 1 1
+add_event $N wxJokDy 1
+add_event $O wxJokDy 1
+remove_event $N WXjOKdY 1
+remove_event $O WXjOKdY 1
+add_event $O wxJokDy
+add_event $N wxJokDy
+remove_event $O WXjOKdY
+remove_event $N WXjOKdY
+remove_event $N WXjOKdY 1
+remove_event $O WXjOKdY 1
+add_event $O WXjOKdY 1
+add_event $N WXjOKdY 1
+remove_event $O WXjOKdY 1 1 2000
+remove_event $N WXjOKdY 1 1 2000
+print $O
+print $N
+set_date $N 2000 2 29
+set_date $O 2000 2 29
+set_date $O 2001 1 2
+set_date $N 2001 1 2
+add_event $O cBXvUfd 2
+add_event $N cBXvUfd 2
+remove_event $N CbxVuFD
+remove_event $O CbxVuFD
+add_event $O CbxVuFD 2
+add_event $N CbxVuFD 2
+add_event $O CbxVuFD 2 1 2001
+add_event $N CbxVuFD 2 1 2001
+remove_event $N CbxVuFD 2
+remove_event $O CbxVuFD 2
+remove_event $O CbxVuFD 2
+remove_event $N CbxVuFD 2
+remove_event $N CbxVuFD 2 1 2001
+remove_event $O CbxVuFD 2 1 2001
+add_event $N cBXvUfd
+add_event $O cBXvUfd
+add_event $N cBXvUfd 2 1
+add_event $O cBXvUfd 2 1
+print $O
+print $N
+set_date $O 2005 2 29
+set_date $N 2005 2 29
+set_date $O 2000 1 2
+set_date $N 2000 1 2
+remove_event $O yBRLxuK 2
+remove_event $N yBRLxuK 2
+remove_event $O yBRLxuK 2 1 2000
+remove_event $N yBRLxuK 2 1 2000
+add_event $N yBRLxuK 2
+add_event $O yBRLxuK 2
+add_event $N YbrlXUk 2
+add_event $O YbrlXUk 2
+remove_event $O yBRLxuK
+remove_event $N yBRLxuK
+add_event $N yBRLxuK
+add_event $O yBRLxuK
+add_event $N YbrlXUk 2 1 2000
+add_event $O YbrlXUk 2 1 2000
+add_event $O YbrlXUk 2 1
+add_event $N YbrlXUk 2 1
+remove_event $N yBRLxuK 2
+remove_event $O yBRLxuK 2
+print $N
+print $O
+set_date $N 2008 2 29
+set_date $O 2008 2 29
+set_date $O 2001 1 1
+set_date $N 2001 1 1
+remove_event $N NtqIwAn 1 1 2001
+remove_event $O NtqIwAn 1 1 2001
+add_event $O NtqIwAn 1 1 2001
+add_event $N NtqIwAn 1 1 2001
+remove_event $N NtqIwAn
+remove_event $O NtqIwAn
+add_event $O nTQiWaN 1
+add_event $N nTQiWaN 1
+remove_event $O nTQiWaN 1
+remove_event $N nTQiWaN 1
+add_event $O NtqIwAn 1 1
+add_event $N NtqIwAn 1 1
+add_event $N nTQiWaN
+add_event $O nTQiWaN
+add_event $N nTQiWaN 1
+add_event $O nTQiWaN 1
+remove_event $O nTQiWaN 1
+remove_event $N nTQiWaN 1
+print $O
+print $N
+set_date $O 2000 2 29
+set_date $N 2000 2 29
+set_date $O 2000 1 2
+set_date $N 2000 1 2
+remove_event $O pHLCnSm 2 1 2000
+remove_event $N pHLCnSm 2 1 2000
+remove_event $N PhlcNsM 2
+remove_event $O PhlcNsM 2
+add_event $N PhlcNsM 2 1
+add_event $O PhlcNsM 2 1
+add_event $O pHLCnSm
+add_event $N pHLCnSm
+add_event $N pHLCnSm 2 1 2000
+add_event $O pHLCnSm 2 1 2000
+remove_event $N pHLCnSm 2
+remove_event $O pHLCnSm 2
+add_event $O pHLCnSm 2
+add_event $N pHLCnSm 2
+remove_event $O pHLCnSm
+remove_event $N pHLCnSm
+add_event $O PhlcNsM 2
+add_event $N PhlcNsM 2
+print $N
+print $O
+set_date $O 2008 2 29
+set_date $N 2008 2 29
+set_date $O 2001 2 2
+set_date $N 2001 2 2
+add_event $O gwvXklL 2
+add_event $N gwvXklL 2
+remove_event $O GWVxKLl 2
+remove_event $N GWVxKLl 2
+add_event $O gwvXklL 2 2
+add_event $N gwvXklL 2 2
+remove_event $O gwvXklL 2 2 2001
+remove_event $N gwvXklL 2 2 2001
+add_event $O GWVxKLl
+add_event $N GWVxKLl
+remove_event $N gwvXklL
+remove_event $O gwvXklL
+add_event $N GWVxKLl 2 2 2001
+add_event $O GWVxKLl 2 2 2001
+remove_event $O GWVxKLl 2
+remove_event $N GWVxKLl 2
+add_event $O gwvXklL 2
+add_event $N gwvXklL 2
+print $O
+print $N
+set_date $N 1997 2 29
+set_date $O 1997 2 29
+set_date $N 2000 2 2
+set_date $O 2000 2 2
+remove_event $N neCftrT 2 2 2000
+remove_event $O neCftrT 2 2 2000
+add_event $N neCftrT 2 2 2000
+add_event $O neCftrT 2 2 2000
+add_event $O neCftrT
+add_event $N neCftrT
+add_event $N NEcFTRt 2 2
+add_event $O NEcFTRt 2 2
+remove_event $O neCftrT 2
+remove_event $N neCftrT 2
+remove_event $N NEcFTRt
+remove_event $O NEcFTRt
+add_event $O neCftrT 2
+add_event $N neCftrT 2
+remove_event $O neCftrT 2
+remove_event $N neCftrT 2
+add_event $N NEcFTRt 2
+add_event $O NEcFTRt 2
+print $N
+print $O
+set_date $O 2010 2 29
+set_date $N 2010 2 29
+set_date $N 2001 2 1
+set_date $O 2001 2 1
+remove_event $N yedbwcR 1 2 2001
+remove_event $O yedbwcR 1 2 2001
+add_event $N yedbwcR 1
+add_event $O yedbwcR 1
+add_event $N yedbwcR
+add_event $O yedbwcR
+remove_event $O yedbwcR
+remove_event $N yedbwcR
+add_event $O yedbwcR 1 2
+add_event $N yedbwcR 1 2
+remove_event $N yedbwcR 1
+remove_event $O yedbwcR 1
+remove_event $O YEDBWCr 1
+remove_event $N YEDBWCr 1
+add_event $N YEDBWCr 1 2 2001
+add_event $O YEDBWCr 1 2 2001
+add_event $N YEDBWCr 1
+add_event $O YEDBWCr 1
+print $N
+print $O
+set_date $O 1999 2 29
+set_date $N 1999 2 29
+set_date $O 2000 1 1
+set_date $N 2000 1 1
+add_event $N lNsQKmh 1
+add_event $O lNsQKmh 1
+remove_event $N lNsQKmh
+remove_event $O lNsQKmh
+remove_event $O lNsQKmh 1
+remove_event $N lNsQKmh 1
+add_event $N lNsQKmh
+add_event $O lNsQKmh
+remove_event $N lNsQKmh 1 1 2000
+remove_event $O lNsQKmh 1 1 2000
+add_event $N LnSqkMH 1 1
+add_event $O LnSqkMH 1 1
+add_event $N LnSqkMH 1
+add_event $O LnSqkMH 1
+add_event $N lNsQKmh 1 1 2000
+add_event $O lNsQKmh 1 1 2000
+remove_event $O LnSqkMH 1
+remove_event $N LnSqkMH 1
+print $O
+print $N
+set_date $N 2003 2 29
+set_date $O 2003 2 29
+set_date $N 2001 2 1
+set_date $O 2001 2 1
+add_event $O eKqYEuh
+add_event $N eKqYEuh
+remove_event $O eKqYEuh
+remove_event $N eKqYEuh
+add_event $N eKqYEuh 1 2 2001
+add_event $O eKqYEuh 1 2 2001
+add_event $O eKqYEuh 1
+add_event $N eKqYEuh 1
+remove_event $N EkQyeUH 1
+remove_event $O EkQyeUH 1
+remove_event $O eKqYEuh 1 2 2001
+remove_event $N eKqYEuh 1 2 2001
+add_event $N eKqYEuh 1
+add_event $O eKqYEuh 1
+add_event $N EkQyeUH 1 2
+add_event $O EkQyeUH 1 2
+remove_event $N eKqYEuh 1
+remove_event $O eKqYEuh 1
+print $N
+print $O
+set_date $N 1992 2 29
+set_date $O 1992 2 29
+set_date $O 2001 1 2
+set_date $N 2001 1 2
+remove_event $O qtETHoQ 2
+remove_event $N qtETHoQ 2
+remove_event $O qtETHoQ 2 1 2001
+remove_event $N qtETHoQ 2 1 2001
+add_event $O QTethOq 2 1 2001
+add_event $N QTethOq 2 1 2001
+add_event $O qtETHoQ 2 1
+add_event $N qtETHoQ 2 1
+add_event $O qtETHoQ 2
+add_event $N qtETHoQ 2
+remove_event $N QTethOq
+remove_event $O QTethOq
+add_event $N qtETHoQ 2
+add_event $O qtETHoQ 2
+add_event $N qtETHoQ
+add_event $O qtETHoQ
+remove_event $N QTethOq 2
+remove_event $O QTethOq 2
+print $O
+print $N
+set_date $O 2007 2 29
+set_date $N 2007 2 29
+set_date $O 2000 1 1
+set_date $N 2000 1 1
+remove_event $N neifdog 1
+remove_event $O neifdog 1
+add_event $O NEIFDOG 1 1 2000
+add_event $N NEIFDOG 1 1 2000
+remove_event $N NEIFDOG 1
+remove_event $O NEIFDOG 1
+add_event $O NEIFDOG 1 1
+add_event $N NEIFDOG 1 1
+add_event $O neifdog
+add_event $N neifdog
+remove_event $O neifdog 1 1 2000
+remove_event $N neifdog 1 1 2000
+add_event $O neifdog 1
+add_event $N neifdog 1
+add_event $O NEIFDOG 1
+add_event $N NEIFDOG 1
+remove_event $N NEIFDOG
+remove_event $O NEIFDOG
+print $N
+print $O
+set_date $N 1997 2 29
+set_date $O 1997 2 29
+set_date $N 2001 2 2
+set_date $O 2001 2 2
+add_event $N xMDRmzb 2
+add_event $O xMDRmzb 2
+remove_event $O XmdrMZB 2 2 2001
+remove_event $N XmdrMZB 2 2 2001
+remove_event $O XmdrMZB 2
+remove_event $N XmdrMZB 2
+add_event $N XmdrMZB 2
+add_event $O XmdrMZB 2
+remove_event $N XmdrMZB
+remove_event $O XmdrMZB
+add_event $O xMDRmzb
+add_event $N xMDRmzb
+remove_event $O xMDRmzb 2
+remove_event $N xMDRmzb 2
+add_event $N xMDRmzb 2 2
+add_event $O xMDRmzb 2 2
+add_event $N xMDRmzb 2 2 2001
+add_event $O xMDRmzb 2 2 2001
+print $N
+print $O
+set_date $O 1995 2 29
+set_date $N 1995 2 29
+set_date $N 2000 1 1
+set_date $O 2000 1 1
+add_event $N cxhQObg 1
+add_event $O cxhQObg 1
+remove_event $N cxhQObg 1
+remove_event $O cxhQObg 1
+add_event $O CXHqoBG 1 1 2000
+add_event $N CXHqoBG 1 1 2000
+remove_event $N cxhQObg 1 1 2000
+remove_event $O cxhQObg 1 1 2000
+add_event $N cxhQObg 1
+add_event $O cxhQObg 1
+remove_event $N CXHqoBG
+remove_event $O CXHqoBG
+remove_event $O CXHqoBG 1
+remove_event $N CXHqoBG 1
+add_event $N CXHqoBG
+add_event $O CXHqoBG
+add_event $O CXHqoBG 1 1
+add_event $N CXHqoBG 1 1
+print $O
+print $N
+set_date $O 1992 2 29
+set_date $N 1992 2 29
+set_date $N 2000 1 2
+set_date $O 2000 1 2
+remove_event $O xjdlDGZ 2
+remove_event $N xjdlDGZ 2
+remove_event $O xjdlDGZ 2 1 2000
+remove_event $N xjdlDGZ 2 1 2000
+remove_event $O XJDLdgz 2
+remove_event $N XJDLdgz 2
+add_event $N XJDLdgz 2 1
+add_event $O XJDLdgz 2 1
+add_event $N xjdlDGZ
+add_event $O xjdlDGZ
+add_event $O xjdlDGZ 2 1 2000
+add_event $N xjdlDGZ 2 1 2000
+add_event $O XJDLdgz 2
+add_event $N XJDLdgz 2
+remove_event $N xjdlDGZ
+remove_event $O xjdlDGZ
+add_event $O xjdlDGZ 2
+add_event $N xjdlDGZ 2
+print $N
+print $O
+set_date $N 2007 2 29
+set_date $O 2007 2 29
+set_date $O 2000 1 2
+set_date $N 2000 1 2
+add_event $N lLNXxwO 2 1
+add_event $O lLNXxwO 2 1
+remove_event $O lLNXxwO
+remove_event $N lLNXxwO
+add_event $N LlnxXWo 2
+add_event $O LlnxXWo 2
+remove_event $O LlnxXWo 2 1 2000
+remove_event $N LlnxXWo 2 1 2000
+add_event $N lLNXxwO 2 1 2000
+add_event $O lLNXxwO 2 1 2000
+add_event $O lLNXxwO
+add_event $N lLNXxwO
+add_event $N lLNXxwO 2
+add_event $O lLNXxwO 2
+remove_event $N LlnxXWo 2
+remove_event $O LlnxXWo 2
+remove_event $O lLNXxwO 2
+remove_event $N lLNXxwO 2
+print $N
+print $O
+set_date $O 1991 2 29
+set_date $N 1991 2 29
+set_date $N 2001 1 1
+set_date $O 2001 1 1
+remove_event $O YldBqfV 1
+remove_event $N YldBqfV 1
+add_event $N yLDbQFv 1
+add_event $O yLDbQFv 1
+add_event $O yLDbQFv 1 1
+add_event $N yLDbQFv 1 1
+add_event $N YldBqfV 1 1 2001
+add_event $O YldBqfV 1 1 2001
+remove_event $O yLDbQFv
+remove_event $N yLDbQFv
+add_event $N YldBqfV 1
+add_event $O YldBqfV 1
+remove_event $O yLDbQFv 1 1 2001
+remove_event $N yLDbQFv 1 1 2001
+add_event $N yLDbQFv
+add_event $O yLDbQFv
+remove_event $N yLDbQFv 1
+remove_event $O yLDbQFv 1
+print $O
+print $N
+set_date $N 1998 2 29
+set_date $O 1998 2 29
+set_date $N 2001 1 2
+set_date $O 2001 1 2
+add_event $O vQUYObh
+add_event $N vQUYObh
+add_event $O VquyoBH 2 1 2001
+add_event $N VquyoBH 2 1 2001
+add_event $N VquyoBH 2
+add_event $O VquyoBH 2
+remove_event $N VquyoBH 2
+remove_event $O VquyoBH 2
+remove_event $O vQUYObh 2 1 2001
+remove_event $N vQUYObh 2 1 2001
+remove_event $O vQUYObh 2
+remove_event $N vQUYObh 2
+add_event $O vQUYObh 2 1
+add_event $N vQUYObh 2 1
+add_event $O VquyoBH 2
+add_event $N VquyoBH 2
+remove_event $O vQUYObh
+remove_event $N vQUYObh
+print $N
+print $O
+set_date $N 1993 2 29
+set_date $O 1993 2 29
+set_date $O 2000 2 1
+set_date $N 2000 2 1
+remove_event $N dprvfKy 1
+remove_event $O dprvfKy 1
+add_event $O DPRVFkY
+add_event $N DPRVFkY
+add_event $O dprvfKy 1 2 2000
+add_event $N dprvfKy 1 2 2000
+add_event $N DPRVFkY 1 2
+add_event $O DPRVFkY 1 2
+add_event $O DPRVFkY 1
+add_event $N DPRVFkY 1
+remove_event $O dprvfKy 1
+remove_event $N dprvfKy 1
+remove_event $N DPRVFkY 1 2 2000
+remove_event $O DPRVFkY 1 2 2000
+add_event $N dprvfKy 1
+add_event $O dprvfKy 1
+remove_event $N DPRVFkY
+remove_event $O DPRVFkY
+print $O
+print $N
+set_date $N 2012 2 29
+set_date $O 2012 2 29
+set_date $O 2001 1 2
+set_date $N 2001 1 2
+add_event $O fiPpwZk 2 1 2001
+add_event $N fiPpwZk 2 1 2001
+add_event $N fiPpwZk
+add_event $O fiPpwZk
+remove_event $O FIpPWzK 2 1 2001
+remove_event $N FIpPWzK 2 1 2001
+add_event $N FIpPWzK 2
+add_event $O FIpPWzK 2
+remove_event $O fiPpwZk 2
+remove_event $N fiPpwZk 2
+add_event $N FIpPWzK 2 1
+add_event $O FIpPWzK 2 1
+remove_event $O FIpPWzK 2
+remove_event $N FIpPWzK 2
+add_event $O FIpPWzK 2
+add_event $N FIpPWzK 2
+remove_event $O FIpPWzK
+remove_event $N FIpPWzK
+print $N
+print $O
+set_date $N 1994 2 29
+set_date $O 1994 2 29
+set_date $O 2000 2 1
+set_date $N 2000 2 1
+remove_event $O hCtzFGq 1
+remove_event $N hCtzFGq 1
+add_event $O hCtzFGq 1
+add_event $N hCtzFGq 1
+add_event $N HcTZfgQ
+add_event $O HcTZfgQ
+remove_event $O HcTZfgQ 1
+remove_event $N HcTZfgQ 1
+add_event $O hCtzFGq 1
+add_event $N hCtzFGq 1
+remove_event $O hCtzFGq 1 2 2000
+remove_event $N hCtzFGq 1 2 2000
+remove_event $N hCtzFGq
+remove_event $O hCtzFGq
+add_event $O hCtzFGq 1 2 2000
+add_event $N hCtzFGq 1 2 2000
+add_event $N HcTZfgQ 1 2
+add_event $O HcTZfgQ 1 2
+print $N
+print $O
+set_date $O 1990 2 29
+set_date $N 1990 2 29
+set_date $O 2001 1 1
+set_date $N 2001 1 1
+add_event $O OghJGui 1
+add_event $N OghJGui 1
+add_event $N OghJGui 1 1 2001
+add_event $O OghJGui 1 1 2001
+remove_event $N OghJGui 1
+remove_event $O OghJGui 1
+add_event $N oGHjgUI 1
+add_event $O oGHjgUI 1
+remove_event $N OghJGui 1 1 2001
+remove_event $O OghJGui 1 1 2001
+remove_event $O OghJGui 1
+remove_event $N OghJGui 1
+remove_event $O oGHjgUI
+remove_event $N oGHjgUI
+add_event $O oGHjgUI
+add_event $N oGHjgUI
+add_event $O oGHjgUI 1 1
+add_event $N oGHjgUI 1 1
+print $N
+print $O
+set_date $N 2003 2 29
+set_date $O 2003 2 29
+set_date $O 2000 1 1
+set_date $N 2000 1 1
+add_event $O cVgkFSY 1
+add_event $N cVgkFSY 1
+remove_event $N cVgkFSY 1
+remove_event $O cVgkFSY 1
+remove_event $N cVgkFSY
+remove_event $O cVgkFSY
+remove_event $N CvGKfsy 1
+remove_event $O CvGKfsy 1
+add_event $N CvGKfsy
+add_event $O CvGKfsy
+add_event $N cVgkFSY 1 1
+add_event $O cVgkFSY 1 1
+add_event $N CvGKfsy 1
+add_event $O CvGKfsy 1
+add_event $O CvGKfsy 1 1 2000
+add_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+print $N
+print $O
+destruct $P
+destruct $Q
+copy-construct $S gregorian $O
+copy-construct $R julian $N
+print $S
+print $R
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+remove_event $O CvGKfsy 1 1 2000
+remove_event $N CvGKfsy 1 1 2000
+set_date $N 1900 1 1
+set_date $O 1900 1 1
+print $N
+print $O
+destruct $N
+destruct $O
+print $L
+print $M
+destruct $M
+destruct $L
+set_k_time 653643362
+default-construct $T gregorian 
+default-construct $U gregorian 
+set_k_time 584972485
+print $U
+print $T
+set_date $T 2005 2 29
+set_date $U 2005 2 29
+add_event $U CQxYWBJ 12 7
+add_event $T CQxYWBJ 12 7
+remove_event $T CQxYWBJ 23 -2
+remove_event $U CQxYWBJ 23 -2
+set_date $T 2011 2 29
+set_date $U 2011 2 29
+print $T
+print $U
+set_date $U 2012 2 29
+set_date $T 2012 2 29
+set_date $T 1990 2 29
+set_date $U 1990 2 29
+add_event $U eUcgJYL 20 7 2036
+add_event $T eUcgJYL 20 7 2036
+remove_event $U eUcgJYL 23 12 2009
+remove_event $T eUcgJYL 23 12 2009
+set_date $U 1993 2 29
+set_date $T 1993 2 29
+print $U
+print $T
+set_date $U 2006 2 29
+set_date $T 2006 2 29
+set_date $T 2007 2 29
+set_date $U 2007 2 29
+add_event $U TAbslEK 27 6 1995
+add_event $T TAbslEK 27 6 1995
+remove_event $U TAbslEK 20 1 2013
+remove_event $T TAbslEK 20 1 2013
+set_date $T 1999 2 29
+set_date $U 1999 2 29
+print $U
+print $T
+set_date $U 1996 2 29
+set_date $T 1996 2 29
+set_date $U 2011 2 29
+set_date $T 2011 2 29
+add_event $U lLqVtsi 1
+add_event $T lLqVtsi 1
+remove_event $U lLqVtsi 18
+remove_event $T lLqVtsi 18
+set_date $U 2003 2 29
+set_date $T 2003 2 29
+print $U
+print $T
+set_date $T 2009 2 29
+set_date $U 2009 2 29
+set_date $U 2007 2 29
+set_date $T 2007 2 29
+add_event $T aCeTVOA
+add_event $U aCeTVOA
+remove_event $T aCeTVOA
+remove_event $U aCeTVOA
+set_date $U 2009 2 29
+set_date $T 2009 2 29
+print $T
+print $U
+set_date $U 1996 2 29
+set_date $T 1996 2 29
+set_date $T 2004 2 29
+set_date $U 2004 2 29
+add_event $U AnRFxkM
+add_event $T AnRFxkM
+remove_event $U AnRFxkM
+remove_event $T AnRFxkM
+set_date $T 2001 2 29
+set_date $U 2001 2 29
+print $U
+print $T
+set_date $U 1991 2 29
+set_date $T 1991 2 29
+set_date $T 1995 2 29
+set_date $U 1995 2 29
+add_event $U twIZaKW 32 0
+add_event $T twIZaKW 32 0
+remove_event $U twIZaKW 16 2
+remove_event $T twIZaKW 16 2
+set_date $T 2008 2 29
+set_date $U 2008 2 29
+print $T
+print $U
+set_date $T 2003 2 29
+set_date $U 2003 2 29
+set_date $T 1990 2 29
+set_date $U 1990 2 29
+add_event $T mXUQyCH 11 -1
+add_event $U mXUQyCH 11 -1
+remove_event $T mXUQyCH 17 -10
+remove_event $U mXUQyCH 17 -10
+set_date $U 1991 2 29
+set_date $T 1991 2 29
+print $U
+print $T
+set_date $U 2012 2 29
+set_date $T 2012 2 29
+set_date $U 2000 2 29
+set_date $T 2000 2 29
+add_event $T DRcLeTQ 10 5
+add_event $U DRcLeTQ 10 5
+remove_event $T DRcLeTQ 12 -4
+remove_event $U DRcLeTQ 12 -4
+set_date $T 2005 2 29
+set_date $U 2005 2 29
+print $T
+print $U
+set_date $U 1999 2 29
+set_date $T 1999 2 29
+set_date $T 2010 2 29
+set_date $U 2010 2 29
+add_event $U aBOYIPd 27 6 2022
+add_event $T aBOYIPd 27 6 2022
+remove_event $T aBOYIPd 28 10 1973
+remove_event $U aBOYIPd 28 10 1973
+set_date $U 1992 2 29
+set_date $T 1992 2 29
+print $U
+print $T
+set_date $T 1990 2 29
+set_date $U 1990 2 29
+copy-construct $W gregorian $U
+copy-construct $V julian $T
+print $V
+print $W
+set_date $U 2011 2 29
+set_date $T 2011 2 29
+set_date $U 2001 2 1
+set_date $T 2001 2 1
+remove_event $T DvNMjgn
+remove_event $U DvNMjgn
+add_event $U dVnmJGN 1
+add_event $T dVnmJGN 1
+remove_event $U DvNMjgn 1 2 2001
+remove_event $T DvNMjgn 1 2 2001
+add_event $U dVnmJGN
+add_event $T dVnmJGN
+remove_event $T dVnmJGN 1
+remove_event $U dVnmJGN 1
+add_event $U DvNMjgn 1 2 2001
+add_event $T DvNMjgn 1 2 2001
+remove_event $T dVnmJGN 1
+remove_event $U dVnmJGN 1
+add_event $U dVnmJGN 1
+add_event $T dVnmJGN 1
+add_event $T dVnmJGN 1 2
+add_event $U dVnmJGN 1 2
+print $U
+print $T
+set_date $U 1992 2 29
+set_date $T 1992 2 29
+set_date $T 2001 1 1
+set_date $U 2001 1 1
+remove_event $T WUbuMmS
+remove_event $U WUbuMmS
+add_event $T wuBUmMs 1 1 2001
+add_event $U wuBUmMs 1 1 2001
+add_event $T WUbuMmS 1
+add_event $U WUbuMmS 1
+remove_event $T WUbuMmS 1
+remove_event $U WUbuMmS 1
+remove_event $U WUbuMmS 1
+remove_event $T WUbuMmS 1
+add_event $T WUbuMmS 1
+add_event $U WUbuMmS 1
+add_event $U wuBUmMs 1 1
+add_event $T wuBUmMs 1 1
+add_event $U wuBUmMs
+add_event $T wuBUmMs
+remove_event $U wuBUmMs 1 1 2001
+remove_event $T wuBUmMs 1 1 2001
+print $T
+print $U
+set_date $T 2004 2 29
+set_date $U 2004 2 29
+set_date $T 2001 1 2
+set_date $U 2001 1 2
+add_event $U cEthDAk 2 1
+add_event $T cEthDAk 2 1
+add_event $T cEthDAk
+add_event $U cEthDAk
+remove_event $U cEthDAk
+remove_event $T cEthDAk
+add_event $U cEthDAk 2
+add_event $T cEthDAk 2
+add_event $U cEthDAk 2 1 2001
+add_event $T cEthDAk 2 1 2001
+remove_event $T CeTHdaK 2
+remove_event $U CeTHdaK 2
+remove_event $U cEthDAk 2 1 2001
+remove_event $T cEthDAk 2 1 2001
+remove_event $U cEthDAk 2
+remove_event $T cEthDAk 2
+add_event $U CeTHdaK 2
+add_event $T CeTHdaK 2
+print $T
+print $U
+set_date $U 1995 2 29
+set_date $T 1995 2 29
+set_date $T 2000 2 1
+set_date $U 2000 2 1
+add_event $T JTmiwSo 1 2
+add_event $U JTmiwSo 1 2
+remove_event $T jtMIWsO
+remove_event $U jtMIWsO
+remove_event $U JTmiwSo 1
+remove_event $T JTmiwSo 1
+remove_event $T jtMIWsO 1
+remove_event $U jtMIWsO 1
+remove_event $T jtMIWsO 1 2 2000
+remove_event $U jtMIWsO 1 2 2000
+add_event $T jtMIWsO 1
+add_event $U jtMIWsO 1
+add_event $U jtMIWsO 1 2 2000
+add_event $T jtMIWsO 1 2 2000
+add_event $T jtMIWsO
+add_event $U jtMIWsO
+add_event $T jtMIWsO 1
+add_event $U jtMIWsO 1
+print $U
+print $T
+set_date $U 1999 2 29
+set_date $T 1999 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+add_event $U kTlyISc 2 1 2000
+add_event $T kTlyISc 2 1 2000
+add_event $U kTlyISc 2
+add_event $T kTlyISc 2
+remove_event $T kTlyISc
+remove_event $U kTlyISc
+add_event $U kTlyISc
+add_event $T kTlyISc
+remove_event $T kTlyISc 2
+remove_event $U kTlyISc 2
+remove_event $U KtLYisC 2
+remove_event $T KtLYisC 2
+add_event $U kTlyISc 2
+add_event $T kTlyISc 2
+remove_event $T KtLYisC 2 1 2000
+remove_event $U KtLYisC 2 1 2000
+add_event $T kTlyISc 2 1
+add_event $U kTlyISc 2 1
+print $T
+print $U
+set_date $T 1999 2 29
+set_date $U 1999 2 29
+set_date $T 2000 2 1
+set_date $U 2000 2 1
+remove_event $T LyFHcQw
+remove_event $U LyFHcQw
+remove_event $U lYfhCqW 1
+remove_event $T lYfhCqW 1
+remove_event $U LyFHcQw 1 2 2000
+remove_event $T LyFHcQw 1 2 2000
+remove_event $U LyFHcQw 1
+remove_event $T LyFHcQw 1
+add_event $U lYfhCqW 1 2 2000
+add_event $T lYfhCqW 1 2 2000
+add_event $T LyFHcQw
+add_event $U LyFHcQw
+add_event $U lYfhCqW 1
+add_event $T lYfhCqW 1
+add_event $T LyFHcQw 1
+add_event $U LyFHcQw 1
+add_event $U lYfhCqW 1 2
+add_event $T lYfhCqW 1 2
+print $U
+print $T
+set_date $T 2008 2 29
+set_date $U 2008 2 29
+set_date $T 2000 1 1
+set_date $U 2000 1 1
+remove_event $T AxZGnsz
+remove_event $U AxZGnsz
+add_event $U aXzgNSZ 1 1
+add_event $T aXzgNSZ 1 1
+add_event $U AxZGnsz 1
+add_event $T AxZGnsz 1
+add_event $T AxZGnsz 1
+add_event $U AxZGnsz 1
+add_event $T AxZGnsz
+add_event $U AxZGnsz
+remove_event $U aXzgNSZ 1
+remove_event $T aXzgNSZ 1
+add_event $U aXzgNSZ 1 1 2000
+add_event $T aXzgNSZ 1 1 2000
+remove_event $T aXzgNSZ 1
+remove_event $U aXzgNSZ 1
+remove_event $T AxZGnsz 1 1 2000
+remove_event $U AxZGnsz 1 1 2000
+print $T
+print $U
+set_date $T 2001 2 29
+set_date $U 2001 2 29
+set_date $U 2000 2 1
+set_date $T 2000 2 1
+add_event $T oHXtsRZ 1 2 2000
+add_event $U oHXtsRZ 1 2 2000
+remove_event $T OhxTSrz 1 2 2000
+remove_event $U OhxTSrz 1 2 2000
+remove_event $U oHXtsRZ
+remove_event $T oHXtsRZ
+remove_event $U OhxTSrz 1
+remove_event $T OhxTSrz 1
+remove_event $U OhxTSrz 1
+remove_event $T OhxTSrz 1
+add_event $U oHXtsRZ
+add_event $T oHXtsRZ
+add_event $U OhxTSrz 1 2
+add_event $T OhxTSrz 1 2
+add_event $T OhxTSrz 1
+add_event $U OhxTSrz 1
+add_event $U oHXtsRZ 1
+add_event $T oHXtsRZ 1
+print $T
+print $U
+set_date $T 1998 2 29
+set_date $U 1998 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+add_event $U cdebEYm 1 2 2001
+add_event $T cdebEYm 1 2 2001
+add_event $T cdebEYm 1
+add_event $U cdebEYm 1
+remove_event $T CDEBeyM 1
+remove_event $U CDEBeyM 1
+remove_event $T cdebEYm
+remove_event $U cdebEYm
+add_event $T cdebEYm 1 2
+add_event $U cdebEYm 1 2
+add_event $T cdebEYm 1
+add_event $U cdebEYm 1
+add_event $T CDEBeyM
+add_event $U CDEBeyM
+remove_event $T CDEBeyM 1
+remove_event $U CDEBeyM 1
+remove_event $U CDEBeyM 1 2 2001
+remove_event $T CDEBeyM 1 2 2001
+print $T
+print $U
+set_date $T 2010 2 29
+set_date $U 2010 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+remove_event $U vAiIhaw
+remove_event $T vAiIhaw
+remove_event $U vAiIhaw 1
+remove_event $T vAiIhaw 1
+add_event $T VaIiHAW
+add_event $U VaIiHAW
+add_event $U vAiIhaw 1
+add_event $T vAiIhaw 1
+add_event $T vAiIhaw 1 2 2001
+add_event $U vAiIhaw 1 2 2001
+remove_event $T VaIiHAW 1 2 2001
+remove_event $U VaIiHAW 1 2 2001
+add_event $T vAiIhaw 1
+add_event $U vAiIhaw 1
+remove_event $U VaIiHAW 1
+remove_event $T VaIiHAW 1
+add_event $U vAiIhaw 1 2
+add_event $T vAiIhaw 1 2
+print $T
+print $U
+set_date $U 1993 2 29
+set_date $T 1993 2 29
+set_date $U 2001 2 2
+set_date $T 2001 2 2
+add_event $U hONzuko
+add_event $T hONzuko
+add_event $U HonZUKO 2 2 2001
+add_event $T HonZUKO 2 2 2001
+remove_event $U hONzuko
+remove_event $T hONzuko
+add_event $T HonZUKO 2 2
+add_event $U HonZUKO 2 2
+add_event $T hONzuko 2
+add_event $U hONzuko 2
+add_event $U hONzuko 2
+add_event $T hONzuko 2
+remove_event $U HonZUKO 2
+remove_event $T HonZUKO 2
+remove_event $T HonZUKO 2
+remove_event $U HonZUKO 2
+remove_event $U hONzuko 2 2 2001
+remove_event $T hONzuko 2 2 2001
+print $U
+print $T
+set_date $U 1996 2 29
+set_date $T 1996 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+remove_event $T XoOZbBI 2 1 2000
+remove_event $U XoOZbBI 2 1 2000
+add_event $U xOozBbi
+add_event $T xOozBbi
+add_event $T XoOZbBI 2
+add_event $U XoOZbBI 2
+remove_event $T XoOZbBI 2
+remove_event $U XoOZbBI 2
+remove_event $U XoOZbBI
+remove_event $T XoOZbBI
+remove_event $U XoOZbBI 2
+remove_event $T XoOZbBI 2
+add_event $T xOozBbi 2
+add_event $U xOozBbi 2
+add_event $U XoOZbBI 2 1
+add_event $T XoOZbBI 2 1
+add_event $U XoOZbBI 2 1 2000
+add_event $T XoOZbBI 2 1 2000
+print $T
+print $U
+set_date $T 1997 2 29
+set_date $U 1997 2 29
+set_date $T 2000 1 1
+set_date $U 2000 1 1
+remove_event $T zVTcMmk 1
+remove_event $U zVTcMmk 1
+remove_event $T zVTcMmk 1 1 2000
+remove_event $U zVTcMmk 1 1 2000
+remove_event $T zVTcMmk
+remove_event $U zVTcMmk
+add_event $U zVTcMmk 1
+add_event $T zVTcMmk 1
+add_event $U ZvtCmMK 1 1 2000
+add_event $T ZvtCmMK 1 1 2000
+add_event $U zVTcMmk
+add_event $T zVTcMmk
+remove_event $T ZvtCmMK 1
+remove_event $U ZvtCmMK 1
+add_event $T zVTcMmk 1
+add_event $U zVTcMmk 1
+add_event $T zVTcMmk 1 1
+add_event $U zVTcMmk 1 1
+print $T
+print $U
+set_date $U 2010 2 29
+set_date $T 2010 2 29
+set_date $T 2001 1 1
+set_date $U 2001 1 1
+add_event $T IEdfjgi 1 1 2001
+add_event $U IEdfjgi 1 1 2001
+remove_event $T ieDFJGI 1
+remove_event $U ieDFJGI 1
+remove_event $T IEdfjgi 1
+remove_event $U IEdfjgi 1
+remove_event $U IEdfjgi
+remove_event $T IEdfjgi
+add_event $U IEdfjgi
+add_event $T IEdfjgi
+add_event $U ieDFJGI 1 1
+add_event $T ieDFJGI 1 1
+remove_event $T IEdfjgi 1 1 2001
+remove_event $U IEdfjgi 1 1 2001
+add_event $U ieDFJGI 1
+add_event $T ieDFJGI 1
+add_event $U ieDFJGI 1
+add_event $T ieDFJGI 1
+print $U
+print $T
+set_date $U 2003 2 29
+set_date $T 2003 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+remove_event $U YpgZmJh
+remove_event $T YpgZmJh
+add_event $U YpgZmJh 1 2
+add_event $T YpgZmJh 1 2
+remove_event $U YpgZmJh 1
+remove_event $T YpgZmJh 1
+add_event $U YpgZmJh 1
+add_event $T YpgZmJh 1
+remove_event $U YpgZmJh 1
+remove_event $T YpgZmJh 1
+remove_event $T YpgZmJh 1 2 2001
+remove_event $U YpgZmJh 1 2 2001
+add_event $T YpgZmJh 1 2 2001
+add_event $U YpgZmJh 1 2 2001
+add_event $U YpgZmJh
+add_event $T YpgZmJh
+add_event $T yPGzMjH 1
+add_event $U yPGzMjH 1
+print $T
+print $U
+set_date $U 2001 2 29
+set_date $T 2001 2 29
+set_date $U 2000 2 1
+set_date $T 2000 2 1
+remove_event $T PXoQRFi 1
+remove_event $U PXoQRFi 1
+add_event $U PXoQRFi
+add_event $T PXoQRFi
+remove_event $U pxOqrfI 1 2 2000
+remove_event $T pxOqrfI 1 2 2000
+add_event $T pxOqrfI 1
+add_event $U pxOqrfI 1
+add_event $U PXoQRFi 1 2
+add_event $T PXoQRFi 1 2
+remove_event $U pxOqrfI
+remove_event $T pxOqrfI
+add_event $T pxOqrfI 1
+add_event $U pxOqrfI 1
+add_event $U PXoQRFi 1 2 2000
+add_event $T PXoQRFi 1 2 2000
+remove_event $T PXoQRFi 1
+remove_event $U PXoQRFi 1
+print $T
+print $U
+set_date $U 1993 2 29
+set_date $T 1993 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+remove_event $U FLgfwzB
+remove_event $T FLgfwzB
+remove_event $T FLgfwzB 2
+remove_event $U FLgfwzB 2
+add_event $U flGFWZb 2
+add_event $T flGFWZb 2
+add_event $U flGFWZb 2 1 2000
+add_event $T flGFWZb 2 1 2000
+add_event $T FLgfwzB 2 1
+add_event $U FLgfwzB 2 1
+remove_event $U flGFWZb 2
+remove_event $T flGFWZb 2
+add_event $U flGFWZb
+add_event $T flGFWZb
+add_event $T flGFWZb 2
+add_event $U flGFWZb 2
+remove_event $T flGFWZb 2 1 2000
+remove_event $U flGFWZb 2 1 2000
+print $U
+print $T
+set_date $T 1999 2 29
+set_date $U 1999 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+add_event $T WaeRNsJ 1
+add_event $U WaeRNsJ 1
+remove_event $T WaeRNsJ 1
+remove_event $U WaeRNsJ 1
+add_event $T WaeRNsJ 1 2
+add_event $U WaeRNsJ 1 2
+add_event $T WaeRNsJ 1 2 2001
+add_event $U WaeRNsJ 1 2 2001
+add_event $U WaeRNsJ
+add_event $T WaeRNsJ
+remove_event $U wAErnSj 1
+remove_event $T wAErnSj 1
+remove_event $T WaeRNsJ 1 2 2001
+remove_event $U WaeRNsJ 1 2 2001
+add_event $T wAErnSj 1
+add_event $U wAErnSj 1
+remove_event $T WaeRNsJ
+remove_event $U WaeRNsJ
+print $T
+print $U
+set_date $U 1994 2 29
+set_date $T 1994 2 29
+set_date $T 2000 2 2
+set_date $U 2000 2 2
+remove_event $U siPBmHw
+remove_event $T siPBmHw
+add_event $T siPBmHw
+add_event $U siPBmHw
+add_event $T siPBmHw 2 2
+add_event $U siPBmHw 2 2
+remove_event $U siPBmHw 2
+remove_event $T siPBmHw 2
+remove_event $U siPBmHw 2
+remove_event $T siPBmHw 2
+add_event $T siPBmHw 2
+add_event $U siPBmHw 2
+add_event $U siPBmHw 2 2 2000
+add_event $T siPBmHw 2 2 2000
+remove_event $U siPBmHw 2 2 2000
+remove_event $T siPBmHw 2 2 2000
+add_event $U SIpbMhW 2
+add_event $T SIpbMhW 2
+print $U
+print $T
+set_date $T 2009 2 29
+set_date $U 2009 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+remove_event $T NZBvsck 2
+remove_event $U NZBvsck 2
+add_event $U NZBvsck 2
+add_event $T NZBvsck 2
+remove_event $U NZBvsck
+remove_event $T NZBvsck
+add_event $T NZBvsck
+add_event $U NZBvsck
+add_event $U nzbVSCK 2 1
+add_event $T nzbVSCK 2 1
+remove_event $U NZBvsck 2
+remove_event $T NZBvsck 2
+add_event $T nzbVSCK 2 1 2000
+add_event $U nzbVSCK 2 1 2000
+remove_event $U nzbVSCK 2 1 2000
+remove_event $T nzbVSCK 2 1 2000
+add_event $U NZBvsck 2
+add_event $T NZBvsck 2
+print $U
+print $T
+set_date $U 2003 2 29
+set_date $T 2003 2 29
+set_date $U 2001 2 1
+set_date $T 2001 2 1
+add_event $U nJmLpoQ 1 2 2001
+add_event $T nJmLpoQ 1 2 2001
+add_event $T nJmLpoQ 1
+add_event $U nJmLpoQ 1
+remove_event $U nJmLpoQ 1 2 2001
+remove_event $T nJmLpoQ 1 2 2001
+add_event $T NjMlPOq
+add_event $U NjMlPOq
+remove_event $T NjMlPOq 1
+remove_event $U NjMlPOq 1
+remove_event $U nJmLpoQ 1
+remove_event $T nJmLpoQ 1
+add_event $U NjMlPOq 1 2
+add_event $T NjMlPOq 1 2
+add_event $U NjMlPOq 1
+add_event $T NjMlPOq 1
+remove_event $T nJmLpoQ
+remove_event $U nJmLpoQ
+print $T
+print $U
+set_date $T 2001 2 29
+set_date $U 2001 2 29
+set_date $T 2001 1 2
+set_date $U 2001 1 2
+remove_event $T nhYKAEw
+remove_event $U nhYKAEw
+remove_event $T NHykaeW 2
+remove_event $U NHykaeW 2
+remove_event $U NHykaeW 2
+remove_event $T NHykaeW 2
+remove_event $U NHykaeW 2 1 2001
+remove_event $T NHykaeW 2 1 2001
+add_event $T nhYKAEw 2
+add_event $U nhYKAEw 2
+add_event $U nhYKAEw 2 1 2001
+add_event $T nhYKAEw 2 1 2001
+add_event $U nhYKAEw 2 1
+add_event $T nhYKAEw 2 1
+add_event $T NHykaeW 2
+add_event $U NHykaeW 2
+add_event $T nhYKAEw
+add_event $U nhYKAEw
+print $T
+print $U
+set_date $U 2001 2 29
+set_date $T 2001 2 29
+set_date $T 2001 1 1
+set_date $U 2001 1 1
+add_event $T yBHEsfl 1
+add_event $U yBHEsfl 1
+add_event $U yBHEsfl 1 1
+add_event $T yBHEsfl 1 1
+remove_event $U yBHEsfl 1
+remove_event $T yBHEsfl 1
+add_event $U YbheSFL 1
+add_event $T YbheSFL 1
+remove_event $T yBHEsfl
+remove_event $U yBHEsfl
+remove_event $U YbheSFL 1 1 2001
+remove_event $T YbheSFL 1 1 2001
+add_event $U yBHEsfl 1 1 2001
+add_event $T yBHEsfl 1 1 2001
+remove_event $T YbheSFL 1
+remove_event $U YbheSFL 1
+add_event $U yBHEsfl
+add_event $T yBHEsfl
+print $U
+print $T
+set_date $U 2003 2 29
+set_date $T 2003 2 29
+set_date $T 2000 2 2
+set_date $U 2000 2 2
+remove_event $U egSPwjq
+remove_event $T egSPwjq
+add_event $U egSPwjq 2
+add_event $T egSPwjq 2
+remove_event $U egSPwjq 2 2 2000
+remove_event $T egSPwjq 2 2 2000
+add_event $T egSPwjq 2 2
+add_event $U egSPwjq 2 2
+remove_event $T egSPwjq 2
+remove_event $U egSPwjq 2
+add_event $U egSPwjq 2 2 2000
+add_event $T egSPwjq 2 2 2000
+add_event $T egSPwjq 2
+add_event $U egSPwjq 2
+remove_event $U EGspWJQ 2
+remove_event $T EGspWJQ 2
+add_event $T EGspWJQ
+add_event $U EGspWJQ
+print $U
+print $T
+set_date $T 2010 2 29
+set_date $U 2010 2 29
+set_date $T 2000 1 1
+set_date $U 2000 1 1
+add_event $T HfzwGAr
+add_event $U HfzwGAr
+remove_event $U hFZWgaR
+remove_event $T hFZWgaR
+add_event $U HfzwGAr 1
+add_event $T HfzwGAr 1
+remove_event $U hFZWgaR 1
+remove_event $T hFZWgaR 1
+add_event $U hFZWgaR 1 1 2000
+add_event $T hFZWgaR 1 1 2000
+add_event $T hFZWgaR 1
+add_event $U hFZWgaR 1
+remove_event $U hFZWgaR 1
+remove_event $T hFZWgaR 1
+remove_event $T hFZWgaR 1 1 2000
+remove_event $U hFZWgaR 1 1 2000
+add_event $T hFZWgaR 1 1
+add_event $U hFZWgaR 1 1
+print $T
+print $U
+set_date $T 1997 2 29
+set_date $U 1997 2 29
+set_date $U 2000 1 1
+set_date $T 2000 1 1
+remove_event $U tysENSD 1
+remove_event $T tysENSD 1
+add_event $U TYSensd 1 1 2000
+add_event $T TYSensd 1 1 2000
+add_event $U tysENSD 1
+add_event $T tysENSD 1
+remove_event $U tysENSD 1 1 2000
+remove_event $T tysENSD 1 1 2000
+add_event $U tysENSD 1
+add_event $T tysENSD 1
+add_event $U TYSensd
+add_event $T TYSensd
+add_event $U tysENSD 1 1
+add_event $T tysENSD 1 1
+remove_event $U tysENSD
+remove_event $T tysENSD
+remove_event $U TYSensd 1
+remove_event $T TYSensd 1
+print $T
+print $U
+set_date $T 2003 2 29
+set_date $U 2003 2 29
+set_date $T 2000 1 1
+set_date $U 2000 1 1
+add_event $T BucWqvb 1 1 2000
+add_event $U BucWqvb 1 1 2000
+remove_event $U BucWqvb 1
+remove_event $T BucWqvb 1
+remove_event $T BucWqvb 1
+remove_event $U BucWqvb 1
+remove_event $U bUCwQVB
+remove_event $T bUCwQVB
+add_event $U BucWqvb 1 1
+add_event $T BucWqvb 1 1
+add_event $U bUCwQVB 1
+add_event $T bUCwQVB 1
+remove_event $U bUCwQVB 1 1 2000
+remove_event $T bUCwQVB 1 1 2000
+add_event $T BucWqvb
+add_event $U BucWqvb
+add_event $U BucWqvb 1
+add_event $T BucWqvb 1
+print $T
+print $U
+set_date $U 2010 2 29
+set_date $T 2010 2 29
+set_date $T 2001 1 2
+set_date $U 2001 1 2
+add_event $U SKZskyP
+add_event $T SKZskyP
+add_event $T skzSKYp 2
+add_event $U skzSKYp 2
+add_event $U skzSKYp 2 1 2001
+add_event $T skzSKYp 2 1 2001
+remove_event $T skzSKYp 2 1 2001
+remove_event $U skzSKYp 2 1 2001
+add_event $U skzSKYp 2 1
+add_event $T skzSKYp 2 1
+add_event $T skzSKYp 2
+add_event $U skzSKYp 2
+remove_event $T SKZskyP
+remove_event $U SKZskyP
+remove_event $T skzSKYp 2
+remove_event $U skzSKYp 2
+remove_event $U SKZskyP 2
+remove_event $T SKZskyP 2
+print $T
+print $U
+set_date $T 2009 2 29
+set_date $U 2009 2 29
+set_date $T 2000 2 2
+set_date $U 2000 2 2
+remove_event $T JGLcdxv 2 2 2000
+remove_event $U JGLcdxv 2 2 2000
+add_event $U jglCDXV 2 2
+add_event $T jglCDXV 2 2
+add_event $T jglCDXV
+add_event $U jglCDXV
+add_event $U jglCDXV 2 2 2000
+add_event $T jglCDXV 2 2 2000
+add_event $U jglCDXV 2
+add_event $T jglCDXV 2
+remove_event $T jglCDXV
+remove_event $U jglCDXV
+remove_event $U JGLcdxv 2
+remove_event $T JGLcdxv 2
+add_event $U jglCDXV 2
+add_event $T jglCDXV 2
+remove_event $T jglCDXV 2
+remove_event $U jglCDXV 2
+print $T
+print $U
+set_date $T 2005 2 29
+set_date $U 2005 2 29
+set_date $U 2001 2 2
+set_date $T 2001 2 2
+remove_event $U TqMejbJ
+remove_event $T TqMejbJ
+add_event $U tQmEJBj 2 2 2001
+add_event $T tQmEJBj 2 2 2001
+remove_event $T tQmEJBj 2 2 2001
+remove_event $U tQmEJBj 2 2 2001
+remove_event $U TqMejbJ 2
+remove_event $T TqMejbJ 2
+add_event $T tQmEJBj 2 2
+add_event $U tQmEJBj 2 2
+add_event $T TqMejbJ 2
+add_event $U TqMejbJ 2
+add_event $T tQmEJBj 2
+add_event $U tQmEJBj 2
+add_event $U tQmEJBj
+add_event $T tQmEJBj
+remove_event $T TqMejbJ 2
+remove_event $U TqMejbJ 2
+print $U
+print $T
+set_date $T 2003 2 29
+set_date $U 2003 2 29
+set_date $U 2001 1 1
+set_date $T 2001 1 1
+add_event $T HAaxbht 1
+add_event $U HAaxbht 1
+add_event $T HAaxbht 1 1
+add_event $U HAaxbht 1 1
+add_event $U HAaxbht
+add_event $T HAaxbht
+remove_event $U HAaxbht 1
+remove_event $T HAaxbht 1
+remove_event $U HAaxbht 1 1 2001
+remove_event $T HAaxbht 1 1 2001
+remove_event $U haAXBHT 1
+remove_event $T haAXBHT 1
+remove_event $U haAXBHT
+remove_event $T haAXBHT
+add_event $U haAXBHT 1
+add_event $T haAXBHT 1
+add_event $T HAaxbht 1 1 2001
+add_event $U HAaxbht 1 1 2001
+print $U
+print $T
+set_date $U 2006 2 29
+set_date $T 2006 2 29
+set_date $T 2001 1 2
+set_date $U 2001 1 2
+add_event $U EQvPhCi 2 1 2001
+add_event $T EQvPhCi 2 1 2001
+add_event $U EQvPhCi 2
+add_event $T EQvPhCi 2
+remove_event $T eqVpHcI 2
+remove_event $U eqVpHcI 2
+remove_event $T EQvPhCi 2
+remove_event $U EQvPhCi 2
+add_event $U EQvPhCi 2
+add_event $T EQvPhCi 2
+remove_event $T eqVpHcI 2 1 2001
+remove_event $U eqVpHcI 2 1 2001
+add_event $U eqVpHcI 2 1
+add_event $T eqVpHcI 2 1
+add_event $T eqVpHcI
+add_event $U eqVpHcI
+remove_event $U eqVpHcI
+remove_event $T eqVpHcI
+print $T
+print $U
+set_date $U 2004 2 29
+set_date $T 2004 2 29
+set_date $T 2001 1 1
+set_date $U 2001 1 1
+add_event $U CoTRlVN 1
+add_event $T CoTRlVN 1
+remove_event $U cOtrLvn
+remove_event $T cOtrLvn
+add_event $U CoTRlVN
+add_event $T CoTRlVN
+remove_event $T cOtrLvn 1
+remove_event $U cOtrLvn 1
+remove_event $T cOtrLvn 1 1 2001
+remove_event $U cOtrLvn 1 1 2001
+add_event $T cOtrLvn 1
+add_event $U cOtrLvn 1
+add_event $U CoTRlVN 1 1 2001
+add_event $T CoTRlVN 1 1 2001
+remove_event $T cOtrLvn 1
+remove_event $U cOtrLvn 1
+add_event $U CoTRlVN 1 1
+add_event $T CoTRlVN 1 1
+print $T
+print $U
+set_date $T 1995 2 29
+set_date $U 1995 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+add_event $T eIOkmYD 2 1
+add_event $U eIOkmYD 2 1
+add_event $U EioKMyd 2
+add_event $T EioKMyd 2
+add_event $U eIOkmYD
+add_event $T eIOkmYD
+remove_event $T EioKMyd 2
+remove_event $U EioKMyd 2
+remove_event $U EioKMyd
+remove_event $T EioKMyd
+remove_event $T EioKMyd 2 1 2000
+remove_event $U EioKMyd 2 1 2000
+add_event $U EioKMyd 2 1 2000
+add_event $T EioKMyd 2 1 2000
+remove_event $T eIOkmYD 2
+remove_event $U eIOkmYD 2
+add_event $T EioKMyd 2
+add_event $U EioKMyd 2
+print $U
+print $T
+set_date $T 1990 2 29
+set_date $U 1990 2 29
+set_date $T 2000 1 2
+set_date $U 2000 1 2
+remove_event $T Kqaxokn 2
+remove_event $U Kqaxokn 2
+remove_event $U kQAXOKN 2
+remove_event $T kQAXOKN 2
+add_event $T kQAXOKN 2
+add_event $U kQAXOKN 2
+remove_event $U Kqaxokn 2 1 2000
+remove_event $T Kqaxokn 2 1 2000
+add_event $T kQAXOKN 2 1
+add_event $U kQAXOKN 2 1
+add_event $T Kqaxokn
+add_event $U Kqaxokn
+add_event $T Kqaxokn 2
+add_event $U Kqaxokn 2
+add_event $U Kqaxokn 2 1 2000
+add_event $T Kqaxokn 2 1 2000
+remove_event $U kQAXOKN
+remove_event $T kQAXOKN
+print $T
+print $U
+set_date $T 1990 2 29
+set_date $U 1990 2 29
+set_date $T 2001 1 2
+set_date $U 2001 1 2
+remove_event $T HLvbmGD 2
+remove_event $U HLvbmGD 2
+add_event $T hlVBMgd 2
+add_event $U hlVBMgd 2
+add_event $T hlVBMgd
+add_event $U hlVBMgd
+add_event $T hlVBMgd 2
+add_event $U hlVBMgd 2
+remove_event $U hlVBMgd 2
+remove_event $T hlVBMgd 2
+add_event $U HLvbmGD 2 1
+add_event $T HLvbmGD 2 1
+remove_event $T HLvbmGD 2 1 2001
+remove_event $U HLvbmGD 2 1 2001
+add_event $U HLvbmGD 2 1 2001
+add_event $T HLvbmGD 2 1 2001
+remove_event $U hlVBMgd
+remove_event $T hlVBMgd
+print $U
+print $T
+set_date $U 1997 2 29
+set_date $T 1997 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+remove_event $T yGNcXDY 1 2 2001
+remove_event $U yGNcXDY 1 2 2001
+add_event $U YgnCxdy 1 2 2001
+add_event $T YgnCxdy 1 2 2001
+remove_event $U YgnCxdy 1
+remove_event $T YgnCxdy 1
+add_event $T YgnCxdy 1
+add_event $U YgnCxdy 1
+remove_event $T yGNcXDY 1
+remove_event $U yGNcXDY 1
+add_event $T YgnCxdy 1
+add_event $U YgnCxdy 1
+add_event $U yGNcXDY
+add_event $T yGNcXDY
+add_event $U YgnCxdy 1 2
+add_event $T YgnCxdy 1 2
+remove_event $U yGNcXDY
+remove_event $T yGNcXDY
+print $U
+print $T
+set_date $T 1992 2 29
+set_date $U 1992 2 29
+set_date $U 2000 1 1
+set_date $T 2000 1 1
+add_event $U NntcrEJ 1
+add_event $T NntcrEJ 1
+remove_event $T NntcrEJ 1
+remove_event $U NntcrEJ 1
+remove_event $T nNTCRej
+remove_event $U nNTCRej
+add_event $U NntcrEJ 1 1
+add_event $T NntcrEJ 1 1
+remove_event $U NntcrEJ 1
+remove_event $T NntcrEJ 1
+add_event $T nNTCRej 1
+add_event $U nNTCRej 1
+add_event $T nNTCRej 1 1 2000
+add_event $U nNTCRej 1 1 2000
+remove_event $T NntcrEJ 1 1 2000
+remove_event $U NntcrEJ 1 1 2000
+add_event $U nNTCRej
+add_event $T nNTCRej
+print $T
+print $U
+set_date $U 1997 2 29
+set_date $T 1997 2 29
+set_date $T 2001 2 1
+set_date $U 2001 2 1
+add_event $T KPAnftc 1 2
+add_event $U KPAnftc 1 2
+remove_event $T KPAnftc 1
+remove_event $U KPAnftc 1
+remove_event $T kpaNFTC
+remove_event $U kpaNFTC
+remove_event $T KPAnftc 1
+remove_event $U KPAnftc 1
+remove_event $T KPAnftc 1 2 2001
+remove_event $U KPAnftc 1 2 2001
+add_event $U kpaNFTC
+add_event $T kpaNFTC
+add_event $U kpaNFTC 1 2 2001
+add_event $T kpaNFTC 1 2 2001
+add_event $T KPAnftc 1
+add_event $U KPAnftc 1
+add_event $U KPAnftc 1
+add_event $T KPAnftc 1
+print $U
+print $T
+set_date $T 2008 2 29
+set_date $U 2008 2 29
+set_date $U 2000 1 2
+set_date $T 2000 1 2
+remove_event $U QACuzxH 2
+remove_event $T QACuzxH 2
+remove_event $U qacUZXh 2 1 2000
+remove_event $T qacUZXh 2 1 2000
+remove_event $U QACuzxH
+remove_event $T QACuzxH
+add_event $U QACuzxH 2
+add_event $T QACuzxH 2
+add_event $U qacUZXh 2 1 2000
+add_event $T qacUZXh 2 1 2000
+add_event $U QACuzxH
+add_event $T QACuzxH
+add_event $U qacUZXh 2 1
+add_event $T qacUZXh 2 1
+remove_event $U QACuzxH 2
+remove_event $T QACuzxH 2
+add_event $T QACuzxH 2
+add_event $U QACuzxH 2
+print $U
+print $T
+destruct $V
+destruct $W
+copy-construct $Y gregorian $U
+copy-construct $X julian $T
+print $X
+print $Y
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+remove_event $U QACuzxH 2 1 2000
+remove_event $T QACuzxH 2 1 2000
+set_date $U 1900 1 1
+set_date $T 1900 1 1
+print $T
+print $U
+destruct $U
+destruct $T
+print $S
+print $R
+destruct $R
+destruct $S
+set_k_time 1917372437
+default-construct $AA gregorian 
+default-construct $Z gregorian 
+set_k_time 1749037388
+print $Z
+print $AA
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+add_event $AA fuvHMjy
+add_event $Z fuvHMjy
+remove_event $AA fuvHMjy
+remove_event $Z fuvHMjy
+set_date $Z 2011 2 29
+set_date $AA 2011 2 29
+print $AA
+print $Z
+set_date $AA 2009 2 29
+set_date $Z 2009 2 29
+set_date $AA 2003 2 29
+set_date $Z 2003 2 29
+add_event $AA UJRwdMz 14 9
+add_event $Z UJRwdMz 14 9
+remove_event $AA UJRwdMz 20 -2
+remove_event $Z UJRwdMz 20 -2
+set_date $AA 2001 2 29
+set_date $Z 2001 2 29
+print $AA
+print $Z
+set_date $AA 1995 2 29
+set_date $Z 1995 2 29
+set_date $Z 1999 2 29
+set_date $AA 1999 2 29
+add_event $Z ouwWUHr 25
+add_event $AA ouwWUHr 25
+remove_event $Z ouwWUHr 11
+remove_event $AA ouwWUHr 11
+set_date $AA 1993 2 29
+set_date $Z 1993 2 29
+print $AA
+print $Z
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+set_date $Z 2012 2 29
+set_date $AA 2012 2 29
+add_event $AA dqoRcMD
+add_event $Z dqoRcMD
+remove_event $Z dqoRcMD
+remove_event $AA dqoRcMD
+set_date $AA 1994 2 29
+set_date $Z 1994 2 29
+print $Z
+print $AA
+set_date $AA 2007 2 29
+set_date $Z 2007 2 29
+set_date $Z 2000 2 29
+set_date $AA 2000 2 29
+add_event $AA BgoOumI 24 0 2030
+add_event $Z BgoOumI 24 0 2030
+remove_event $Z BgoOumI 24 1 2018
+remove_event $AA BgoOumI 24 1 2018
+set_date $Z 1996 2 29
+set_date $AA 1996 2 29
+print $Z
+print $AA
+set_date $Z 2002 2 29
+set_date $AA 2002 2 29
+set_date $AA 2006 2 29
+set_date $Z 2006 2 29
+add_event $AA IRqUTxY 12 7 1988
+add_event $Z IRqUTxY 12 7 1988
+remove_event $Z IRqUTxY 26 3 1989
+remove_event $AA IRqUTxY 26 3 1989
+set_date $Z 2004 2 29
+set_date $AA 2004 2 29
+print $AA
+print $Z
+set_date $Z 2004 2 29
+set_date $AA 2004 2 29
+set_date $AA 1999 2 29
+set_date $Z 1999 2 29
+add_event $Z OuZJvEH 19 0 2037
+add_event $AA OuZJvEH 19 0 2037
+remove_event $AA OuZJvEH 23 1 1971
+remove_event $Z OuZJvEH 23 1 1971
+set_date $AA 2006 2 29
+set_date $Z 2006 2 29
+print $AA
+print $Z
+set_date $AA 1997 2 29
+set_date $Z 1997 2 29
+set_date $Z 2012 2 29
+set_date $AA 2012 2 29
+add_event $Z jPpGzny 2
+add_event $AA jPpGzny 2
+remove_event $AA jPpGzny -1
+remove_event $Z jPpGzny -1
+set_date $AA 2007 2 29
+set_date $Z 2007 2 29
+print $AA
+print $Z
+set_date $Z 1991 2 29
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+set_date $AA 1991 2 29
+add_event $Z MhHGTdE 2 8
+add_event $AA MhHGTdE 2 8
+remove_event $Z MhHGTdE 6 8
+remove_event $AA MhHGTdE 6 8
+set_date $Z 1992 2 29
+set_date $AA 1992 2 29
+print $Z
+print $AA
+set_date $AA 2009 2 29
+set_date $Z 2009 2 29
+set_date $AA 2012 2 29
+set_date $Z 2012 2 29
+add_event $AA ntExZOU 1
+add_event $Z ntExZOU 1
+remove_event $Z ntExZOU 0
+remove_event $AA ntExZOU 0
+set_date $Z 2010 2 29
+set_date $AA 2010 2 29
+print $Z
+print $AA
+set_date $AA 1992 2 29
+set_date $Z 1992 2 29
+copy-construct $AC gregorian $AA
+copy-construct $AB julian $Z
+print $AB
+print $AC
+set_date $Z 2009 2 29
+set_date $AA 2009 2 29
+set_date $AA 2000 2 2
+set_date $Z 2000 2 2
+add_event $Z mLuDoUW 2 2 2000
+add_event $AA mLuDoUW 2 2 2000
+remove_event $Z MlUdOuw 2 2 2000
+remove_event $AA MlUdOuw 2 2 2000
+add_event $Z mLuDoUW 2 2
+add_event $AA mLuDoUW 2 2
+remove_event $AA MlUdOuw 2
+remove_event $Z MlUdOuw 2
+add_event $Z MlUdOuw
+add_event $AA MlUdOuw
+remove_event $Z mLuDoUW
+remove_event $AA mLuDoUW
+add_event $Z mLuDoUW 2
+add_event $AA mLuDoUW 2
+remove_event $AA mLuDoUW 2
+remove_event $Z mLuDoUW 2
+add_event $Z MlUdOuw 2
+add_event $AA MlUdOuw 2
+print $AA
+print $Z
+set_date $Z 1996 2 29
+set_date $AA 1996 2 29
+set_date $Z 2001 2 2
+set_date $AA 2001 2 2
+remove_event $AA lsLUkRw 2
+remove_event $Z lsLUkRw 2
+add_event $AA LSluKrW 2
+add_event $Z LSluKrW 2
+remove_event $Z lsLUkRw
+remove_event $AA lsLUkRw
+add_event $Z lsLUkRw 2 2
+add_event $AA lsLUkRw 2 2
+remove_event $AA lsLUkRw 2 2 2001
+remove_event $Z lsLUkRw 2 2 2001
+add_event $Z lsLUkRw 2 2 2001
+add_event $AA lsLUkRw 2 2 2001
+add_event $Z lsLUkRw
+add_event $AA lsLUkRw
+remove_event $AA LSluKrW 2
+remove_event $Z LSluKrW 2
+add_event $Z LSluKrW 2
+add_event $AA LSluKrW 2
+print $Z
+print $AA
+set_date $AA 1999 2 29
+set_date $Z 1999 2 29
+set_date $Z 2001 2 2
+set_date $AA 2001 2 2
+remove_event $Z zkdjevI
+remove_event $AA zkdjevI
+remove_event $Z zkdjevI 2
+remove_event $AA zkdjevI 2
+add_event $AA zkdjevI 2 2
+add_event $Z zkdjevI 2 2
+add_event $Z zkdjevI 2
+add_event $AA zkdjevI 2
+add_event $AA zkdjevI 2 2 2001
+add_event $Z zkdjevI 2 2 2001
+remove_event $Z zkdjevI 2 2 2001
+remove_event $AA zkdjevI 2 2 2001
+add_event $AA zkdjevI
+add_event $Z zkdjevI
+remove_event $Z ZKDJEVi 2
+remove_event $AA ZKDJEVi 2
+add_event $AA ZKDJEVi 2
+add_event $Z ZKDJEVi 2
+print $Z
+print $AA
+set_date $AA 1996 2 29
+set_date $Z 1996 2 29
+set_date $AA 2000 2 1
+set_date $Z 2000 2 1
+remove_event $AA aLhejTB 1 2 2000
+remove_event $Z aLhejTB 1 2 2000
+add_event $AA AlHEJtb 1
+add_event $Z AlHEJtb 1
+add_event $AA aLhejTB 1
+add_event $Z aLhejTB 1
+add_event $Z AlHEJtb
+add_event $AA AlHEJtb
+remove_event $AA AlHEJtb 1
+remove_event $Z AlHEJtb 1
+add_event $AA aLhejTB 1 2
+add_event $Z aLhejTB 1 2
+add_event $Z AlHEJtb 1 2 2000
+add_event $AA AlHEJtb 1 2 2000
+remove_event $AA AlHEJtb
+remove_event $Z AlHEJtb
+remove_event $Z AlHEJtb 1
+remove_event $AA AlHEJtb 1
+print $Z
+print $AA
+set_date $AA 2001 2 29
+set_date $Z 2001 2 29
+set_date $Z 2000 1 1
+set_date $AA 2000 1 1
+add_event $Z vlbafoh 1 1
+add_event $AA vlbafoh 1 1
+remove_event $AA VLBAFOH 1
+remove_event $Z VLBAFOH 1
+remove_event $Z VLBAFOH
+remove_event $AA VLBAFOH
+add_event $AA VLBAFOH 1
+add_event $Z VLBAFOH 1
+remove_event $Z vlbafoh 1 1 2000
+remove_event $AA vlbafoh 1 1 2000
+remove_event $Z vlbafoh 1
+remove_event $AA vlbafoh 1
+add_event $Z VLBAFOH 1 1 2000
+add_event $AA VLBAFOH 1 1 2000
+add_event $AA VLBAFOH 1
+add_event $Z VLBAFOH 1
+add_event $Z vlbafoh
+add_event $AA vlbafoh
+print $AA
+print $Z
+set_date $Z 2009 2 29
+set_date $AA 2009 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+add_event $Z eVvQsgu
+add_event $AA eVvQsgu
+add_event $Z eVvQsgu 2
+add_event $AA eVvQsgu 2
+remove_event $AA eVvQsgu
+remove_event $Z eVvQsgu
+remove_event $AA eVvQsgu 2
+remove_event $Z eVvQsgu 2
+remove_event $Z eVvQsgu 2 2 2000
+remove_event $AA eVvQsgu 2 2 2000
+add_event $AA EvVqSGU 2 2
+add_event $Z EvVqSGU 2 2
+add_event $AA EvVqSGU 2
+add_event $Z EvVqSGU 2
+remove_event $Z eVvQsgu 2
+remove_event $AA eVvQsgu 2
+add_event $Z eVvQsgu 2 2 2000
+add_event $AA eVvQsgu 2 2 2000
+print $Z
+print $AA
+set_date $AA 2002 2 29
+set_date $Z 2002 2 29
+set_date $Z 2001 1 2
+set_date $AA 2001 1 2
+remove_event $Z GalQCMX
+remove_event $AA GalQCMX
+remove_event $Z gALqcmx 2
+remove_event $AA gALqcmx 2
+remove_event $AA gALqcmx 2 1 2001
+remove_event $Z gALqcmx 2 1 2001
+add_event $AA GalQCMX
+add_event $Z GalQCMX
+add_event $AA gALqcmx 2
+add_event $Z gALqcmx 2
+add_event $Z gALqcmx 2 1 2001
+add_event $AA gALqcmx 2 1 2001
+add_event $Z gALqcmx 2 1
+add_event $AA gALqcmx 2 1
+add_event $AA gALqcmx 2
+add_event $Z gALqcmx 2
+remove_event $AA GalQCMX 2
+remove_event $Z GalQCMX 2
+print $AA
+print $Z
+set_date $Z 2008 2 29
+set_date $AA 2008 2 29
+set_date $Z 2001 2 1
+set_date $AA 2001 2 1
+remove_event $Z wfeTWFz 1 2 2001
+remove_event $AA wfeTWFz 1 2 2001
+add_event $AA wfeTWFz 1
+add_event $Z wfeTWFz 1
+add_event $Z wfeTWFz 1
+add_event $AA wfeTWFz 1
+add_event $AA WFEtwfZ 1 2
+add_event $Z WFEtwfZ 1 2
+add_event $Z WFEtwfZ
+add_event $AA WFEtwfZ
+remove_event $Z WFEtwfZ
+remove_event $AA WFEtwfZ
+remove_event $Z wfeTWFz 1
+remove_event $AA wfeTWFz 1
+remove_event $AA WFEtwfZ 1
+remove_event $Z WFEtwfZ 1
+add_event $Z WFEtwfZ 1 2 2001
+add_event $AA WFEtwfZ 1 2 2001
+print $Z
+print $AA
+set_date $Z 2006 2 29
+set_date $AA 2006 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+remove_event $Z SDgBGwu 2
+remove_event $AA SDgBGwu 2
+remove_event $Z sdGbgWU
+remove_event $AA sdGbgWU
+remove_event $Z SDgBGwu 2
+remove_event $AA SDgBGwu 2
+add_event $AA sdGbgWU 2
+add_event $Z sdGbgWU 2
+add_event $Z SDgBGwu
+add_event $AA SDgBGwu
+remove_event $AA sdGbgWU 2 2 2000
+remove_event $Z sdGbgWU 2 2 2000
+add_event $Z SDgBGwu 2
+add_event $AA SDgBGwu 2
+add_event $AA SDgBGwu 2 2 2000
+add_event $Z SDgBGwu 2 2 2000
+add_event $AA SDgBGwu 2 2
+add_event $Z SDgBGwu 2 2
+print $AA
+print $Z
+set_date $AA 1999 2 29
+set_date $Z 1999 2 29
+set_date $Z 2001 1 1
+set_date $AA 2001 1 1
+add_event $AA LGqmUSY 1 1 2001
+add_event $Z LGqmUSY 1 1 2001
+remove_event $AA LGqmUSY 1
+remove_event $Z LGqmUSY 1
+add_event $AA LGqmUSY
+add_event $Z LGqmUSY
+remove_event $Z lgQMusy 1 1 2001
+remove_event $AA lgQMusy 1 1 2001
+add_event $Z lgQMusy 1 1
+add_event $AA lgQMusy 1 1
+remove_event $AA lgQMusy
+remove_event $Z lgQMusy
+remove_event $Z LGqmUSY 1
+remove_event $AA LGqmUSY 1
+add_event $AA LGqmUSY 1
+add_event $Z LGqmUSY 1
+add_event $AA lgQMusy 1
+add_event $Z lgQMusy 1
+print $Z
+print $AA
+set_date $AA 1995 2 29
+set_date $Z 1995 2 29
+set_date $AA 2000 2 2
+set_date $Z 2000 2 2
+add_event $AA vNePFsX
+add_event $Z vNePFsX
+remove_event $AA VnEpfSx 2 2 2000
+remove_event $Z VnEpfSx 2 2 2000
+add_event $Z VnEpfSx 2
+add_event $AA VnEpfSx 2
+remove_event $Z vNePFsX 2
+remove_event $AA vNePFsX 2
+add_event $AA VnEpfSx 2 2
+add_event $Z VnEpfSx 2 2
+remove_event $AA VnEpfSx
+remove_event $Z VnEpfSx
+add_event $AA vNePFsX 2 2 2000
+add_event $Z vNePFsX 2 2 2000
+add_event $AA VnEpfSx 2
+add_event $Z VnEpfSx 2
+remove_event $Z VnEpfSx 2
+remove_event $AA VnEpfSx 2
+print $AA
+print $Z
+set_date $Z 2011 2 29
+set_date $AA 2011 2 29
+set_date $AA 2001 1 1
+set_date $Z 2001 1 1
+add_event $Z exautJO
+add_event $AA exautJO
+remove_event $Z exautJO 1 1 2001
+remove_event $AA exautJO 1 1 2001
+remove_event $Z EXAUTjo 1
+remove_event $AA EXAUTjo 1
+add_event $Z exautJO 1
+add_event $AA exautJO 1
+remove_event $AA exautJO 1
+remove_event $Z exautJO 1
+add_event $AA exautJO 1 1 2001
+add_event $Z exautJO 1 1 2001
+remove_event $Z exautJO
+remove_event $AA exautJO
+add_event $Z exautJO 1
+add_event $AA exautJO 1
+add_event $Z exautJO 1 1
+add_event $AA exautJO 1 1
+print $AA
+print $Z
+set_date $AA 1994 2 29
+set_date $Z 1994 2 29
+set_date $AA 2001 2 2
+set_date $Z 2001 2 2
+add_event $AA notJXAa 2 2 2001
+add_event $Z notJXAa 2 2 2001
+add_event $Z notJXAa
+add_event $AA notJXAa
+remove_event $Z notJXAa
+remove_event $AA notJXAa
+remove_event $AA notJXAa 2
+remove_event $Z notJXAa 2
+add_event $Z NOTjxaA 2
+add_event $AA NOTjxaA 2
+add_event $AA NOTjxaA 2
+add_event $Z NOTjxaA 2
+remove_event $Z NOTjxaA 2
+remove_event $AA NOTjxaA 2
+remove_event $Z NOTjxaA 2 2 2001
+remove_event $AA NOTjxaA 2 2 2001
+add_event $AA NOTjxaA 2 2
+add_event $Z NOTjxaA 2 2
+print $Z
+print $AA
+set_date $Z 2007 2 29
+set_date $AA 2007 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+add_event $Z ZcUBKRv 2
+add_event $AA ZcUBKRv 2
+remove_event $AA zCubkrV 2 2 2000
+remove_event $Z zCubkrV 2 2 2000
+remove_event $Z ZcUBKRv 2
+remove_event $AA ZcUBKRv 2
+add_event $Z zCubkrV 2
+add_event $AA zCubkrV 2
+remove_event $Z ZcUBKRv
+remove_event $AA ZcUBKRv
+add_event $AA ZcUBKRv
+add_event $Z ZcUBKRv
+add_event $AA zCubkrV 2 2
+add_event $Z zCubkrV 2 2
+add_event $Z ZcUBKRv 2 2 2000
+add_event $AA ZcUBKRv 2 2 2000
+remove_event $AA ZcUBKRv 2
+remove_event $Z ZcUBKRv 2
+print $Z
+print $AA
+set_date $Z 1999 2 29
+set_date $AA 1999 2 29
+set_date $AA 2001 2 2
+set_date $Z 2001 2 2
+add_event $Z GPaDMdW 2 2
+add_event $AA GPaDMdW 2 2
+remove_event $Z gpAdmDw 2
+remove_event $AA gpAdmDw 2
+remove_event $AA GPaDMdW 2 2 2001
+remove_event $Z GPaDMdW 2 2 2001
+remove_event $Z gpAdmDw
+remove_event $AA gpAdmDw
+remove_event $AA GPaDMdW 2
+remove_event $Z GPaDMdW 2
+add_event $Z gpAdmDw
+add_event $AA gpAdmDw
+add_event $Z gpAdmDw 2
+add_event $AA gpAdmDw 2
+add_event $Z GPaDMdW 2 2 2001
+add_event $AA GPaDMdW 2 2 2001
+add_event $AA gpAdmDw 2
+add_event $Z gpAdmDw 2
+print $AA
+print $Z
+set_date $Z 1994 2 29
+set_date $AA 1994 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+add_event $AA AimBgkR
+add_event $Z AimBgkR
+add_event $Z aIMbGKr 2 2
+add_event $AA aIMbGKr 2 2
+remove_event $Z AimBgkR 2 2 2000
+remove_event $AA AimBgkR 2 2 2000
+add_event $AA AimBgkR 2 2 2000
+add_event $Z AimBgkR 2 2 2000
+remove_event $Z AimBgkR 2
+remove_event $AA AimBgkR 2
+add_event $Z AimBgkR 2
+add_event $AA AimBgkR 2
+remove_event $Z aIMbGKr 2
+remove_event $AA aIMbGKr 2
+remove_event $AA aIMbGKr
+remove_event $Z aIMbGKr
+add_event $Z AimBgkR 2
+add_event $AA AimBgkR 2
+print $Z
+print $AA
+set_date $Z 2000 2 29
+set_date $AA 2000 2 29
+set_date $AA 2000 1 1
+set_date $Z 2000 1 1
+add_event $Z KpdXfVk
+add_event $AA KpdXfVk
+add_event $Z kPDxFvK 1
+add_event $AA kPDxFvK 1
+add_event $AA kPDxFvK 1 1 2000
+add_event $Z kPDxFvK 1 1 2000
+remove_event $Z kPDxFvK
+remove_event $AA kPDxFvK
+remove_event $Z kPDxFvK 1
+remove_event $AA kPDxFvK 1
+remove_event $AA KpdXfVk 1 1 2000
+remove_event $Z KpdXfVk 1 1 2000
+add_event $Z kPDxFvK 1
+add_event $AA kPDxFvK 1
+add_event $AA kPDxFvK 1 1
+add_event $Z kPDxFvK 1 1
+remove_event $AA kPDxFvK 1
+remove_event $Z kPDxFvK 1
+print $Z
+print $AA
+set_date $AA 1997 2 29
+set_date $Z 1997 2 29
+set_date $Z 2000 1 2
+set_date $AA 2000 1 2
+add_event $AA ZhJBxKc 2 1
+add_event $Z ZhJBxKc 2 1
+add_event $Z zHjbXkC 2
+add_event $AA zHjbXkC 2
+add_event $AA zHjbXkC
+add_event $Z zHjbXkC
+add_event $AA zHjbXkC 2
+add_event $Z zHjbXkC 2
+remove_event $AA ZhJBxKc 2 1 2000
+remove_event $Z ZhJBxKc 2 1 2000
+add_event $AA zHjbXkC 2 1 2000
+add_event $Z zHjbXkC 2 1 2000
+remove_event $AA ZhJBxKc
+remove_event $Z ZhJBxKc
+remove_event $Z zHjbXkC 2
+remove_event $AA zHjbXkC 2
+remove_event $Z zHjbXkC 2
+remove_event $AA zHjbXkC 2
+print $Z
+print $AA
+set_date $Z 1997 2 29
+set_date $AA 1997 2 29
+set_date $AA 2000 2 2
+set_date $Z 2000 2 2
+add_event $Z WSfdIQO 2 2
+add_event $AA WSfdIQO 2 2
+remove_event $AA WSfdIQO 2
+remove_event $Z WSfdIQO 2
+add_event $AA WSfdIQO 2 2 2000
+add_event $Z WSfdIQO 2 2 2000
+add_event $AA wsFDiqo 2
+add_event $Z wsFDiqo 2
+remove_event $AA wsFDiqo 2
+remove_event $Z wsFDiqo 2
+remove_event $Z wsFDiqo 2 2 2000
+remove_event $AA wsFDiqo 2 2 2000
+add_event $Z WSfdIQO
+add_event $AA WSfdIQO
+add_event $Z wsFDiqo 2
+add_event $AA wsFDiqo 2
+remove_event $AA WSfdIQO
+remove_event $Z WSfdIQO
+print $Z
+print $AA
+set_date $Z 1997 2 29
+set_date $AA 1997 2 29
+set_date $Z 2000 1 1
+set_date $AA 2000 1 1
+remove_event $AA yBwHYZC 1
+remove_event $Z yBwHYZC 1
+add_event $AA yBwHYZC 1 1
+add_event $Z yBwHYZC 1 1
+remove_event $AA YbWhyzc 1 1 2000
+remove_event $Z YbWhyzc 1 1 2000
+remove_event $AA yBwHYZC 1
+remove_event $Z yBwHYZC 1
+add_event $Z yBwHYZC 1
+add_event $AA yBwHYZC 1
+add_event $AA yBwHYZC 1
+add_event $Z yBwHYZC 1
+add_event $Z yBwHYZC
+add_event $AA yBwHYZC
+add_event $AA YbWhyzc 1 1 2000
+add_event $Z YbWhyzc 1 1 2000
+remove_event $AA yBwHYZC
+remove_event $Z yBwHYZC
+print $Z
+print $AA
+set_date $Z 1994 2 29
+set_date $AA 1994 2 29
+set_date $AA 2000 2 2
+set_date $Z 2000 2 2
+remove_event $Z dwQMtXq 2
+remove_event $AA dwQMtXq 2
+remove_event $AA dwQMtXq 2 2 2000
+remove_event $Z dwQMtXq 2 2 2000
+add_event $AA DWqmTxQ 2 2
+add_event $Z DWqmTxQ 2 2
+add_event $Z dwQMtXq 2
+add_event $AA dwQMtXq 2
+add_event $Z dwQMtXq
+add_event $AA dwQMtXq
+remove_event $AA DWqmTxQ 2
+remove_event $Z DWqmTxQ 2
+add_event $AA dwQMtXq 2 2 2000
+add_event $Z dwQMtXq 2 2 2000
+add_event $Z DWqmTxQ 2
+add_event $AA DWqmTxQ 2
+remove_event $Z DWqmTxQ
+remove_event $AA DWqmTxQ
+print $AA
+print $Z
+set_date $Z 2011 2 29
+set_date $AA 2011 2 29
+set_date $AA 2001 2 2
+set_date $Z 2001 2 2
+remove_event $Z eDFmBnr 2 2 2001
+remove_event $AA eDFmBnr 2 2 2001
+add_event $Z EdfMbNR
+add_event $AA EdfMbNR
+add_event $AA EdfMbNR 2 2
+add_event $Z EdfMbNR 2 2
+add_event $Z EdfMbNR 2
+add_event $AA EdfMbNR 2
+add_event $AA eDFmBnr 2
+add_event $Z eDFmBnr 2
+remove_event $Z eDFmBnr 2
+remove_event $AA eDFmBnr 2
+remove_event $AA eDFmBnr 2
+remove_event $Z eDFmBnr 2
+remove_event $Z EdfMbNR
+remove_event $AA EdfMbNR
+add_event $AA EdfMbNR 2 2 2001
+add_event $Z EdfMbNR 2 2 2001
+print $Z
+print $AA
+set_date $AA 2010 2 29
+set_date $Z 2010 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+add_event $AA liJxyfn 2 2
+add_event $Z liJxyfn 2 2
+add_event $Z LIjXYFN 2 2 2000
+add_event $AA LIjXYFN 2 2 2000
+remove_event $AA LIjXYFN 2 2 2000
+remove_event $Z LIjXYFN 2 2 2000
+add_event $Z liJxyfn 2
+add_event $AA liJxyfn 2
+remove_event $Z liJxyfn 2
+remove_event $AA liJxyfn 2
+add_event $AA LIjXYFN
+add_event $Z LIjXYFN
+add_event $Z LIjXYFN 2
+add_event $AA LIjXYFN 2
+remove_event $Z liJxyfn 2
+remove_event $AA liJxyfn 2
+remove_event $Z liJxyfn
+remove_event $AA liJxyfn
+print $AA
+print $Z
+set_date $Z 2007 2 29
+set_date $AA 2007 2 29
+set_date $Z 2000 2 2
+set_date $AA 2000 2 2
+add_event $AA sEYCaHf
+add_event $Z sEYCaHf
+remove_event $AA SeycAhF 2 2 2000
+remove_event $Z SeycAhF 2 2 2000
+add_event $Z SeycAhF 2 2 2000
+add_event $AA SeycAhF 2 2 2000
+add_event $AA SeycAhF 2
+add_event $Z SeycAhF 2
+add_event $Z SeycAhF 2
+add_event $AA SeycAhF 2
+add_event $AA SeycAhF 2 2
+add_event $Z SeycAhF 2 2
+remove_event $AA sEYCaHf 2
+remove_event $Z sEYCaHf 2
+remove_event $AA sEYCaHf
+remove_event $Z sEYCaHf
+remove_event $Z SeycAhF 2
+remove_event $AA SeycAhF 2
+print $AA
+print $Z
+set_date $Z 2005 2 29
+set_date $AA 2005 2 29
+set_date $AA 2001 2 2
+set_date $Z 2001 2 2
+add_event $Z WOXHBPk 2 2
+add_event $AA WOXHBPk 2 2
+remove_event $Z WOXHBPk 2 2 2001
+remove_event $AA WOXHBPk 2 2 2001
+add_event $Z WOXHBPk 2
+add_event $AA WOXHBPk 2
+add_event $Z WOXHBPk 2
+add_event $AA WOXHBPk 2
+remove_event $AA WOXHBPk 2
+remove_event $Z WOXHBPk 2
+add_event $Z WOXHBPk
+add_event $AA WOXHBPk
+remove_event $Z WOXHBPk
+remove_event $AA WOXHBPk
+remove_event $AA woxhbpK 2
+remove_event $Z woxhbpK 2
+add_event $Z WOXHBPk 2 2 2001
+add_event $AA WOXHBPk 2 2 2001
+print $AA
+print $Z
+set_date $AA 1994 2 29
+set_date $Z 1994 2 29
+set_date $Z 2000 2 1
+set_date $AA 2000 2 1
+remove_event $Z FQNWGRb 1
+remove_event $AA FQNWGRb 1
+remove_event $Z FQNWGRb
+remove_event $AA FQNWGRb
+add_event $AA fqnwgrB
+add_event $Z fqnwgrB
+add_event $AA FQNWGRb 1
+add_event $Z FQNWGRb 1
+add_event $AA fqnwgrB 1 2 2000
+add_event $Z fqnwgrB 1 2 2000
+remove_event $Z fqnwgrB 1 2 2000
+remove_event $AA fqnwgrB 1 2 2000
+remove_event $Z fqnwgrB 1
+remove_event $AA fqnwgrB 1
+add_event $AA fqnwgrB 1
+add_event $Z fqnwgrB 1
+add_event $AA FQNWGRb 1 2
+add_event $Z FQNWGRb 1 2
+print $Z
+print $AA
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+set_date $Z 2001 2 1
+set_date $AA 2001 2 1
+add_event $AA KepbhTl 1
+add_event $Z KepbhTl 1
+add_event $AA kEPBHtL 1 2
+add_event $Z kEPBHtL 1 2
+add_event $Z KepbhTl
+add_event $AA KepbhTl
+add_event $Z KepbhTl 1 2 2001
+add_event $AA KepbhTl 1 2 2001
+remove_event $Z KepbhTl 1 2 2001
+remove_event $AA KepbhTl 1 2 2001
+remove_event $AA kEPBHtL 1
+remove_event $Z kEPBHtL 1
+remove_event $AA KepbhTl 1
+remove_event $Z KepbhTl 1
+add_event $AA KepbhTl 1
+add_event $Z KepbhTl 1
+remove_event $Z KepbhTl
+remove_event $AA KepbhTl
+print $Z
+print $AA
+set_date $AA 2012 2 29
+set_date $Z 2012 2 29
+set_date $Z 2001 2 2
+set_date $AA 2001 2 2
+add_event $Z PUAzwjV 2 2
+add_event $AA PUAzwjV 2 2
+add_event $Z PUAzwjV
+add_event $AA PUAzwjV
+add_event $AA PUAzwjV 2 2 2001
+add_event $Z PUAzwjV 2 2 2001
+add_event $AA PUAzwjV 2
+add_event $Z PUAzwjV 2
+remove_event $Z puaZWJv 2
+remove_event $AA puaZWJv 2
+add_event $Z PUAzwjV 2
+add_event $AA PUAzwjV 2
+remove_event $AA puaZWJv 2
+remove_event $Z puaZWJv 2
+remove_event $AA puaZWJv
+remove_event $Z puaZWJv
+remove_event $Z PUAzwjV 2 2 2001
+remove_event $AA PUAzwjV 2 2 2001
+print $AA
+print $Z
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+set_date $Z 2001 2 2
+set_date $AA 2001 2 2
+add_event $AA rGheEPy 2 2
+add_event $Z rGheEPy 2 2
+remove_event $AA rGheEPy 2
+remove_event $Z rGheEPy 2
+remove_event $Z RgHEepY 2 2 2001
+remove_event $AA RgHEepY 2 2 2001
+add_event $AA rGheEPy 2 2 2001
+add_event $Z rGheEPy 2 2 2001
+remove_event $AA rGheEPy 2
+remove_event $Z rGheEPy 2
+add_event $AA RgHEepY
+add_event $Z RgHEepY
+add_event $AA RgHEepY 2
+add_event $Z RgHEepY 2
+remove_event $AA rGheEPy
+remove_event $Z rGheEPy
+add_event $AA rGheEPy 2
+add_event $Z rGheEPy 2
+print $AA
+print $Z
+set_date $AA 2006 2 29
+set_date $Z 2006 2 29
+set_date $Z 2000 2 1
+set_date $AA 2000 2 1
+remove_event $Z HfIPDiC
+remove_event $AA HfIPDiC
+add_event $Z HfIPDiC 1 2 2000
+add_event $AA HfIPDiC 1 2 2000
+remove_event $Z HfIPDiC 1 2 2000
+remove_event $AA HfIPDiC 1 2 2000
+remove_event $Z hFipdIc 1
+remove_event $AA hFipdIc 1
+add_event $Z hFipdIc 1
+add_event $AA hFipdIc 1
+add_event $Z hFipdIc 1
+add_event $AA hFipdIc 1
+add_event $AA HfIPDiC 1 2
+add_event $Z HfIPDiC 1 2
+add_event $AA HfIPDiC
+add_event $Z HfIPDiC
+remove_event $AA HfIPDiC 1
+remove_event $Z HfIPDiC 1
+print $Z
+print $AA
+set_date $AA 2006 2 29
+set_date $Z 2006 2 29
+set_date $AA 2001 1 2
+set_date $Z 2001 1 2
+add_event $AA LGmAalU 2
+add_event $Z LGmAalU 2
+remove_event $Z LGmAalU 2 1 2001
+remove_event $AA LGmAalU 2 1 2001
+add_event $Z lgMaALu 2 1
+add_event $AA lgMaALu 2 1
+add_event $AA LGmAalU
+add_event $Z LGmAalU
+remove_event $Z LGmAalU 2
+remove_event $AA LGmAalU 2
+remove_event $AA lgMaALu
+remove_event $Z lgMaALu
+add_event $AA lgMaALu 2
+add_event $Z lgMaALu 2
+add_event $Z LGmAalU 2 1 2001
+add_event $AA LGmAalU 2 1 2001
+remove_event $Z LGmAalU 2
+remove_event $AA LGmAalU 2
+print $Z
+print $AA
+set_date $AA 1991 2 29
+set_date $Z 1991 2 29
+set_date $AA 2000 2 1
+set_date $Z 2000 2 1
+add_event $AA urZdhBT 1
+add_event $Z urZdhBT 1
+add_event $AA urZdhBT 1
+add_event $Z urZdhBT 1
+add_event $Z URzDHbt
+add_event $AA URzDHbt
+add_event $Z urZdhBT 1 2 2000
+add_event $AA urZdhBT 1 2 2000
+remove_event $Z urZdhBT 1
+remove_event $AA urZdhBT 1
+add_event $AA urZdhBT 1 2
+add_event $Z urZdhBT 1 2
+remove_event $Z urZdhBT 1
+remove_event $AA urZdhBT 1
+remove_event $Z urZdhBT
+remove_event $AA urZdhBT
+remove_event $Z urZdhBT 1 2 2000
+remove_event $AA urZdhBT 1 2 2000
+print $Z
+print $AA
+set_date $Z 1990 2 29
+set_date $AA 1990 2 29
+set_date $Z 2001 2 2
+set_date $AA 2001 2 2
+add_event $AA CfosYyE 2
+add_event $Z CfosYyE 2
+remove_event $Z cFOSyYe
+remove_event $AA cFOSyYe
+add_event $AA cFOSyYe 2 2 2001
+add_event $Z cFOSyYe 2 2 2001
+add_event $Z cFOSyYe 2 2
+add_event $AA cFOSyYe 2 2
+remove_event $AA cFOSyYe 2 2 2001
+remove_event $Z cFOSyYe 2 2 2001
+remove_event $AA CfosYyE 2
+remove_event $Z CfosYyE 2
+add_event $Z cFOSyYe 2
+add_event $AA cFOSyYe 2
+remove_event $Z cFOSyYe 2
+remove_event $AA cFOSyYe 2
+add_event $Z cFOSyYe
+add_event $AA cFOSyYe
+print $AA
+print $Z
+set_date $AA 2002 2 29
+set_date $Z 2002 2 29
+set_date $AA 2000 2 2
+set_date $Z 2000 2 2
+remove_event $Z UkuJinq 2
+remove_event $AA UkuJinq 2
+add_event $Z uKUjINQ 2 2
+add_event $AA uKUjINQ 2 2
+add_event $Z UkuJinq 2
+add_event $AA UkuJinq 2
+add_event $Z UkuJinq
+add_event $AA UkuJinq
+add_event $AA UkuJinq 2 2 2000
+add_event $Z UkuJinq 2 2 2000
+remove_event $Z UkuJinq
+remove_event $AA UkuJinq
+add_event $AA uKUjINQ 2
+add_event $Z uKUjINQ 2
+remove_event $Z uKUjINQ 2
+remove_event $AA uKUjINQ 2
+remove_event $AA uKUjINQ 2 2 2000
+remove_event $Z uKUjINQ 2 2 2000
+print $Z
+print $AA
+set_date $Z 1995 2 29
+set_date $AA 1995 2 29
+set_date $AA 2000 1 1
+set_date $Z 2000 1 1
+add_event $AA QqgiMmE 1
+add_event $Z QqgiMmE 1
+add_event $AA qQGImMe 1 1
+add_event $Z qQGImMe 1 1
+remove_event $Z qQGImMe 1
+remove_event $AA qQGImMe 1
+remove_event $Z qQGImMe 1 1 2000
+remove_event $AA qQGImMe 1 1 2000
+add_event $Z QqgiMmE 1
+add_event $AA QqgiMmE 1
+add_event $AA QqgiMmE 1 1 2000
+add_event $Z QqgiMmE 1 1 2000
+remove_event $AA QqgiMmE
+remove_event $Z QqgiMmE
+remove_event $Z QqgiMmE 1
+remove_event $AA QqgiMmE 1
+add_event $Z QqgiMmE
+add_event $AA QqgiMmE
+print $AA
+print $Z
+set_date $AA 2005 2 29
+set_date $Z 2005 2 29
+set_date $AA 2000 1 2
+set_date $Z 2000 1 2
+add_event $AA qJsiulw 2 1
+add_event $Z qJsiulw 2 1
+add_event $Z qJsiulw 2
+add_event $AA qJsiulw 2
+remove_event $Z qJsiulw 2
+remove_event $AA qJsiulw 2
+add_event $Z qJsiulw 2
+add_event $AA qJsiulw 2
+remove_event $Z QjSIULW 2
+remove_event $AA QjSIULW 2
+remove_event $AA QjSIULW
+remove_event $Z QjSIULW
+add_event $Z QjSIULW 2 1 2000
+add_event $AA QjSIULW 2 1 2000
+remove_event $AA QjSIULW 2 1 2000
+remove_event $Z QjSIULW 2 1 2000
+add_event $AA qJsiulw
+add_event $Z qJsiulw
+print $AA
+print $Z
+set_date $Z 1993 2 29
+set_date $AA 1993 2 29
+set_date $AA 2001 2 2
+set_date $Z 2001 2 2
+remove_event $AA xhRBAaQ
+remove_event $Z xhRBAaQ
+add_event $AA XHrbaAq 2
+add_event $Z XHrbaAq 2
+remove_event $AA xhRBAaQ 2
+remove_event $Z xhRBAaQ 2
+add_event $AA XHrbaAq 2 2
+add_event $Z XHrbaAq 2 2
+add_event $AA XHrbaAq 2
+add_event $Z XHrbaAq 2
+remove_event $Z xhRBAaQ 2
+remove_event $AA xhRBAaQ 2
+add_event $Z xhRBAaQ
+add_event $AA xhRBAaQ
+add_event $AA XHrbaAq 2 2 2001
+add_event $Z XHrbaAq 2 2 2001
+remove_event $AA xhRBAaQ 2 2 2001
+remove_event $Z xhRBAaQ 2 2 2001
+print $AA
+print $Z
+set_date $Z 1994 2 29
+set_date $AA 1994 2 29
+set_date $Z 2000 1 1
+set_date $AA 2000 1 1
+add_event $AA mwKjhiE 1 1 2000
+add_event $Z mwKjhiE 1 1 2000
+remove_event $Z MWkJHIe 1
+remove_event $AA MWkJHIe 1
+remove_event $Z MWkJHIe 1
+remove_event $AA MWkJHIe 1
+add_event $Z mwKjhiE 1
+add_event $AA mwKjhiE 1
+add_event $Z mwKjhiE 1
+add_event $AA mwKjhiE 1
+add_event $Z MWkJHIe 1 1
+add_event $AA MWkJHIe 1 1
+remove_event $Z mwKjhiE 1 1 2000
+remove_event $AA mwKjhiE 1 1 2000
+remove_event $Z MWkJHIe
+remove_event $AA MWkJHIe
+add_event $Z MWkJHIe
+add_event $AA MWkJHIe
+print $AA
+print $Z
+set_date $AA 2012 2 29
+set_date $Z 2012 2 29
+set_date $Z 2000 1 1
+set_date $AA 2000 1 1
+add_event $Z pfHCSmZ 1
+add_event $AA pfHCSmZ 1
+remove_event $AA pfHCSmZ
+remove_event $Z pfHCSmZ
+add_event $AA PFhcsMz 1 1
+add_event $Z PFhcsMz 1 1
+add_event $AA PFhcsMz 1 1 2000
+add_event $Z PFhcsMz 1 1 2000
+remove_event $AA PFhcsMz 1
+remove_event $Z PFhcsMz 1
+remove_event $AA PFhcsMz 1 1 2000
+remove_event $Z PFhcsMz 1 1 2000
+remove_event $AA PFhcsMz 1
+remove_event $Z PFhcsMz 1
+add_event $AA PFhcsMz
+add_event $Z PFhcsMz
+add_event $Z pfHCSmZ 1
+add_event $AA pfHCSmZ 1
+print $Z
+print $AA
+set_date $Z 1999 2 29
+set_date $AA 1999 2 29
+set_date $AA 2001 1 1
+set_date $Z 2001 1 1
+add_event $AA RQhVcbA 1
+add_event $Z RQhVcbA 1
+add_event $AA RQhVcbA
+add_event $Z RQhVcbA
+remove_event $Z rqHvCBa 1
+remove_event $AA rqHvCBa 1
+add_event $Z RQhVcbA 1
+add_event $AA RQhVcbA 1
+add_event $Z RQhVcbA 1 1 2001
+add_event $AA RQhVcbA 1 1 2001
+remove_event $AA rqHvCBa 1
+remove_event $Z rqHvCBa 1
+remove_event $AA RQhVcbA 1 1 2001
+remove_event $Z RQhVcbA 1 1 2001
+remove_event $AA rqHvCBa
+remove_event $Z rqHvCBa
+add_event $AA rqHvCBa 1 1
+add_event $Z rqHvCBa 1 1
+print $AA
+print $Z
+destruct $AC
+destruct $AB
+copy-construct $AD julian $Z
+copy-construct $AE gregorian $AA
+print $AD
+print $AE
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+remove_event $AA rqHvCBa 1 1 2001
+remove_event $Z rqHvCBa 1 1 2001
+set_date $AA 1900 1 1
+set_date $Z 1900 1 1
+print $Z
+print $AA
+destruct $Z
+destruct $AA
+print $Y
+print $X
+destruct $Y
+destruct $X

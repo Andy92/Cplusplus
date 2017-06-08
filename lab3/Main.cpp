@@ -6,13 +6,23 @@ void Main::Init() {
 
 	//shopkeeperlist
 	std::vector<Item*> inventory;
+<<<<<<< HEAD
+	/*
+=======
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	inventory.push_back(new Weapon(250,std::string("noobwep"), 100));
 	inventory.push_back(new Legs(15,std::string("nooblegs"), 100));
 	inventory.push_back(new Chest(20,std::string("noobchest"), 100));
 	inventory.push_back(new Helm(25,std::string("noobhelm"), 100));
+<<<<<<< HEAD
+	*/
+
+	//Shopkeeper *sk = new Shopkeeper(inventory);
+=======
 	Shopkeeper *sk = new Shopkeeper(inventory);
 	
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 
 	//Creature List
 	std::vector<Creature*> creatures; 
@@ -45,6 +55,15 @@ void Main::Init() {
 
 	creatures4.push_back(new Creature(new Knight(), 2));
 	creatures4.push_back(new Creature(new Knight(), 2));
+<<<<<<< HEAD
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
+	creatures4.push_back(new Creature(new Knight(), 2));
+
+	creatures5.push_back(new Creature(new Knight(), 3));
+
+	creatures7.push_back(new Creature(new Dragon(), 3));
+=======
 	creatures4.push_back(new Creature(new Knight(), 3));
 	creatures4.push_back(new Creature(new Knight(), 2));
 	creatures4.push_back(new Creature(new Knight(), 2));
@@ -52,6 +71,7 @@ void Main::Init() {
 	creatures5.push_back(new Creature(new Knight(), 4));
 
 	creatures7.push_back(new Creature(new Dragon(), 5));
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 
 	
 	// Tavern
@@ -82,7 +102,11 @@ void Main::Init() {
 	Room *trum3 = new Room(e5, creaNull, "You can see a shop to the south.");
 	Room *trum4 = new Room(e5, creaNull, "There is a road to the east that seems pretty long.");
 	Room *trum5 = new Room(e5, creaNull, "You are at the shop, you see a man standing here very worried about some things, maybe talk to him?");
+<<<<<<< HEAD
+	Room *trum6 = new Room(e5, creaNull, "This house looks burned, probably the dragon you hunt did this.");
+=======
 	Room *trum6 = new Room(e5, creaNull, "This house looks burned, the people who used to live there are crying.");
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	
 
 	// Castle
@@ -94,10 +118,17 @@ void Main::Init() {
 	Room *crum6 = new Room(e6, creaNull, "You have arrived to the end of the hall, you see big doors to the south.");
 	Room *crum7 = new Room(e6, creaNull, "This is the big balcony of the castle, you can see the whole town from here.");
 	Room *crum8 = new Room(e6, creaNull, "This room is a bedroom, the king and queen probably sleeps here, but none of them are here.");
+<<<<<<< HEAD
+	Room *crum9 = new Room(e6, creaNull, "You walk in to the kings hall, there is a golden throne, and the king is sitting in it. He looks very sad, maybe go talk to him and cheer him up.");
+
+	
+	//trum5->setShopkeeper(sk);
+=======
 	Room *crum9 = new Room(e6, creaNull, "You find yourself in the kings hall, there is a golden throne, and the king is sitting in it. Maybe go talk to him");
 
 	
 	trum5->setShopkeeper(sk);
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	
 	//Directions
 	// ### Tavern ###
@@ -245,6 +276,18 @@ void Main::Init() {
 	this->roomVec.push_back(crum8);
 	this->roomVec.push_back(crum9);
 
+<<<<<<< HEAD
+	this->envVec.push_back(e1);
+	this->envVec.push_back(e2);
+	this->envVec.push_back(e3);
+	this->envVec.push_back(e4);
+	this->envVec.push_back(e5);
+	this->envVec.push_back(e6);
+
+
+
+=======
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	// END OF ROOMLIST
 
 	std::cerr << std::endl;
@@ -252,10 +295,18 @@ void Main::Init() {
 }
 
 		void Main::Game() {
+<<<<<<< HEAD
+			
+			Character *charr = gl->charCreation();
+
+			this->roomVec.at(0)->setChar(charr);
+			this->ch = new Checker(charr, this->roomVec.at(0), this->roomVec, this->envVec);
+=======
 			Character *charr = gl->charCreation(); //Initialize char Creation process.
 
 			//this->roomVec.at(0)->setChar(charr); // Delete??
 			this->ch = new Checker(charr, this->roomVec.at(0), this->roomVec); // Put char, starting room and vector of all rooms.
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 			this->gl = new GameLogic(this->ch);
 
 			while(true) {
@@ -268,6 +319,10 @@ void Main::Init() {
 				int par = se.Parse(s);
 				gl->ExecCmd(par);
 			}
+<<<<<<< HEAD
+
+=======
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		}
 
 

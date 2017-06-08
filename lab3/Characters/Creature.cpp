@@ -4,7 +4,11 @@
 #include <vector>
 #include <stdlib.h>
 #include "Creature.hpp"
+<<<<<<< HEAD
+/*
+=======
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 std::vector<Item*> Creature::noobdrops = {
 	new Weapon(200,std::string("noobwep"), 100),
 	new Helm(15, std::string("noobhelm"), 100),
@@ -22,7 +26,11 @@ std::vector<Item*> Creature::prodrops = {
 	new Helm(1500, std::string("prohelm"), 2000),
 	new Potion(500, std::string("propotion"), 2000)
 };
+<<<<<<< HEAD
+*/
+=======
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	//GETS
 
 const int Creature::getdroptable() const {
@@ -35,7 +43,10 @@ const int Creature::getstr() const {
 	return this->str;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 Creature::Creature(Race* race, int droptable) {
 	this->r = race;
 	this->hp *= this->r->rhp;
@@ -47,6 +58,8 @@ Creature::Creature(Race* race, int droptable) {
 
 Creature::~Creature() {
 	delete this->r;
+<<<<<<< HEAD
+=======
 
 	for (auto it = noobdrops.begin(); it != noobdrops.end(); ++it)
 	{
@@ -67,6 +80,7 @@ Creature::~Creature() {
 
 
 	prodrops.clear();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 }
 
 Creature::Creature() {
@@ -78,7 +92,11 @@ const std::string Creature::stats() const {
 	return "\nhp: " + std::to_string(hp) + "\nstr: " + std::to_string(str) + "\narmorbonus: " + std::to_string(armorbonus) + "\nweapondmg: " + std::to_string(wepdmg);
 }
 const std::string Creature::toString() const {
+<<<<<<< HEAD
+	return "race: " + this->r->Race::toString() + this->stats();
+=======
 	return "race: " + this->r->toString() + this->stats();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 }
 void Creature::hit(int dmg) {
 	int rdmg = dmg - armorbonus;
@@ -104,6 +122,8 @@ Character::Character(Race* race, Profession* profession) : Creature(race, 1) {
 	this->addItem(w);
 }
 
+<<<<<<< HEAD
+=======
 void Character::setRace(Race* newrace) {
 	this->hp /= this->r->rhp;
 	this->str /= this->r-> rstr;
@@ -115,6 +135,7 @@ void Character::setRace(Race* newrace) {
 	this->maxhp = hp;
 }
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 //destructor
 
 Character::~Character() {
@@ -126,9 +147,28 @@ Character::~Character() {
 	for(int i = 0; i < Items.size(); ++i) {
 		delete this->Items.at(i);
 	}
+<<<<<<< HEAD
+	/*
+	for(int i = 0; i < noobdrops.size(); ++i) {
+		delete noobdrops.at(i);
+	}
+
+	for(int i = 0; i < mediumdrops.size(); ++i) {
+		delete noobdrops.at(i);
+	}
+	
+	for(int i = 0; i < prodrops.size(); ++i) {
+		delete noobdrops.at(i);
+	}
+	*/
+}
+std::string Character::toString() const {
+	return "profession: " + this->p->Profession::toString() + "\nrace: " + this->r->Race::toString() + " " + this->stats();
+=======
 }
 std::string Character::toString() const {
 	return "profession: " + this->p->Profession::toString() + "\nrace: " + this->r->toString() + " " + this->stats();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 }
 
 void Character::addItem(Item* it) {
@@ -265,7 +305,11 @@ Legs* Character::unEquipLegs(){
 	return l;
 
 }
+<<<<<<< HEAD
+void Character::displayitems() const {
+=======
 void Character::displayitems() {
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	for(int i =0; i < this->Items.size() ;++i) {
 		std::cout << "press: " << i << " to equip or use item: " << this->Items.at(i)->desc() << std::endl;
 	}
@@ -282,23 +326,42 @@ void Character::displayEquippedItems() const {
 		std::cout << this->legs->desc() << "4 for legs" << std::endl;
 }
 void Character::drop(Creature* c) {
+<<<<<<< HEAD
+	/*
+=======
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	int randnum = 0;
 	srand (time(NULL));
 	switch(c->getdroptable()) {
 		case 1 : randnum = rand() % noobdrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << noobdrops.at(randnum)->desc() << std::endl <<  " and you also found 100 coins";
+<<<<<<< HEAD
+		this->Items.push_back(noobdrops.at(randnum));
+=======
 		this->Items.push_back(c->noobdrops.at(randnum));
 		c->noobdrops.erase(c->noobdrops.begin() + randnum);
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		this->coins += 100;
 		break;
 		case 2 : randnum = rand() % mediumdrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << mediumdrops.at(randnum)->desc() << std::endl <<  " and you also found 500 coins";;
+<<<<<<< HEAD
+		this->Items.push_back(mediumdrops.at(randnum));
+=======
 		this->Items.push_back(c->mediumdrops.at(randnum));
 		c->mediumdrops.erase(c->mediumdrops.begin() + randnum);
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		this->coins += 500;
 		break;
 		case 3 : randnum = rand() % prodrops.size();
 		std::cout << "You looted the creature that you have defeated and found: " << prodrops.at(randnum)->desc() << std::endl <<  " and you also found 1000 coins";;
+<<<<<<< HEAD
+		this->Items.push_back(prodrops.at(randnum));
+		this->coins += 1000;
+		break;
+	}
+	*/
+=======
 		this->Items.push_back(c->prodrops.at(randnum));
 		c->prodrops.erase(c->mediumdrops.begin() + randnum);
 		this->coins += 1000;
@@ -310,6 +373,7 @@ void Character::drop(Creature* c) {
 		this->Items.push_back(new DragonTooth(300, std::string("DragonTooth"), 3000));
 		break;
 	}
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 }
 
 std::vector<Item*> Character::getItems() const {
@@ -319,6 +383,21 @@ std::vector<Item*> Character::getItems() const {
 void Character::setItems(std::vector<Item*> in) {
 	this->Items = in;
 }
+<<<<<<< HEAD
+const Weapon* Character::getwep() const {
+	return this->wep;
+}
+const Helm* Character::gethelm() const {
+	return this->helm;
+}
+const Chest* Character::getchest() const {
+	return this->chest;
+}
+const Legs* Character::getlegs() const {
+	return this->legs;
+}
+const int Character::getcoins() const {
+=======
 Weapon* Character::getwep() const {
 	return this->wep;
 }
@@ -332,6 +411,7 @@ Legs* Character::getlegs() const {
 	return this->legs;
 }
 int Character::getcoins() const {
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	return this->coins;
 }
 

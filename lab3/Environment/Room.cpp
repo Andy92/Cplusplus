@@ -50,17 +50,24 @@
 		if((this->getID() % 1000) == 0) {
 			delete this->e;
 		}
+<<<<<<< HEAD
+=======
 		// delete shopkeeper
 
 			delete this->sk;
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 		
 		
 	}
 
 	void Room::setID() {
 		std::vector<Room*> rooms = this->e->getRooms();
+<<<<<<< HEAD
+		this->id = this->e->getID() * maxRooms + rooms.size();
+=======
 		this->id = this->e->getID() * MAXROOM + rooms.size();
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	}
 
 	// Environment will have 1000 room maximum.
@@ -109,7 +116,10 @@
 	Shopkeeper* Room::getShopkeeper() {
 		return this->sk;
 	}
+<<<<<<< HEAD
+=======
 	/* Not needed anymore
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	Creature* Room::getChar() {
 		return this->mainChar;
 	}
@@ -117,6 +127,12 @@
 	void Room::setChar(Creature* newChar) {
 		this->mainChar = newChar;
 	}
+<<<<<<< HEAD
+	void Room::setShopkeeper(Shopkeeper* sk) {
+		this->sk = sk;
+	}
+=======
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 	
 	bool Room::remChar() {
 		if(this->mainChar != NULL){
@@ -126,8 +142,11 @@
 			return false;
 		}
 	}
+<<<<<<< HEAD
+=======
 	*/
 
 	void Room::setShopkeeper(Shopkeeper* sk) {
 		this->sk = sk;
 	}
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965

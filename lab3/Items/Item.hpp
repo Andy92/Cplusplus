@@ -36,6 +36,10 @@ public:
 	const std::string desc() const;
 	const int getdmg() const;
 	const Weapon* get() const;
+<<<<<<< HEAD
+};
+
+=======
 	const virtual int spec() const;
 };
 
@@ -69,6 +73,7 @@ public:
 };
 
 
+>>>>>>> dbe35af8e2e46d410ef68af57df2f8226b405965
 class Armor : public Item {
 protected:
 	int armor;
